@@ -17,11 +17,11 @@ tunnelHost=$(curl http://127.0.0.1:4040/api/tunnels --silent | jq '.tunnels | .[
 echo "Tunnel URL:		$tunnelHost"
 echo
 echo "Now you can visit it on browser to monitor node status, or use these APIs:"
-echo "   ogmios: 		https://${tunnelHost}/ogmios/"
-echo "   cardano-graphql:     https://${tunnelHost}/cardano-graphql/"
-echo "   koios-lite:          https://${tunnelHost}/koios/"
-echo "   token-registry:      https://${tunnelHost}/token-registry/"
-echo "   postgrest:           https://${tunnelHost}/postgrest/"
+echo "   ogmios: 		${tunnelHost}/ogmios/"
+echo "   cardano-graphql:     ${tunnelHost}/cardano-graphql/"
+echo "   koios-lite:          ${tunnelHost}/koios/"
+echo "   token-registry:      ${tunnelHost}/token-registry/"
+echo "   postgrest:           ${tunnelHost}/postgrest/"
 echo
 
 read -p "Press any key to shutdown ngrok tunneling"
