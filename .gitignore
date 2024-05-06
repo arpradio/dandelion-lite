@@ -1,0 +1,6 @@
+.env
+.*status
+.dependency_installation_status
+*.swp
+./scripts/sql/rpc/Ok.txt
+./scripts/sql/rpc/NotOk.txt
