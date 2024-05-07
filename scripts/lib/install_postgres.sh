@@ -14,7 +14,15 @@ NOT_OK_FILE="NotOk.txt"
 
 # Loop through all .sql files in the rpc folder and its subfolders
 find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
+  
   echo "Processing '$sql_file'..."
+
+  if [[ $sql_file == *"[SKIP]"* ]]; then
+    echo "Skipped '$sql_file'"
+    continue
+  fi  
+  
+  continue
 
   # Create a temporary SQL file
   TEMP_SQL_FILE="temp_$(basename "$sql_file")"
@@ -23,7 +31,7 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
   sed "s/{{SCHEMA}}/$SCHEMA_NAME/g" "$sql_file" > "$TEMP_SQL_FILE"
 
   # Execute the SQL file and capture the output
-  SQL_OUTPUT=$(psql -qt -d "${POSTGRES_DB}" -U "${POSTGRES_USER}" --host="${POSTGRES_HOST}" < "$TEMP_SQL_FILE" 2>&1)
+  #UNCOMMENT SQL_OUTPUT=$(psql -qt -d "${POSTGRES_DB}" -U "${POSTGRES_USER}" --host="${POSTGRES_HOST}" < "$TEMP_SQL_FILE" 2>&1)
 
   # Check for "ERROR:" in the SQL output
   if echo "$SQL_OUTPUT" | grep -q "ERROR:"; then
@@ -39,7 +47,7 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
   rm "$TEMP_SQL_FILE"
 done
 
-psql -qt -d "${POSTGRES_DB}" -U "${POSTGRES_USER}" --host="${POSTGRES_HOST}" -c "NOTIFY pgrst, 'reload schema'" >/dev/null
+#UNCOMMENT psql -qt -d "${POSTGRES_DB}" -U "${POSTGRES_USER}" --host="${POSTGRES_HOST}" -c "NOTIFY pgrst, 'reload schema'" >/dev/null
 
 # echo "Execution complete. Check $OK_FILE and $NOT_OK_FILE for results."
 echo -e "SQL scripts have finished processing, following scripts were executed successfully:\n"
