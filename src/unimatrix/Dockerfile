@@ -34,6 +34,6 @@ RUN npm install
 ADD . .
 RUN echo "{ \"sha\": \"$SHA\" }" > version.json
 RUN cat version.json
-EXPOSE 8080
+#EXPOSE 8080
 EXPOSE 8765
 CMD ["npm","start"]
