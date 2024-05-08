@@ -45,6 +45,12 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
     sed -i.bak2 "s/{{SCHEMA}}/$KOIOS_LITE_SCHEMA/g" "$TEMP_SQL_FILE"   
     echo "  'koios-lite' variables applied"
   fi   
+  # Variable placeholders for Dandelion Postgrest
+  if [[ $sql_file == *"_dandelion-postgrest"* ]]; then    
+    # Replace the placeholder with the actual schema name
+    sed -i.bak3 "s/{{DANDELION_POSTGREST_SCHEMA}}/$DANDELION_POSTGREST_SCHEMA/g" "$TEMP_SQL_FILE"   
+    echo "  'koios-lite' variables applied"
+  fi     
 
 
   # Execute the SQL file and capture the output
@@ -64,6 +70,7 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
   rm "$TEMP_SQL_FILE"
   rm -f *.bak1
   rm -f *.bak2
+  rm -f *.bak3
 done
 
 psql -qt -d "${POSTGRES_DB}" -U "${POSTGRES_USER}" --host="${POSTGRES_HOST}" -c "NOTIFY pgrst, 'reload schema'" >/dev/null

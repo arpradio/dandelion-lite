@@ -272,7 +272,6 @@ services:
       #TOKEN_REGISTRY_MAPPINGS_DIR: ${DBLESS_CARDANO_TOKEN_REGISTRY_MAPPINGS_DIR:-/app/token-registry}
       TOKEN_REGISTRY_MAPPINGS_DIR: /root/token-registry/data
       PORT: ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}
-    # static http server can be exposed as well
     ports:
       - ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}:3042
     # TODO: link to persistent volume
@@ -354,6 +353,39 @@ services:
     # Uncomment for persistent logs
     # - ./logs:/var/log
     restart: unless-stopped
+
+
+#################################
+#### Dandelion PostGREST API#####
+#################################
+
+  dandelion-postgrest:
+    image: postgrest/postgrest:v12.0.2
+    hostname: ${DANDELION_POSTGREST_HOST}
+    depends_on:
+      - postgress
+    ports:
+      - ${DANDELION_POSTGREST_PORT:-8050}:8050
+    volumes:
+      - ./scripts/:/scripts/
+    environment:
+      # not using exposed ${POSTGRES_PORT} because using internal docker network connection
+      PGRST_DB_URI: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:5432/${POSTGRES_DB}
+      PGRST_DB_ANON_ROLE: ${DANDELION_POSTGREST_DB_ANON_ROLE}
+      PGRST_DB_SCHEMAS: "${DANDELION_POSTGREST_DB_SCHEMAS}" # first one is default
+      PGRST_SERVER_PORT: 8060
+      PGRST_OPENAPI_SERVER_PROXY_URI: http://0.0.0.0:8060
+      PGRST_DB_MAX_ROWS: 1000
+      PGRST_DB_AGGREGATES_ENABLED: true
+      PGRST_DB_EXTRA_SEARCH_PATH: "${DANDELION_POSTGREST_DB_EXTRA_SEARCH_PATH}"
+    restart: on-failure
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+
+
 
 #################################
 #### unimatrix (gundb relay)#####

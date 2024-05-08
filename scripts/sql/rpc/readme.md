@@ -12,11 +12,13 @@ This is done by `scripts/lib/install_postgres.sh`, which can be executed manuall
 
 File paths containing
 - `[SKIP]` : are blacklisted, skipped from the workflow
-- `_koios_lite`      : gets applied with these `placeholder:env-var` replacements
+- `_koios-lite`      : gets applied with these `placeholder:env-var` replacements
     - `{{SCHEMA}}:$KOIOS_LITE_SCHEMA`
-- `_koios_artifacts` : gets applied with these `placeholder:env-var` replacements
+- `_koios-artifacts` : gets applied with these `placeholder:env-var` replacements
     - `grest/$KOIOS_ARTIFACTS_SCHEMA`
     - `GREST/$KOIOS_ARTIFACTS_SCHEMA`
+- `_dandelion-postgrest` : gets applied with these `placeholder:env-var` replacements
+    `{{DANDELION_POSTGREST_SCHEMA}}:$DANDELION_POSTGREST_SCHEMA`
 
 File names starting with numbered prefixes are for prioritizing the execution of some files before others as some of the files are required by others for a smooth setup without errors.
 

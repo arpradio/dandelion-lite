@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION get_eoe_balance_for_addresses(data json) RETURNS TABLE (balance numeric, address character varying) AS $$
+CREATE OR REPLACE FUNCTION {{DANDELION_POSTGREST_SCHEMA}}.get_eoe_balance_for_addresses(data json) RETURNS TABLE (balance numeric, address character varying) AS $$
 DECLARE
     addresses text[];
     epoch int;

@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION get_tx_history_for_addresses(data json) RETURNS TABLE (tx_hash text, block word31type, tx_timestamp timestamp) AS $$
+CREATE OR REPLACE FUNCTION {{DANDELION_POSTGREST_SCHEMA}}.get_tx_history_for_addresses(data json) RETURNS TABLE (tx_hash text, block word31type, tx_timestamp timestamp) AS $$
 DECLARE
     addresses text[];
 BEGIN

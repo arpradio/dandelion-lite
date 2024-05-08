@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION get_pools_dbsync_hash_id(_pool_bech32_ids text[] DEFAULT null) RETURNS TABLE (pool_dbsync_hash_id bigint, pool_bech32_id character varying, vrf_key_hash character varying) AS $$
+CREATE OR REPLACE FUNCTION {{DANDELION_POSTGREST_SCHEMA}}.get_pools_dbsync_hash_id(_pool_bech32_ids text[] DEFAULT null) RETURNS TABLE (pool_dbsync_hash_id bigint, pool_bech32_id character varying, vrf_key_hash character varying) AS $$
 select distinct pool_hash.id, pool_hash.view, encode(pool_update.vrf_key_hash, 'hex') from pool_update 
                 inner join pool_hash on pool_update.hash_id = pool_hash.id
                 where pool_update.registered_tx_id in (select max(pool_update.registered_tx_id) from pool_update group by hash_id)
