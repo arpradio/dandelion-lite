@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS {{SCHEMA}}.asset_info_cache (
 
 CREATE INDEX IF NOT EXISTS idx_first_mint_tx_id ON {{SCHEMA}}.asset_info_cache (first_mint_tx_id);
 CREATE INDEX IF NOT EXISTS idx_last_mint_tx_id ON {{SCHEMA}}.asset_info_cache (last_mint_tx_id);
-CREATE INDEX IF NOT EXISTS idx_creation_time ON grest.asset_info_cache (creation_time DESC);
+CREATE INDEX IF NOT EXISTS idx_creation_time ON {{SCHEMA}}.asset_info_cache (creation_time DESC);
 
 CREATE OR REPLACE FUNCTION {{SCHEMA}}.asset_info_cache_update()
 RETURNS void
