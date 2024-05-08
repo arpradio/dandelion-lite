@@ -22,7 +22,7 @@ CREATE OR REPLACE FUNCTION cardano_sql.query(query TEXT, params JSON) RETURNS SE
 -- curl 'http://127.0.0.1:8050/rpc/query'  -H 'Content-Profile: cardano_sql'   -H 'Content-Type: application/json' --data-raw $'{"query":"SELECT * FROM cardano_db_sync.tx_out ORDER BY value DESC NULLS LAST LIMIT CAST($1->>\'limit\' AS BIGINT)","params":{"limit":"3"}}'
 
 
-
+-- TODO: implement manifest using string templates to simplify setup and avoid requiring cardano-sql-companion
 -- manifest (requires scripts/lib/install-postgres.sh string templates)--
 -- DROP FUNCTION IF EXISTS cardano_sql.manifest ;
 -- CREATE OR REPLACE FUNCTION cardano_sql.manifest() RETURNS JSON LANGUAGE SQL AS $BODY$
@@ -45,7 +45,7 @@ CREATE OR REPLACE FUNCTION cardano_sql.query(query TEXT, params JSON) RETURNS SE
 
 -- Example usage --
 -- SELECT cardano_sql.manifest() ;
--- curl 'http://127.0.0.1:8050/rpc/query'  -H 'Content-Profile: ogmios'   -H 'Content-Type: application/json' --data-raw $'{"query":"SELECT cardano_sql.manifest()","params":{}}'
+-- curl 'http://127.0.0.1:8050/rpc/query'  -H 'Content-Profile: cardano_sql'   -H 'Content-Type: application/json' --data-raw $'{"query":"SELECT cardano_sql.manifest()","params":{}}'
 
 
 
@@ -62,7 +62,7 @@ CREATE OR REPLACE FUNCTION cardano_sql.manifest() RETURNS JSON LANGUAGE SQL AS $
 
 -- Example usage --
 -- SELECT cardano_sql.manifest() ;
--- curl 'http://127.0.0.1:8050/rpc/query'  -H 'Content-Profile: ogmios'   -H 'Content-Type: application/json' --data-raw $'{"query":"SELECT cardano_sql.manifest()","params":{}}'
+-- curl 'http://127.0.0.1:8050/rpc/query'  -H 'Content-Profile: cardano_sql'   -H 'Content-Type: application/json' --data-raw $'{"query":"SELECT cardano_sql.manifest()","params":{}}'
 
 
 

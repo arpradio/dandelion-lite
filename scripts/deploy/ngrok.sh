@@ -19,9 +19,10 @@ echo
 echo "Now you can visit it on browser to monitor node status, or use these APIs:"
 echo "   ogmios: 		${tunnelHost}/ogmios/"
 echo "   cardano-graphql:     ${tunnelHost}/cardano-graphql/"
-echo "   koios-lite:          ${tunnelHost}/koios/"
+echo "   koios/koios-lite:    ${tunnelHost}/koios/"
 echo "   token-registry:      ${tunnelHost}/token-registry/"
-echo "   postgrest:           ${tunnelHost}/postgrest/"
+echo "   dandelion-postgrest: ${tunnelHost}/postgrest/"
+echo "   cardano-sql:         ${tunnelHost}/cardano-sql/"
 echo
 
 read -p "Press any key to shutdown ngrok tunneling"

@@ -6,7 +6,9 @@ A system that allows you to shape and add extra functionality to the bare-bone d
 
 The sql files in this directory are processed and applied to PostgresDB **recursively and in order**. 
 
-This is done by `scripts/lib/install_postgres.sh`, which can be executed manually from `scripts/koios-lite.sh` on `Setup->Initialize Postgres` or from cron automatically.
+This is done by `scripts/lib/install_postgres.sh`, which can be executed manually from `scripts/koios-lite.sh` on `Setup->Initialize Postgres` or from cron automatically. In both ways the script will be executed inside `postgress` container (PostgresDB service)
+
+Running the `install_postgres.sh` script outside `postgress` container won't work. This is why to allow these replacements to take place, you must pass the target env-vars to the `postgress` environment variables in `docker-compose.yml`.
 
 ## Rules
 
