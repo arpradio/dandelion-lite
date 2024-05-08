@@ -2,10 +2,10 @@
 */15 * * * * /scripts/cron/koios-artifacts/active-stake-cache-update.sh >> /var/log/cron_koios-artifacts_active-stake-cache-update.log 2>&1
 */2 * * * * /scripts/cron/koios-artifacts/asset-info-cache-update.sh >> /var/log/cron_koios-artifacts_asset-info-cache-update.log 2>&1
 */10 * * * * /scripts/cron/koios-artifacts/asset-registry-update.sh >> /var/log/cron_koios-artifacts_asset-registry-update.log 2>&1
-#[DEPRECATED?] /scripts/cron/koios-artifacts/asset-txo-cache-update.sh >> /var/log/cron_koios-artifacts_asset-txo-cache-update.log 2>&1
+# [DEPRECATED?] /scripts/cron/koios-artifacts/asset-txo-cache-update.sh >> /var/log/cron_koios-artifacts_asset-txo-cache-update.log 2>&1
 */5 * * * * /scripts/cron/koios-artifacts/cli-protocol-params-update.sh >> /var/log/cron_koios-artifacts_cli-protocol-params-update.log 2>&1
 */15 * * * * /scripts/cron/koios-artifacts/epoch-info-cache-update.sh >> /var/log/cron_koios-artifacts_epoch-info-cache-update.log 2>&1
-#[DEPRECATED?] /scripts/cron/koios-artifacts/epoch-summary-corrections-update.sh >> /var/log/cron_koios-artifacts_epoch-summary-corrections-update.log 2>&1
+# [DEPRECATED?] /scripts/cron/koios-artifacts/epoch-summary-corrections-update.sh >> /var/log/cron_koios-artifacts_epoch-summary-corrections-update.log 2>&1
 */10 * * * * /scripts/cron/koios-artifacts/pool-history-cache-update.sh >> /var/log/cron_koios-artifacts_pool-history-cache-update.log 2>&1
 */10 * * * * /scripts/cron/koios-artifacts/populate-next-epoch-nonce.sh >> /var/log/cron_koios-artifacts_populate-next-epoch-nonce.log 2>&1
 15 */2 * * * /scripts/cron/koios-artifacts/stake-distribution-update.sh >> /var/log/cron_koios-artifacts_stake-distribution-update.log 2>&1
