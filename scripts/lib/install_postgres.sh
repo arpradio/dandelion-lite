@@ -37,19 +37,19 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
     # Replace the placeholder with the actual schema name
     sed -i.bak1 "s/grest/$KOIOS_ARTIFACTS_SCHEMA/g" "$TEMP_SQL_FILE"
     sed -i.bak1 "s/GREST/$KOIOS_ARTIFACTS_SCHEMA/g" "$TEMP_SQL_FILE"
-    echo "  'koios-artifacts' variables applied"
+    echo "  'koios-artifacts' variables applied: '$KOIOS_ARTIFACTS_SCHEMA'"
   fi  
   # Variable placeholders for Koios Lite
   if [[ $sql_file == *"_koios-lite"* ]]; then    
     # Replace the placeholder with the actual schema name
     sed -i.bak2 "s/{{SCHEMA}}/$KOIOS_LITE_SCHEMA/g" "$TEMP_SQL_FILE"   
-    echo "  'koios-lite' variables applied"
+    echo "  'koios-lite' variables applied: '$KOIOS_LITE_SCHEMA'"
   fi   
   # Variable placeholders for Dandelion Postgrest
   if [[ $sql_file == *"_dandelion-postgrest"* ]]; then    
     # Replace the placeholder with the actual schema name
     sed -i.bak3 "s/{{DANDELION_POSTGREST_SCHEMA}}/$DANDELION_POSTGREST_SCHEMA/g" "$TEMP_SQL_FILE"   
-    echo "  'koios-lite' variables applied"
+    echo "  'dandelion-postgrest' variables applied: '$DANDELION_POSTGREST_SCHEMA'"
   fi     
 
 
