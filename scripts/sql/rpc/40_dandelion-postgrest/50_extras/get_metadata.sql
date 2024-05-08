@@ -1,3 +1,4 @@
+DROP FUNCTION IF EXISTS {{DANDELION_POSTGREST_SCHEMA}}.get_metadata ;
 CREATE FUNCTION {{DANDELION_POSTGREST_SCHEMA}}.get_metadata(metadatum word64type default 0, epochs int[] default null) RETURNS TABLE (epoch word31type, data jsonb) AS $$
 BEGIN
     IF epochs IS NOT NULL THEN
