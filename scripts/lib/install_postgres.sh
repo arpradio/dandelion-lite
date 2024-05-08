@@ -42,7 +42,7 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
   # Variable placeholders for Koios Lite
   if [[ $sql_file == *"_koios-lite"* ]]; then    
     # Replace the placeholder with the actual schema name
-    sed -i.bak2 "s/{{SCHEMA}}/$KOIOS_LITE_SCHEMA/g" "$TEMP_SQL_FILE"
+    sed -i.bak2 "s/{{SCHEMA}}/$KOIOS_LITE_SCHEMA/g" "$TEMP_SQL_FILE"   
     echo "  'koios-lite' variables applied"
   fi   
 
@@ -62,6 +62,8 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
   # Remove the temporary file
   #echo "$TEMP_SQL_FILE"
   rm "$TEMP_SQL_FILE"
+  rm -f *.bak1
+  rm -f *.bak2
 done
 
 psql -qt -d "${POSTGRES_DB}" -U "${POSTGRES_USER}" --host="${POSTGRES_HOST}" -c "NOTIFY pgrst, 'reload schema'" >/dev/null
