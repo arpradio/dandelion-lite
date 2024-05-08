@@ -10,6 +10,7 @@
 --------------------------------------------------------------------------------
 -- GREST SCHEMA --
 CREATE SCHEMA IF NOT EXISTS grest;
+CREATE SCHEMA IF NOT EXISTS grestv0;
 
 -- WEB_ANON USER --
 DO $$
@@ -33,8 +34,10 @@ $$;
 
 GRANT USAGE ON SCHEMA public TO authenticator, web_anon;
 GRANT USAGE ON SCHEMA grest TO authenticator, web_anon;
+GRANT USAGE ON SCHEMA grestv0 TO authenticator, web_anon;
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO authenticator, web_anon;
 GRANT SELECT ON ALL TABLES IN SCHEMA grest TO authenticator, web_anon;
+GRANT SELECT ON ALL TABLES IN SCHEMA grestv0 TO authenticator, web_anon;
 GRANT web_anon TO authenticator;
 ALTER ROLE authenticator SET statement_timeout = 125000;
 
@@ -42,6 +45,9 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT
 SELECT ON TABLES TO authenticator, web_anon;
 
 ALTER DEFAULT PRIVILEGES IN SCHEMA grest GRANT
+SELECT ON TABLES TO authenticator, web_anon;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA grestv0 GRANT
 SELECT ON TABLES TO authenticator, web_anon;
 
 ALTER ROLE web_anon SET search_path TO grest, public;
@@ -168,7 +174,7 @@ AS
 $$
   BEGIN
     INSERT INTO
-      grest.CONTROL_TABLE (key, last_value, artifacts)
+      GREST.CONTROL_TABLE (key, last_value, artifacts)
     VALUES
       (_key, _last_value, _artifacts)
     ON CONFLICT (
