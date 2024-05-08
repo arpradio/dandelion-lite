@@ -35,13 +35,13 @@ find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
   # Variable placeholders for Koios
   if [[ $sql_file == *"_koios-artifacts"* ]]; then    
     # Replace the placeholder with the actual schema name
-    sed "s/{{SCHEMA}}/$KOIOS_ARTIFACTS_SCHEMA/g" "$TEMP_SQL_FILE" > "$TEMP_SQL_FILE"
+    sed -i.bak1 "s/{{SCHEMA}}/$KOIOS_ARTIFACTS_SCHEMA/g" "$TEMP_SQL_FILE"
     echo "  'koios-artifacts' variables applied"
   fi  
   # Variable placeholders for Koios Lite
   if [[ $sql_file == *"_koios-lite"* ]]; then    
     # Replace the placeholder with the actual schema name
-    sed "s/{{SCHEMA}}/$KOIOS_LITE_SCHEMA/g" "$TEMP_SQL_FILE" > "$TEMP_SQL_FILE"
+    sed -i.bak2 "s/{{SCHEMA}}/$KOIOS_LITE_SCHEMA/g" "$TEMP_SQL_FILE"
     echo "  'koios-lite' variables applied"
   fi   
 
