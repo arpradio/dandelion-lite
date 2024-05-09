@@ -436,6 +436,9 @@ services:
     volumes:
       - ./configs/haproxy/:/usr/local/etc/haproxy/
       - ./scripts/:/scripts/
+    configs:
+      - source: manifest_http
+        target: /usr/local/etc/haproxy/manifest.http      
     ports:
       - ${HAPROXY_PORT:-8053}:8053
     healthcheck:
@@ -585,3 +588,15 @@ secrets:
     environment: POSTGRES_USER
   postgres_db:
     environment: POSTGRES_DB
+
+configs:
+  manifest_http:
+    content: |
+      HTTP/1.0 200 OK
+      Cache-Control: no-cache
+      Connection: close
+      Content-Type: application/json
+
+      {
+          "network": "${NETWORK}"
+      }
