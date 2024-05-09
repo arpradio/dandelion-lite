@@ -437,8 +437,11 @@ services:
       - ./configs/haproxy/:/usr/local/etc/haproxy/
       - ./scripts/:/scripts/
     configs:
-      - source: manifest_http
-        target: /usr/local/etc/haproxy/manifest.http      
+      - source: manifest_json
+        target: /usr/local/etc/haproxy/manifest.json
+      - source: index_html
+        target: /usr/local/etc/haproxy/index.html
+
     ports:
       - ${HAPROXY_PORT:-8053}:8053
     healthcheck:
@@ -462,42 +465,42 @@ services:
 ####    optional extras     #####
 #################################
 
-  cardano-sql-companion:
-    #image: cardano-sql-companion:latest
-    build:
-      context: ./src/cardano-sql/companion
-      target: production-build-stage
-    restart: on-failure
-    environment:
-      NETWORK: ${NETWORK}
-      DLT: ${DLT}
-      NODE_NAME: ${NODE_NAME}
-      NODE_GROUPS: ${NODE_GROUPS}
-      NODE_EXTENSIONS: ${NODE_EXTENSIONS}
-      
-      CARDANO_NODE_VERSION: ${CARDANO_NODE_VERSION}
-      CARDANO_NODE_IMAGE: ${CARDANO_NODE_IMAGE}
-      
-      CARDANO_DB_SYNC_VERSION: ${CARDANO_DB_SYNC_VERSION}
-      CARDANO_DB_SYNC_IMAGE: ${CARDANO_DB_SYNC_IMAGE}
-      
-      OGMIOS_VERSION: ${OGMIOS_VERSION}
-      OGMIOS_IMAGE: ${OGMIOS_IMAGE}
-      OGMIOS_PORT: ${OGMIOS_PORT}
-      # used for service connection, others are for public manifest
-      USE_OGMIOS_HOST: ${OGMIOS_HOST:-ogmios}
-      USE_OGMIOS_PORT: 1337
-
-      CARDANO_SQL_EXTENSIONS: ${CARDANO_SQL_EXTENSIONS}
-      CARDANO_SQL_COMPANION_PORT: ${CARDANO_SQL_COMPANION_PORT}
-
-      POSTGREST_PORT: ${POSTGREST_PORT}
-      UNIMATRIX_PORT: ${UNIMATRIX_PORT:-8765}
-      PGADMIN_PORT: ${PGADMIN_PORT}
-      SWAGGER_PORT: ${SWAGGER_PORT}
-    ports:
-      - ${CARDANO_SQL_COMPANION_PORT:-4000}:4000
-
+#  cardano-sql-companion:
+#    #image: cardano-sql-companion:latest
+#    build:
+#      context: ./src/cardano-sql/companion
+#      target: production-build-stage
+#    restart: on-failure
+#    environment:
+#      NETWORK: ${NETWORK}
+#      DLT: ${DLT}
+#      NODE_NAME: ${NODE_NAME}
+#      NODE_GROUPS: ${NODE_GROUPS}
+#      NODE_EXTENSIONS: ${NODE_EXTENSIONS}
+#      
+#      CARDANO_NODE_VERSION: ${CARDANO_NODE_VERSION}
+#      CARDANO_NODE_IMAGE: ${CARDANO_NODE_IMAGE}
+#      
+#      CARDANO_DB_SYNC_VERSION: ${CARDANO_DB_SYNC_VERSION}
+#      CARDANO_DB_SYNC_IMAGE: ${CARDANO_DB_SYNC_IMAGE}
+#      
+#      OGMIOS_VERSION: ${OGMIOS_VERSION}
+#      OGMIOS_IMAGE: ${OGMIOS_IMAGE}
+#      OGMIOS_PORT: ${OGMIOS_PORT}
+#      # used for service connection, others are for public manifest
+#      USE_OGMIOS_HOST: ${OGMIOS_HOST:-ogmios}
+#      USE_OGMIOS_PORT: 1337
+#
+#      CARDANO_SQL_EXTENSIONS: ${CARDANO_SQL_EXTENSIONS}
+#      CARDANO_SQL_COMPANION_PORT: ${CARDANO_SQL_COMPANION_PORT}
+#
+#      POSTGREST_PORT: ${POSTGREST_PORT}
+#      UNIMATRIX_PORT: ${UNIMATRIX_PORT:-8765}
+#      PGADMIN_PORT: ${PGADMIN_PORT}
+#      SWAGGER_PORT: ${SWAGGER_PORT}
+#    ports:
+#      - ${CARDANO_SQL_COMPANION_PORT:-4000}:4000
+#
 
   portainer-agent:
     image: portainer/agent:latest
@@ -567,7 +570,7 @@ services:
 
 
 #################################
-## common volumes and secrets  ##
+# volumes, secrets and configs  #
 #################################
 
 
@@ -590,13 +593,49 @@ secrets:
     environment: POSTGRES_DB
 
 configs:
-  manifest_http:
+  manifest_json:
     content: |
-      HTTP/1.0 200 OK
-      Cache-Control: no-cache
-      Connection: close
-      Content-Type: application/json
-
       {
-          "network": "${NETWORK}"
+      "dltTag": "${DLT}",
+      "networkTag": "${NETWORK}",
+      "name": "${NODE_NAME}",
+      "groups": "${NODE_GROUPS}",
+      "extensions":[${NODE_EXTENSIONS}]
       }
+  index_html:
+    content: |
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>GC Node</title>
+          <!-- Meta Tags for Social Media -->
+          <meta name="description" content="This is a Dandelion Lite backend. Monitor this Cardano Node status and use various APIs like ogmios, cardano-graphql, koios-lite, token-registry, and postgrest.">
+          <meta property="og:title" content="GC Node">
+          <meta property="og:description" content="This is a Dandelion Lite backend. Monitor this Cardano Node status and use various APIs like ogmios, cardano-graphql, koios-lite, token-registry, and postgrest.">
+          <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
+          <!-- <meta property="og:url" content="https://your-website.com"> -->
+          <meta name="twitter:card" content="summary">
+          <meta name="twitter:title" content="GC Node">
+          <meta name="twitter:description" content="This is a Dandelion Lite backend. Monitor this Cardano Node status and use various APIs like ogmios, cardano-graphql, koios-lite, token-registry, and postgrest.">   
+          <!-- End of Meta Tags for Social Media -->    
+      </head>
+      <body>
+          <div class="container">
+              <h1>GC Node</h1>
+              <p>Welcome to the decentralized Dando-Net! This is a Dandelion Lite backend.</p>
+              <p>Monitor this Cardano Node status and use various APIs like ogmios, cardano-graphql, koios-lite, token-registry, and postgrest</p>
+              <p></p>
+              <p>APIs available on this Dandelion Node:</p>
+              <ul class="api-list">
+                  ${INDEX_LINKS}
+              </ul>
+          </div>
+          <div class="footer">
+              Made with ❤️ by GameChanger Finance + M2Tec
+          </div>
+      </body>
+      </html>
+
+
