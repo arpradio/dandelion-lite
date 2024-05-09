@@ -11,6 +11,7 @@ SKIPPED_FILE="Skipped.txt"
 # Empty the log files if they already exist
 > "$OK_FILE"
 > "$NOT_OK_FILE"
+> "$SKIPPED_FILE"
 
 # Loop through all .sql files in the rpc folder and its subfolders
 find /scripts/sql/rpc -name '*.sql' | sort | while read -r sql_file; do
