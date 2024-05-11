@@ -443,7 +443,7 @@ menu() {
 
             "Setup")
               # Submenu for Setup with plain text options
-              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Backup Postgres" "Restore Postgres"  "$(gum style --foreground 208 "Back")")
+              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Full Backup" "Full Restore"  "$(gum style --foreground 208 "Back")")
 
               case "$setup_choice" in
                 #"Initialise Cardano Node")
@@ -476,42 +476,14 @@ menu() {
                   show_splash_screen
                   ;;
 
-                "Backup Postgres")
-                  # Logic for installing Postgres
-                  container_id=$(docker ps -qf "name=postgress")
-                  if [ -z "$container_id" ]; then
-                    echo "Creating backup of Postgres database..."
-		    ./scripts/cardano-db-sync/export-volume.sh
-                    echo -e "\n\n"
-                    read -r -p "Press enter to continue"
-                  else
-                    # Executing commands in the found container
-                    echo "To make a backup of Postgres database you must stop Postgres service."
-		    echo "Stopping all services is recommended."
-                    echo -e "\n\n"
-                    read -r -p "Press enter to continue"
-                  fi
+                "Full Backup")
+		  ./scripts/docker/full-backup.sh "${PROJ_NAME}_"
                   show_splash_screen
                   ;;
-                "Restore Postgres")
-                  # Logic for installing Postgres
-                  container_id=$(docker ps -qf "name=postgress")
-                  if [ -z "$container_id" ]; then
-                    echo "Creating backup of Postgres database..."
-		    echo "Comming soon!"
-		    #./scripts/cardano-db-sync/restore-volume.sh
-                    echo -e "\n\n"
-                    read -r -p "Press enter to continue"
-                  else
-                    # Executing commands in the found container
-                    echo "To restore Postgres database you must stop Postgres service."
-		    echo "Stopping all services is recommended."
-                    echo -e "\n\n"
-                    read -r -p "Press enter to continue"
-                  fi
+                "Full Restore")
+		  ./scripts/docker/full-restore.sh "${PROJ_NAME}_"
                   show_splash_screen
                   ;;
-
                 #"Initialise Dbsync")
                 #    # Logic for installing Dbsync
                 #    container_id=$(docker ps -qf "name=${PROJ_NAME}-cardano-db-sync")

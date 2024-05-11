@@ -1,3 +1,3 @@
 # koios-lite:
-* * * * * /usr/bin/flock  /tmp/postgres_init.lock /scripts/cron/postgres-init.sh >> /var/log/cron_postgres_init.log 2>&1
+#* * * * * /usr/bin/flock  /tmp/postgres_init.lock /scripts/cron/postgres-init.sh >> /var/log/cron_postgres_init.log 2>&1
 * * * * * /scripts/cron/koios-lite/asset-registry-update.sh >> /var/log/cron_koios-lite_asset-registry-update.log 2>&1

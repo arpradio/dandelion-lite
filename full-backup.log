@@ -1,0 +1,5 @@
+Exporting volume 'gc-node-preprod_unimatrix-data' into backup file '/home/dando-gc-1/bin/gc_node_dev/unimatrix-data.tar.gz' ...
+tar: removing leading '/' from member names
+volume/
+92 /home/dando-gc-1/bin/gc_node_dev/unimatrix-data.tar.gz
+Done
