@@ -34,6 +34,7 @@ for volumeName in $volumeNames; do
 	echo $fileName
     	./scripts/docker/restore-volume.sh "${volumeName}" "${fileName}" > full-restore.log 2>&1
 	ls -alh "${fileName}.tar.gz" | awk '{print $5, $9}'
+	#read -p "Press key to continue.. (Ctrl + C to abort)" -n1 -s
     fi
 done
 

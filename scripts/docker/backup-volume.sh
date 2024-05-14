@@ -15,7 +15,9 @@ docker run --rm \
 	--mount source=${sourceVolumeName},target=/volume \
 	-v $(pwd):/backup \
 	alpine \
-	tar -czvf /backup/${exportFileName} /volume
+	bin/sh -c "apk update && apk add pigz && tar cvf - /volume | pigz > /backup/${exportFileName}"
+
+#tar -czvf /backup/${exportFileName} /volume
 
 ls -alh "$(pwd)/${exportFileName}" | awk '{print $5, $9}'
 
