@@ -16,8 +16,8 @@
 /scripts/sql/rpc/10_koios-lite_[SKIP]/address/address_utxos.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/address/credential_utxos.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_addresses.sql
-/scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_info.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_info_bulk.sql
+/scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_info.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_list.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_nft_address.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/assets/asset_token_registry.sql
@@ -30,5 +30,9 @@
 /scripts/sql/rpc/10_koios-lite_[SKIP]/script/plutus_script_list.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/script/script_info.sql
 /scripts/sql/rpc/10_koios-lite_[SKIP]/script/script_utxos.sql
+/scripts/sql/rpc/20_koios-artifacts/epoch_[SKIP]/epoch_block_protocols.sql
+/scripts/sql/rpc/20_koios-artifacts/epoch_[SKIP]/epoch_info.sql
+/scripts/sql/rpc/20_koios-artifacts/epoch_[SKIP]/epoch_params.sql
+/scripts/sql/rpc/20_koios-artifacts/epoch_[SKIP]/epoch_summary_corrections_update.sql
 /scripts/sql/rpc/30_cardano-sql/30_cardano_graphql_[SKIP].sql
 /scripts/sql/rpc/30_cardano-sql/misc/30_cardano_graphql_down_[SKIP].sql

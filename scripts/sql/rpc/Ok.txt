@@ -38,8 +38,8 @@
 /scripts/sql/rpc/20_koios-artifacts/address/credential_utxos.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/asset_addresses.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/asset_history.sql
-/scripts/sql/rpc/20_koios-artifacts/assets/asset_info.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/asset_info_bulk.sql
+/scripts/sql/rpc/20_koios-artifacts/assets/asset_info.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/asset_list.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/asset_nft_address.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/asset_summary.sql
@@ -51,9 +51,9 @@
 /scripts/sql/rpc/20_koios-artifacts/assets/policy_asset_list.sql
 /scripts/sql/rpc/20_koios-artifacts/assets/policy_asset_mints.sql
 /scripts/sql/rpc/20_koios-artifacts/blocks/block_info.sql
+/scripts/sql/rpc/20_koios-artifacts/blocks/blocks.sql
 /scripts/sql/rpc/20_koios-artifacts/blocks/block_tx_info.sql
 /scripts/sql/rpc/20_koios-artifacts/blocks/block_txs.sql
-/scripts/sql/rpc/20_koios-artifacts/blocks/blocks.sql
 /scripts/sql/rpc/20_koios-artifacts/epoch/epoch_block_protocols.sql
 /scripts/sql/rpc/20_koios-artifacts/epoch/epoch_info.sql
 /scripts/sql/rpc/20_koios-artifacts/epoch/epoch_params.sql
@@ -96,5 +96,10 @@
 /scripts/sql/rpc/30_cardano-sql/10_cardano_sql.sql
 /scripts/sql/rpc/30_cardano-sql/20_cardano_db_sync.sql
 /scripts/sql/rpc/30_cardano-sql/40_ogmios.sql
+/scripts/sql/rpc/40_dandelion-postgrest/10_cardano-db-sync/10_cardano_db_sync.sql
 /scripts/sql/rpc/40_dandelion-postgrest/30_koios-artifacts/13_1_00.sql
 /scripts/sql/rpc/40_dandelion-postgrest/40_koios-lite/13_1_00.sql
+/scripts/sql/rpc/40_dandelion-postgrest/50_extras/get_eoe_balance_for_addresses.sql
+/scripts/sql/rpc/40_dandelion-postgrest/50_extras/get_metadata.sql
+/scripts/sql/rpc/40_dandelion-postgrest/50_extras/get_pools_dbsync_hash_id.sql
+/scripts/sql/rpc/40_dandelion-postgrest/50_extras/get_tx_history_for_addresses.sql
