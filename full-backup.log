@@ -1,5 +1,13 @@
-Exporting volume 'gc-node-preprod_unimatrix-data' into backup file '/home/dando-gc-1/bin/gc_node_dev/unimatrix-data.tar.gz' ...
+Exporting volume 'gc-node-mainnet_unimatrix-data' into backup file '/home/dando-gc-1/bin/gc_node_dev_mainnet/unimatrix-data.tar.gz' ...
+fetch https://dl-cdn.alpinelinux.org/alpine/v3.19/main/x86_64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/v3.19/community/x86_64/APKINDEX.tar.gz
+v3.19.1-524-g07aa805579e [https://dl-cdn.alpinelinux.org/alpine/v3.19/main]
+v3.19.1-525-g254ea8d95e8 [https://dl-cdn.alpinelinux.org/alpine/v3.19/community]
+OK: 22996 distinct packages available
+(1/1) Installing pigz (2.8-r0)
+Executing busybox-1.36.1-r15.trigger
+OK: 8 MiB in 16 packages
 tar: removing leading '/' from member names
 volume/
-92 /home/dando-gc-1/bin/gc_node_dev/unimatrix-data.tar.gz
+92 /media/dando-gc-1/data/backups/mainnet/unimatrix-data.tar.gz
 Done

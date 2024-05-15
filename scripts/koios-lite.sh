@@ -477,11 +477,13 @@ menu() {
                   ;;
 
                 "Full Backup")
-		  ./scripts/docker/full-backup.sh "${PROJ_NAME}_"
+		  backupDir=${BACKUP_DIR:-$(pwd)}
+		  ./scripts/docker/full-backup.sh "${PROJ_NAME}_" "${backupDir}"
                   show_splash_screen
                   ;;
                 "Full Restore")
-		  ./scripts/docker/full-restore.sh "${PROJ_NAME}_"
+		  backupDir=${BACKUP_DIR:-$(pwd)}
+		  ./scripts/docker/full-restore.sh "${PROJ_NAME}_" "${backupDir}"
                   show_splash_screen
                   ;;
                 #"Initialise Dbsync")
