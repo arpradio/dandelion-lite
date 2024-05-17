@@ -283,16 +283,21 @@ docker_install() {
 # Function to check and create or copy .env file
 check_env_file() {
   if [ ! -f ".env" ]; then  # Check if .env does not exist
-    if [ -f ".env.example" ]; then  # Check if .env.example exists
-      cp .env.example .env  # Copy .env.example to .env
-      echo ".env file created from .env.example... please inspect the .env file and adjust variables (e.g. network) accordingly"
-      echo -e "\nCurrent default settings:\n"
-      cat .env
-      read -r -p "Press enter to continue"
-    else
-      touch .env  # Create a new .env file
-      echo "New .env file created."
-    fi
+	show_splash_screen
+	action=$(gum choose --height 15 --item.foreground 39 --cursor.foreground 121 "Setup a Cardano Mainnet Network Node" "Setup a Cardano Pre-Production Network Node" )
+	case "$action" in
+		"Setup a Cardano Mainnet Network Node")
+			cp .env.example.mainnet .env  # Copy .env.example to .env
+			echo ".env file created from .env.example.mainnet ... please inspect the .env file and adjust variables (e.g. network) accordingly"
+			read -p "Press key to continue.." -n1 -s
+
+		;;
+		"Setup a Cardano Pre-Production Network Node")
+			cp .env.example.preprod .env  # Copy .env.example to .env
+			echo ".env file created from .env.example.preprod ... please inspect the .env file and adjust variables (e.g. network) accordingly"
+			read -p "Press key to continue.." -n1 -s
+		;;
+	esac
   fi
 }
 
@@ -747,7 +752,7 @@ menu() {
 
             "Exit")
               clear
-              echo "Thanks for using Koios Lite Node."
+              echo "Thanks for using Dandelion Lite Node."
               exit 0  # Exit the menu loop
               ;;
         esac
@@ -766,7 +771,7 @@ display_ui() {
 about(){
   gum style --foreground 121 --border-foreground 121 --align center "$(gum join --vertical \
     "$(show_splash_screen)" \
-    "$(gum style --align center --width 50 --margin "1 2" --padding "2 2" 'About: ' ' Koios Lite Node administration tool.')" \
+    "$(gum style --align center --width 50 --margin "1 2" --padding "2 2" 'About: ' ' Dandelion Lite Node administration tool. (Based on Koios Lite) ')" \
     "$(gum style --align center --width 50 'https://github.com/koios-official/Lite-Node')")"
 }
 
@@ -776,7 +781,7 @@ show_splash_screen(){
   combined_layout1=$(gum style --foreground 121 --align center "$(cat ./scripts/.logo)")
 
   combined_layout2=$(gum join --horizontal \
-    "$(gum style --bold --align center "Koios Lite Node")" \
+    "$(gum style --bold --align center "Dandelion Lite Node")" \
     "$(gum style --faint --foreground 229 --align center " - $NAME v$VERSION")")
 
   combined_layout=$(gum join --vertical \
@@ -796,9 +801,9 @@ show_splash_screen(){
 }
 
 display_help_usage() {
-  echo "Koios Administration Tool Help Menu:"
+  echo "Dandelion Lite Administration Tool Help Menu:"
   echo -e "------------------------------------\n"
-  echo -e "Welcome to the Koios Administration Tool Help Menu.\n"
+  echo -e "Welcome to the Dandelion Lite Administration Tool Help Menu.\n"
   echo -e "Below are the available commands and their descriptions:\n"
   echo -e "--about: \t\t\t Displays information about the Koios administration tool."
   echo -e "--install-dependencies: \t Installs necessary dependencies."

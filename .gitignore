@@ -2,5 +2,9 @@
 .*status
 .dependency_installation_status
 *.swp
-./scripts/sql/rpc/Ok.txt
-./scripts/sql/rpc/NotOk.txt
+scripts/sql/rpc/Ok.txt
+scripts/sql/rpc/NotOk.txt
+scripts/sql/rpc/Skipped.txt
+*.log
+configs/haproxy/manifest.json
+
