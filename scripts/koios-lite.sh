@@ -838,6 +838,9 @@ process_args() {
     --check-docker)
       check_docker
       ;;
+    --docker-install)
+      docker_install
+      ;;
     --handle-env-file)
       handle_env_file
       ;;

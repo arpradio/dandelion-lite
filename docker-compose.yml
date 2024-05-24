@@ -448,7 +448,7 @@ services:
       - source: index_html
         target: /usr/local/etc/haproxy/index.html
     ports:
-      - ${HAPROXY_PORT:-8053}:8053
+      - ${HAPROXY_BINDED_HOST}${HAPROXY_PORT:-8053}:8053
     healthcheck:
       test: ["CMD-SHELL", "haproxy -c -- /usr/local/etc/haproxy/haproxy.cfg"]
       interval: 10s
