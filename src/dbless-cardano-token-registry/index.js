@@ -1,6 +1,6 @@
 const jsonServer = require('json-server')
 const bodyParser = require("body-parser");
-const middlewares = jsonServer.defaults({readOnly:true});
+const middlewares = jsonServer.defaults({readOnly:!true});
 const server = jsonServer.create()
 const fs = require( 'fs' );
 const path = require( 'path' );
