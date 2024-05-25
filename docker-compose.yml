@@ -152,9 +152,8 @@ services:
         max-file: "10"
 
   postgress:
-    hostname: ${POSTGRES_HOST}
-    #image: postgres:16.1-bullseye
-    image: postgrest-extended:16.1-bullseye
+    hostname: ${POSTGRES_HOST}    
+    #image: postgrest-extended:16.1-bullseye
     build:
       context: ./src/postgres
     volumes:
@@ -266,7 +265,7 @@ services:
 
 
   dbless-cardano-token-registry:
-    image: dbless-cardano-token-registry:latest
+    #image: dbless-cardano-token-registry:latest
     build:
       context: ./src/dbless-cardano-token-registry
     restart: on-failure
