@@ -464,7 +464,7 @@ menu() {
                 #    ;;
                 "Initialise Postgres")
                   # Logic for installing Postgres
-                  container_id=$(docker ps -qf "name=postgress")
+		  container_id=$(docker ps -qf "name=${PROJ_NAME}-postgress")
                   if [ -z "$container_id" ]; then
                     echo "No running PostgreSQL container found."
                     read -r -p "Press enter to continue"
@@ -569,7 +569,7 @@ menu() {
               case "$setup_choice" in
                 "Enter Cardano Node")
                   # Enter
-                  container_id=$(docker ps -qf "name=cardano-node")
+                  container_id=$(docker ps -qf "name=${PROJ_NAME}-cardano-node")
                   if [ -z "$container_id" ]; then
                     echo "No running Node container found."
                     read -r -p "Press enter to continue"
@@ -581,7 +581,7 @@ menu() {
                   ;;
                 "Logs Cardano Node")
                   # Enter
-                  container_id=$(docker ps -qf "name=cardano-node")
+                  container_id=$(docker ps -qf "name=${PROJ_NAME}-cardano-node")
                   if [ -z "$container_id" ]; then
                     echo "No running Node container found."
                     read -r -p "Press enter to continue"
@@ -594,7 +594,7 @@ menu() {
                   ;;
                 "Enter Postgres")
                   # Logic for Enter Postgres
-                  container_id=$(docker ps -qf "name=postgress")
+                  container_id=$(docker ps -qf "name=${PROJ_NAME}-postgress")
                   if [ -z "$container_id" ]; then
                     echo "No running PostgreSQL container found."
                     red -p "Press enter to continue"
@@ -606,7 +606,7 @@ menu() {
                   ;;
                 "Logs Postgres")
                   # Logic for Enter Postgres
-                  container_id=$(docker ps -qf "name=postgress")
+                  container_id=$(docker ps -qf "name=${PROJ_NAME}-postgress")
                   if [ -z "$container_id" ]; then
                     echo "No running PostgreSQL container found."
                     read -r -p "Press enter to continue"

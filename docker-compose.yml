@@ -1,4 +1,4 @@
-version: '3.8'
+#version: '3.8'
 
 name: "${PROJ_NAME}"
 services:
@@ -176,7 +176,7 @@ services:
       test:  ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 60s
       timeout: 5s
-    command: postgres -c max_connections=200 -c wal_level=minimal -c max_wal_senders=0 -c synchronous_commit=off
+    command: postgres -c max_connections=200 -c wal_level=minimal -c max_wal_senders=0 -c synchronous_commit=off -c maintenance_work_mem=1024MB  -c  max_parallel_maintenance_workers=4
     restart: on-failure
     logging:
       driver: "json-file"
