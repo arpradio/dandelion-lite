@@ -132,6 +132,7 @@ services:
       test: ["CMD-SHELL", "/scripts/lib/dbsync_healthcheck.sh"]
       interval: 60s
       timeout: 10s
+      retries: 5
     depends_on:
       # Depend on both services to be healthy before starting.
       cardano-node-ogmios:
@@ -177,6 +178,7 @@ services:
       test:  ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 60s
       timeout: 5s
+      retries: 5      
     command: postgres -c max_connections=200 -c wal_level=minimal -c max_wal_senders=0 -c synchronous_commit=off
     restart: on-failure
     logging:
@@ -224,6 +226,7 @@ services:
       - "cardano-graphql-hasura"
       - "postgress"
     environment:
+      HASURA_URI: http://cardano-graphql-hasura:${CARDANO_GRAPHQL_HASURA_PORT:-8090}:8080
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_BACKGROUND_LOGGER_MIN_SEVERITY:-info}
       METADATA_SERVER_URI: ${CARDANO_GRAPHQL_BACKGROUND_METADATA_SERVER_URI:-https://tokens.cardano.org}
     restart: on-failure
@@ -244,6 +247,7 @@ services:
       - ${CARDANO_GRAPHQL_HASURA_HOST:-cardano-graphql-hasura}:hasura
     #image: cardanofoundation/cardano-graphql-server:${CARDANO_GRAPHQL_VERSION:-8.0.1}-${NETWORK:-mainnet}
     environment:
+      HASURA_URI: http://cardano-graphql-hasura:8080
       ALLOW_INTROSPECTION: ${CARDANO_GRAPHQL_SERVER_ALLOW_INTROSPECTION:-true}
       CACHE_ENABLED: ${CARDANO_GRAPHQL_SERVER_CACHE_ENABLED:-true}
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_SERVER_LOGGER_MIN_SEVERITY:-info}
