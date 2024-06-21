@@ -263,9 +263,7 @@ services:
       cardano-node-ogmios:
         condition: service_healthy
       postgress:
-        condition: service_healthy    
-      cardano-db-sync:
-        condition: service_healthy         
+        condition: service_healthy
     expose:
       - ${CARDANO_GRAPHQL_SERVER_PORT:-3100}
     ports:
@@ -311,7 +309,7 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${POSTGREST_HOST}
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy
@@ -350,7 +348,7 @@ services:
       KOIOS_ARTIFACTS_SCHEMA: ${KOIOS_ARTIFACTS_SCHEMA}
       DBLESS_CARDANO_TOKEN_REGISTRY_DATA: /root/token-registry
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy      
@@ -371,7 +369,7 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${DANDELION_POSTGREST_HOST}
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy
@@ -405,7 +403,7 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${CARDANO_SQL_POSTGREST_HOST}
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy
@@ -440,7 +438,7 @@ services:
     build:
       context: ./src/unimatrix
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy      
@@ -473,7 +471,7 @@ services:
       CARDANO_SQL_POSTGREST_PORT: ${CARDANO_SQL_POSTGREST_PORT}
       UNIMATRIX_PORT: ${UNIMATRIX_PORT}
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy
@@ -574,7 +572,7 @@ services:
     image: swaggerapi/swagger-ui
     restart: on-failure
     depends_on:
-      cardano-db-sync:
+      cardano-node-ogmios:
         condition: service_healthy
       postgress:
         condition: service_healthy
