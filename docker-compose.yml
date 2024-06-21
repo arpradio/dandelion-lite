@@ -604,14 +604,8 @@ services:
         PGADMIN_LISTEN_PORT: 80
     ports:
         - "${PGADMIN_PORT:-5050}:80"
-    # links:
-    #     - "postgress:pgsql-server"
     volumes:
         - pgadmin-data:/var/lib/pgadmin
-    # not supported until docker compose 2.23.1
-    configs:
-      - source: pgadmin_server
-        target: /var/lib/pgadmin/servers.json
     depends_on:
       postgress:
         condition: service_healthy
