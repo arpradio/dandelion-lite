@@ -15,7 +15,7 @@ date=$CURRENT_BLOCK_TIME
 if [ "z$date" != "z" ] && date -d "$date" >/dev/null
 then
   #echo "Valid date"
-  echo "Block table not available yet"
+  echo "Block table available"
 else
   #echo "Invalid date"
   echo "Block table not available yet"  
