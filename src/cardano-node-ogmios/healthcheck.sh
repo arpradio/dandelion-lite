@@ -1,0 +1,28 @@
+
+echo $NETWORK
+
+if [[ "$NETWORK" == "mainnet" ]]
+then
+    STATUS=`cardano-cli query tip --mainnet --socket-path /ipc/node.socket | jq '.syncProgress' | tr -d '"'`
+  
+else
+    STATUS=`cardano-cli query tip --testnet-magic 1 --socket-path /ipc/node.socket | jq '.syncProgress' | tr -d '"'`
+fi
+
+re='^[0-9]+([.][0-9]+)?$'
+if ! [[ $STATUS =~ $re ]] ; then
+   echo "Socket not yet available" >&2; 
+   exit 1
+else
+    echo $STATUS
+    STATUS_INTEGER=${STATUS%.*}
+
+    if [ "$STATUS_INTEGER" -gt "4" ] ; then
+        echo "OK $STATUS_INTEGER";
+        exit 0;
+    else 
+        echo "Not OK $STATUS_INTEGER";
+        exit 1;
+    fi
+fi
+
