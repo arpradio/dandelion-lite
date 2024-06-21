@@ -75,16 +75,20 @@ services:
 #################################
 
   cardano-node-ogmios:
-    image: ${CARDANO_NODE_OGMIOS_IMAGE}
+    build:
+      args:
+        - CARDANO_NODE_OGMIOS_IMAGE=${CARDANO_NODE_OGMIOS_IMAGE}
+      context: ./src/cardano-node-ogmios
+    # image: ${CARDANO_NODE_OGMIOS_IMAGE}
     hostname: cardano-node
     #init: true
     platform: linux/x86_64
     restart: on-failure
-#    healthcheck:
-#      test: ["CMD-SHELL", "netstat -ntlp | grep 12798"]
-#      interval: 30s
-#      timeout: 10s
-#      retries: 3
+    healthcheck:
+      test: ["CMD-SHELL", "/healthcheck.sh"]
+      interval: 15s
+      timeout: 2s
+      retries: 100
     logging:
       driver: "json-file"
       options:
@@ -108,7 +112,11 @@ services:
       #- ./scripts/:/scripts/
 
   cardano-db-sync:
-    image:  ${CARDANO_DB_SYNC_IMAGE}
+    build:
+      args:
+        - CARDANO_DB_SYNC_IMAGE=${CARDANO_DB_SYNC_IMAGE}
+      context: ./src/cardano-db-sync
+    # image:  ${CARDANO_DB_SYNC_IMAGE}
     platform: linux/x86_64
     hostname: cardano-db-sync
     command: [
@@ -127,10 +135,11 @@ services:
       RESTORE_RECREATE_DB: N
       #EXTRA_DB_SYNC_ARGS: ${CARDANO_DB_SYNC_ARGS:-}
     healthcheck:
-      test: ["CMD-SHELL", "/scripts/lib/dbsync_healthcheck.sh"]
+      # test: ["CMD-SHELL", "/scripts/lib/dbsync_healthcheck.sh"]
+      test: ["CMD-SHELL", "/healthcheck.sh"]
       interval: 60s
-      timeout: 10s
-      retries: 5
+      timeout: 15s
+      retries: 5000000
     depends_on:
       # Depend on both services to be healthy before starting.
       cardano-node-ogmios:
@@ -174,9 +183,9 @@ services:
       KOIOS_ARTIFACTS_SCHEMA: ${KOIOS_ARTIFACTS_SCHEMA}
     healthcheck:
       test:  ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
-      interval: 60s
+      interval: 15s
       timeout: 5s
-      retries: 5      
+      retries: 100  
     command: postgres -c max_connections=200 -c wal_level=minimal -c max_wal_senders=0 -c synchronous_commit=off
     restart: on-failure
     logging:
@@ -196,6 +205,8 @@ services:
     ports:
       - ${CARDANO_GRAPHQL_HASURA_PORT:-8090}:8080
     depends_on:
+      cardano-node-ogmios:
+        condition: service_healthy
       postgress:
         condition: service_healthy
     restart: on-failure
@@ -217,8 +228,12 @@ services:
     image: ${CARDANO_GRAPHQL_BACKGROUND_IMAGE}
     #image: cardanofoundation/cardano-graphql-background:${CARDANO_GRAPHQL_VERSION:-8.0.1}-${NETWORK:-mainnet}
     depends_on:
-      - "cardano-graphql-hasura"
-      - "postgress"
+      cardano-node-ogmios:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy    
+      cardano-graphql-hasura:
+        condition: service_started
     environment:
       POSTGRES_HOST: postgress
       HASURA_URI: http://cardano-graphql-hasura:${CARDANO_GRAPHQL_HASURA_PORT:-8090}
@@ -244,6 +259,13 @@ services:
       ALLOW_INTROSPECTION: ${CARDANO_GRAPHQL_SERVER_ALLOW_INTROSPECTION:-true}
       CACHE_ENABLED: ${CARDANO_GRAPHQL_SERVER_CACHE_ENABLED:-true}
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_SERVER_LOGGER_MIN_SEVERITY:-info}
+    depends_on:
+      cardano-node-ogmios:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy    
+      cardano-db-sync:
+        condition: service_healthy         
     expose:
       - ${CARDANO_GRAPHQL_SERVER_PORT:-3100}
     ports:
@@ -272,6 +294,9 @@ services:
       #TOKEN_REGISTRY_MAPPINGS_DIR: ${DBLESS_CARDANO_TOKEN_REGISTRY_MAPPINGS_DIR:-/app/token-registry}
       TOKEN_REGISTRY_MAPPINGS_DIR: /root/token-registry/data
       PORT: ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}
+    depends_on:
+      postgress:
+        condition: service_healthy      
     ports:
       - ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}:3042
     # TODO: link to persistent volume
@@ -286,7 +311,10 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${POSTGREST_HOST}
     depends_on:
-      - postgress
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy
     ports:
       - ${POSTGREST_PORT:-8050}:8050
     volumes:
@@ -321,6 +349,11 @@ services:
       KOIOS_LITE_SCHEMA: ${KOIOS_LITE_SCHEMA}
       KOIOS_ARTIFACTS_SCHEMA: ${KOIOS_ARTIFACTS_SCHEMA}
       DBLESS_CARDANO_TOKEN_REGISTRY_DATA: /root/token-registry
+    depends_on:
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy      
     volumes:
       - ./scripts/cron:/etc/cron.d/
       - ./scripts:/scripts
@@ -338,7 +371,10 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${DANDELION_POSTGREST_HOST}
     depends_on:
-      - postgress
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy
     ports:
       - ${DANDELION_POSTGREST_PORT:-8050}:8050
     volumes:
@@ -369,7 +405,10 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${CARDANO_SQL_POSTGREST_HOST}
     depends_on:
-      - postgress
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy
     ports:
       - ${CARDANO_SQL_POSTGREST_PORT:-8050}:8050
     volumes:
@@ -400,6 +439,11 @@ services:
     #image: unimatrix-peer:latest
     build:
       context: ./src/unimatrix
+    depends_on:
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy      
     restart: on-failure
     environment:
       UNIMATRIX_PORT: 8765
@@ -429,7 +473,10 @@ services:
       CARDANO_SQL_POSTGREST_PORT: ${CARDANO_SQL_POSTGREST_PORT}
       UNIMATRIX_PORT: ${UNIMATRIX_PORT}
     depends_on:
-      - postgrest
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy
     volumes:
       - ./configs/haproxy/:/usr/local/etc/haproxy/
       - ./scripts/:/scripts/
@@ -526,6 +573,11 @@ services:
   swagger:
     image: swaggerapi/swagger-ui
     restart: on-failure
+    depends_on:
+      cardano-db-sync:
+        condition: service_healthy
+      postgress:
+        condition: service_healthy
     ports:
       - "${SWAGGER_PORT:-8080}:8080"
     expose:
@@ -557,9 +609,9 @@ services:
     volumes:
         - pgadmin-data:/var/lib/pgadmin
     # not supported until docker compose 2.23.1
-    # configs:
-    #   - source: pgadmin_server
-    #     target: /var/lib/pgadmin/servers.json
+    configs:
+      - source: pgadmin_server
+        target: /var/lib/pgadmin/servers.json
     depends_on:
       postgress:
         condition: service_healthy

@@ -1,5 +1,5 @@
 
-echo $NETWORK
+echo "NETWORK=$NETWORK"
 
 if [[ "$NETWORK" == "mainnet" ]]
 then
@@ -13,16 +13,16 @@ re='^[0-9]+([.][0-9]+)?$'
 if ! [[ $STATUS =~ $re ]] ; then
    echo "Socket not yet available" >&2; 
    exit 1
-else
-    echo $STATUS
-    STATUS_INTEGER=${STATUS%.*}
+fi
 
-    if [ "$STATUS_INTEGER" -gt "4" ] ; then
-        echo "OK $STATUS_INTEGER";
-        exit 0;
-    else 
-        echo "Not OK $STATUS_INTEGER";
-        exit 1;
-    fi
+echo $STATUS
+STATUS_INTEGER=${STATUS%.*}
+
+if [ "$STATUS_INTEGER" -ge "3" ] ; then
+    echo "OK $STATUS_INTEGER";
+    exit 0;
+else 
+    echo "Not OK $STATUS_INTEGER";
+    exit 1;
 fi
 
