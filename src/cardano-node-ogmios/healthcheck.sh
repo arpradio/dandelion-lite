@@ -18,11 +18,11 @@ fi
 echo $STATUS
 STATUS_INTEGER=${STATUS%.*}
 
-if [ "$STATUS_INTEGER" -ge "4" ] ; then
+if [ "$STATUS_INTEGER" -ge "1" ] ; then
     echo "OK - Node sync progress: $STATUS_INTEGER %";
     exit 0;
 else 
-    echo "Initializing - Sync progress: $STATUS_INTEGER % < 4%";
+    echo "Initializing - Sync progress: $STATUS_INTEGER % < 1%";
     exit 1;
 fi
 

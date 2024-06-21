@@ -116,7 +116,7 @@ services:
       args:
         - CARDANO_DB_SYNC_IMAGE=${CARDANO_DB_SYNC_IMAGE}
       context: ./src/cardano-db-sync
-    # image:  ${CARDANO_DB_SYNC_IMAGE}
+    image:  ${CARDANO_DB_SYNC_IMAGE}
     platform: linux/x86_64
     hostname: cardano-db-sync
     command: [
@@ -228,8 +228,6 @@ services:
     image: ${CARDANO_GRAPHQL_BACKGROUND_IMAGE}
     #image: cardanofoundation/cardano-graphql-background:${CARDANO_GRAPHQL_VERSION:-8.0.1}-${NETWORK:-mainnet}
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy    
       cardano-graphql-hasura:
@@ -260,8 +258,6 @@ services:
       CACHE_ENABLED: ${CARDANO_GRAPHQL_SERVER_CACHE_ENABLED:-true}
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_SERVER_LOGGER_MIN_SEVERITY:-info}
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy
     expose:
@@ -280,7 +276,6 @@ services:
 #################################
 ####     token registry  ########
 #################################
-
 
   dbless-cardano-token-registry:
     image: dbless-cardano-token-registry:latest
@@ -309,8 +304,6 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${POSTGREST_HOST}
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy
     ports:
@@ -348,8 +341,6 @@ services:
       KOIOS_ARTIFACTS_SCHEMA: ${KOIOS_ARTIFACTS_SCHEMA}
       DBLESS_CARDANO_TOKEN_REGISTRY_DATA: /root/token-registry
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy      
     volumes:
@@ -369,8 +360,6 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${DANDELION_POSTGREST_HOST}
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy
     ports:
@@ -403,8 +392,6 @@ services:
     image: postgrest/postgrest:v12.0.2
     hostname: ${CARDANO_SQL_POSTGREST_HOST}
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy
     ports:
@@ -438,8 +425,6 @@ services:
     build:
       context: ./src/unimatrix
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy      
     restart: on-failure
@@ -471,8 +456,6 @@ services:
       CARDANO_SQL_POSTGREST_PORT: ${CARDANO_SQL_POSTGREST_PORT}
       UNIMATRIX_PORT: ${UNIMATRIX_PORT}
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy
     volumes:
@@ -572,8 +555,6 @@ services:
     image: swaggerapi/swagger-ui
     restart: on-failure
     depends_on:
-      cardano-node-ogmios:
-        condition: service_healthy
       postgress:
         condition: service_healthy
     ports:
