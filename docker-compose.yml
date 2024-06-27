@@ -75,17 +75,13 @@ services:
 #################################
 
   cardano-node-ogmios:
-    build:
-      args:
-        - CARDANO_NODE_OGMIOS_IMAGE=${CARDANO_NODE_OGMIOS_IMAGE}
-      context: ./src/cardano-node-ogmios
-    # image: ${CARDANO_NODE_OGMIOS_IMAGE}
+    image: ${CARDANO_NODE_OGMIOS_IMAGE}
     hostname: cardano-node
     #init: true
     platform: linux/x86_64
     restart: on-failure
     healthcheck:
-      test: ["CMD-SHELL", "/healthcheck.sh"]
+      test: ["CMD-SHELL", "/scripts/healthcheck.sh"]
       interval: 15s
       timeout: 2s
       retries: 1000000
@@ -109,7 +105,7 @@ services:
       #- ./configs/cardano/config/network/${NETWORK}:/config
       - node-db:${CARDANO_NODE_HOME}/db
       - node-ipc:${CARDANO_NODE_HOME}/ipc
-      #- ./scripts/:/scripts/
+      - ./scripts/cardano-node-ogmios/:/scripts/
 
   cardano-db-sync:
     build:
