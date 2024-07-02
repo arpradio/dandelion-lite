@@ -2,8 +2,8 @@
 # Global configuration
 # shellcheck disable=SC1091,SC2015
 
-VERSION=0.0.1
-NAME="admin tool"
+VERSION=0.0.2
+NAME="dandoman"
 # Get the full path of the current script's directory
 script_dir=$(dirname "$(realpath "${BASH_SOURCE[@]}")")
 # Remove the last folder from the path and rename it to KLITE_HOME
@@ -503,11 +503,11 @@ handle_env_file() {
 # Menu function with improved UI and submenus
 menu() {
     while true; do
-        choice=$(gum choose --height 15 --item.foreground 121 --cursor.foreground 39 "Tools" "Docker" "Setup" "Advanced" "Config" "Expose with NGROK" "$(gum style --foreground 160 "Exit")")
+        choice=$(gum choose --height 15 --item.foreground 121 --cursor.foreground 39 "Tools" "Docker" "Setup" "Advanced" "Config" "$(gum style --foreground 160 "Exit")")
 
         case "$choice" in
             "Tools")
-            setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "$(gum style --foreground 87 "gLiveView")" "$(gum style --foreground 87 "cntools")"  "$(gum style --foreground 117 "Enter PSQL")" "$(gum style --foreground 117 "DBs Lists")" "$(gum style --foreground 208 "Back")")
+            setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "$(gum style --foreground 87 "gLiveView")" "$(gum style --foreground 87 "cntools")"  "$(gum style --foreground 117 "Enter PSQL")" "$(gum style --foreground 117 "DBs Lists")" "$(gum style --foreground 117 "Expose with NGROK")" "$(gum style --foreground 208 "Back")")
             case "$setup_choice" in
                 "gLiveView")
                     # Find the Docker container ID with 'postgres' in the name
@@ -558,6 +558,18 @@ menu() {
                     fi
                     show_splash_screen
                     ;;
+                "Expose with NGROK")
+                    # Logic for Enter Postgres
+                    container_id=$(docker ps -qf "name=haproxy")
+                    if [ -z "$container_id" ]; then
+                        echo "No running Haproxy found."
+                        read -r -p "Press enter to continue"
+                    else
+                        ./scripts/deploy/ngrok.sh                        
+                    fi
+                    show_splash_screen
+                    ;;
+                    
             esac
             ;;
 
@@ -660,7 +672,7 @@ menu() {
                     # Logic for Docker Up
                     clear
                     show_splash_screen
-                    gum spin --spinner dot --spinner.bold --show-output --title.align center --title.bold --spinner.foreground 121 --title.foreground 121  --title "Koios Lite Starting services..." -- echo && docker compose -f "${KLITE_HOME}"/docker-compose.yml up -d
+                    gum spin --spinner dot --spinner.bold --show-output --title.align center --title.bold --spinner.foreground 121 --title.foreground 121  --title "Koios Lite Starting services..." -- echo && docker compose -f "${KLITE_HOME}"/docker-compose.yml up -d --remove-orphans
                     ;;
                 "Docker Down")
                     # Logic for Docker Down
@@ -861,10 +873,6 @@ menu() {
               esac
               ;;
 
-            "Expose with NGROK")
-              ./scripts/deploy/ngrok.sh
-              ;;
-
             "Exit")
               clear
               echo "Thanks for using Dandelion Lite Node."
@@ -896,8 +904,9 @@ show_splash_screen(){
   combined_layout1=$(gum style --foreground 121 --align center "$(cat ./scripts/.logo)")
 
   combined_layout2=$(gum join --horizontal \
-    "$(gum style --bold --align center "Dandelion Lite Node")" \
-    "$(gum style --faint --foreground 229 --align center " - $NAME v$VERSION")")
+    "$(gum style --bold --align center "${NODE_NAME:-'???'} | ")" \
+    "$(gum style --faint --foreground 229 --align center "${PROJ_NAME:-'???'}")" \
+    "$(gum style --faint --foreground 121 --align center " | - $NAME v$VERSION")")
 
   combined_layout=$(gum join --vertical \
     "$combined_layout1 " \
