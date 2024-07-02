@@ -229,7 +229,8 @@ services:
       POSTGRES_HOST: ${POSTGRES_HOST}      
       HASURA_URI: http://cardano-graphql-hasura:8080
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_BACKGROUND_LOGGER_MIN_SEVERITY:-info}
-      METADATA_SERVER_URI: ${CARDANO_GRAPHQL_BACKGROUND_METADATA_SERVER_URI:-https://tokens.cardano.org}
+      #Depends on network, so defaulting to https://tokens.cardano.org is not safe:
+      METADATA_SERVER_URI: ${CARDANO_GRAPHQL_BACKGROUND_METADATA_SERVER_URI}
     restart: on-failure
     secrets:
       - postgres_db
@@ -264,11 +265,30 @@ services:
         max-size: "200k"
         max-file: "10"
 
-
-
 #################################
 ####     token registry  ########
 #################################
+
+  cardano-token-registry:
+    #image: cardanofoundation/cf-token-metadata-registry-api:latest            
+    image: ${CARDANO_TOKEN_REGISTRY_IMAGE}
+    hostname: ${CARDANO_TOKEN_REGISTRY_HOSTNAME}
+    ports:
+      - ${CARDANO_TOKEN_REGISTRY_PORT:-8080}:8080
+    environment:
+      TOKEN_METADATA_SYNC_JOB: true
+      GITHUB_ORGANIZATION: ${CARDANO_TOKEN_REGISTRY_GITHUB_ORGANIZATION}
+      GITHUB_PROJECT_NAME: ${CARDANO_TOKEN_REGISTRY_GITHUB_PROJECT_NAME}
+      GITHUB_MAPPINGS_FOLDER: ${CARDANO_TOKEN_REGISTRY_GITHUB_MAPPINGS_FOLDER}
+      DB_USERNAME: ${POSTGRES_USER}
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+      DB_NAME: ${POSTGRES_DB}
+      DB_URL: jdbc:postgresql://${POSTGRES_HOST}:5432/${POSTGRES_DB}?currentSchema=${CARDANO_TOKEN_REGISTRY_SCHEMA}
+    depends_on:
+      postgress:
+        condition: service_healthy      
+    restart: on-failure
+
 
   dbless-cardano-token-registry:
     #image: dbless-cardano-token-registry:latest
