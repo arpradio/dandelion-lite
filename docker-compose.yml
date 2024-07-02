@@ -108,10 +108,6 @@ services:
       - ./scripts/cardano-node-ogmios/:/scripts/
 
   cardano-db-sync:
-    build:
-      args:
-        - CARDANO_DB_SYNC_IMAGE=${CARDANO_DB_SYNC_IMAGE}
-      context: ./src/cardano-db-sync
     image:  ${CARDANO_DB_SYNC_IMAGE}
     platform: linux/x86_64
     hostname: cardano-db-sync
@@ -132,7 +128,7 @@ services:
       #EXTRA_DB_SYNC_ARGS: ${CARDANO_DB_SYNC_ARGS:-}
     healthcheck:
       # test: ["CMD-SHELL", "/scripts/lib/dbsync_healthcheck.sh"]
-      test: ["CMD-SHELL", "/healthcheck.sh"]
+      test: ["CMD-SHELL", "/scripts/cardano-db-sync/healthcheck.sh"]
       interval: 60s
       timeout: 15s
       retries: 5000000
@@ -196,7 +192,8 @@ services:
 
   cardano-graphql-hasura:
     image: ${CARDANO_GRAPHQL_HASURA_IMAGE}
-    #image: cardanofoundation/cardano-graphql-hasura:${CARDANO_GRAPHQL_VERSION:-8.0.1}
+    #image: cardanofoundation/cardano-graphql-hasura:${CARDANO_GRAPHQL_VERSION:-8.0.1}    
+    hostname: cardano-graphql-hasura
     ports:
       - ${CARDANO_GRAPHQL_HASURA_PORT:-8090}:8080
     depends_on:
@@ -206,7 +203,8 @@ services:
         condition: service_healthy
     restart: on-failure
     environment:
-      POSTGRES_HOST: postgress
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      #POSTGRES_HOST: postgress      
       HASURA_GRAPHQL_ENABLE_CONSOLE: ${CARDANO_GRAPHQL_HASURA_ENABLE_CONSOLE:-true}
       HASURA_GRAPHQL_CORS_DOMAIN: ${CARDANO_GRAPHQL_HASURA_CORS_DOMAIN:-http://localhost:9695}
     secrets:
@@ -228,8 +226,8 @@ services:
       cardano-graphql-hasura:
         condition: service_started
     environment:
-      POSTGRES_HOST: postgress
-      HASURA_URI: http://cardano-graphql-hasura:${CARDANO_GRAPHQL_HASURA_PORT:-8090}
+      POSTGRES_HOST: ${POSTGRES_HOST}      
+      HASURA_URI: http://cardano-graphql-hasura:8080
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_BACKGROUND_LOGGER_MIN_SEVERITY:-info}
       METADATA_SERVER_URI: ${CARDANO_GRAPHQL_BACKGROUND_METADATA_SERVER_URI:-https://tokens.cardano.org}
     restart: on-failure
@@ -248,7 +246,7 @@ services:
     image: ${CARDANO_GRAPHQL_SERVER_IMAGE}
     #image: cardanofoundation/cardano-graphql-server:${CARDANO_GRAPHQL_VERSION:-8.0.1}-${NETWORK:-mainnet}
     environment:
-      HASURA_URI: http://cardano-graphql-hasura:${CARDANO_GRAPHQL_HASURA_PORT:-8090}
+      HASURA_URI: http://cardano-graphql-hasura:8080
       ALLOW_INTROSPECTION: ${CARDANO_GRAPHQL_SERVER_ALLOW_INTROSPECTION:-true}
       CACHE_ENABLED: ${CARDANO_GRAPHQL_SERVER_CACHE_ENABLED:-true}
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_SERVER_LOGGER_MIN_SEVERITY:-info}
@@ -416,10 +414,7 @@ services:
   unimatrix:
     #image: unimatrix-peer:latest
     build:
-      context: ./src/unimatrix
-    depends_on:
-      postgress:
-        condition: service_healthy      
+      context: ./src/unimatrix    
     restart: on-failure
     environment:
       UNIMATRIX_PORT: 8765
@@ -449,9 +444,6 @@ services:
       DANDELION_POSTGREST_PORT: ${DANDELION_POSTGREST_PORT}
       CARDANO_SQL_POSTGREST_PORT: ${CARDANO_SQL_POSTGREST_PORT}
       UNIMATRIX_PORT: ${UNIMATRIX_PORT}
-    depends_on:
-      postgress:
-        condition: service_healthy
     volumes:
       - ./configs/haproxy/:/usr/local/etc/haproxy/
       - ./scripts/:/scripts/

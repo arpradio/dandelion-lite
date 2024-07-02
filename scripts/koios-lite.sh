@@ -77,16 +77,17 @@ install_dependencies() {
 }
 
 
-
 # Check Docker function
 check_docker() {
-  # Check if docker command is available and outputs a version
-  docker_version=$(docker --version 2>/dev/null | grep "Docker version")
+  # Check if docker or podman (aliasing docker) command is available and outputs a version
+  docker_version=$(docker --version 2>/dev/null | grep "version")
   if [ -z "${docker_version}" ]; then
-    echo -e "\nDocker not installed.\n"
-    if gum confirm --unselected.foreground 231 --unselected.background 39 --selected.bold --selected.background 121 --selected.foreground 231 "Would you like to install Docker now?"; then
-      docker_install
-    else
+    echo -e "\nDocker or Podman not installed.\n"
+    if gum confirm --unselected.foreground 231 --unselected.background 39 --selected.bold --selected.background 121 --selected.foreground 231 "Would you like to install Podman now?"; then
+      podman_install
+    elif gum confirm --unselected.foreground 231 --unselected.background 39 --selected.bold --selected.background 121 --selected.foreground 231 "Would you like to install Docker now?"; then
+      docker_install      
+    else    
       return 1
     fi
   # Check if Docker is running by executing a test container
@@ -131,10 +132,9 @@ docker_status(){
   # Prepare the Docker status message
   docker_status=$(if check_docker; then
     gum style --foreground 121 --margin 1 "🐳 ${docker_version} Installed and Working"
-  else
+  else  
     echo "🐳 🔻";
   fi)
-
   # Function to check the status of a Docker container
   check_container_status() {
     local container_name="$1"
@@ -178,7 +178,121 @@ docker_status(){
     "$combined_layout"    
 }
 
-# Docker Innstall function
+
+# Check Podman function
+check_podman() {
+  # Check if podman command is available and outputs a version
+  docker_version=$(docker --version 2>/dev/null | grep "podman version")
+  if [ -z "${docker_version}" ]; then
+    echo -e "\Podman not installed.\n"
+    if gum confirm --unselected.foreground 231 --unselected.background 39 --selected.bold --selected.background 121 --selected.foreground 231 "Would you like to install Podman now?"; then
+      #docker_install
+      podman_install
+    else
+      return 1
+    fi
+  # Check if Podman is running by executing a test container
+  else
+    # Check if Podman is running
+    if ! docker run --rm hello-world > /dev/null 2>&1; then
+      echo -e "\Podman is not running.\n"
+      if gum confirm --unselected.foreground 231 --unselected.background 39 --selected.bold --selected.background 121 --selected.foreground 231 "Would you like to try starting Podman now?"; then
+        echo "Attempting to start Podman..."
+        # Starting Docker based on OS
+        os_name="$(uname -s)"
+        case "${os_name}" in
+          Linux*)
+            gum spin --spinner dot --title "Starting Podman..." -- echo && sudo systemctl --user enable --now podman.socket
+            ;;
+          Darwin*)
+            gum spin --spinner dot --title "Starting Podman..." -- && echo "TODO" && exit 1
+            ;;
+          *)
+            echo "Cannot start Podman automatically on this OS."                  
+            return 1
+            ;;
+        esac
+        # Recheck if Docker starts successfully
+        sleep 30  # Wait a bit before rechecking
+        if ! docker info > /dev/null 2>&1; then
+          echo -e "\nFailed to start Podman.\n"
+          return 1
+        else
+          echo "Podman started successfully."
+        fi
+      else
+        return 1
+      fi
+    fi
+  fi
+  # echo "Podman is running."
+  return 0
+}
+
+
+# Podman Install function
+podman_install() {
+  # Check if Podman was already installed
+  if command -v podman > /dev/null 2>&1 && command -v docker > /dev/null 2>&1 && docker-compose-v2 -v > /dev/null 2>&1 && docker compose -v > /dev/null 2>&1 ; then
+    echo "Podman and Podman aliasing for Docker and Docker Compose V2 seems already installed."
+    return 0
+  fi
+  
+  os_name="$(uname -s)"
+  case "${os_name}" in
+    Linux*)
+      source /etc/os-release
+      case "${ID}" in
+        ubuntu|debian)
+          # Add Docker's official GPG key:
+          sudo apt-get update
+          sudo apt-get install -y curl podman podman-docker        
+          gum spin --spinner dot --title "Installing Podman..." -- echo
+          curl -LO https://github.com/docker/compose/releases/download/v2.28.1/docker-compose-linux-x86_64
+          chmod +x docker-compose-linux-x86_64
+          sudo mv docker-compose-linux-x86_64 /usr/local/bin/docker-compose-v2
+          systemctl --user enable --now podman.socket
+          echo "# Start: Podman setup" >> ~/.bash_profile
+          echo "export DOCKER_HOST=unix://\$\(podman info --format '{{.Host.RemoteSocket.Path}}'\)" >> ~/.bash_profile
+          echo "alias docker=podman" >> ~/.bash_profile
+          echo "export PODMAN_COMPOSE_PROVIDER=/usr/local/bin/docker-compose-v2" >> ~/.bash_profile
+          echo "# End: Podman  setup" >> ~/.bash_profile
+          source ~/.bash_profile
+          docker -v 
+          docker-compose-v2 -v
+          ;;
+        fedora|rhel)
+          gum spin --spinner dot --title "Installing Podman..." -- echo && echo "TODO" && exit 1
+          ;;
+        arch|manjaro)
+          gum spin --spinner dot --title "Installing Podman..." -- echo && echo "TODO" && exit 1
+          ;;
+        alpine)
+          gum spin --spinner dot --title "Installing Podman..." -- echo && echo "TODO" && exit 1
+          ;;
+        *)
+          echo "Unsupported Linux distribution for Podman installation."
+          return 1
+          ;;
+      esac
+      # Done
+      ;;
+    Darwin*)
+      echo "TODO" && exit 1
+      ;;
+    MINGW*|MSYS*|CYGWIN*)
+      echo "For Windows, please install Podman Desktop manually."
+      return 1
+      ;;
+    *)
+      echo "Unsupported operating system."
+      return 1
+      ;;
+  esac
+}
+
+
+# Docker Install function
 docker_install() {
   # Check if Docker was already installed
   if command -v docker > /dev/null 2>&1 && docker compose version > /dev/null 2>&1 ; then
@@ -841,6 +955,12 @@ process_args() {
     --docker-install)
       docker_install
       ;;
+    --check-podman)
+      check_podman
+      ;;      
+    --podman-install)
+      podman_install
+      ;;      
     --handle-env-file)
       handle_env_file
       ;;
