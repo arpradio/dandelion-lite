@@ -629,7 +629,9 @@ configs:
       "dltTag": "${DLT}",
       "networkTag": "${NETWORK}",
       "name": "${NODE_NAME}",
-      "groups": "${NODE_GROUPS}",
+      "description": "${NODE_DESCRIPTION}",      
+      "ticker": "${NODE_TICKER}",
+      "groups": ${NODE_GROUPS},
       "extensions":[${NODE_EXTENSIONS}]
       }
   index_html:
@@ -639,25 +641,25 @@ configs:
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>GC Node - ${NODE_NAME} - ${DLT} - ${NETWORK}</title>
+          <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
           <!-- Meta Tags for Social Media -->
-          <meta name="description" content="This is '${NODE_NAME}', a Dandelion Lite Node, a ${DLT} ${NETWORK} node with backend APIs like ogmios, cardano-graphql, koios, token-registry, and postgrest.">
+          <meta name="description" content="${NODE_DESCRIPTION}">
           <meta property="og:title" content="GC Node">
-          <meta property="og:description" content="This is '${NODE_NAME}', a Dandelion Lite Node, a ${DLT} ${NETWORK} node with backend APIs like ogmios, cardano-graphql, koios, token-registry, and postgrest.">
+          <meta property="og:description" content="${NODE_DESCRIPTION}">
           <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
           <!-- <meta property="og:url" content="https://your-website.com"> -->
           <meta name="twitter:card" content="summary">
           <meta name="twitter:title" content="GC Node">
-          <meta name="twitter:description" content="This is '${NODE_NAME}', a Dandelion Lite Node, a ${DLT} ${NETWORK} node with backend APIs like ogmios, cardano-graphql, koios, token-registry, and postgrest.">   
+          <meta name="twitter:description" content="${NODE_DESCRIPTION}">   
           <!-- End of Meta Tags for Social Media -->
       </head>
       <body>
           <div class="container">
-              <h1>GC Node</h1>
-              <p>Welcome to the <b>Decentralized Dandelion Network!</b></p>
-              <p>This is <i>'${NODE_NAME}'</i>, a <b>Dandelion Lite Node</b>, a ${DLT} ${NETWORK} node with backend APIs.</p>
+              <h1><i>'${NODE_NAME}'</i> [${NODE_TICKER}]</h1>
+              <p>Welcome to the <b>Decentralized Dandelion Network!</b></p>              
+              <p><b>Description:</b> ${NODE_DESCRIPTION}</p>
               <p></p>
-              <p>APIs available on this Dandelion Node:</p>
+              <p>APIs available on this ${DLT} ${NETWORK} <b>Dandelion Lite Node</b>:</p>
               <ul class="api-list">
                   ${INDEX_LINKS}
               </ul>
