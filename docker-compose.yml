@@ -82,8 +82,8 @@ services:
     restart: on-failure
     healthcheck:
       test: ["CMD-SHELL", "/scripts/healthcheck.sh"]
-      interval: 15s
-      timeout: 2s
+      interval: 30s
+      timeout: 10s
       retries: 1000000
     logging:
       driver: "json-file"
