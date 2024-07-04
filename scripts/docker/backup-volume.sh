@@ -13,10 +13,14 @@ exportFileName="${fileName}.tar.gz"
 
 echo "Exporting volume '$sourceVolumeName' into backup file '${backupDir}$exportFileName' ..."
 
-docker run --rm \
-	--mount source=${sourceVolumeName},target=/volume \
-	-v ${backupDir}:/backup \
-	alpine \
+# on docker use:  
+#  --mount source=${sourceVolumeName},target=/volume \
+# on podman use:
+
+docker run --rm\
+	--mount type=volume,source=${sourceVolumeName},target=/volume\
+	-v ${backupDir}:/backup\
+	alpine\
 	bin/sh -c "apk update && apk add pigz && tar cvf - /volume | pigz > /backup/${exportFileName}"
 
 #tar -czvf /backup/${exportFileName} /volume
