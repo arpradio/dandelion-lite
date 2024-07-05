@@ -131,6 +131,9 @@ echo
 echo "Reloading systemd daemon..."
 sudo systemctl daemon-reload
 
+echo "Enabling services for ${USER} on boot"
+loginctl enable-linger $USER
+
 echo "Enabling and starting the service..."
 systemctl --user enable ${serviceName}.service
 systemctl --user start ${serviceName}.service
