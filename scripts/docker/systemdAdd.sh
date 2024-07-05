@@ -109,12 +109,16 @@ RequiresMountsFor=${podmanSocketMount}
 Type=simple
 RemainAfterExit=yes
 WorkingDirectory=$(dirname ${projectFile})
-#EnvironmentFile=${envFile}
-#Environment=PODMAN_USERNS=keep-id
-ExecStart=/bin/bash -c '${preExecCommands} && ${composePath} -f "${projectFile}" --env-file "${envFile}" up -d'
-ExecStop=/bin/bash -c '${preExecCommands} && ${composePath} -f "${projectFile}" --env-file "${envFile}" down'
-#ExecStart=${composePath} -f ${projectFile} up -d
-#ExecStop=${composePath} -f ${projectFile} down
+EnvironmentFile=${envFile}
+Environment=PODMAN_USERNS=keep-id
+ExecStart=/bin/bash -c '${preExecCommands} && ${composePath} -f "${projectFile}" --env-file "${envFile}" --user $(id -u) up -d'
+ExecStop=/bin/bash -c '${preExecCommands} && ${composePath} -f "${projectFile}" --env-file "${envFile}" --user $(id -u) down'
+
+#Environment=DOCKER_HOST="unix://$(podman info --format '{{.Host.RemoteSocket.Path}}')"
+#Environment=PODMAN_COMPOSE_PROVIDER=${composePath}
+#Environment=XDG_RUNTIME_DIR=/run/user/$(id -u)
+#ExecStart=podman compose -f "${projectFile}" --env-file "${envFile}" --user $(id -u) up -d
+#ExecStop=podman compose -f "${projectFile}" --env-file "${envFile}" --user $(id -u) down
 Restart=always
 TimeoutStartSec=0
 TimeoutStopSec=0
