@@ -575,7 +575,7 @@ menu() {
 
             "Setup")
               # Submenu for Setup with plain text options
-              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Full Backup" "Full Restore"  "$(gum style --foreground 208 "Back")")
+              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Full Backup" "Full Restore" "Run on system start"  "$(gum style --foreground 208 "Back")")
 
               case "$setup_choice" in
                 #"Initialise Cardano Node")
@@ -611,14 +611,21 @@ menu() {
                 "Full Backup")
 		  backupDir=${BACKUP_DIR:-$(pwd)}
 		  ./scripts/docker/full-backup.sh "${PROJ_NAME}_" "${backupDir}"
-                  show_splash_screen
+                  read -r -p "Press enter to continue"
+		  show_splash_screen
                   ;;
                 "Full Restore")
 		  backupDir=${BACKUP_DIR:-$(pwd)}
 		  ./scripts/docker/full-restore.sh "${PROJ_NAME}_" "${backupDir}"
+		  read -r -p "Press enter to continue"
                   show_splash_screen
                   ;;
-                #"Initialise Dbsync")
+		"Run on system start")
+		  ./scripts/docker/systemdAdd.sh ${PROJ_NAME} docker-compose.yml .env $PODMAN_COMPOSE_PROVIDER
+		  read -r -p "Press enter to continue"
+                  show_splash_screen
+                  ;;
+		#"Initialise Dbsync")
                 #    # Logic for installing Dbsync
                 #    container_id=$(docker ps -qf "name=${PROJ_NAME}-cardano-db-sync")
                 #    docker exec "$container_id" bash -c "/scripts/lib/install_dbsync.sh"

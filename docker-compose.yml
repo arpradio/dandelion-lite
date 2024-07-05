@@ -37,7 +37,7 @@ services:
 #      ls -ls $${EXPORTED_CONFIG} ;
 #      ./entrypoint.sh ;
 #      "
-#    restart: on-failure
+#    restart: always
 #    healthcheck:
 #      test: ["CMD-SHELL", "netstat -ntlp | grep 12798"]
 #      interval: 30s
@@ -53,7 +53,7 @@ services:
   # Important: https://github.com/cardano-community/guild-operators/pull/1261/files
 #  ogmios:
 #    image:  ${OGMIOS_IMAGE}
-#    restart: on-failure
+#    restart: always
 #    environment:
 #      NETWORK: ${NETWORK}
 #    command: [
@@ -79,7 +79,7 @@ services:
     hostname: cardano-node
     #init: true
     platform: linux/x86_64
-    restart: on-failure
+    restart: always
     healthcheck:
       test: ["CMD-SHELL", "/scripts/healthcheck.sh"]
       interval: 30s
@@ -143,7 +143,7 @@ services:
       - db-sync-data:/var/lib/cexplorer
       - node-ipc:/node-ipc
       - ./scripts/:/scripts/
-    restart: on-failure
+    restart: always
     stop_signal: SIGINT
     logging:
       driver: "json-file"
@@ -179,7 +179,7 @@ services:
       timeout: 5s
       retries: 100  
     command: postgres -c max_connections=200 -c wal_level=minimal -c max_wal_senders=0 -c synchronous_commit=off -c maintenance_work_mem=1024MB  -c  max_parallel_maintenance_workers=4
-    restart: on-failure
+    restart: always
     logging:
       driver: "json-file"
       options:
@@ -202,7 +202,7 @@ services:
         condition: service_healthy
       postgress:
         condition: service_healthy
-    restart: on-failure
+    restart: always
     environment:
       POSTGRES_HOST: ${POSTGRES_HOST}
       #POSTGRES_HOST: postgress      
@@ -232,7 +232,7 @@ services:
       LOGGER_MIN_SEVERITY: ${CARDANO_GRAPHQL_BACKGROUND_LOGGER_MIN_SEVERITY:-info}
       #Depends on network, so defaulting to https://tokens.cardano.org is not safe:
       METADATA_SERVER_URI: ${CARDANO_GRAPHQL_BACKGROUND_METADATA_SERVER_URI}
-    restart: on-failure
+    restart: always
     secrets:
       - postgres_db
       - postgres_password
@@ -259,7 +259,7 @@ services:
       - ${CARDANO_GRAPHQL_SERVER_PORT:-3100}
     ports:
       - ${CARDANO_GRAPHQL_SERVER_PORT:-3100}:3100
-    restart: on-failure
+    restart: always
     logging:
       driver: "json-file"
       options:
@@ -288,14 +288,14 @@ services:
     depends_on:
       postgress:
         condition: service_healthy      
-    restart: on-failure
+    restart: always
 
-
+#
 #  dbless-cardano-token-registry:
 #    #image: dbless-cardano-token-registry:latest
 #    build:
 #      context: ./src/dbless-cardano-token-registry
-#    restart: on-failure
+#    restart: always
 #    environment:
 #      NETWORK: ${NETWORK}
 #      #TOKEN_REGISTRY_MAPPINGS_DIR: ${DBLESS_CARDANO_TOKEN_REGISTRY_MAPPINGS_DIR:-/app/token-registry}
@@ -332,7 +332,7 @@ services:
       PGRST_DB_MAX_ROWS: 1000
       PGRST_DB_AGGREGATES_ENABLED: true
       PGRST_DB_EXTRA_SEARCH_PATH: "${POSTGREST_DB_EXTRA_SEARCH_PATH}"
-    restart: on-failure
+    restart: always
     logging:
       driver: "json-file"
       options:
@@ -361,7 +361,7 @@ services:
       - dbless-cardano-token-registry-data:/root/token-registry
     # Uncomment for persistent logs
     # - ./logs:/var/log
-    restart: unless-stopped
+    restart: always
 
 
 #################################
@@ -388,7 +388,7 @@ services:
       PGRST_DB_MAX_ROWS: 1000
       PGRST_DB_AGGREGATES_ENABLED: true
       PGRST_DB_EXTRA_SEARCH_PATH: "${DANDELION_POSTGREST_DB_EXTRA_SEARCH_PATH}"
-    restart: on-failure
+    restart: always
     logging:
       driver: "json-file"
       options:
@@ -420,7 +420,7 @@ services:
       PGRST_DB_MAX_ROWS: 1000
       PGRST_DB_AGGREGATES_ENABLED: true
       PGRST_DB_EXTRA_SEARCH_PATH: "${CARDANO_SQL_POSTGREST_DB_EXTRA_SEARCH_PATH}"
-    restart: on-failure
+    restart: always
     logging:
       driver: "json-file"
       options:
@@ -436,7 +436,7 @@ services:
     #image: unimatrix-peer:latest
     build:
       context: ./src/unimatrix    
-    restart: on-failure
+    restart: always
     environment:
       UNIMATRIX_PORT: 8765
     # static http server can be exposed as well
@@ -483,7 +483,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-    restart: on-failure
+    restart: always
     logging:
       driver: "json-file"
       options:
@@ -504,7 +504,7 @@ services:
 #    build:
 #      context: ./src/cardano-sql/companion
 #      target: production-build-stage
-#    restart: on-failure
+#    restart: always
 #    environment:
 #      NETWORK: ${NETWORK}
 #      DLT: ${DLT}
@@ -545,6 +545,8 @@ services:
   #   volumes:
   #     - /var/run/docker.sock:/var/run/docker.sock
   #     - /var/lib/docker/volumes:/var/lib/docker/volumes
+  #   restart: always
+
 
   # portainer:
   #   image: portainer/portainer-ce:latest
@@ -555,14 +557,14 @@ services:
   #   volumes:
   #     - portainer-data:/data
   #     - /var/run/docker.sock:/var/run/docker.sock
-  #   restart: unless-stopped
+  #   restart: always
   #   depends_on:
   #     - portainer-agent
 
   # Develpoment and Testing
   # swagger:
   #   image: swaggerapi/swagger-ui
-  #   restart: on-failure
+  #   restart: always
   #   depends_on:
   #     postgress:
   #       condition: service_healthy
@@ -585,7 +587,7 @@ services:
   #       POSTGRES_PORT: ${POSTGRES_PORT}
   #       POSTGRES_USER: ${POSTGRES_USER}
   #       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-  #   restart: on-failure
+  #   restart: always
   #   environment:
   #       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
   #       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
