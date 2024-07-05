@@ -291,22 +291,22 @@ services:
     restart: on-failure
 
 
-  dbless-cardano-token-registry:
-    #image: dbless-cardano-token-registry:latest
-    build:
-      context: ./src/dbless-cardano-token-registry
-    restart: on-failure
-    environment:
-      NETWORK: ${NETWORK}
-      #TOKEN_REGISTRY_MAPPINGS_DIR: ${DBLESS_CARDANO_TOKEN_REGISTRY_MAPPINGS_DIR:-/app/token-registry}
-      TOKEN_REGISTRY_MAPPINGS_DIR: /root/token-registry/data
-      #PORT: ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}
-      PORT: 3042
-    ports:
-      - ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}:3042
-    # TODO: link to persistent volume
-    volumes:
-      - dbless-cardano-token-registry-data:/root/token-registry
+#  dbless-cardano-token-registry:
+#    #image: dbless-cardano-token-registry:latest
+#    build:
+#      context: ./src/dbless-cardano-token-registry
+#    restart: on-failure
+#    environment:
+#      NETWORK: ${NETWORK}
+#      #TOKEN_REGISTRY_MAPPINGS_DIR: ${DBLESS_CARDANO_TOKEN_REGISTRY_MAPPINGS_DIR:-/app/token-registry}
+#      TOKEN_REGISTRY_MAPPINGS_DIR: /root/token-registry/data
+#      #PORT: ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}
+#      PORT: 3042
+#    ports:
+#      - ${DBLESS_CARDANO_TOKEN_REGISTRY_PORT:-3042}:3042
+#    # TODO: link to persistent volume
+#    volumes:
+#      - dbless-cardano-token-registry-data:/root/token-registry
 
 #################################
 ### koios + postgrest + cron  ###
