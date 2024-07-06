@@ -70,80 +70,58 @@ echo
 
 echo "Installing '${projectName}'..."
 
-
-#serviceName=$(basename ${projectFile} .yml)
 serviceName=${projectName}
-#serviceFile=/etc/systemd/system/${serviceName}.service
-serviceFile=/home/${USER}/.config/systemd/user/${serviceName}.service
-#serviceFile=${serviceName}.service
+serviceFile=/etc/systemd/system/${serviceName}.service
 
 podmanSocket=$(podman info --format '{{.Host.RemoteSocket.Path}}')
 podmanSocketMount=$(dirname "$podmanSocket")
 
-preExecCommands=$(cat <<EOF
-export DOCKER_HOST=unix://$(podman info --format '{{.Host.RemoteSocket.Path}}') && \
-alias docker=podman && \
+export DOCKER_HOST=unix://$(podman info --format '{{.Host.RemoteSocket.Path}}')
 export PODMAN_COMPOSE_PROVIDER=${composePath}
-EOF
-)
 
-composePath="docker compose"
+scriptPath=$(dirname "$(realpath "$0")")
 
 echo "Creating systemd service file '${serviceFile}'..."
 echo
-cat <<EOF | tee ${serviceFile}
+cat <<EOF | sudo tee ${serviceFile}
 [Unit]
 Description=Docker Compose Application Service
 Wants=network-online.target
 After=network-online.target
 Requires=podman.service
-#RequiresMountsFor=%t/containers
 RequiresMountsFor=${podmanSocketMount}
-#Requires=docker.service
-#After=docker.service
 
 [Service]
-#User=$(id -un)
-#Group=$(id -gn)
-#Type=oneshot
 Type=simple
 RemainAfterExit=yes
-WorkingDirectory=$(dirname ${projectFile})
-EnvironmentFile=${envFile}
-Environment=PODMAN_USERNS=keep-id
-ExecStart=/bin/bash -c '${preExecCommands} && ${composePath} -f "${projectFile}" --env-file "${envFile}" --user $(id -u) up -d'
-ExecStop=/bin/bash -c '${preExecCommands} && ${composePath} -f "${projectFile}" --env-file "${envFile}" --user $(id -u) down'
-
-#Environment=DOCKER_HOST="unix://$(podman info --format '{{.Host.RemoteSocket.Path}}')"
-#Environment=PODMAN_COMPOSE_PROVIDER=${composePath}
-#Environment=XDG_RUNTIME_DIR=/run/user/$(id -u)
-#ExecStart=podman compose -f "${projectFile}" --env-file "${envFile}" --user $(id -u) up -d
-#ExecStop=podman compose -f "${projectFile}" --env-file "${envFile}" --user $(id -u) down
+Environment=DOCKER_HOST=unix://$(podman info --format '{{.Host.RemoteSocket.Path}}')
+Environment=PODMAN_COMPOSE_PROVIDER=$composePath
+Environment=USER_NAME=$USER
+Environment=ENV_FILE_PATH=$envFile
+Environment=PROJECT_FILE_PATH=$projectFile
+Environment=PODMAN_FILE_PATH=$(which podman)
+ExecStart=$scriptPath/compose.sh "up -d"
+ExecStop=$scriptPath/compose.sh "down"
 Restart=always
-TimeoutStartSec=0
-TimeoutStopSec=0
 
 [Install]
-#WantedBy=multi-user.target
-WantedBy=default.target
+WantedBy=multi-user.target
 EOF
 
 echo
 
-#exit 0
-
 echo "Reloading systemd daemon..."
 sudo systemctl daemon-reload
 
-echo "Enabling services for ${USER} on boot"
-loginctl enable-linger $USER
-
 echo "Enabling and starting the service..."
-systemctl --user enable ${serviceName}.service
-systemctl --user start ${serviceName}.service
+systemctl enable ${serviceName}.service
+#systemctl start ${serviceName}.service
 
-echo "Service '${serviceName}' has been installed and started."
-
-#journalctl -u ${serviceName}
-
+echo "Service '${serviceName}' has been installed. Useful commands:"
+echo
+echo "    start:  systemctl start  ${serviceName}"
+echo "    stop:   systemctl stop   ${serviceName}"
+echo "    status: systemctl status ${serviceName}"
+echo "    logs:   journalctl -u ${serviceName}"
+echo
 
