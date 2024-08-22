@@ -1,62 +1,73 @@
-![Example Image](images/Koios.png)
-# GC Node
+<!-- ![Example Image](images/Koios.png) -->
 
-GC Node is based on Koios Lite.
+```
+___  ____ __ _ ___  ____ _    _ ____ __ _
+|__> |--| | \| |__> |=== |___ | [__] | \|
+                                   lite
+```
+# Dandelion Lite
 
-Koios Lite is a streamlined version of the Koios ecosystem, designed for efficient data synchronization and querying on the Cardano blockchain. This setup uses Docker to create a local environment that mirrors the production setup, making it ideal for development and testing.
+Dandelion is a community-supported project led by GimbaLabs and operated by La PEACEpool Cardano repsist₳nce. Every Cardano API available. From bottom to top, from testnet to mainnet.
+
+Dandelion Lite is a convenient way of deploying your own local Cardano Node and a set of Dandelion APIs. It uses docker-compose, podman and handy scripts to ease the setup and reduce node syncronization times by using volume snapshots for backup and restore procedures. Dandelion Lite is a fork of Koios Lite, extending it beyond Koios, created by GameChanger Finance and M2Tec teams.
 
 ## Components
 
 This setup includes several key components:
 
-- `cardano-node`: Runs the Cardano node, connecting to either the mainnet or a testnet.
+- `cardano-node-ogmios`: Runs the Cardano node plus the lightweight bridge interface Ogmios.
 - `cardano-db-sync`: Synchronizes the blockchain data to a PostgreSQL database.
-- `postgres`: The PostgreSQL database, storing the synchronized blockchain data.
-- `postgrest`: Serves a RESTful API for querying the blockchain data stored in PostgreSQL.
 - `haproxy`: A high-performance proxy to distribute network traffic among various components.
+- `postgres`: The PostgreSQL database, storing the synchronized blockchain data.
+- `koios`: RESTful API for Cardano, based on PostGREST. 
+- `cardano-graphql`: Official GraphQL API for Cardano.
+- `cardano-token-registry`: Official Token Registry API for Cardano.
+- `dandelion-postgrest`: Dandelion PostGREST API for Cardano, a RESTful API for querying the blockchain data stored in PostgreSQL
+- `cardano-sql`: PosgreSQL-over-HTTP API gateway wrapping several services such as
+    - ogmios
+    - cardano-db-sync
+    - cardano-graphql
+    - koios
+    - dandelion-postgrest
+    - cardano-token-registry
+    - more..
+- `manifest`: JSON information of deployed Dandelion Lite Node, required for client applications and for joining the Dandelion Network of decentralized nodes
+- `home`: HTML landing website of deployed Dandelion Lite Node 
+
 
 Each service is containerized and managed via Docker, ensuring easy deployment and scalability.
 
-## Local Testing
-
-For local testing:
-
-1. Clone the repository to your local machine.
-2. Make sure Docker and Docker Compose are installed.
-3. Configure the environment variables in a `.env` file based on the provided `env.example`.
-4. Run `docker compose up -d` to start the services.
-5. Access the local endpoints as needed for testing.
-
 ## Deployment
 
-To deploy Koios Lite:
+To deploy or run Dandelion Lite:
 
-1. Ensure all environment variables are correctly set for the production environment.
-2. Use the command `docker compose up -d` to start all the services in detached mode.
-3. Use Admin tool to browse to `Tools` > `gLiveView` to monitor that node has reached tip and `Docker` > `Docker Status` to ensure none of the containers are `DOWN` or `UP (unhealthy)` state.
-4. Execute `Setup` > `Initialise Postgres` to deploy custom RPCs and test via PostgREST/HAProxy endpoints using curl:
+1. Clone the repository to your local machine.
+2. Run Admin Tool `scripts/dandoman.sh` for setting up an initial `.env` file and installing dependencies such as Docker Compose and Podman
+3. Edit/configure the environment variables the `.env` file. You can base it on the provided `env.example.<NETWORK>`.
+4. Run `scripts/dandoman.sh` > `Docker->Docker Up/Reload` on Admin Tool or `docker compose up -d` to start the services.
+5. Monitor that node has reached tip and `scripts/dandoman.sh` > `Docker->Docker Status` to ensure none of the containers are `DOWN` or `UP (unhealthy)` state.
+4. Once on tip, execute `scripts/dandoman.sh` > `Setup->Initialise Postgres` to deploy custom RPCs and test via PostgREST/HAProxy endpoints using curl:
 ```bash
-# PostgREST tip check
-curl http://127.0.0.1:8050/rpc/tip
 
-# HAProxy tip check
-curl http://127.0.0.1:8053/api/v1/tip
+# Koios tip check
+curl http://127.0.0.1:8050/koios/v1/tip
+
 ```
 
 Remember to secure your deployment according to best practices, including securing your database and API endpoints.
 
 
 ## Admin tool
-A simple script to interact with the all the components of a Koios Lite Node:
+A simple script to interact with the all the components of a Dandelion Lite Node:
 [Admin Tool Documentation](AdminTool.md)
 
 ```bash
->scripts/koios-lite.sh --help
+>scripts/dandoman.sh --help
 
-Koios Administration Tool Help Menu:
+Dandelion Lite Administration Tool Help Menu:
 ------------------------------------
 
-Welcome to the Koios Administration Tool Help Menu.
+Welcome to the Dandelion Lite Administration Tool Help Menu.
 
 Below are the available commands and their descriptions:
 

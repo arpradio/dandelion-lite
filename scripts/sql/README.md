@@ -1,4 +1,4 @@
-# Postgres SQL customizations
+# Postgres SQL migrations
 
 ## What's this?
 
@@ -6,9 +6,14 @@ A system that allows you to shape and add extra functionality to the bare-bone d
 
 The sql files in this directory are processed and applied to PostgresDB **recursively and in order**. 
 
-This is done by `scripts/lib/install_postgres.sh`, which can be executed manually from `scripts/koios-lite.sh` on `Setup->Initialize Postgres` or from cron automatically. In both ways the script will be executed inside `postgress` container (PostgresDB service)
+This is executed by: 
+- `scripts/lib/install_postgres.sh`, which can be executed manually from `scripts/dandoman.sh` on `Setup->Initialize Postgres` 
+- `scripts/lib/reset_postgres.sh`, which can be executed manually from `scripts/dandoman.sh` on `Setup->Reset Postgres` 
+- or from cron automatically (TODO: test and enable this feature).
+ 
+In all cases the script will be executed inside `postgress` container (PostgresDB service)
 
-Running the `install_postgres.sh` script outside `postgress` container won't work. This is why to allow these replacements to take place, you must pass the target env-vars to the `postgress` environment variables in `docker-compose.yml`.
+Running the `.sh` scripts outside `postgress` container won't work. This is why to allow these replacements to take place, you must pass the target env-vars to the `postgress` environment variables in `docker-compose.yml`.
 
 ## Rules
 
@@ -28,9 +33,12 @@ This extensible variable system allows you to easily update these external proje
 
 ## Notes
 
-Is adviced to test this always from zero: by restoring/droping `PostgresDb` database, starting containers again and run `Setup -> Initialize Postgres` on `koios-lite.sh` and fix errors based on the shown logs. 
+Is adviced to test this always from zero: by restoring/droping `PostgresDb` database, starting containers again and run `Setup -> Initialize Postgres` on `dandoman.sh` and fix errors based on the shown logs. 
 
 Creating indexes by these sql files will take a while specially on an already indexed Cardano Mainnet database, this is normal. You can increase resources allocated for these tasks to speedup the process on `postgress` service, in `docker-compose.yaml` file, like `postgres -c maintenance_work_mem=1024MB  -c  max_parallel_maintenance_workers=4`
+
+`Setup -> Reset Postgres` on `dandoman.sh` uninstalls all the SQL migrations on `/scripts/sql/rpc`. This is useful for example when migrating to a mayor cardano-db-sync release for keeping indexed data intact and let the indexer apply it's own migration files without other views and relationships applied on top blocking the upgrade process.
+In other terms: it resets db up to cardano-db-sync level, as if only the indexer data exists on db
 
 ### Koios Artifacts
 

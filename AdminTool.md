@@ -1,7 +1,7 @@
-# Koios Administration Tool
+# Dandoman: Dandelion Lite Administration Tool
 
 ## Introduction
-The Koios Administration Tool is a comprehensive script designed to manage and monitor various aspects of a Koios Lite Node environment. This tool offers functionalities ranging from installing dependencies to handling Docker containers, managing environment files, and providing a user-friendly interactive menu for various administrative tasks. It streamlines administration of Koios Lite Node and related components, making it accessible and efficient for users.
+The Administration Tool is a comprehensive script designed to manage and monitor various aspects of a Dandelion Lite Node environment. This tool offers functionalities ranging from installing dependencies to handling Docker containers, managing environment files, and providing a user-friendly interactive menu for various administrative tasks. It streamlines administration of Dandelion Lite Node and related components, making it accessible and efficient for users.
 
 ## Features and Commands
 ### --install-dependencies
@@ -99,7 +99,7 @@ Shows the logs for the Postgres container.
 ### --help
 ```bash
 # Displaying help menu
-echo "Koios Administration Tool Help Menu:"
+echo "Dandoman Administration Tool Help Menu:"
 # ... additional help menu details ...
 ```
 Displays the help menu, outlining all available commands and their descriptions.
@@ -108,19 +108,19 @@ Displays the help menu, outlining all available commands and their descriptions.
 To use this tool, clone the repository and run the script with the desired arguments or without any to access the interactive menu. Ensure you have the required permissions to execute the script.
 
 ```bash
-git clone https://github.com/koios-official/Lite-Node.git
+git clone https://github.com/GameChangerFinance/dandelion-lite.git
 cd Lite-Node
-chmod +x ./scripts/koios-lite.sh
-./scripts/koios-lite.sh [--optional-argument]
+chmod +x ./scripts/dandoman.sh
+./scripts/dandoman.sh [--optional-argument]
 ```
 
-For more detailed usage instructions, run `./koios-lite.sh --help`.
+For more detailed usage instructions, run `./dandoman.sh --help`.
 
 
 Additionally, we have incorporated a user-friendly interface that can be accessed simply by running the script without any arguments:
 
 ```bash
-./scripts/koios-lite.sh
+./scripts/dandoman.sh
 ```
 
 ![Example Image](images/Screenshot.png)

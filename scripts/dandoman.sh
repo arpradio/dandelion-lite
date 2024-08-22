@@ -575,7 +575,7 @@ menu() {
 
             "Setup")
               # Submenu for Setup with plain text options
-              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Full Backup" "Full Restore" "Run on system start"  "$(gum style --foreground 208 "Back")")
+              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Reset Postgres" "Full Backup" "Full Restore" "Run on system start"  "$(gum style --foreground 208 "Back")")
 
               case "$setup_choice" in
                 #"Initialise Cardano Node")
@@ -596,13 +596,26 @@ menu() {
                     echo "No running PostgreSQL container found."
                     read -r -p "Press enter to continue"
                   else
+                    read -p "Press key to continue.. (Ctrl + C to abort)" -n1 -s
+                    echo
                     # Executing commands in the found container
                     docker exec "$container_id" bash -c "/scripts/lib/install_postgres.sh"
-                    echo -e "SQL scripts have finished processing, following scripts were executed successfully:\n"
-                    docker exec "$container_id" bash -c "cat /scripts/sql/rpc/Ok.txt"
-                    echo -e "\n\nThe following errors were encountered during processing:\n"
-                    docker exec "$container_id" bash -c "cat /scripts/sql/rpc/NotOk.txt"
-                    echo -e "\n\n"
+                    read -r -p "Press enter to continue"
+                  fi
+                  show_splash_screen
+                  ;;
+                  
+                "Reset Postgres")
+                  # Logic for installing Postgres
+		  container_id=$(docker ps -qf "name=${PROJ_NAME}-postgress")
+                  if [ -z "$container_id" ]; then
+                    echo "No running PostgreSQL container found."
+                    read -r -p "Press enter to continue"
+                  else
+                    read -p "Press key to continue.. (Ctrl + C to abort)" -n1 -s
+                    echo
+                    # Executing commands in the found container
+                    docker exec "$container_id" bash -c "/scripts/lib/reset_postgres.sh"
                     read -r -p "Press enter to continue"
                   fi
                   show_splash_screen

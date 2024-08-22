@@ -13,7 +13,7 @@
 ## Goals:
 - make easier to pull changes from koios-lite, koios-artifact, and other popular project's to maintain the project
 - make services modular and optional for end users
-- in the future containers, SQL and CRON extensions will be enabled/disabled from koios-lite.sh menu
+- in the future containers, SQL and CRON extensions will be enabled/disabled from dandoman.sh menu
 
 ---
 
@@ -33,7 +33,7 @@
 - [x] gum color codes on images/ for menu development
 - [x] new logo, TODO.md, pics, and some docs
 
-### scripts/koios-lite.sh menu
+### scripts/dandoman.sh menu
 - [x] added ogmios functions
 - [x] added unimatrix functions
 - [x] added postgres db volume removal function
