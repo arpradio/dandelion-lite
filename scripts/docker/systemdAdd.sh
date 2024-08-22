@@ -123,5 +123,8 @@ echo "    start:  systemctl start  ${serviceName}"
 echo "    stop:   systemctl stop   ${serviceName}"
 echo "    status: systemctl status ${serviceName}"
 echo "    logs:   journalctl -u ${serviceName}"
+echo 
+echo "You should set 'KillUserProcesses=no' on '/etc/systemd/logind.conf'" 
+echo " and run 'systemctl restart systemd-logind'"
 echo
 
