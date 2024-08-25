@@ -102,6 +102,7 @@ Environment=USER_NAME=$USER
 Environment=ENV_FILE_PATH=$envFile
 Environment=PROJECT_FILE_PATH=$projectFile
 Environment=PODMAN_FILE_PATH=$(which podman)
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 ExecStart=$scriptPath/compose.sh "up -d"
 ExecStop=$scriptPath/compose.sh "down"
 Restart=always
