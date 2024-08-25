@@ -88,8 +88,10 @@ cat <<EOF | sudo tee ${serviceFile}
 Description=Docker Compose Application Service
 Wants=network-online.target
 After=network-online.target
-Requires=podman.service
-RequiresMountsFor=${podmanSocketMount}
+#Requires=podman.service
+#RequiresMountsFor=${podmanSocketMount}
+StartLimitIntervalSec=0
+StartLimitBurst=0
 
 [Service]
 Type=simple
@@ -103,12 +105,16 @@ Environment=PODMAN_FILE_PATH=$(which podman)
 ExecStart=$scriptPath/compose.sh "up -d"
 ExecStop=$scriptPath/compose.sh "down"
 Restart=always
+RestartSec=5min
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target default.target
 EOF
 
 echo
+
+echo "Enabling persistent execution beyond user session..."
+loginctl enable-linger
 
 echo "Reloading systemd daemon..."
 sudo systemctl daemon-reload
