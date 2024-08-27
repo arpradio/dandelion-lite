@@ -16,11 +16,12 @@ The script files in this directory are scheduled with `cron`.
 
 ### Koios Artifacts
 
-Update procedure for `scripts/cron/koios-artifacts/`:
+Update procedure for `scripts/cron/koios-artifacts-<VERSION>/`:
 - Download and extract latest release from [koios artifacts](https://github.com/cardano-community/koios-artifacts/tags)
-- copy `*.sh` files  (and dependencies if any) from `koios-artifacts-<VERSION>/files/grest/cron/jobs` into `scripts/cron/koios-artifacts/`
+- copy `*.sh` files  (and dependencies if any) from `koios-artifacts-<VERSION>/files/grest/cron/jobs` into `scripts/cron/koios-artifacts-<VERSION>/`
 - environment variables injection (check working files as reference to learn how to do it):
     - replace `cexplorer` for `${POSTGRES_DB}`
     - replace `grest` or `GREST` postgresDb schema name to `${KOIOS_ARTIFACTS_SCHEMA}` 
     - adapt postgresDb calls with `${DB_NAME}` and `${POSTGRES_HOST}` environment variables, like `$(psql ${DB_NAME} -h ${POSTGRES_HOST} -c "select last_value from ${KOIOS_ARTIFACTS_SCHEMA}.control_table where key='asset_registry_commit'" -t | xargs)"`
 - check for unexpected changes that require further actions.
+- update `KOIOS_VERSION` environment variable with new version number on `.env` and all `.env.example.<NETWORK>` files

@@ -42,9 +42,9 @@ In other terms: it resets db up to cardano-db-sync level, as if only the indexer
 
 ### Koios Artifacts
 
-Update procedure for `scripts/sql/rpc/20_koios-artifacts`:
+Update procedure for `scripts/sql/rpc/20_koios-artifacts-<VERSION>`:
 - Download and extract latest release from [koios artifacts](https://github.com/cardano-community/koios-artifacts/tags)
-- copy `koios-artifacts-<VERSION>/files/grest/rpc` as `scripts/sql/rpc/20_koios-artifacts`
+- copy `koios-artifacts-<VERSION>/files/grest/rpc` as `scripts/sql/rpc/20_koios-artifacts-<VERSION>`
 - This sub directory needs some file prioritization in order to work properly. Rename these directories and files this way: 
     - `/db-scripts` as  `/000_db-scripts`
     - `/db-scripts/reset_grest.sql` as `/000_db-scripts/01_reset_grest.sql`
@@ -53,3 +53,4 @@ Update procedure for `scripts/sql/rpc/20_koios-artifacts`:
 - coment everything on `/000_db-scripts/01_reset_grest.sql` and only leave these uncomented:
     `DROP SCHEMA IF EXISTS grest CASCADE;` (commented lines are called on `basics.sql`)
 - check for unexpected changes that require further actions.
+- update `KOIOS_VERSION` environment variable with new version number on `.env` and all `.env.example.<NETWORK>` files
