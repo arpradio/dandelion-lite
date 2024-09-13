@@ -133,11 +133,11 @@ services:
       timeout: 15s
       retries: 5000000
     depends_on:
-      # Depend on both services to be healthy before starting.
+      # Depend on both services to be started before starting.
       cardano-node-ogmios:
-        condition: service_healthy
+        condition: service_started
       postgress:
-        condition: service_healthy
+        condition: service_started
     volumes:
       - ./configs/cardano/config/network/${NETWORK}:/config
       - db-sync-data:/var/lib/cexplorer

@@ -34,8 +34,34 @@ This setup includes several key components:
 - `manifest`: JSON information of deployed Dandelion Lite Node, required for client applications and for joining the Dandelion Network of decentralized nodes
 - `home`: HTML landing website of deployed Dandelion Lite Node 
 
-
 Each service is containerized and managed via Docker, ensuring easy deployment and scalability.
+
+## Hardware Requirements (13-09-2024):
+
+Suggested setup for concurrent **Cardano Mainnet** and **Preproduction Testnet** consists on
+
+- 128GB RAM (DDR4 ECC RAM)
+- 2TB M2 NVME for storage
+- Dual Intel Xeon E5 2680 v4 (LGA 2011-3 motherboard)
+
+### Cardano Mainnet volume sizes
+
+
+    25G     /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_db-sync-data
+    445M    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_dbless-cardano-token-registry-data
+    185G    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_node-db
+    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_node-ipc
+    518G    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_postgresdb
+    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_unimatrix-data
+
+### Cardano Pre-Production Testnet volume sizes
+
+    3.7G    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_db-sync-data
+    41M     /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_dbless-cardano-token-registry-data
+    8.4G    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_node-db
+    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_node-ipc
+    15G     /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_postgresdb
+    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_unimatrix-data
 
 ## Deployment
 

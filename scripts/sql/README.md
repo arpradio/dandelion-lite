@@ -52,5 +52,5 @@ Update procedure for `scripts/sql/rpc/20_koios-artifacts-<VERSION>`:
     - `/pool/pool_delegators.sql` as `/pool/01_pool_delegators.sql`
 - coment everything on `/000_db-scripts/01_reset_grest.sql` and only leave these uncomented:
     `DROP SCHEMA IF EXISTS grest CASCADE;` (commented lines are called on `basics.sql`)
-- check for unexpected changes that require further actions.
 - update `KOIOS_VERSION` environment variable with new version number on `.env` and all `.env.example.<NETWORK>` files
+- check for unexpected changes that require further actions.
