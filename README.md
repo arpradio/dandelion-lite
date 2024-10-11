@@ -31,7 +31,7 @@ This setup includes several key components:
 - `cardano-graphql`: Official GraphQL API for Cardano.
 - `cardano-token-registry`: Official Token Registry API for Cardano.
 - `dandelion-postgrest`: Dandelion PostGREST API for Cardano, a RESTful API for querying the blockchain data stored in PostgreSQL
-- `cardano-sql`: PosgreSQL-over-HTTP API gateway wrapping several services such as
+- `cardano-sql`: (MVP - WIP) PosgreSQL-over-HTTP API gateway wrapping several services such as
     - ogmios
     - cardano-db-sync
     - cardano-graphql
