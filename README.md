@@ -5,11 +5,19 @@ ___  ____ __ _ ___  ____ _    _ ____ __ _
 |__> |--| | \| |__> |=== |___ | [__] | \|
                                    lite
 ```
-# Dandelion Lite
+# 🚀 Join the Dandelion Network!
 
-Dandelion is a community-supported project led by GimbaLabs and operated by La PEACEpool Cardano repsist₳nce. Every Cardano API available. From bottom to top, from testnet to mainnet.
+**Join the Dandelion Network as a DNO (Dandelion Node Operator) for helping students and developers to jump into building with ease and help us decentralize Cardano dapps and services further**
 
-Dandelion Lite is a convenient way of deploying your own local Cardano Node and a set of Dandelion APIs. It uses docker-compose, podman and handy scripts to ease the setup and reduce node syncronization times by using volume snapshots for backup and restore procedures. Dandelion Lite is a fork of Koios Lite, extending it beyond Koios, created by GameChanger Finance and M2Tec teams.
+*DNOs will be incentivized in the future, we are actively working on modular, and client side revenue channels and alternative compensation methods for your efforts. For now please support us on Catalyst to walk our first steps together*:
+
+[ ❤️ Support the Dandelion Network on Catalyst](https://github.com/GameChangerFinance/gamechanger.wallet/blob/main/catalyst/FUND13.md)
+
+# What's this?
+
+**Dandelion** is a community-supported project led by GimbaLabs and operated by La PEACEpool Cardano repsist₳nce. Every Cardano API available. From bottom to top, from testnet to mainnet.
+
+**Dandelion Lite** is a convenient way of deploying your own local Cardano Node and a set of Dandelion APIs. It uses docker-compose, podman and handy scripts to ease the setup and reduce node syncronization times by using volume snapshots for backup and restore procedures. Dandelion Lite is a fork of Koios Lite, extending it beyond Koios, created by GameChanger Finance and M2Tec teams.
 
 ## Components
 
@@ -164,7 +172,7 @@ Syncing #Cardano node and databases can take even more than a week, it is advice
 ### Run a Full Deploy Restore
 
 This will **WIPE ALL YOUR DEPLOYMENT DATA** and will restore a previous backup:
-1. Set the `BACKUP_DIR` environment variable on `.env` file with the location on where you want to read the stored files, like `BACKUP_DIR="/home/${USER}/backups/${NETWORK}/"`. Check [Volume Backup Sizes](#volume-backup-sizes) for estimating the required size.
+1. Set the `BACKUP_DIR` environment variable on `.env` file with the location from where you want to read the stored files, like `BACKUP_DIR="/home/${USER}/backups/${NETWORK}/"`. Check [Volume Backup Sizes](#volume-backup-sizes) for estimating the required size.
 2. Execute `scripts/dandoman.sh` > `Setup->Full restore` and follow steps.
 
 
@@ -172,7 +180,7 @@ This will **WIPE ALL YOUR DEPLOYMENT DATA** and will restore a previous backup:
 
 You can terminate your connections with SSL encryption by setting up SSL certificate on Haproxy
 
-1. Place your `server.pem` file on `config/ssl/`. You can create a self signed certificate using `$ ./scripts/ssl/keygen.sh`
+1. Place your `server.pem` file on `config/ssl/`. You can create a self signed certificate like this `$ ./scripts/ssl/keygen.sh <domain> <file-prefix>"`
 2. Uncomment SSL line and comment the default one on `config/haproxy/haproxy.cfg`, like this:
 
 ```
