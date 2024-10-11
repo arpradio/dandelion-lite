@@ -27,8 +27,8 @@
 - [x] exposed public schema and `$SCHEMA` on postgrest
 - [x] kept koios-lite API SQL and CRON files enabled
 - [x] preloaded some disabled CRON and SQL extensions from 
-    - cardano-graphql
-    - koios-artifacts (koios)
+- [x] cardano-graphql
+- [x] koios-artifacts (koios)
     - custom ones for gcw development and tests
 - [x] gum color codes on images/ for menu development
 - [x] new logo, TODO.md, pics, and some docs

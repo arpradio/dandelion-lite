@@ -36,51 +36,172 @@ This setup includes several key components:
 
 Each service is containerized and managed via Docker, ensuring easy deployment and scalability.
 
-## Hardware Requirements (13-09-2024):
+## Hardware Requirements (10-10-2024):
 
-Suggested setup for concurrent **Cardano Mainnet** and **Preproduction Testnet** consists on
+Suggested setup for concurrent **Cardano Mainnet** and **Preproduction Testnet** with volume backups consists on
 
 - 128GB RAM (DDR4 ECC RAM)
 - 2TB M2 NVME for storage
 - Dual Intel Xeon E5 2680 v4 (LGA 2011-3 motherboard)
 
-### Cardano Mainnet volume sizes
+### Volume sizes
+
+These are sizes of the volumes used by the containers of recent production deployments.
+
+Using: `$ ./scripts/docker/list-volume-sizes.sh`
+
+Last updated: 10/10/2024
+
+### Cardano Mainnet   
+
+    25G     gc-node-mainnet_db-sync-data
+    445M    gc-node-mainnet_dbless-cardano-token-registry-data
+    187G    gc-node-mainnet_node-db
+    8.0K    gc-node-mainnet_node-ipc
+    512G    gc-node-mainnet_postgresdb
+    8.0K    gc-node-mainnet_unimatrix-data
+
+    Total   724.43 GB
+
+### Cardano Pre-Production Testnet
+
+    3.9G    gc-node-preprod_db-sync-data
+    41M     gc-node-preprod_dbless-cardano-token-registry-data
+    8.8G    gc-node-preprod_node-db
+    8.0K    gc-node-preprod_node-ipc
+    16G     gc-node-preprod_postgresdb
+    8.0K    gc-node-preprod_unimatrix-data
+
+    Total   28.74 GB
 
 
-    25G     /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_db-sync-data
-    445M    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_dbless-cardano-token-registry-data
-    185G    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_node-db
-    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_node-ipc
-    518G    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_postgresdb
-    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-mainnet_unimatrix-data
+### Volume Backup Sizes
 
-### Cardano Pre-Production Testnet volume sizes
+These are sizes of compressed backups of container volumes on recent production deployments. Is not estrictly required to take these disk space lists into consideration for hardware adquisition but is adviced as working without snapshots can delay node syncing times even for more than a week.
 
-    3.7G    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_db-sync-data
-    41M     /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_dbless-cardano-token-registry-data
-    8.4G    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_node-db
-    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_node-ipc
-    15G     /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_postgresdb
-    8.0K    /home/$USER/.local/share/containers/storage/volumes/gc-node-preprod_unimatrix-data
+Full volumes backup and restore procedures can be run manually by helper scripts or using the menu on `$ ./scripts/dandoman.sh`.
+
+Last updated: 10/10/2024
+
+### Cardano Mainnet
+        
+    17G     db-sync-data.tar.gz
+    377M    dbless-cardano-token-registry-data.tar.gz
+    97G     node-db.tar.gz
+    4.0K    node-ipc.tar.gz
+    12K     pgadmin-data.tar.gz
+    4.0K    portainer-data.tar.gz
+    137G    postgresdb.tar.gz
+    4.0K    unimatrix-data.tar.gz
+    
+    Total   250G
+
+
+### Cardano Pre-Production Testnet
+   
+    
+    1.7G    db-sync-data.tar.gz
+    16M     dbless-cardano-token-registry-data.tar.gz
+    3.8G    node-db.tar.gz
+    4.0K    node-ipc.tar.gz
+    12K     pgadmin-data.tar.gz
+    4.0K    portainer-data.tar.gz
+    3.8G    postgresdb.tar.gz
+    4.0K    unimatrix-data.tar.gz
+
+    Total   9.3G
+
+## Software Requirements (10-10-2024):
+
+Reported to be working on:
+
+- Ubuntu Server version 24.04 (normal, not minimal install)
 
 ## Deployment
 
-To deploy or run Dandelion Lite:
+### Base system install
 
-1. Clone the repository to your local machine.
-2. Run Admin Tool `scripts/dandoman.sh` for setting up an initial `.env` file and installing dependencies such as Docker Compose and Podman
-3. Edit/configure the environment variables the `.env` file. You can base it on the provided `env.example.<NETWORK>`.
-4. Run `scripts/dandoman.sh` > `Docker->Docker Up/Reload` on Admin Tool or `docker compose up -d` to start the services.
-5. Monitor that node has reached tip and `scripts/dandoman.sh` > `Docker->Docker Status` to ensure none of the containers are `DOWN` or `UP (unhealthy)` state.
-4. Once on tip, execute `scripts/dandoman.sh` > `Setup->Initialise Postgres` to deploy custom RPCs and test via PostgREST/HAProxy endpoints using curl:
+As a base system we use **ubuntu-server version 24.04**. We use the normal install not the minimal one. Also install **OpenSSH** server to allow for system administration. 
+
+1. When install is completed do `ip -br a` to get the ip address of your newly installed server 
+2. From you local system. So not on your server do `ssh-copy-id USER_NAME@SERVER_IP` This will copy your ssh keys to the server to allow easy login
+3. Do `ssh USER_NAME@SERVER_IP`
+
+To deploy or run Dandelion Lite:
+1. Clone the repository to your local machine.`$ git clone https://github.com/GameChangerFinance/dandelion-lite.git`
+2. Change current directory `$ cd dandelion-lite`
+2. Run `./scripts/dandoman.sh --podman-install` to install podman. Exit your user session with `$ exit`and log back in with ssh or your preferred method.
+3. Run Admin Tool `scripts/dandoman.sh` for setting up an initial `.env` file and installing dependencies such as Docker Compose and Podman. Exit the gui by menu or `CTRL-C`. Exit your user session with `$ exit` and log back in with ssh or your preferred method.
+4. Edit/configure the environment variables the `.env` file. You can base it on the provided `env.example.<NETWORK>`.
+5. Run `scripts/dandoman.sh` > `Docker->Docker Up/Reload` on Admin Tool or `docker compose up -d` to start the services.
+6. Monitor that node has reached tip and `scripts/dandoman.sh` > `Docker->Docker Status` to ensure none of the containers are `DOWN` or `UP (unhealthy)` state.
+7. Once on tip, execute `scripts/dandoman.sh` > `Setup->Initialise Postgres` to deploy custom RPCs and test via PostgREST/HAProxy endpoints using curl:
 ```bash
+# Check if the node is synced using docker
+docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-node-ogmios-1 | jq
+
+# Check if db-sync is ready 
+docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-db-sync-1 | jq
 
 # Koios tip check
 curl http://127.0.0.1:8050/koios/v1/tip
-
 ```
 
 Remember to secure your deployment according to best practices, including securing your database and API endpoints.
+
+### Autostart
+
+To auto run on system start:
+1. Execute `scripts/dandoman.sh` > `Setup->Run on system start` and follow steps.
+
+### Run a Full Deploy Backup
+
+Syncing #Cardano node and databases can take even more than a week, it is adviced for you to take compressed snapshots or backups of your databases after 2 or 3 of months at least.
+1. Set the `BACKUP_DIR` environment variable on `.env` file with the location on where you want to store the files, like `BACKUP_DIR="/home/${USER}/backups/${NETWORK}/"`. Check [Volume Backup Sizes](#volume-backup-sizes) for estimating the required size.
+2. Execute `scripts/dandoman.sh` > `Setup->Full backup` and follow steps.
+
+
+### Run a Full Deploy Restore
+
+This will **WIPE ALL YOUR DEPLOYMENT DATA** and will restore a previous backup:
+1. Set the `BACKUP_DIR` environment variable on `.env` file with the location on where you want to read the stored files, like `BACKUP_DIR="/home/${USER}/backups/${NETWORK}/"`. Check [Volume Backup Sizes](#volume-backup-sizes) for estimating the required size.
+2. Execute `scripts/dandoman.sh` > `Setup->Full restore` and follow steps.
+
+
+### SSL
+
+You can terminate your connections with SSL encryption by setting up SSL certificate on Haproxy
+
+1. Place your `server.pem` file on `config/ssl/`. You can create a self signed certificate using `$ ./scripts/ssl/keygen.sh`
+2. Uncomment SSL line and comment the default one on `config/haproxy/haproxy.cfg`, like this:
+
+```
+frontend app
+  # for non SSL encription termination
+  # bind 0.0.0.0:8053
+  ## If using SSL, comment line above and uncomment line below
+  bind 0.0.0.0:8053 ssl crt /etc/ssl/server.pem no-sslv3
+
+```
+
+
+### Dynamic DNS
+
+You can run an IP updater cron job for making your dynamic IP available using a DNS domain name.
+
+For DuckDNS:
+
+1. Uncomment and setup your `.env` lines to something unique like this (AVOID TICKER AND NAME COLLISIONS!):
+
+```
+NODE_NAME="MyOwnCardanoNode01"
+NODE_TICKER="node1"
+NODE_GROUPS='[]' # for offering node for decentralizing Cardano dapps and services
+
+DUCKDNS_DOMAINS="${NODE_TICKER}-dandelion-node"
+DUCKDNS_TOKEN="<API_TOKEN>"
+
+```
 
 
 ## Admin tool
@@ -99,7 +220,10 @@ Below are the available commands and their descriptions:
 
 --about: 			     Displays information about the Koios administration tool.
 --install-dependencies:  Installs necessary dependencies.
+--check-podman: 		 Checks if Podman is running.
+--podman-install: 		 Installs Podman. 
 --check-docker: 		 Checks if Docker is running.
+--docker-install: 		 Installs Docker.
 --handle-env-file: 		 Manage .env file.
 --reset-env: 			 Resets the .env file to defaults.
 --docker-status: 		 Shows the status of Docker containers.

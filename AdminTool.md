@@ -12,6 +12,14 @@ install_dependencies() {
 ```
 Installs the necessary dependencies based on the operating system, supporting various Linux distributions, macOS, and providing guidance for manual installation on Windows.
 
+### --check-podman
+```bash
+check_podman() {
+    # Code to check Podman status and handle its installation/startup
+}
+```
+Checks if Podman and Docker Compose are installed and running, and prompts the user to install or start Podman if necessary.
+
 ### --check-docker
 ```bash
 check_docker() {
@@ -19,6 +27,22 @@ check_docker() {
 }
 ```
 Checks if Docker and Docker Compose are installed and running, and prompts the user to install or start Docker if necessary.
+
+### --podman-install
+```bash
+podman_install() {
+    # Code to install Podman status
+}
+```
+Installs Podman and Docker Compose.
+
+### --docker-install
+```bash
+docker_install() {
+    # Code to install Docker status
+}
+```
+Installs Docker and Docker Compose.
 
 ### --handle-env-file
 ```bash
