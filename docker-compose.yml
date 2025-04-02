@@ -596,21 +596,16 @@ services:
   #     API_URL: http://127.0.0.1:${POSTGREST_PORT}/
 
   # pgadmin:
+  #   # image: dpage/pgadmin4
   #   build:
   #     context: ./src/pgadmin
   #     args:
   #       NETWORK: ${NETWORK}
-  #       PROJ_NAME: ${PROJ_NAME}
-  #       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-  #       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
   #       POSTGRES_DB: ${POSTGRES_DB}
-  #       POSTGRES_PORT: ${POSTGRES_PORT}
   #       POSTGRES_USER: ${POSTGRES_USER}
   #       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
   #   restart: always
   #   environment:
-  #       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-  #       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
   #       PGADMIN_LISTEN_PORT: 80
   #   ports:
   #       - "${PGADMIN_PORT:-5050}:80"
