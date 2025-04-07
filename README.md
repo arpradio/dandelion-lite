@@ -136,7 +136,7 @@ As a base system we use **ubuntu-server version 24.04**. We use the normal insta
 3. Do `ssh USER_NAME@SERVER_IP`
 
 To deploy or run Dandelion Lite:
-1. Clone the repository to your local machine.`$ git clone https://github.com/GameChangerFinance/dandelion-lite.git`
+1. Clone the repository to your local machine.`$ git clone https://github.com/GameChangerFinance/dandelion-lite.git dandelion-lite-preprod`. Put every network you sync into it's own folder. 
 2. Change current directory `$ cd dandelion-lite`
 2. Run `./scripts/dandoman.sh --podman-install` to install podman. Exit your user session with `$ exit`and log back in with ssh or your preferred method.
 3. Run Admin Tool `scripts/dandoman.sh` for setting up an initial `.env` file and installing dependencies such as Docker Compose and Podman. Exit the gui by menu or `CTRL-C`. Exit your user session with `$ exit` and log back in with ssh or your preferred method.
