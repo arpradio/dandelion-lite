@@ -248,3 +248,23 @@ Below are the available commands and their descriptions:
 --enter-haproxy: 		 Accesses the HAProxy container.
 --logs-haproxy: 		 Displays logs for the HAProxy container.
 ```
+
+## System monitoring tools 
+
+You can install glances to keep an eye on how your system is performing
+```bash sudo apt install glances ```
+
+In case you see high swap usage. This is happens quicker because we are running systems with a lot of memory. Use the following scripts. Make sure your dandelion nodes are down by running in the folders where you cloned the dandelion git into:
+```bash docker compose down``` 
+Once you have a not busy system do the following:
+```bash
+swapon --show
+sudo swapoff -v /swap.img
+sudo rm -rf /swap.img 
+sudo fallocate -l 40G /swap.img
+sudo chmod 0600 /swap.img
+sudo mkswap /swap.img 
+sudo swapon
+sudo reboot now ```
+
+
