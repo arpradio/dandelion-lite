@@ -180,7 +180,7 @@ This will **WIPE ALL YOUR DEPLOYMENT DATA** and will restore a previous backup:
 
 You can terminate your connections with SSL encryption by setting up SSL certificate on Haproxy
 
-1. Place your `server.pem` file on `config/ssl/`. You can create a self signed certificate like this `$ ./scripts/ssl/keygen.sh <domain> <file-prefix>"`
+1. Place your `server.pem` file on `configs/ssl/`. You can create a self signed certificate like this `$ ./scripts/ssl/keygen.sh <domain> <file-prefix>"`
 2. Uncomment SSL line and comment the default one on `config/haproxy/haproxy.cfg`, like this:
 
 ```
