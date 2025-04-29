@@ -28,8 +28,9 @@ RUN apk add --no-cache ca-certificates curl tar gzip \
                --strip-components=2 \
                -C /usr/local/bin \
                'bin/cardano-cli' \
-     && chmod +x /usr/local/bin/cardano-cli \
-     && apk del curl tar gzip
+     && chmod +x /usr/local/bin/cardano-cli 
+
+# curl tar gzip are used by cron job scripts, do not remove.
 
 # Run the command on container startup
 CMD ["/scripts/cron/entrypoint.sh"]
