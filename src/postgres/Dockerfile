@@ -1,5 +1,5 @@
 # Dockerfile to install these extensions to PostgresDB
-# Extensions: pg_curl,
+# Extensions: pg_curl,pg_cardano
 
 FROM postgres:16.1-bullseye
 #FROM postgres:16.8-bullseye
