@@ -1,8 +1,8 @@
 # Dockerfile to install these extensions to PostgresDB
 # Extensions: pg_curl,
 
-#FROM postgres:16.1-bullseye
-FROM postgres:16-bookworm
+FROM postgres:16.1-bullseye
+#FROM postgres:16.8-bullseye
 
 # 1) install build tools & libs
 RUN apt-get update 
@@ -44,6 +44,7 @@ RUN  cd /tmp/pg_cardano \
         && cargo pgrx init \
         && cargo pgrx package \
         && cargo pgrx install --release --sudo 
+
 # clean up source & caches in one go:
 RUN cd / \
         && rm -rf /tmp/pg_cardano \
@@ -51,7 +52,7 @@ RUN cd / \
                 $CARGO_HOME 
 
 
-# 4)  cleanup build-time packages and temp files
+#4)  cleanup build-time packages and temp files
  RUN cd / && \
         rm -rf /pg_curl && \
         export SUDO_FORCE_REMOVE=yes && \
@@ -61,7 +62,7 @@ RUN cd / \
         apt-get purge && \
         rm -rf /tmp/* /var/lib/apt/lists/*
 
-# 5) Extensions should be managed with private schemas, out from untrusted user's scope. Uncomment if you know what you are doing:to allow pg_curl for everybody.
+# 5) Extensions should be managed with private schemas, out from untrusted user's scope. Uncomment if you know what you are doing:to allow them for everybody.
 # RUN echo "CREATE EXTENSION IF NOT EXISTS pg_curl ;" >> /docker-entrypoint-initdb.d/10_extensions.sql
 # RUN echo "CREATE EXTENSION IF NOT EXISTS pg_cardano ;" >> /docker-entrypoint-initdb.d/10_extensions.sql
 CMD ["bash"]
