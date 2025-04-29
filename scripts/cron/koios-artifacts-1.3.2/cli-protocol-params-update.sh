@@ -1,14 +1,16 @@
 #!/bin/bash
 DB_NAME=${POSTGRES_DB}
 CCLI="/usr/local/bin/cardano-cli"
-SOCKET="/node-ipc"
+SOCKET="/node-ipc/node.socket"
+GENESIS_JSON="/config/cardano-node/shelley-genesis.json"
 
 echo "$(date +%F_%H:%M:%S) - START - CLI Protocol Parameters Update"
-nwmagic=$(psql ${DB_NAME} -h ${POSTGRES_HOST}  -qbt -c "SELECT networkmagic FROM ${KOIOS_ARTIFACTS_SCHEMA}.genesis()" | xargs)
+#nwmagic=$(psql ${DB_NAME} -h ${POSTGRES_HOST}  -qbt -c "SELECT networkmagic FROM ${KOIOS_ARTIFACTS_SCHEMA}.genesis()" | xargs)
+nwmagic=$(jq -r .networkMagic "${GENESIS_JSON}" 2>/dev/null)
 last_epoch=$(psql ${DB_NAME} -h ${POSTGRES_HOST}  -qbt -c "SELECT last_value FROM ${KOIOS_ARTIFACTS_SCHEMA}.control_table WHERE key='cli_protocol_params'" | xargs)
 current_epoch=$(psql ${DB_NAME} -h ${POSTGRES_HOST}  -qbt -c "SELECT epoch_no FROM ${KOIOS_ARTIFACTS_SCHEMA}.tip()" | xargs)
 
-echo "\n\nCCLI=${CCLI}\n SOCKET=${SOCKET}\n nwmagic=${nwmagic}\n last_epoch=${last_epoch}\n current_epoch=${current_epoch}\n\n"
+echo -e  "\n\nCCLI=${CCLI}\n SOCKET=${SOCKET}\n nwmagic=${nwmagic}\n last_epoch=${last_epoch}\n current_epoch=${current_epoch}\n\n"
 
 if [[ -z ${current_epoch} ]] || ! [[ ${current_epoch} =~ ^[0-9]+$ ]]; then
   echo "$(date +%F_%H:%M:%S) - Unable to fetch epoch_no from ${KOIOS_ARTIFACTS_SCHEMA}.tip"
