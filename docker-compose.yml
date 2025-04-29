@@ -360,7 +360,11 @@ services:
         max-file: "10"
 
   cron:
-    build: .
+    build:
+      context: .
+      dockerfile: ./src/cron/Dockerfile
+      args:
+        CARDANO_NODE_VERSION: ${CARDANO_NODE_VERSION}
     environment:
       NETWORK: ${NETWORK}
       POSTGRES_HOST: ${POSTGRES_HOST}
@@ -379,6 +383,8 @@ services:
       - ./scripts/cron:/etc/cron.d/
       - ./scripts:/scripts
       - dbless-cardano-token-registry-data:/root/token-registry
+      - ./configs/cardano/config/network/${NETWORK}:/config
+      - node-ipc:/node-ipc
     # Uncomment for persistent logs
     # - ./logs:/var/log
     restart: always
