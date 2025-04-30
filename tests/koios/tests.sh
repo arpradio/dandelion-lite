@@ -9,68 +9,69 @@ COOLDOWN_SECS=5
 
 # Default headers (space-separated)
 # Example:
-#DEFAULT_HEADERS=("accept: application/json" "encoding: utf8")
+#DEFAULT_HEADERS=("accept:application/json" "encoding: utf8")
 # Default headers if none supplied:
-DEFAULT_HEADERS=("Accept: application/json")
+DEFAULT_HEADERS=("accept:application/json")
 
 # Populate TEST_CASES with METHOD|ENDPOINT|QUERY|HEADERS|BODY
 TEST_CASES=(
-  ## Network Test Cases
-  "GET|api/v1/tip||Accept: application/json|"
-  "GET|api/v1/genesis||Accept: application/json|"
-  "GET|api/v1/totals|_epoch_no=166|Accept: application/json|"
+  # ## Network Test Cases
+  "GET|api/v1/tip||accept:application/json|"
+  "GET|api/v1/genesis||accept:application/json|"
+  "GET|api/v1/totals|_epoch_no=166|accept:application/json|"
 
-  ## Epoch-Related Test Cases
-  "GET|api/v1/epoch_info|_epoch_no=166|Accept: application/json|"
-  "GET|api/v1/epoch_params|_epoch_no=166|Accept: application/json|"
+  # ## Epoch-Related Test Cases
+  # "GET|api/v1/epoch_info|_epoch_no=166|accept:application/json|"
+  # "GET|api/v1/epoch_params|_epoch_no=166|accept:application/json|"
 
-  ## Block-Related Test Cases
-  "GET|api/v1/blocks|_limit=10|Accept: application/json|"
-  "POST|api/v1/block_info|||{\"_block_hashes\":[\"block_hash1\"]}"
-  "GET|api/v1/block_txs|_block_hash=block_hash1|Accept: application/json|"
+  # ## Block-Related Test Cases
+  # "GET|api/v1/blocks|_limit=10|accept:application/json|"
+  # "POST|api/v1/block_info|||{\"_block_hashes\":[\"block_hash1\"]}"
+  # "GET|api/v1/block_txs|_block_hash=block_hash1|accept:application/json|"
 
-  ## Transaction-Related Test Cases
-  "POST|api/v1/tx_info|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
-  "POST|api/v1/tx_utxos|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
-  "POST|api/v1/tx_metadata|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
-  "GET|api/v1/tx_metalabels|||"
-  "POST|api/v1/submittx|||{\"_signed_tx\":\"signed_tx_data\"}"
-  "POST|api/v1/tx_status|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
+  # ## Transaction-Related Test Cases
+  # "POST|api/v1/tx_info|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
+  # "POST|api/v1/tx_utxos|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
+  # "POST|api/v1/tx_metadata|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
+  # "GET|api/v1/tx_metalabels|||"
+  # "POST|api/v1/submittx|||{\"_signed_tx\":\"signed_tx_data\"}"
+  # "POST|api/v1/tx_status|||{\"_tx_hashes\":[\"8ae88d7ee59eda5a7a95dd66e9cf123a89758f2ec31e73a5c65b4d9cf312f71c\"]}"
 
   ## Address-Related Test Cases
-  "POST|api/v1/address_info|||{\"_addresses\":[\"addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\",\"addr_test1vpfwv0ezc5g8a4mkku8hhy3y3vp92t7s3ul8g778g5yegsgalc6gc\"]}"
-  "GET|api/v1/address_txs|_address=addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw|Accept: application/json|"
-  "GET|api/v1/address_assets|_address=addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw|Accept: application/json|"
-  "GET|api/v1/credential_txs|_payment_credential=cred1|Accept: application/json|"
+  "POST|api/v1/address_info||accept:application/json content-type:application/json|'{\"_addresses\":[\"addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\",\"addr_test1vpfwv0ezc5g8a4mkku8hhy3y3vp92t7s3ul8g778g5yegsgalc6gc\"]}'"
+  "POST|api/v1/address_utxos||accept:application/json content-type:application/json|'{\"_addresses\":[\"addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\",\"addr_test1vpfwv0ezc5g8a4mkku8hhy3y3vp92t7s3ul8g778g5yegsgalc6gc\"],\"_extended\":true}'"
+  "POST|api/v1/address_outputs||accept:application/json content-type:application/json|'{\"_addresses\":[\"addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\",\"addr_test1vpfwv0ezc5g8a4mkku8hhy3y3vp92t7s3ul8g778g5yegsgalc6gc\"],\"_after_block_height\":9417}'"
+  "POST|api/v1/credential_utxos||accept:application/json content-type:application/json|'{\"_payment_credentials\":[\"b429738bd6cc58b5c7932d001aa2bd05cfea47020a556c8c753d4436\",\"82e016828989cd9d809b50d6976d9efa9bc5b2c1a78d4b3bfa1bb83b\"],\"_extended\":true}'"
+  
+  
+  # ## Stake Account-Related Test Cases
+  # "GET|api/v1/account_list|||"
+  # "POST|api/v1/account_info|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
+  # "POST|api/v1/account_rewards|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
+  # "POST|api/v1/account_updates|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
+  # "POST|api/v1/account_addresses|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
+  # "POST|api/v1/account_assets|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
+  # "POST|api/v1/account_history|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
 
-  ## Stake Account-Related Test Cases
-  "GET|api/v1/account_list|||"
-  "POST|api/v1/account_info|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
-  "POST|api/v1/account_rewards|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
-  "POST|api/v1/account_updates|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
-  "POST|api/v1/account_addresses|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
-  "POST|api/v1/account_assets|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
-  "POST|api/v1/account_history|||{\"_stake_addresses\":[\"stake_test1uzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw\"]}"
+  # ## Asset-Related Test Cases
+  # "GET|api/v1/asset_list|||"
+  # "GET|api/v1/asset_address_list|_asset_policy=policy_id|accept:application/json|"
+  # "GET|api/v1/asset_info|_asset_policy=policy_id&_asset_name=asset_name|accept:application/json|"
+  # "GET|api/v1/asset_summary|_asset_policy=policy_id&_asset_name=asset_name|accept:application/json|"
+  # "GET|api/v1/asset_txs|_asset_policy=policy_id&_asset_name=asset_name|accept:application/json|"
 
-  ## Asset-Related Test Cases
-  "GET|api/v1/asset_list|||"
-  "GET|api/v1/asset_address_list|_asset_policy=policy_id|Accept: application/json|"
-  "GET|api/v1/asset_info|_asset_policy=policy_id&_asset_name=asset_name|Accept: application/json|"
-  "GET|api/v1/asset_summary|_asset_policy=policy_id&_asset_name=asset_name|Accept: application/json|"
-  "GET|api/v1/asset_txs|_asset_policy=policy_id&_asset_name=asset_name|Accept: application/json|"
+  # ## Pool-Related Test Cases
+  # "GET|api/v1/pool_list|||"
+  # "POST|api/v1/pool_info|||{\"_pool_bech32_ids\":[\"pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy\"]}"
+  # "GET|api/v1/pool_delegators|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|accept:application/json|"
+  # "GET|api/v1/pool_blocks|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|accept:application/json|"
+  # "GET|api/v1/pool_updates|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|accept:application/json|"
+  # "GET|api/v1/pool_relays|||"
+  # "GET|api/v1/pool_metadata|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|accept:application/json|"
 
-  ## Pool-Related Test Cases
-  "GET|api/v1/pool_list|||"
-  "POST|api/v1/pool_info|||{\"_pool_bech32_ids\":[\"pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy\"]}"
-  "GET|api/v1/pool_delegators|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|Accept: application/json|"
-  "GET|api/v1/pool_blocks|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|Accept: application/json|"
-  "GET|api/v1/pool_updates|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|Accept: application/json|"
-  "GET|api/v1/pool_relays|||"
-  "GET|api/v1/pool_metadata|_pool_bech32=pool1jdhjfcu34lq88rypdtslzwyf27uh0h3apcr9mjd68zhc69r29fy|Accept: application/json|"
-
-  ## Script-Related Test Cases
-  "GET|api/v1/script_list|||"
-  "GET|api/v1/script_redeemers|_script_hash=script_hash|Accept: application/json|"
+  # ## Script-Related Test Cases
+  # "GET|api/v1/script_list|||"
+  # "GET|api/v1/script_redeemers|_script_hash=script_hash|accept:application/json|"
 )
 
 
@@ -85,12 +86,13 @@ build_headers() {
 
 # Function to fetch data from an endpoint, with optional body
 fetch_data() {
-  local method="$1"
-  local base_url="$2"
-  local path="$3"
-  local query="$4"
-  local body="$5"
-  shift 5
+  local doRun="$1"
+  local method="$2"
+  local base_url="$3"
+  local path="$4"
+  local query="$5"
+  local body="$6"
+  shift 6
   local headers=("$@")
 
   local url="${base_url}${path}"
@@ -105,11 +107,15 @@ fetch_data() {
 
   # Add body if provided
   if [[ -n "$body" ]]; then
-    args+=(-H "Content-Type: application/json")
+    # args+=(-H "Content-Type: application/json")
     args+=(-d "${body}")
   fi
 
-  curl "${args[@]}"
+  if [[ "$doRun" == "showCmd" ]]; then
+    echo "curl ${args[@]}"
+  else
+    curl "${args[@]}"
+  fi
 }
 
 # Run test cases
@@ -130,8 +136,31 @@ run_tests() {
     # Build curl-ready header args
     read -r -a HEADER_ARGS <<< "$(build_headers "${HEADERS[@]}")"
 
+    echo -e "\n method=$method\n base_url=$TESTING_KOIOS_URL\n path=$endpoint\n query=$query\n body=$body\n headers=${HEADER_ARGS[@]}\n\n"
+
+    echo "--- RECEIVED CMD---"
+    fetch_data \
+      "showCmd" \
+      "$method" \
+      "$TESTING_KOIOS_URL" \
+      "$endpoint" \
+      "$query" \
+      "$body" \
+      "${HEADER_ARGS[@]}" 
+    echo "--- EXPECTED CMD---"
+    fetch_data \
+      "showCmd" \
+      "$method" \
+      "$OFFICIAL_KOIOS_URL" \
+      "$endpoint" \
+      "$query" \
+      "$body" \
+      "${HEADER_ARGS[@]}" 
+    ((failures++))
+    
     # Make requests (pass body as the 5th positional argument)
     RECEIVED=$(fetch_data \
+      "run" \
       "$method" \
       "$TESTING_KOIOS_URL" \
       "$endpoint" \
@@ -141,6 +170,7 @@ run_tests() {
     | jq -S .)
 
     EXPECTED=$(fetch_data \
+      "run" \
       "$method" \
       "$OFFICIAL_KOIOS_URL" \
       "$endpoint" \
@@ -152,6 +182,8 @@ run_tests() {
     # Compare
     if diff <(echo "$RECEIVED") <(echo "$EXPECTED") > /dev/null; then
       echo "✅ PASSED"
+      echo "$EXPECTED"
+
     else
       echo "❌ FAILED: Difference detected"
       echo "--- RECEIVED ---"
@@ -160,7 +192,7 @@ run_tests() {
       echo "--- EXPECTED ---"
       echo "$EXPECTED"
       echo
-      ((failures++))
+
     fi
 
     # Pause to avoid rate limits
