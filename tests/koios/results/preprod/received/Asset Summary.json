@@ -1,0 +1,11 @@
+[
+  {
+    "addresses": 6106,
+    "asset_name": "7447454e53",
+    "fingerprint": "asset1mvqjrt76g9yxsle3z92ums7snlpg02p274gek4",
+    "policy_id": "c6e65ba7878b2f8ea0ad39287d3e2fd256dc5c4160fc19bdf4c4d87e",
+    "staked_wallets": 5811,
+    "total_transactions": 25791,
+    "unstaked_addresses": 50
+  }
+]

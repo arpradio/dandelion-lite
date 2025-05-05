@@ -1,0 +1,7105 @@
+[
+  {
+    "pool_id_bech32": "pool1547tew8vmuj0g6vj3k5jfddudextcw6hsk2hwgg6pkhk7lwphe6",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool174mw7e20768e8vj4fn8y6p536n8rkzswsapwtwn354dckpjqzr8",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1z22x50lqsrwent6en0llzzs9e577rx7n3mv9kfw7udwa2rf42fa",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wn6a6f23ctq06udwhw27ravdpd6zcr7jlut3yez0wzdackz3222",
+    "relays": [
+      {
+        "dns": "preprod-relay1.angelstakepool.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vvkurfxhajtj4f7x8wjkeet7rg8amz34duy5nux76per5sn3npx",
+    "relays": [
+      {
+        "dns": "preprod.canadastakes.ca",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1p9ldx03yshlzj4dlhlaxd59nukysjd3mldc8cuv5ae897q7ky2z",
+    "relays": [
+      {
+        "dns": "preprod-relay1.angelstakepool.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mp96jpc2dtaruz0cazmljh03dev0969c4rq3wr6hnc4rjdxn8aw",
+    "relays": [
+      {
+        "dns": "preprod-r1.panl.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3012,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vntql3yhyzzm3p846mds33nmuzz30jrn56fvjdd3hhu9u5n9d4d",
+    "relays": [
+      {
+        "dns": "flightrelay1.intertreecryptoconsultants.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1egfg26w0syqly9qc65hz33gqv2qrzyka8tfue3ccsk3c73a56jp",
+    "relays": [
+      {
+        "dns": "relaynode15t.irfada.co",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relaynode16t.irfada.co",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool107k26e3wrqxwghju2py40ngngx2qcu48ppeg7lk0cm35jl2aenx",
+    "relays": [
+      {
+        "dns": "pp-relay1.apexpool.info",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vqq4hdwrh442u97e2jh6k4xuscs3x5mqjjrn8daj36y7gt2rj85",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "209.145.50.190",
+        "ipv6": null,
+        "port": 18000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1x4p3cwemsm356vpxnjwuud7w76jz64hyss729zp7xa6wuey6yr9",
+    "relays": [
+      {
+        "dns": "testicles.kiwipool.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9730,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1kgzq2g7glzcu76ygcl2llhamjjutcts5vhe2mzglmn5jxt2cnfs",
+    "relays": [
+      {
+        "dns": "preprod.euskalstakepool.win",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yzwxetclm2l48xzvmnwwf6x48a5qze0nx4t6glz5k8wk50xl006",
+    "relays": [
+      {
+        "dns": "pre-prod1.xstakepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zwmkuyzj8wykfdq98g28stkpq28k0f3l2xse384re5yfwap80ca",
+    "relays": [
+      {
+        "dns": "api.monrma.ml",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6004,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1l8ywwf6nfrfmrg6edj2qjh6rxpuepnzlsq9mhvjk9xr9swkht93",
+    "relays": [
+      {
+        "dns": "preprod.altzpool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool132jxjzyw4awr3s75ltcdx5tv5ecv6m042306l630wqjckhfm32r",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "132.145.71.219",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "140.238.91.50",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hghdaa7chn4hykkf9h0g0yqpz6j93gexvllz0w6p93y72saukmp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "51.77.24.220",
+        "ipv6": null,
+        "port": 4002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1uhkxzvt9rj5s9emzr3uklwg2wdt7uky3aatgv9amhn2yz59laey",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "130.61.98.58",
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "138.2.174.95",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool144pedg8hc3lr660w30te9jqv5zllaesegh8vt3ptft5s7qu45re",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "130.61.98.58",
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "138.2.174.95",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xpr3e4gt8knxq82hpc30a3xa5j0pgwz3c9v5xjdrtuf66ez3m8u",
+    "relays": [
+      {
+        "dns": "daffy.lbcrypt.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9500,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool124jq2jje25v9gtrjxk8qm34ujrcsa3msy4tm04nl2262j5scclv",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "90.167.66.131",
+        "ipv6": null,
+        "port": 3344,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1m8crhnqj5k2kyszf5j2scshupystyxc887zdfrpzh6ty6eun4fx",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "152.53.81.245",
+        "ipv6": null,
+        "port": 5501,
+        "srv": null
+      },
+      {
+        "dns": "relay-s.wotapool.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 5501,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pdw2tqeg70crgwy3puz4hlffl3u9lr2t5katsz63v2w6jfl0gn2",
+    "relays": [
+      {
+        "dns": "d.fluxpool.cc",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3010,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lk6cxjaqd66t4t74q4gd9hymxapd93fvchhxt0uxwwprk9m8v6c",
+    "relays": [
+      {
+        "dns": "preprod.junglestakepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g20peax827vmg9yyqfzj4g8d65fpz9y9uhsuhe70jwmfvaceg2m",
+    "relays": [
+      {
+        "dns": "ppe-testnet-relay.cardanistas.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ga327ax76twamq0zypgxrc2n0g9dvwhsr3rkwf6rfl426mp8m2f",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool169q6y3lmn58xkv05uw7pvxcrjc3qewz4u8vkkh4t0acxgrrjtup",
+    "relays": [
+      {
+        "dns": "preprod.leadstakepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": "preprod.leadstakepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pmvsu5kmy9nt82qwqugcsku5772sls8r3x99ww5tnzcwjzpvy4n",
+    "relays": [
+      {
+        "dns": "relay0-preprod.adanet.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lenzcfx02maescnpv8mk6gc6c59t0dramqucdgcvr4revw89xpz",
+    "relays": [
+      {
+        "dns": "preprodrelay.stakepoolcentral.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 18654,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ws42l6rawqjv58crs5l32v0eem3qnngpnjfd7epwd4lmjccc5cg",
+    "relays": [
+      {
+        "dns": "test.seaside-staking.best",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 12000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta",
+    "relays": [
+      {
+        "dns": "lamente.controlliamo.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q6xfqttwyvzm5stww948fzx0r567fengnph860xq966u5cfedxk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "95.216.178.106",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rkfs9glmfva3jd0q9vnlqvuhnrflpzj4l07u6sayfx5k7d788us",
+    "relays": [
+      {
+        "dns": "test.stakepool.at",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 5001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nmfr5j5rnqndprtazre802glpc3h865sy50mxdny65kfgf3e5eh",
+    "relays": [
+      {
+        "dns": "node1.cardano.gratis",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6601,
+        "srv": null
+      },
+      {
+        "dns": "mbb3.cardano.gratis",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6603,
+        "srv": null
+      },
+      {
+        "dns": "node2.cardano.gratis",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6602,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1h2ag7yej9veur67zhu0gqk7caefsqetl7tq0qaymezfwyzh0ec7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "161.97.136.104",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13ved7up7lkz220kv8r84h76lgt27a3umyf7uewlxxclxvdm6zlf",
+    "relays": [
+      {
+        "dns": "relays.techs2help.ch",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3003,
+        "srv": null
+      },
+      {
+        "dns": "relays.techs2help.ch",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3004,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1h4w59hqkzn4l546a8q0yjlf94jz9tv85qjca4pjc9lne58ft7pz",
+    "relays": [
+      {
+        "dns": "damnserver.lambda-honeypot.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7050,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zr907nmfsq5kalxdjju349nwg6f03lyfmcjfqcz52jf45gcgh03",
+    "relays": [
+      {
+        "dns": "preprod.extra-pool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1n84mel6x3e8sp0jjgmepme0zmv8gkw8chs98sqwxtruvkhhcsg8",
+    "relays": [
+      {
+        "dns": "preprod.bladepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17mq6lu4ycqq03eq479q0jlfg96y8r0c9pgnfn3l3p8agkdswm7x",
+    "relays": [
+      {
+        "dns": "95.216.154.243",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qd39trwg5enyxd5djurw7x3qzzpmyrd06jex7xnhxxwnxnzszag",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "10.1.52.236",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12jthfp4uqah0yndtdu6x2tqaxvgnlpc7h30gvwey3rsrc789tme",
+    "relays": [
+      {
+        "dns": "test-relay1.0aaaa.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8001,
+        "srv": null
+      },
+      {
+        "dns": "test-relay2.0aaaa.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17lr0zh49w3leg4ya0ndkyea0dmpr8ksnqz5mhdpwn8zxqg56tte",
+    "relays": [
+      {
+        "dns": "testnetrelay01.hst-soft.de",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13fmuunlup35sgxt8t2jnjm0e5wxfe5swxeyr6tfyvh8gv9hdz68",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "144.24.168.10",
+        "ipv6": null,
+        "port": 3003,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "141.145.192.248",
+        "ipv6": null,
+        "port": 3003,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fyssphxavlclpddydsx4k3zdg04j6rkshkxvf7wedny95tvqyla",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "210.54.38.228",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jv7euu69zch46rl9a3nenaa50pwypjk6g7uzy5qzf3s76tafy72",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "23.34.53.24",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1cg74u7gq3kx2yjfzrwkrxnsk2kase7z7n6tr5vvdnstukdtjz5z",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "23.34.53.24",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rymgeu3pc4a847sksu8ulxgypeq5ysf0ccywgwkcsgr9cmay57u",
+    "relays": [
+      {
+        "dns": "preprod.weebl.me",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3123,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "77.174.62.158",
+        "ipv6": null,
+        "port": 3124,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14773v3ddtf363gfcaah8424wtv3uczmk49vvjvhuslj653hfjpt",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.1.98",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yy4cemccmnk6m6adcnxedzy4dvrlw95djln4pctg0jpq5x7gczh",
+    "relays": [
+      {
+        "dns": "preprod-relays.onyxstakepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool190dapqls3y9dxuqtexmm80sppjha7e8rhu62xydgwn4jjj07pqm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "193.123.121.74",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tc3suyyxh9796rd92744mne82chxpmfc6mu7qgqzlx56sjfwvvl",
+    "relays": [
+      {
+        "dns": "test.everestada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1h4n2c2g6c5saatezzs0mpe0z7rknmf33txulf8sl2q9v7e72nky",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "170.187.201.55",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "66.42.94.80",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lgd9u8nshsh60asqszepfaalt2c5c5w6fvc85xne9st3g3fwtvm",
+    "relays": [
+      {
+        "dns": "relay.preprod.cardanostakehouse.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rstkgcnzexnacmv99ycaf6nd7sqxmd9w279v6cmq5dehus8w0aw",
+    "relays": [
+      {
+        "dns": "7a97b697.cardano-relay.stagebison.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 1338,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1am8e6xumuc2nyrh6d36586r2yuctha0gsj029vpr8ahqvatwwrq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.78.132.117",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18q5sayzqekqvqyenlkgaarlza5jxzhkyq9akc9qr5ytgczkjh23",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "95.217.222.194",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18uptuw2h2adryvnkhkavj3u2fum0lnemwxaxv9p7exy2vcwhrpe",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "23.34.53.24",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1kp6y5wt4ujewtlqy4nqtcemgy3ekkq0qwa6vwg3pqq8gjm6d7j3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zgxyrg92crhawjeux2pavqde3c2a0fgs0kgmeckknj0m7wmpcvl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1z05xqzuxnpl8kg8u2wwg8ftng0fwtdluv3h20ruryfqc5gc3efl",
+    "relays": [
+      {
+        "dns": "adaboy-preprod-3b.gleeze.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      },
+      {
+        "dns": "adaboy-preprod-2b.gleeze.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17n848ynu33sprccmef0hpj48tl9g298qut9uadfnhuyd6zwj4jc",
+    "relays": [
+      {
+        "dns": "pp.blockchainlens.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6301,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dzxc7pqsqfs7dru7xdrkvkdf9s3kd4y2tqsdv063d2lfcxw6zmg",
+    "relays": [
+      {
+        "dns": "gateway.adavault.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4050,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1uqkr3aes23dd6t6n6q480tgasy8r2tz9250lhejlnr98cvu8jw9",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "3.72.231.105",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13634p85x5duyu6d2ke38032hjry5c6h524l9k9wqa6uv7e29n7e",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vhzqzskdj78s46dax4gde4efm85kn49prf48udww36n2vwhc7dz",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6007,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6008,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "58.171.185.219",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pyyjp9r0tu9xqqzx955hr20vvxrywek77uzqrk80yhr0g5k3rct",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "58.171.185.219",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6008,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6007,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "115.64.192.26",
+        "ipv6": null,
+        "port": 6007,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1y9awaq0evchgpnfjgys53yljunxajzzn590459aeyw74q9xkxzg",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6008,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6007,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "115.64.192.26",
+        "ipv6": null,
+        "port": 6007,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "58.171.185.219",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tjc56tq7adk64nnq2ldu3f4nh6sxkphhmnejlu67ux7acq8y7rx",
+    "relays": [
+      {
+        "dns": "tn-preprod.psilobyte.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4101,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hsxu3tfj0mfp2ncpg67rj3kywwqvu2p3k0cqr8fz0ghnxjfyy55",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dje2qc5gp7t7sjgd5j6tse9smkwq0kezsccy8jkxr507x0aw4h3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15udpynn4qj4sdtlfz400he4narmagth659nzlx83rmklq2773kg",
+    "relays": [
+      {
+        "dns": "031e6928.cardano-relay.bison.run",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 1338,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1z063uemr7k9zzg95ymz0gfqnfv5k58et8xrnk6ynfyqdgjjw0e7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "18.222.164.102",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1t89nwdvpm8zc9whhnkr2mvvzayu3w9m06jc9yrd28w7lvm2r0y3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.24",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gvfth5tq0hdy3md9j33ee6wat7k04lnwjq4kmkjpmmrj7l99sxs",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mvgpsafktxs883p66awp7fplj73cj6j9hqdxzvqw494f7f0v2dp",
+    "relays": [
+      {
+        "dns": "firewall.adamantium.online",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1s2drn889wxgszm055z4hj5nvevdtdx9q5lc66lwdvmcl2nvdq9y",
+    "relays": [
+      {
+        "dns": "ava1.sytes.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6032,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xqhqfj4jnehs5zkmr2py40wkuztvwatx9p7gsdvpesj6x6tsyt2",
+    "relays": [
+      {
+        "dns": "dyn.derksen-it.nl",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1y78qthpjc0zvqwu7nfgy7m756226fz83dkkyxargq0juskqy63q",
+    "relays": [
+      {
+        "dns": "koios-preprod.digitalsyndicate.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6969,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jtxnlht8rlu4xhlucydej6584uv3px57urlu3demtm55cxe2azp",
+    "relays": [
+      {
+        "dns": "test.netspectrum.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool187yqngpdck7j8pa7r9hhp3fpxem478fqw2nklyr59ppkwystqdl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "154.12.248.114",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j8jjj8y07k5kh2ur8usekj5w0y4swl8khd2lgn8ghlfsuwexwf9",
+    "relays": [
+      {
+        "dns": "PreProd2.cardanoland.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7770,
+        "srv": null
+      },
+      {
+        "dns": "PreProd1.cardanoland.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6660,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gme3a0y0hqz2kmyvn5kqp6ngf74nw2uzypvw0ynxrfysug6p9fz",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "51.124.113.138",
+        "ipv6": null,
+        "port": 24893,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool160u5drqagq5k4mwghps36cvq7e6vcptm5r8tnkpcpkhwvrm2gad",
+    "relays": [
+      {
+        "dns": "relay.preprod.crimsonpool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3100,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13la5erny3srx9u4fz9tujtl2490350f89r4w4qjhk0vdjmuv78v",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "132.226.203.38",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool175lu3gm2rmvqpsrg6m82zvdmqaaryeqmsvjj7qyvvj20vxunc60",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "194.28.129.203",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1h4c9vz3f4rmkt2hc5y80kt4r5lcajq76hetu7ju29ley7acvclp",
+    "relays": [
+      {
+        "dns": "us.netspectrum.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 13001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qv4qgv62s3ha74p0643nexee9zvcdydcyahqqnavhj90zheuykz",
+    "relays": [
+      {
+        "dns": "preprod-test.ahlnet.nu",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 2101,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16hr6sjve8pcy9yucap0270rfdswsvpwfl2ksy8yp6vl9qk8u6zx",
+    "relays": [
+      {
+        "dns": "ppe.cardenpool.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7001,
+        "srv": null
+      },
+      {
+        "dns": "ppe.cardenpool.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1sew77wmm4ygdn2trm55fgjck895fyqvnnqqgmwuty86q5aukla7",
+    "relays": [
+      {
+        "dns": "koios-preprod.digitalsyndicate.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6969,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1s7wetfttn723hvdxx3wusz7yrxztzdfu6dm5nu4j6tuj6xcz2sj",
+    "relays": [
+      {
+        "dns": "preprod.adanorthpool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8012,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18aj2dag2cn6xr59mzxhtyyfu9kh0h9266s79z7l9hqlvvf69t4y",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10208t5hc4l4gll3d64d2a8mml5tjgg9k0nsjvxplt046k7pwkvc",
+    "relays": [
+      {
+        "dns": "foghorn.lbcrypt.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9505,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1laacstav6s62exgvg2f65c8nhz5qzmn665tyfyu4jl5sckpz52x",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "45.151.122.145",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hlyytvq9qxr4a3s3s3fzs6fzx5532tt842srs4ty5psqxk2yuth",
+    "relays": [
+      {
+        "dns": "adarelay-t1-1.nanyka.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 1856,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j5ykmf5a87myg947w2svnnj8f3evt8dqmvv624kugv9tcwwk8vr",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "168.138.37.117",
+        "ipv6": null,
+        "port": 6003,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16rfj469javk35q62jg69yjsk4v5kw7x6qgd07x3hj3lss9l27ru",
+    "relays": [
+      {
+        "dns": "g5.datadyne.earth",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3004,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lzz7qqyx6g4dycdlppmftswxugyyw86rtzj3y6yyrj7wjl94rcx",
+    "relays": [
+      {
+        "dns": "stk-ada1.qa2.boople.co",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lhknlva0yzrz6uty8wcct4eyurgz2ghan2y4mmudn3xkq5sdcus",
+    "relays": [
+      {
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wns664xl66hwsx7wf59lunq5x0t3mr46ew3j5sgm8t5xka32y4m",
+    "relays": [
+      {
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yrtux38kfj030vprg4k2f46q8rqkf6ss6yk2yvyeks8k5uk9tss",
+    "relays": [
+      {
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1x6hwmrf5mz8hd02n5x3ycgsgwsdpfexurdegxfq7s4wsc79df2h",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.8.215.51",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pf8d83wvzxsyfnl3dacy2kyvndhkex8hz4qzdgar740jgk68edd",
+    "relays": [
+      {
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool135dzt5vxn7um8tx3z58zt7x2ut6nu6epfxfandps5radw2zhzf0",
+    "relays": [
+      {
+        "dns": "pp.blockchainlens.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6301,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool19658g9m7a6e7vtky76aefcwmm75wegf9xs3t024s38l87rqq4ky",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "185.213.27.133",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16lk5fgc4zfthjza8fardhmj4jn2tcuzc2558pterlw4gykhsnep",
+    "relays": [
+      {
+        "dns": "preprod-relay1.riscv-pool.tech",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nfn2m3lq52hw6l8lq9nlag4lsdvlav2zdl9saptfelh07arxfc5",
+    "relays": [
+      {
+        "dns": "relay1.preprod.stakepool.quebec",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 5000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13hgadlyxdg306f43k9k950v6mc5nvanetszj0mxjh6wnuxwm9hd",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.1.201",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1plld4snskqnegqu3dzkuq763e3xnh47kujjju6kvh56ej6suwd0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ndxf966uknq89g8xvurh0cduskr2yq4ua678qt5pkyc4u6eq0mv",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "193.123.107.52",
+        "ipv6": null,
+        "port": 6043,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18alum6knwxaz2ku2k7zc78wa6k76w6c5l2l4pxg2j55w6wecdpn",
+    "relays": [
+      {
+        "dns": "de6bee1c.cardano-relay.stagebison.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 1338,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dvwuefdyt53wt54t7hk8lcy4qsdg5jyww9nk08v9nrprs2uwk99",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.22.22.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ece99q865t5u0rmx88z4ev0cut0pqarvqg3mq4zmhde3wqsdhcq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "138.91.198.150",
+        "ipv6": null,
+        "port": 9999,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1kzfkwxsw2f68gk0pp4cc5r3sfejxgpnp9tcygtxqnm0lgnyv0ea",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "217.76.61.215",
+        "ipv6": null,
+        "port": 5001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1954pqc2ytx7kzemyjgtlg9m85ty8ffm0am3yg44w5cg8x68hgud",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "70.74.164.3",
+        "ipv6": null,
+        "port": 6970,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "35.233.176.233",
+        "ipv6": null,
+        "port": 42169,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "70.74.164.3",
+        "ipv6": null,
+        "port": 6969,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rsrah5my3lns23ghpdhk6wgpxmqucehvsvex7hv55r7nuyyrfel",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.1.1.6",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xqgxjecd9jrf0g9vert2xzdte9rfwptnat03whfz69t4gx4qz4s",
+    "relays": [
+      {
+        "dns": "siagne.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mndyxsyw6yzgust4w2j2cfljwvj9s7k2059mm2f699c0ushgxe5",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "20.230.174.155",
+        "ipv6": null,
+        "port": 9666,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1njr03m7t9k808fcav8phxnskacr4v59w5cnqgqsgnug2j2lvn85",
+    "relays": [
+      {
+        "dns": "preprod.azureada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool160pfyrqp00up4n3t2xmpa7smd38ffd3ephc0a79w6kzkvk2jfu3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g74v33gkx84x94tep4qwrczkwwk8l075sslne2vrmn9jx95rfqa",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1d20fqynupcwz54chju55syfz3nms6h3kazwy9a089ghm2t2lzpg",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "54.169.190.91",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15uue6svd6kjt9gjplp3a2z2f6sq79m0h7fx3fd3960g6chhudm9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yh54ttht6ww74u77xehwm2mfhg27qmm3v56e5ahc2nsrszv0xtn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1r2k8y80zxvqjyvyy3xg8r50892qcewgm38z6pcy3uk8fky4rkl0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1406426vectppa96tc54p0jpa335zn4793969udppzcj8qlfwech",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1egu0kaxmv3zu54xd80p9u0dcalnywmfru0qnm43hjvfzqa5zw5x",
+    "relays": [
+      {
+        "dns": "preprod.blockchainbill.lol",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tzau4l4xpk4jqh766am0m89np2k27k0p0we424fte9mczrfl49h",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.31.22.234",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1uzsnj4eu37efwm0trm6nggwvq23nl7894wsnpq6pqp2eu0xdm9x",
+    "relays": [
+      {
+        "dns": "mithril-signer-2.release-preprod.api.mithril.network",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9092,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1l0cyfx72p6w0tufav24ydeurujfs5wxgysg32mt3u86yj9w442w",
+    "relays": [
+      {
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool104umgmn7el9dn78afeydlrg5wm6snlclw0xn9fmn4jwg5j633rt",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.100.120",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool125tufz3q8ww2he3cwp7cn02lsf44u85tnlycmxq0y6pegz4mhjs",
+    "relays": [
+      {
+        "dns": "213.136.85.236",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mtyjt95svreuxl46xnww3m09afp0pfggf6m7j8ewa5tc6qmndce",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "51.68.141.123",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "vps-bebbfba3.vps.ovh.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g74nu0hezqzd07jdk75gvaf665rrzwqnz2784xe0t5td5pj497p",
+    "relays": [
+      {
+        "dns": "adarelay-t1-1.nanyka.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 1856,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool188etalcyudyh4xuaa4mjahs62jujem35h3l02ht83zjusqvwdh7",
+    "relays": [
+      {
+        "dns": "relay1.preprod.metablx.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10zaylnde5n0uurvcqyrmf2wjrk0hk2zmx0ln990p3alt2gh4mkk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "171.31.22.123",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wyk7r2z9etzevz8yucu4jpamkt95f0rjtew82y3dx3zx5maj92v",
+    "relays": [
+      {
+        "dns": "pool.cyberwright.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 1337,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1se43tfl325c0mgmd3lfvleljllsm9hkzmnhr45ujhx0mvgtahw3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.100.120",
+        "ipv6": null,
+        "port": 1337,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18f0ftweczx8kyqv054ld4dpauc92pqy6uvr44wa6x8vhk7tj2m3",
+    "relays": [
+      {
+        "dns": "relay.kawaiiuniverse.moe",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fxqkwkutajp2vr7t3vpvt4sgy7gmlxetgnyh57hkn7ru2rf96a2",
+    "relays": [
+      {
+        "dns": "pre-prod.stakepool247.eu",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15kkydrvnkqyqq6zmlnjglskqwulka0qr95wgz84a7mzmufrnzj5",
+    "relays": [
+      {
+        "dns": "pool.modulrhub.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8080,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gmxl4hv5hxh8vagw26r6av0pwhxemye8wv2hl30e2mehvzmzk89",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1z7kuc2r7jgfmvuw0fazqzs8phcgfl64kmdmcsq7z440v578ekw8",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ehj84pd2gywfqrfkcyvk3v5c3z99jalnax5htta89fp3snf5eq3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xu8ljtay48mcdmnu4qnd6l9s9qxeu73w0h6l0gpt0097jgs93y4",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j55ew47zgftph5jkf6qsuuhxwu0tjf4fvln6259mpqn06xcktvj",
+    "relays": [
+      {
+        "dns": "siagne.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1frc4f6cr8hwkjraygrhsvkl840xdv0u52g96k05lrd3tyeskmx7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "18.130.49.180",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wf542yl9c85gks2f4y479v2nlqtfr8t06v0td877h5e0qgry4st",
+    "relays": [
+      {
+        "dns": "relay.splashgate.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 422,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1cap99vewanqjy4ejex7z5099hqkqdp0y2fatme9cdcsuy85rq06",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xafhfcvhyk2cyr7lprt4luxjcxgh8z87z6fke7d6grvvzljga3l",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "84.75.204.134",
+        "ipv6": null,
+        "port": 9515,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ndehw7qlq0cwcqt8vujmhrd27vuqylshacqw7sgyujuvk4gp29q",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1x2f7xdre72calxp5j05k5g9hvskztl790v9enggn42js5mdxesn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dt5t2upg4mppj9y9trh6huq2qm8rcl86pqk6dmk04kfjg4e8ga6",
+    "relays": [
+      {
+        "dns": "c-pp-rn02.liv.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      },
+      {
+        "dns": "c-pp-rn01.liv.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1h0qpp77llkzqssgansh8xg8vrhur3aeynn5n9sqhqgde6ekcwwr",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "5.170.207.152",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1862n3xnc2y49rezae700z423lnewx6k5hj6jk0tl0vz87n0l279",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.33.22.31",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wcz3mfg76ttd8tl7m54z9ptrs4wpfatx7vwd9ykrsjltwkzvcz9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "182.23.45.231",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g9gkpj6kdt4gmlhnf7yzv7y9u2qstp3r0tm4f68a47ukztaqe6q",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gzznwjn5ehc4t758x0skg0pv43hc6drhdjkfnj5cc6tvva5ej6j",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "185.193.17.83",
+        "ipv6": null,
+        "port": 6005,
+        "srv": null
+      },
+      {
+        "dns": "relay.addns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zv0ldgrpp2pwzr39vjwcyfz57e8mlff3229wyykt5pmsjt95jhc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "210.54.38.228",
+        "ipv6": null,
+        "port": 3020,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e303tg8cmmgcjd89e30c7u7tz52ct0nguq4w4ryjj4422y99u23",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.1.1.29",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fz8qe58ywqgyrvph5hwv4veualuwvy6uvwyzg3hajrynzgmcre2",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ggurf2dnv9qh7k8zt9hha2fjtv26v2uy0w23vvf0q7snjqe42mm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.1.1.29",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vtvseq6f76sxwknw5r6mv24x3nxcevenhpsyf35utkk77xljhag",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.1.1.29",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ke9h4mggr8ttf45ale5dv4ntkvuw2wkvm6la4mv02688xuy99qp",
+    "relays": [
+      {
+        "dns": "artemisrelay3.uk",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1al30ghsq7n335v9zdrnd0dpuva435c9yqtsrvphsfcgjytz3exp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "10.0.16.7",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12al62800devlmgdk8x5qpw38tnjsmgyys6lrd88hmfwvka2upuw",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "51.159.206.110",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xaj5w5m3ra8xypv58h4djvjkm08j94nu9w49nadlyyduqx6h5dp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "5.78.44.177",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1c8u8gmxepqu93adxh7c2pgrgutmyufkezpy454h06r24knmt7tk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.111.154.123",
+        "ipv6": null,
+        "port": 30011,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "172.111.154.123",
+        "ipv6": null,
+        "port": 30010,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1t95f2kval0ratng95m7kqf5xch462gdpde62q9cr4849uehxmqa",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.201.99.222",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14t88wyzkfeqex34hjtk7e773r8rx3erfxl6s4mckzzhtcdc2egk",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yx6uxy0sju8smm8matljll0jz9d4hmpcu6x7yp0vkx5ng5cun22",
+    "relays": [
+      {
+        "dns": "ec2-3-106-124-200.ap-southeast-2.compute.amazonaws.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": "ec2-3-106-124-200.ap-southeast-2.compute.amazonaws.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1u4x4ly6qyx9fs9k2lt7f9hpa2gftd52fee67jcmuhnt7qqae3x0",
+    "relays": [
+      {
+        "dns": "relay-kiln-0-0.cardano.testnet.kiln.fi",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hfndr5ja3w7ptzhpjsds8f2eye3umg6nj8t7cq6s9vddj9q70k6",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "62.169.19.81",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qvfw4r3auysa5mhpr90n7mmdhs55js8gdywh0y2e3sy6568j2wp",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12efl9gdw55cc7sax8cq5spmrfzj8t57gj2p63s0tfx8mwqrqe4g",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "5.78.44.177",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10gqm62xy7caj6jhhefsl7h59kse3rv2esuh9rvx55eze2n8dlrj",
+    "relays": [
+      {
+        "dns": "preprod.relay.beerpool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a2r8szr9hqcrjw0jr0sy8mryqqm5tw4wumc23rqw8t252ah0w4m",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "117.61.18.45",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10aqw4wa8cenqut0mlhrnayfhh4jjv7kyg9zv40426axs793k6nx",
+    "relays": [
+      {
+        "dns": "preprod.relay.beerpool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vtfhwwy868ryf49j3ft58ug3t9lq44t9fdcavyl5pawsx6hlvam",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "171.31.22.101",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12uvnqe8uq8jfrpk337k63pgfkf0q6lncy0zqcylfdq4zc9n8755",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jt6tf4y0eshz0agzww8dc44wqt5kk8ytu730yww37acykezuly7",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tgzfuffjtkshhm250h44unj5q6hvm6tqgs6592zwt26hqr2tez5",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17k3p7y9u5mv4z9s8qzuyhzfasdm0lz3jlta5ux43t5j4sypwadk",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1kmmwsywmkus520vhk82k9uvtlx09r50ukn80pn2xr26jjmm6ltc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "3.15.226.246",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15x8nh74ecca5dqsd4q4hvywqvasg0z6ns0v44cfgftppc9a7pjv",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13hxcpvdu9sznsyslxc5ctyu68vkvxk947jflrpsdd6l5u909q9y",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xj8dkvwwudg4qdlg5ltl3whu9fhvtzyh2zlclnx8tyc2y80ytuu",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1uwg22a2nvattzh8sqydumja5xgh68r9mtdgy80hknm8xk8asj5h",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13ls4vfl0cznxjh0jm7kmzv5a5wf8e8uh27esucwm2f4mwt40sfv",
+    "relays": [
+      {
+        "dns": "turk-preprod2.cardanoturkiye.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 2095,
+        "srv": null
+      },
+      {
+        "dns": "turk-preprod1.cardanoturkiye.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 2095,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool170lseazv7knrlu2m7xzj852mngvn075x2vqgmdmdvmd05wwdxpy",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mlse64uvz922nax8s8xv044rr7qv5zv7ppuhrsx8ht4yq845ne8",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j8p7t7k2wphvhv7lfuprmpmrvxrc9jffk4rmy2x8sh3asjfv7sq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hgsnn5yr0g5rnhqqaf8g26ldsvuhavhkfmyxdjlparr6xvp425n",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wvcgcga3lj44p6l3lh3msxharg74euzqptphax0kl6hcx44x63a",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1c65t3mxfvvxlm5fg3hlw2aakk3r4e9evmgycxjnu6hkyxu5yfmr",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool120amlaz2x5a63vkh9fpt3gy4qyjvr0vxjt8p2q6ytwh4ywfukwr",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qkkpw4e4lhdpaeppdsdkesfn47q36hdnfw4v0gh27w3yc6l3fpn",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ka0prnwsau3v7mrffw8zlk4gvq7aun2hsymlmxpkens7kkpm5aw",
+    "relays": [
+      {
+        "dns": "sator89.ddns.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 27741,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1r9lez5dne3gxe6yjpe3rl87kqweff9uyx8vkv2kk3yprs2k725u",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xapempldsxvte845vwxk2flmqm4x7jrhqftj5q3p5qhvynd6smz",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "20.245.119.32",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xgxhm4zgkevltshwk7yezvt9un08anc9rhlutm5yp7jr2etj3x0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.13.129",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nj7z8vrq2m2u052cv58srudcrj2k3na0pqz9evc3n498wvm65a2",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.173.116",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1eudmugh8x6ys05lh8kaaf2y0w0y52lf3s0gx0s70q694ksq6t7y",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.173.116",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pq4f0yt7cq9dz6tj6sj6eqnncem9m66txvuuv6d6m6jrq0wcdgv",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "167.235.129.147",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12v43sug6avuwn458fwlx0j72lqrjqqcec9nc9ywk24x0wn7ng46",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "185.193.17.83",
+        "ipv6": null,
+        "port": 6005,
+        "srv": null
+      },
+      {
+        "dns": "relay.addns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a28qxpdfculv8c2q80jfjhy0s385w25uzpmcyzy5dkz9qwgtt35",
+    "relays": [
+      {
+        "dns": "snsky.hopto.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e0mu44gtaglzv3507aaw34eyhw6jea93d7zjywsr5yfh20h4zv8",
+    "relays": [
+      {
+        "dns": "adar1pp.stakit.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 31000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1f8c7lz93ysh00k09lwm8uycrq7plxsz5kqwd7cyq9v6sgvf6cnl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "3.126.189.144",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15w7lejtrpk4868drc8h65cgmm504qlnzhh52e2yndgrs5a9w232",
+    "relays": [
+      {
+        "dns": "relays-preprod.poolunder.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9900,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13x9h4e00xt6vr7z7whr525lk0elzwtvt3z9pzqqrrhep2ztjcmh",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18ylse5vwz63ahy85zsxuttzy7u7zadnjq9kawpa7yqry7dr9zna",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "212.103.79.154",
+        "ipv6": null,
+        "port": 6006,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xk2ml63jn0rjd5958zul47hc790neyngkcz0tqwxrdtn5nn349z",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1kxk8w4c5t68dvu9k6xwfy8slamltwwerl0kmqxqkk5yx7ndrfpq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vf8ukuvdn7kv0hxgm23utjkkw5ugdhwfdrxy56l2t6wvxezspyu",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1duwr8s97tsl6qqwwqnul5788ne949mlm5u6d2zq7dwpr2r4sd3t",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12krslmkmerf45g4juaartm4hkawkmrh86peyy4hlte6nxyzwcyf",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e0arfuamnymdkmjztvkryasxv9d8u8key27ajgc4mquz2nr8mk9",
+    "relays": [
+      {
+        "dns": "preprod-node.pool.milkomeda.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1amrnegn99cdwj2zjr90lx2yamxg6s0d7t7vf7phpe94kga9gg86",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "73.222.122.247",
+        "ipv6": null,
+        "port": 13001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1n4djuwkk8jvcywzh5dzgh5qhs5h0ugvyy5ahfhdc97x3qhnsv5s",
+    "relays": [
+      {
+        "dns": "s2.lost-in.tech",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool150an6nge5wnpr9j2pduez0ff2n7wc0gfkmf896vwfmc8kqd7aek",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "38.242.204.223",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ptyjx9c5tq47up4ggz6yy5672xmwcz3zr63cqc2cv8v9qksu695",
+    "relays": [
+      {
+        "dns": "xsecpreprod.infra.getlenses.co.uk",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vfqxyyxmfmfzg3egvc42dxkmmeea3he3r8h6q2dnwkaawwd0sv0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "109.9.152.96",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mv0kgwy8pghc0l2kr7dueeaf756a6pvwe0zp0umdpmug565r5hn",
+    "relays": [
+      {
+        "dns": "c-pp-rn01.liv.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      },
+      {
+        "dns": "c-pp-rn02.liv.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fpeve8xg0nuruuzntxccexcj28lxzyq2lwks33tu5m2yxalltj9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "139.144.178.160",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18jx0kufqqvhcjky7ml6s56lezuzrvxh8vt98ekpj4sz9wrp0q9m",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g8yh6lekmzm7jj5ja86nn5gnszwefnv25tfxtar9uhm82rpy249",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1p8wan47ztxkv9nu46g5cw67z9j7mxqqs3a5jncx52e8ak7ackw3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "109.9.152.96",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "109.9.152.96",
+        "ipv6": null,
+        "port": 6005,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ujafaae6h7quhldzwcs0psxa0mxczx7zay4vnggmu0sacycdgum",
+    "relays": [
+      {
+        "dns": "relay1-preprod.contextsolutions.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ypmhxlnrmhxpfavklkkt4td4dartxhphdc7shvc5knknur05ta0",
+    "relays": [
+      {
+        "dns": "relay.preprod.wingriders.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": "relay.preprod.wingriders.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14kjc0axlsazplwfz9epvn88s866hgn7mvaya5pzrevnwy5cvj6a",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "83.216.11.50",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool19zdqgm9hmstrjc36jh8wke5sa6t9wjaeyx6u8yza69d52crgvtd",
+    "relays": [
+      {
+        "dns": "preprod.ada.chicando.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a4rwdu0rykl0e48pcve7jyk02u96hm3h8lv2xf6t6vvdwngx4uk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.138.247.155",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool19u5hvwc7hm5wrs0tf5knh7373p88en9gt2tyad5yjfujy29676m",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "185.161.193.105",
+        "ipv6": null,
+        "port": 6013,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1phgtk3jgdyq2ldsqae3d4kap8l8pq8lyadqacvfhcdxpzkpzfpc",
+    "relays": [
+      {
+        "dns": "r2.poolforlovelace.me",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xxnkgjejhd2eqp4gusjd8s2tnq6frwh4z453j5s2vl7axv90n9a",
+    "relays": [
+      {
+        "dns": "127.0.0.1",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv",
+    "relays": [
+      {
+        "dns": "preprod.cryptobounty.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6160,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jgl6h9fyy8gqt593ah638kqps4ls7c78d5p00we6qlzycdmhhvq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "74.122.122.121",
+        "ipv6": null,
+        "port": 6100,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jqdqadpeezma9ny2cnh6gya2ps7nlvu3lygh5ep6e38jufvhte5",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "88.134.77.234",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1st3vxnpm52s8rqp3upm4t02x75td66vkxpk9nf5sudpckez3q9j",
+    "relays": [
+      {
+        "dns": "c-pp-rn04.liv.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      },
+      {
+        "dns": "c-pp-rn03.liv.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool188vupfvh4nkd307swe4y02jx36lr7ee5qglavska0ywpxrqu8ra",
+    "relays": [
+      {
+        "dns": "relay01.rkdn.app",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30010,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1v3lsp74wauazym2rwkktye9kdw2vyj8h9yvkgzj556t0g390ecw",
+    "relays": [
+      {
+        "dns": "pp-relays.digitalfortress.online",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool140qtx3sfkm0sxlld059xt6vejwcawul6x70la9clml3kxruz6qp",
+    "relays": [
+      {
+        "dns": "preprod.frcan.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6011,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jtsar7k09zne4wzlen5ctmxa8mjuzwmzp9tmdxdul9f2q70074k",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 123,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jaed3q2trl0n6s5mwd0tw8s9k4uheqr7ytpfne034lrh2fj7wd7",
+    "relays": [
+      {
+        "dns": "alpha.stake-cardano-pool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 7001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dg720fqut6y60phvxzk4pe639wvc2du65mv0yrnm8w6e570ct39",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.165.117",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14pmq6d9ym3q98z9uw2cgp4vcxar6scpw0c50gksa3kxzw90sd2s",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.165.117",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qata6zlvsd72vz9dqnh3733xdv9qyrdzghh7hn5tdn02vl6evww",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.165.117",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xz6xjncxtgfv00qfklfma5ek9c3c4vk5yxgnd8vkc33kvrkey20",
+    "relays": [
+      {
+        "dns": "relay.preprod.cardanostakehouse.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16eqe8ngw7vfl4tltw3j2c4kjphu58xl9hwjuzmkwm2akghn9dat",
+    "relays": [
+      {
+        "dns": "relay.preprod.cardanostakehouse.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tlpsswg9ev0frsrcgukpz5nsw5gcetldunwg6clrvxyz5sn2xaz",
+    "relays": [
+      {
+        "dns": "relay.preprod.cardanostakehouse.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jd86ej2sqk5h4d9y0gtd6qquqvpdw0cdhtny7epcyh4rjl8wrsr",
+    "relays": [
+      {
+        "dns": "relay.preprod.cardanostakehouse.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1z4hvgqpccx8el8480s70qyr4yj3f0vszvu65tda4tteh23wjtvv",
+    "relays": [
+      {
+        "dns": "relay2.preprod.pool.cardano.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      },
+      {
+        "dns": "relay1.preprod.pool.cardano.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "141.145.210.204",
+        "ipv6": null,
+        "port": 3003,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "144.24.168.10",
+        "ipv6": null,
+        "port": 3003,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1u997u0wg039euqrsx5fuyy3wktw983xmrxrzc93z3j5azgfk6y6",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "117.50.199.90",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13m26ky08vz205232k20u8ft5nrg8u68klhn0xfsk9m4gsqsc44v",
+    "relays": [
+      {
+        "dns": "relay.preprod.staging.wingriders.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relay.preprod.wingriders.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yfs7qc0frzlkvy5rw6npwyc94ve7pk094ugzxn0678mzsnmqs7f",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "163.172.105.45",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xrflm7hknav65t3chtcy2ca4s5v64erm2320g23jeuejvw60t7l",
+    "relays": [
+      {
+        "dns": "pool-preprod.ada-anvil.app",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6100,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rtseflldkqytw7lm3mpek9g5m04ennkv6ejysxqjj52zyaq46rf",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nfwteq3rsk6uzxwncj7vdaqggkd263n038hf6xhwrj92v0cs48x",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "89.58.62.19",
+        "ipv6": null,
+        "port": 8192,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q3gnyefcxdsnldjur0ykd8fluct66efkrv4usjgd2xlwuhne8j2",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "16.16.199.77",
+        "ipv6": null,
+        "port": 41783,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool158e08av7pux9guu574zfuaft90ejakxskqr3n36684g3cs6msmx",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "103.163.183.66",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1axqjzy6mtr7h0cm6trz36fjn4d33qvlu7a6yxaxf2f6wuarlh2k",
+    "relays": [
+      {
+        "dns": "cntr-1.services.evolute.software",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 25437,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j67m773nj49h0h3dha8x7s768d5w4z3t9t8emnlulc8au9tzfvt",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "38.242.192.110",
+        "ipv6": null,
+        "port": 9999,
+        "srv": null
+      },
+      {
+        "dns": "stakepool-01.emurgo-rnd.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9999,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lec5sxj3hzwz0f0t597r3g52a6lryv0v3vu3n382u6qpuqquhw6",
+    "relays": [
+      {
+        "dns": "relay.de.pool.bio",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.antimo.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.brazilpool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.evaginger.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.fikapool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.hyggepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "elay.de.poolfixada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.lalkul.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.nanipool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relays.steekpoel.nl",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay1.emp1.smilespool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relay1.emp1.smilespool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay1-eu.smilespool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.zoepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.yummiuniverse.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.lambdastake.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.enactpool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.winepool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.threepool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.poolfixada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13lqm9qxuvsrt6txassazk94jce6a3q63ppm3yej0rney265k07s",
+    "relays": [
+      {
+        "dns": "relays.preprod.fortepool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1upeknjpwqkemwm2ephx2v94wkk5wlh7ce58xg0w4fxetq25mn2d",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "16.16.99.82",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qs89kqynhwcg0hnelppxtrydtaxc5y0x3ztvhr5xlmdpv4c20qv",
+    "relays": [
+      {
+        "dns": "ada.preprod.relay.tst.monedacloud.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6501,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15wd2rnaqdcrjqxxrwlred8dvu2rvuxssc25xd9p0rc42y50cl89",
+    "relays": [
+      {
+        "dns": "preprod.chesspool.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vmhgsujfcqyn8n654yxtavlsjggew2a3knrr6smxcleggdwl3pp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1v5f89tua4ucmj9s0g4hdjkjtmpsuunxjz6sg5tj97ak0yja4hfl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fqq5dr93h874745hyn4kl7mlvq0j9l67j4grxehnpyr3jvmxcym",
+    "relays": [
+      {
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zwyxffnuhasd0fcwe6upfd6fwywl9tm956a92yh04450y7p87pe",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g2ztg53vvf7233vnz3ff7wedx7lp6qnpp0nwt09kyqygycj0k6n",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1s02ue5qr6fw937k5hcfrdwv0wdrsz0e5269p5m6es4m7xyn2kcn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1m3t4nk54p5tnl24gwpakkyej4u4ad4efkf0c9cmspc3p543aqnk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "bobthebuilder.com"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wcfnw3cf820z2fqn4rmlaf29yj5enymen4ll085eza4ey4shct9",
+    "relays": [
+      {
+        "dns": "dingdongdns.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 123,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "test2.com"
+      },
+      {
+        "dns": null,
+        "ipv4": "128.128.128.128",
+        "ipv6": null,
+        "port": 128,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wf9j0stckxueuxtrkupzug7463el4mdwz3fwxwlsdr98q9292s8",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1magcvmx7v68sy8mjwrnwcl8rez50zd4dwpxhxy73xkukqllf4ms",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tdj08vm0ysfe7gq75pewdq495frfm7259dk6v65xtcw9gkh5q0u",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14qayv3w4lyar4lpg07jllrtd73azn7h2vztz0eezwxur2y0rg5h",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rwghc6nncgueexc87t9zc556fdyach66493ndsdvukhakydsa6w",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ujajzuj0jjt45t4yafh9uwjr6g5aaprq9h6tcn5fa6m72vv8x2a",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14mvfr40jveuche70n3mtqph783kwxktx02ke2twajuz455e2ul3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dmjagfyekz5vpfkdap7axpm8khhshnj658ukuscphgr76m4lef2",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool120v6wyfwjfhw5ew084cylj7kxq9hazr58cx4lvazfkh077u2qf9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hnl4eefq2pmp9ksj3s9slv88eget9qpp0z9dgm3zzfj4w8trkyj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tfqkatkvqujhm98fymsr3jqgz9hlu69dyvqagg7cn40jcm4gnn9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mnp9rma5zcmqutjw57uek6uug5w5espzljtppvcqygutqevuxt8",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17cl7z0njlda4vl4vra5ef3yns5y0wgmka3mh55empdeuj22uaep",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gyw5ysgwudxzl9nw0eujm4m3f8vzwx3e3jzy93v3x4jvq42fpux",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e0zq88g3duznzfenn08larmcnnarqxl7wluapazcft6jsssexch",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1f5d6h7qv4q6kr5v5ymegdgvfp3tyznudq6xugdt7nwd6ga0szem",
+    "relays": [
+      {
+        "dns": "bangmapktvn.duckdns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      },
+      {
+        "dns": "bangmapktvn.duckdns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fd7g2qs8sysqvysm2vuv4mhlpt5x4gpe4arpgxjp3y072nqnm7q",
+    "relays": [
+      {
+        "dns": "testrl2.duckdns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "\u001b[B\u001b[B\u001b[A\u001b[D\u001b[A\u001b[D",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "testrl.duckdns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vhlau0270khmruluxrc7dz6zfj066n9emhl3dtzw2cxtg7eht8g",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1s9fpc23gpucpjn9qudl8mcgwvlunjw2lkqhxasa0z6yz5wlawrf",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fjtvkgpcqswefn65xhggtmlvkgldsrufuywha45h723rcewpjzj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fsv7u3actd93792f5nka66080l2m0elu69tuvk74qz8g5sukff0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qep8gwqux539qqtxhr4h8ea07qyc0jq3aak5jjcxzqyavuet7ya",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1n5hmumfnhzpk94cec4kux2gc9rgcq5jqxqp8pvn9ek2kzgqtw7g",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "14.236.236.14",
+        "ipv6": null,
+        "port": 6140,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.236.236.14",
+        "ipv6": null,
+        "port": 6139,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xj723kmltfltkkznq5ml9wus0t94y9znxft25txk5t6p6hc2jk3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "69555344"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e994rxs8glsefr5rqtagnl0y50e8nrejgqehr7mg4su2gtrvxwn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nkc9txh8rtul3zwncqtc4acdp3hd8kzjtnmu43aq9e8lqs4e5fm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1l0psp0yj3qk04trmgz7arhq4qv7kwt6tqwhngev3aaqwyageswp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xswvfnk5c0a3r7lh722vam7feye8de9wyys6c0e3hmxd54q9aae",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15stacednny2nl2n07p2p6hdlpj8yu49vrpgcnxy4v9swurchv75",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fwddsjze22pl4qfrzala4h5xcmueqgqgvsq88gdyze5mglfhvap",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ymrt98cl9s3zw7hrumyn7dyv8f8zy3aky523237e3r2zyrf3e26",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zpyuuv8wus56cpmvr0c88njsnzcsf3qeaw4vyny6q6pd5x7vme5",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zl79v96hz9fn9rhjepxa3mpnk4gsw85fjkze35vpvarmv03ngw6",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g8aqrg8u9uufjrsvzt78cnqk3fws4r298p9esw0exd2mqav0yl2",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1eeqt64tp48na33ck2j5ufszr6srjlxswanndevvcftjmzpt5kvl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1huftf4gt4qm7ckprs3zt8gjeva4hkfmqsk8le9w7rxag6mhxms0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ez2wz52f605j0qd9nc35hw0pund5zp3fwaqtgv2tyzy25kmkr0n",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10hmpfez2u96atsf648xhe8jv470qxqn6j432zy20qa3227e8kgk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool129kx4etdult6t7amdv8hjl6yf3ur95hrhncpt29qk4k9czz8ura",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12sa9qn5v62gdcdrnkwnu66c0kdmtq7kwl3vm3v7c8s58299smu5",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zjxgjy4x9v9yrs9g3d2v7srg0yl8cl08nw338rhl0axgcqh2ftf",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1sm7h08std605lgr50dhajrxs0dh6jr7wskuj3j9em57w6tw8tuw",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nprz06vaq28d8kt8tur30v7j4h0drg4538e6uh6agvz6vxnnjfr",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jryxj9gj0nrn0n5delstw2nakhqzc56r5rkr4d032jls2rc5y7f",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1d0x6sj6f50h2d4ydzff76nupu24qma4azng7a44ffgxj2hw2jra",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool156a5fugj6xxv8d6vwnk9wmctsrk5p5xff8fsvpwhmraggq56w9k",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1l6h4h50330w39v5kztta4marje3nwdsj0aey84zczer0ztaf3ve",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "69555344"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mhmk5qndxhse7xsjectzrrhj44uq9uc4a4x6v9dae4us586g4ww",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12vekzf5rcf7a5vfhkw42f8huq6vlszwhs4evwy4yv0hzqu6dhdc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool152g6nqpmfelr7sq2809e0m5wkq0k0y24uqmdj3efz8r32t4t0gs",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1utkypdtqutwnj326g4zm8q6qjzxqpurfny5scq6m43hcsmaaeep",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "69555344"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16c0tqycyj7ztuwmnlv2hva76ec7dv3emslevrcjej8ph5lz3e8q",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dvaqhr0x4pgm5r2s39t36lvfv0aejjfve7e8llmkt4w52pxpape",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "69555344"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1crsjjsvp9tppqrs4tdjqdxze4xxdj9jsrdxajytrp57s2797uvk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vntk8sas2plcvj35l9p0v53lac38ymwdudr9mfcpg2a6y63p9nm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "69555344"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pq2lsk6vvruptw333j32lgg4qhyt6eljrc6rhzguxq0uvy5vklc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12cmgafc8xul070y44lg47h0sfxedaq3lwur33g4dkw9guykqt69",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "69555344"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1cmkjkxmk8hsf4dwxy6cng06arcvyk5du06jk6nxu2fj7kckv070",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1aw7fkxekw2w28f3ug46rwn8nf8lchyhy2aec3tvaw70r6r2kr0l",
+    "relays": [
+      {
+        "dns": "relay1.preprod.pool.cardano.services",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      },
+      {
+        "dns": "relay2.preprod.pool.cardano.services",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xa4fq45v0trzvcs507gel3dfrxs6m8kc20s9d5jy7a9kxxqt6wa",
+    "relays": [
+      {
+        "dns": "relaynode1.myadapoolnamerocks.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1traytmq6e7t33ux86fs4uk837ltl56hnv9fkd954ndkrjerkter",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.139.207.99",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vgf6hsa6f2ct6jm5p42kdu3kkafsszud02xl8nmxu3atk7l3ec9",
+    "relays": [
+      {
+        "dns": "dear-colt-ada-lb-7b5456ef061920ec.elb.eu-west-2.amazonaws.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1k4nqdlvd9y3l4rfgj8fm80mcrrgcvgkx732x0n04jqfakxy2dvd",
+    "relays": [
+      {
+        "dns": "dear-colt-ada-lb-7b5456ef061920ec.elb.eu-west-2.amazonaws.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool19d8wgkqn7pc33y0uy2t5vx0922nvzv0a5999ejj0fjdyxjxdfve",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.139.207.99",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1scqanlqepaertn4zsr2cuf9pspgpwgrpq7s3zsrkd4hdsz6q7kh",
+    "relays": [
+      {
+        "dns": "relays.planetstake.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fq9e09gpyqqanrx02yevnw2kpqf063mlw6adjt2yh4zc79tckhf",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.139.207.99",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14eftq7myfpt5zfaa5eeswpf3w6s8jtnsnev806vmypkc5lk6y2m",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "3.145.124.33",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13jm000zz435dewqrwjd5nt4p5fy467yk2ldu2m0yqz8ncejd5ky",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "75.119.157.227",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ppmh24gjlhxrc7etpczwatehg9tfhh5v0kk2g3zgpxnsx5et0yy",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.1.23",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "192.168.1.22",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10qlwk6y9hhny4nweukak93yf0txrxk0p4k6c992v2hku6l9clkx",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "188.165.238.106",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18rygfjne9pgqrx6lxtwm4hhvf4nd7ftg6q8vynzxylawkusrtxl",
+    "relays": [
+      {
+        "dns": "akasha.preprod.kawaiiuniverse.moe",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6060,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wmluq6pjne9ndvgl26q52f4lntpjaqkwj6x8u2py9jqfuy5mv8k",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18dx5asa2609c93lk6gawjynpcttum26469u6ljptz97kw00xnpm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.23",
+        "ipv6": null,
+        "port": 40000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1x0rfh56fzs7c9vd2jsss6zx3eh882l0jan85utly6vke5reejt6",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.23",
+        "ipv6": null,
+        "port": 40000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vjjg04efcuyv8427f8n3mmarn9244u8cnja7z637nmh8y5jsg6u",
+    "relays": [
+      {
+        "dns": "node1.beerhouse.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1y74f44yeedrls4nj0yf6h5pdl5ythd5ahm73knqf33hfvq9rhaf",
+    "relays": [
+      {
+        "dns": "relay-testnet.nedscave.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10t0uux47y60xuvaxlw7e2cau09szp25nly2klkrlyr0a7jv6zlq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14qcpfdnxugjl9gdhpdmvkcf72ruu4lrjfxn6v0zvr4al60lrmuc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "77.250.110.243",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12rg7kqf2y3c7j643dm508xmkjl9ethfphfggtykp6xfyv6zjcge",
+    "relays": [
+      {
+        "dns": "testnet.relay1.lonestarstaking.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13dwtqgl5lnep4z5e8vjv7ef5qqd2095zmlccz3d9805zk423gwz",
+    "relays": [
+      {
+        "dns": "prelay.afica.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool132acpwearrmwx94ryem4uxx6ch7qjyqnrx7tt96w5zcqwfree8l",
+    "relays": [
+      {
+        "dns": "camaleonte1q.ddns.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16x0zwm5j7lv0fvrla0z377sem7rha2lzwkgvsazu7nfzjtn83l8",
+    "relays": [
+      {
+        "dns": "adrelay.hawak.cloud",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6006,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dyy58ustunahrnk6gfmupfxsv99stqnrruxqvj5sjfk7vel02jr",
+    "relays": [
+      {
+        "dns": "18.119.104.84",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12qj4pk9sr6mxxwnfj9hvujf0r2d8c4t8tkwcafnrjdpxqep69ck",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "159.89.196.186",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1h9rvj96leksykmj6v5zdwwc352ln875g5mdqeexzstrwudkddmc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.241.229.73",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rccstu3l9ty3k0a5cd06fl3szsss9r34dcg5j38fqgq9kvng0tg",
+    "relays": [
+      {
+        "dns": "logicalmechanism.asuscomm.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6004,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "146.190.20.214",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rwrtuuj2cqw6kfhpwragyzkuzzdj35rrgd07aku78uz7wucydjd",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.29.1",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1r6zamscm3pqe65je0570rgd07qxajsgr5qgx80hmquwmsxl8mmp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1y4jn4em2qht7vq8ve8s4retn4gtw8u0ha82w48sg6ggdvl9mlcq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1suqa64z86ht04r26lhzd2zdj2329nmt76f5u98djvy99xc9fmjr",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.23",
+        "ipv6": null,
+        "port": 40000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1v0mz3r0pkp5evjm62c7vrd6q2327nrw5uhhs8fefqst0yy57mgn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.121.29.230",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pzdqdxrv0k74p4q33y98f2u7vzaz95et7mjeedjcfy0jcgk754f",
+    "relays": [
+      {
+        "dns": "test.smaug.pool.pm",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16eta2yaat8cp6clzv6e5wt30c944w229xkslx0tq5ce4vg39vwz",
+    "relays": [
+      {
+        "dns": "relay1.hunadapool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a2tegwwmwhmf92z6nvr65qs27lwmtfts9shv2h8fvhv92un8nxe",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10dtwvn64akqjdtn9d4pd2mnhpxfgp76hvsfkgmfwugrsxef3y2p",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "204.216.213.96",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e7vegr50kmr4cffv4jn4fpym997zzs20gq65w5x06snqxxyfgrq",
+    "relays": [
+      {
+        "dns": "p5de47f39.dip0.t-ipconnect.de",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6100,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13jehpkxh5mwsyled40zyn66hdhml2n4zqqlhj5jddyvty7xc49a",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1t2hm2nqf4ju6ay8nn0h2zgcatdkfpnpawuzz9ru79709q03ajfj",
+    "relays": [
+      {
+        "dns": "172.31.55.125",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool108gvqf4qf6j2cspfuat9c6q6rh3csc34vvhezu05dn38c7xhrt5",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "54.237.15.52",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ezt0htr2q0qjxfv8myeqegfqla5pfxq2guk904jmzf50ya343u0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.238.88.151",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1945cfqzmy2qe2z59mfdwm7jwqtucncfee5xkd8f4wu97zr8xuys",
+    "relays": [
+      {
+        "dns": "preprod1-node.play.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1kxtrz8evgdrwwrdajhwweng6k8eysjvqgn59r8a5wkqw6rlnvv6",
+    "relays": [
+      {
+        "dns": "preprod2-node.play.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18svpptnxfctewpx7ntnmlazy4w9cr24f4rcq8smkvpggw600ql4",
+    "relays": [
+      {
+        "dns": "preprod3-node.play.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1maydque4d3nnj5vekfsegymtxh3uauxlywd79mytdav0y3ggfqq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.132.30.230",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool195w26ls6y937srmlk6xpv4pxsaam4zatu4lxp2cca726vt7w4ls",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.202.165.56",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18usy7k78c5vzttgu7afmzmfrn47dnrxad9h4vghvd8elgwh53ze",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.16.61.7",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1eugmx09fgycsz0me2cdynlefp34h6m0s9ffdf2n8msw9k4ny8wc",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.16.61.7",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a9qju4zhpxj5ywt5ez79zzjhszg47kk2dq4stllvs5qywmlv8cj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.16.61.7",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jw898y658nejvaw7slrt5rfjwa7gky8lk6hy24l2gs3kqqesnfr",
+    "relays": [
+      {
+        "dns": "preprod.happystaking.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1m8glad404zhwsa6k2lalm6qu95ptfffj9uk5drphmu0rsj3mnaz",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool129n0d9zrla7ntfjlwhqrtmn7halem0shcjd5mz5zhfym2auyu05",
+    "relays": [
+      {
+        "dns": "pprelay.adaocean.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1u3ltum2lm8jxlnlphr3avk50tng58saxwnzknwn0fzsuvesj45p",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "34.31.11.112",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "35.192.25.17",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nqcfx7mp2fhsww2xy7qc9xwch0uueqcjlvwsh4fsj488zyvfknj",
+    "relays": [
+      {
+        "dns": "preprod.vampyre.fund",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3101,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tn9gz0tnqtkptkrkzlrzvkjcujdkalykfk6r38my3n5a506u9ux",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "141.95.64.52",
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13qyu46er2x2r6gqatghwlnjdld64kz9e3c4je36hytql7rdm932",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.0.1",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay1",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zg484cf3hdphs7cmmtp6j88k5jxx5zz5wwssh5fxgpkn2lf8wa0",
+    "relays": [
+      {
+        "dns": "relay1.pomona.ddns.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay2.pomona.ddns.me",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1esdh2fzfdgqkklsjd774c0e6pup56zwvlkjun7u7mkaecnnncwn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.142.39",
+        "ipv6": null,
+        "port": 6002,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "192.168.142.39",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10tcv8rekjzmmsr8a5j3cu9j7vl9ffj77sh006k5fa0cry35wmex",
+    "relays": [
+      {
+        "dns": "184.174.32.106",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15dc0n2avq04xltwt8muj9nh58mudcpm8mhr0r5ven93qwcj8478",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.202.23.231",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1f9p9jzdvq68dzl9f6svw0ss2e8r7zftfswgytlp2g7zxcf6z89u",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "27.71.54.74",
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16cefgx8t9re4gy2qaapshxl34my5ya6ks7hje39k3pew2ejlkx7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15272x2srkjaqxs8gfuc5guj8jsjuhvja3znulwmh97kr2xwxxvk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15mss6pkavrgqe9xg4mwp20tu3pfglsvrt6zk54kte4ukjkf2kuj",
+    "relays": [
+      {
+        "dns": "watkis.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "192.168.8.39",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xm90p8nl7kaqvsskrvtyq60z70rx4afdfj4xex89u9gns62t0er",
+    "relays": [
+      {
+        "dns": "relay1.preprod.sudodex.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay3.preprod.sudodex.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay2.preprod.sudodex.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a3nhq8gd5c55eye6t5hmmclv4yvtctg72ckcjze8e00eupftylh",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relay-pool-2-preprod.cardano.aeq5f.com"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hn9wn3jufyym074ng389kh6v4fxt7560pez05tkf665dcm6yvn0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ad0efggjc3mwjdjxr7d5fza0j5222l2kvh7f9gp24hcyz7r279h",
+    "relays": [
+      {
+        "dns": "relay2.preprod.sudodex.sp.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay1.preprod.sudodex.sp.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay3.preprod.sudodex.sp.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rr53gk9vaxqhvm0uuvyu4yzcvuc5zxqktvcl39k9swhewvaf7t2",
+    "relays": [
+      {
+        "dns": "preprod2.volcyada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6007,
+        "srv": null
+      },
+      {
+        "dns": "preprod1.volcyada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6003,
+        "srv": null
+      },
+      {
+        "dns": "preprod3.volcyada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fn03vv9hxw5zq0wvc20v5m6d4g4dr6a55m3m068l9a826h0k74y",
+    "relays": [
+      {
+        "dns": "adarelay01.aigcguru.top",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wd2sv3nhfxd2z5sf5jjtleywqy0d56pe0w337xzpv266jn6mvp9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "99.44.134.152",
+        "ipv6": null,
+        "port": 6501,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12r7sxy225v94m6qcpnzt7g85axrmrg9gc05ykplzkwu7um36dns",
+    "relays": [
+      {
+        "dns": "relay1.afica.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17k256w4nlkfxtpapyph4sgpchrw4f0hrqepssqy6k5ts2vgklc3",
+    "relays": [
+      {
+        "dns": "useast.lucky777.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8888,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool187jmkalfzyz5cdlw4mxz9t9n8plcxpj7ve7a74mk05umvufp7jh",
+    "relays": [
+      {
+        "dns": "127.0.0.1",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12dd0mg935mzx6rdaykngqj8aeqxrtjltg5jtdccrt7p0x78rc38",
+    "relays": [
+      {
+        "dns": "adar-monitor.freeddns.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3011,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gc3u9crwkr4wxk5ctgprxamqusqrscf22lrgkc02hn8rx39mcgg",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.16.61.7",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17l2xkn6kky64q2lqmdqas2dtw9r4kunmu5jc9856au9qu9mawa9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.0",
+        "ipv6": null,
+        "port": 123,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ausmtj7pg57n49cv6pnm6vakuakya38jwrqde7wgnfk4wqycwu8",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "20.50.29.14",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hlsuxcuylukyjwxv06x5r77mtwwmgyuw3jrljntn0mqcvqy503k",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "20.50.29.14",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1thjxx384wxxeznx5a593ejuaqdqx6e0yq5z5f38jzwpfzytu7dc",
+    "relays": [
+      {
+        "dns": "sitea.orkastaker.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1s04t5eyvf6p73fwr5zc4pcqrpz54nshp5ruuvfc8kshygahyq3x",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "20.50.29.14",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nxxa0gyygv8msrfqfww5wq80glxadkda450gavkg00p26p2fqyd",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "206.253.67.154",
+        "ipv6": null,
+        "port": 5001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1llsrnl35k82ytcnxv2hnxgc6grsynucszhxtjyefa26r78ky5pd",
+    "relays": [
+      {
+        "dns": "1.tcp.au.ngrok.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 27379,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1gnyw5vz8ry8zjhx5zxrtdg0yqc5m0h3x86pj326zumjlw2xu944",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "146.166.117.19",
+        "ipv6": null,
+        "port": 9190,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool136t3ag3gzeftu7dlmxj9dvk5cj2ankuqujaphvn0y6glusap0fd",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "146.166.116.164",
+        "ipv6": null,
+        "port": 6164,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1k6nh3ay7u49sr3qfv8q5dhf4nh0n4p9rkh3zye9h76wngxyekz8",
+    "relays": [
+      {
+        "dns": "pool.staging.48.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1m7xzrlw358czfundrytv82hw5wksg8sgxa23y9zpgey5j9ns5ph",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "146.166.116.166",
+        "ipv6": null,
+        "port": 6166,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q37r2nxhmj4vlcyxedp9t6ganl0re3hzf6l9r0jz5w66umy0n75",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "146.166.116.165",
+        "ipv6": null,
+        "port": 6165,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nkfqdhfhqan2s8p7tsj04vfgjspv47wjkc0tzne7943nglyjkjw",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "140.166.116.163",
+        "ipv6": null,
+        "port": 6163,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lsygahp0r97tdt9ed7dx8g8yx7du96hmvh85q74ccwc0w5zfamj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "146.166.116.168",
+        "ipv6": null,
+        "port": 6168,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15lymw44dq5extwwj6kt49xckwj9f6ht8hl8ujxunzzjm2mllclh",
+    "relays": [
+      {
+        "dns": "89.33.30.209",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q4qwj2j75r04ctxgus9fafshx2wwypugl35uansl5hk5s5hnt2f",
+    "relays": [
+      {
+        "dns": "champion-buzzard-horribly.ngrok-free.app",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tcxnnq73yw07v573w2duesa8d4j40ghfkxg5fn37eveaz20gzs7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.1.1",
+        "ipv6": null,
+        "port": 6666,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ch2t32x83w6ncxa6fgv9u0zfsmgrrhv02u5phn83kajcgxw4cd7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.108.205.60",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vztvy9n9daayf8nuk5l9wmg4nlcs4j0f5awdjdnjkfvm7t89znm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.23",
+        "ipv6": null,
+        "port": 40000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yaap4p67ltp79m5na7s8qarszyz5d6n7ltqxlmf2apzsxmxlwzq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.123.123.123",
+        "ipv6": null,
+        "port": 321,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zuhgh090ejafvztegmxx9h26cdk3eutuur07379vysuhxtr8qdy",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.23",
+        "ipv6": null,
+        "port": 40000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ql8dn9lm02v5ezdjwrteg4v48rxtyms5zyaweady2rqmw055f8s",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1c2k44smpn99j4xmt8wy2g6rarr5q038hz38wvaaw7nhmq65thre",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "172.16.61.7",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lvnes87dstthek0zzz5zsrspew5ads4h9m335czzrsvkgp6wey6",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1u6x2xqxpkcqc3fedj0tllvf5c4k8lwxxrjhsal6rwt2866pjtk3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "146.166.116.162",
+        "ipv6": null,
+        "port": 6162,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13s22ldduwh07xr3xcesdsl89rujv4pehal6w3gdupv4rul4ntd6",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "89.1.219.163",
+        "ipv6": null,
+        "port": 1337,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pgy4kgms6kv6xrflv7qq07mdj8wj42zdu66f3kny78ly68upg79",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "37.27.44.234",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ma3z83uxmvpaxxl3gp6zvgqqcdfdvd3spqy2gz8f0094sxtx2zp",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "184.164.124.192",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "184.164.124.192",
+        "ipv6": null,
+        "port": 6002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nnmpqky7kcy67l0mhvknqu5qpxs0u6xw5cyrer0r92e4k84mthk",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "32.32.32.32",
+        "ipv6": null,
+        "port": 3232,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1je73q7ax8h2ke74n3l93r09p0qshvnyrnp0rlrckn5xjchduktz",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool136rx90xnt0xqudmfwsjhadcje0k8zcnykf25furmxch2qc73pas",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "154.12.230.21",
+        "ipv6": null,
+        "port": 4501,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1k6a0z9xshhar2sltamm7k3qlnpnvupyuct63kp0m7wv4u7f00p4",
+    "relays": [
+      {
+        "dns": "ec2-3-250-30-72.eu-west-1.compute.amazonaws.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fec6npl7y4qxt4dwvmlgd48488mm4uu6kcdy2yth7kcskmxry7g",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "4.175.156.215",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.175",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.204",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.156.97",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1numy3c5kc4a2ju3d54m9ekvvagphfgvwnuq4kc4gxql6jlcny6r",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15yv334wn9dzw5njtnzynkpg7967wnf6a4sxvx7tfrzjw2j3m530",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nkzh9k8n3cl9lskzpcga5047pgp0ksxu8mlmmm7ysutw2ux2ygy",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q8aduy04kxq8y79jm9yp3u2fcx0rzkfrratc7qjkf22mqk8ypgl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1c3ez592g7wp2rf44guwp2cq8cpxnn39mgv0790f9kmjk77p7aat",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1pkvs666cwlra94wqtc3ww0cc2a7zkhxldl6ktzyhu47kyjgue05",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1w5qdxdjh4922f5paxgdej3cefz794hwjlnx3rlpxg6lj7sdgd86",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 3533,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1x02336hh9es8sk03aztff43z3vmvfuem9xtgr63q7hvj6u80ppa",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.123.123.123",
+        "ipv6": null,
+        "port": 123,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1r76nahvpllch9k6u25g6kgmn07qtsk2w3qkqew06zxacw3m55sw",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "4.175.156.215",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.204",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.175",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.156.97",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xtwpsyacmw70z2nklchsz846z0gc6mj3j2mguet7g4kug4rhyav",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13wj03r6wj8l2lyalxpg69kshsh9k3l0ejdv3f2auq339gl7un3w",
+    "relays": [
+      {
+        "dns": "relay1.preprod.pool.cardano.services",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      },
+      {
+        "dns": "relay2.preprod.pool.cardano.services",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1km5tjulmhpwyrarkda3dpp3pvp5adcz6djz9sqx8p5pnyvelxgs",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.23",
+        "ipv6": null,
+        "port": 40000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1p3hevmg33fal7xa049ne3mquacmjmwmcehrskue0k7tfu24mv3v",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "159.69.24.76",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1v7e8jk6vt2725t3p7w4x33pqwd4lynsragktq7rv8s4n2ngmpdn",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "159.69.24.76",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10ny3ruzz9xee4smkpk293e9luvkx9fuf37zzz967uxgaca8ap2v",
+    "relays": [
+      {
+        "dns": "relay-pp.menesteo.lu",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ys9lst64mzprj7u029klxvjnsx0qs7hz9n7gn4ju2q6zz7tye3p",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "111.111.47.226",
+        "ipv6": null,
+        "port": 17314,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1vknn7dv35hvnwzgee82lgcg88v743czky3kl8ze04pzgwu047f4",
+    "relays": [
+      {
+        "dns": "relaynode1.cardano8964.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j20l32n8un5gce4adk44n9zks8cdvnk3amgursud847cwnpgeg4",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool178l32gz8uve9jfhh9sqz80rf680asc5gaxp4q5tnav0uz85gkj3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q60vrsckzetz72m84rsxhny94mdk9dvduxz4nwhw642gjqawcyu",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qp2xfc2eml6ut7xvy20rlvc7vwxej0a5c07emt4v3nr3xju7rw0",
+    "relays": [
+      {
+        "dns": "kawanhr1.foczz.my.id",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool17hd3fxccyckape0hn2ddpetq3fa6xkx5gnnhse3c285r268t5h9",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.200.21.0",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1csef5r4287g2fn6ajvetamd0y4sevuxkdwj9ulwc57crx8u88zq",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.200.21.0",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ldt5k4gjm0vr26a45n7g9vu4ffk47hlyqxjvzefwss20gppeag3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.200.21.0",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1q4lgjl4snm87782n080vnj0xtylgfvhkv637c8jsx9k2jvnu7ng",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.200.21.0",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool128dntpzv0jz9g6r7f39dsjllx2rvjttvnwrzk56eg4z3jcct5jj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.200.21.0",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a5fy9pzm22r0w9avdu668s60yg3j894prt7ys4yplkpmu9ykv2q",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.200.21.0",
+        "ipv6": null,
+        "port": 3000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a9ag8ypul0qfnsdqu33q6jamwjadmfmgu64tq9897eugzaxww02",
+    "relays": [
+      {
+        "dns": "relay.stake-shield.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1k2r9ys5jlj3m0n0ytjj8fhzwaxffksvy53w3tkw888cgjdhqsru",
+    "relays": [
+      {
+        "dns": "192.168.0.240",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fwcf0ywuwpk4skheftrtsgc4q7k9qmekn4uspe7dvgvekua0a3k",
+    "relays": [
+      {
+        "dns": "preprod-node.world.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1rsx8tp9ntpvzq7r9xtmzmv7p3veyhpgw2t06mrhzlllw5l7ff34",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.0.240",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tttjn80uzcvyzvzw2202r3xm7e5dz60tfjdtrlx6vkpjv78t0j9",
+    "relays": [
+      {
+        "dns": "reldys-testnet-3b.cardano.test.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "reldys-testnet-3a.cardano.test.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ytvs2jlrtftapsgdhtlm8ch0xa2d3e3lsnf59jz68mtk5pml699",
+    "relays": [
+      {
+        "dns": "r1.pp.mrbee.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fm7p9jphytheekdf4kvve0jn3q986fwxqguwq799zc4rzs4ltte",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "0.0.0.0",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nwy3lumh6mdrwstrrt6djzxtn7n70s0e5hnk3a0zpx92wfnnzt2",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1usxlww3ecsld6pmla06eh67pc9mrnjmutq8zdxj237rnkreuf0g",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "4.175.153.175",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.204",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.156.215",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.156.97",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fq88ssj6jgeelg7hwgp3rpywkdltfy8wk4gr9qk3aejdccp2c4w",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "213.199.47.41",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1575cd5zm2sf48zw3947serrs6kgs4mq0l8536q6n6q6ajnx5ya2",
+    "relays": [
+      {
+        "dns": "http://bci-test-glxy-cardano-testnet-relay1-use1-0.bci.glxy.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1sm2v2lm6wh7auh9zlfk87wmg0xvz7zyl0dec4554u7amue8at22",
+    "relays": [
+      {
+        "dns": "http://cardano-testnet-stake-pool.bci.glxy.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool14n9p0r4fppd7l64g9jfgtxala9vz7fpswq4juq60dy5mz8s5w0v",
+    "relays": [
+      {
+        "dns": "bci-test-glxy-cardano-testnet-relay1-use1-0.bci.glxy.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1c5fgvzm8c4c2y4duzyuakmdef6cena5gx4u00xt3tcsw2z3e3qr",
+    "relays": [
+      {
+        "dns": "http://google.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fk2nr88fk4ql8mf2rmex4qfxakakzhg2htmwcx2sd2y0yrdt0he",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay1.bci.glxy.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ufcy8wrlyhjh3fpup5vdvln4c0s85rg8fz0zn0w82squuwhtdhk",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay1.bci.glxy.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1u0uz5kah6w2dmffhxu2gly76rtt7shupv8fy76f2k9yj70r9cep",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "116.255.12.132",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1p9nxa3vq7zxme7t7hms738edz62xq9v66nteggrzj6365xuz32w",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1c627gxzamhwpwwk0jdvt4znp6f6ynue9g3wl8p296qxaggkyced",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool19nkmj9qe342z9dq43ks3emraelch0dkfuepddpm0dcfqyjr2h7r",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lgq3azatu6cxvp5ndaxmqxnrwnqts06jmqc2wqhkcseyx83czy9",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18trnm5qzlc3rrtcejx5cy5u9xj9gh6da62c9e77f840ky6xnuv0",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1t77yunyaydat4d6ks656ywuyt74tnkd7wmqjvj0xqnkpuwa6fcw",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18fjpzmjthh47elck3ne5ns9rd5jpnsc6ajhjea5ypqwfwajx62u",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool13lhkek4nysju2jvxxlv4zpgl9hu6q02js4nv2rftnuf7w37s9jd",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1j5awh8cev9nsjrw9zch0lfuu3xvk9zwl8hhxkmz7808fg64xzzl",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1n3a7m6u73l4f8jcqd6cd95wfjz6xgkdrpljt57dy86he6ef68j5",
+    "relays": [
+      {
+        "dns": "cardano-testnet-relay-1.syn.pizza",
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1yqkkm7ffhznzd0pem60fdm6mljqj9fczvklus4rfecca5zralvm",
+    "relays": [
+      {
+        "dns": "8.tcp.eu.ngrok.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 28965,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1m48d9wr228z4pn9rh2xw7d6d5a07sl2avej02c4vn54ujrnkz5e",
+    "relays": [
+      {
+        "dns": "r1.pp.cpoker.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool19pm5lq5qlk2rtkvnjmhktvc7trz7kz45d2mhuc788n295vc2zsn",
+    "relays": [
+      {
+        "dns": "karearea.husky-ostrich.ts.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1uw8ql64wa7ydn294he0xxy5afyf8hsjsxr38nqrc79w7559pr9t",
+    "relays": [
+      {
+        "dns": "figment.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "www.figment.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1n9s5f0twkwv67ljltv93lsy4jsttcqe66jr7u7cg3yejv6yzdxq",
+    "relays": [
+      {
+        "dns": "192.168.1.33",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dv5e52wvzlw3g44jkugtq47rzg5a383r9p565a2gkn26ucjdcv8",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "149.102.137.115",
+        "ipv6": null,
+        "port": 6006,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ph5sxlq8uf6ux9tylxustud73a8r8r06gqw9357tp8m3x45aqmw",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "10.53.144.59",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool12gzkk3er3ltfl3c4f9f59h848x00x9x4uwnu7gc7fn35jrsdt48",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ag4sguhvuqj67c28vstkrvmm5k69hfcays96qtsywttuyfp279s",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1g30jwek65ekg25mddca87p08rer6rysr4thq4hry0nyhu5k0qm0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1hd3xukfkwyt55782w7r9mz7usjn26xz2k8ry7ls7qdypz9epa0h",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1uck8s20kqhjk8rsqlpukp85j35rft383qtgafervpm0cxdfqhq4",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lkhp0g2xsfzu27s7f202kfj7nugqefmfau0smymry9w3srwe4k7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1ku2ryj5uh8vnqd5dcu73d5fe7rw0u4tmwhgwgzvv7gxgk8fv7u7",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18y3wnk5fswd2kmm2nqrhpsjyddtt5984zkkv7s6g7l2ez9hnqtm",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1lpdpt0taerw5gy4l6r4rvt46lcpad74wflnw9l6u9a0vk9qfxh0",
+    "relays": [
+      {
+        "dns": "10.53.147.182",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1nc77u3ppl2xt8xexj28ryysh9makkm3mqvlxp5lsmpgtg2u5k9g",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "159.69.24.76",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1fl0yd3l59d9cu3sapjkj06jatknyw7rjams6yh9rzpuf7vuwftj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "137.26.100.78",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xey36nh5ccajgzw4534kqq97s7r9xa3lncujc407depzwdvudwr",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xvjemcqjhzy2gujrc7sdus6cuahx9swp3553s6d7glq5zhlx00f",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "123.14.11.2",
+        "ipv6": null,
+        "port": 30000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1cpfq9p6f04yde2ms2ey4qmuj56t2wfkye5kj3adjsqgpk9re3zs",
+    "relays": [
+      {
+        "dns": "relay-node-1.cardano.mcorenet.cc",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xxaguse3yem8vg3m3phkyx0nqkfgefxchkxn4h4vqey86ffesa5",
+    "relays": [
+      {
+        "dns": "152.53.81.231",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zc57fjewlq2a0wrxadjaa0xkuqgvr00wnw2y5ctep3zcwmdlm2p",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "51.158.202.216",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "62.210.95.248",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool18nd26m20gf9c2rny9uaah8vtglzdj82hqxa4nsrpkcl47m9fmg3",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.78.210.98",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1dvjj28l692ak6gk55vyzq2e9hqjq0ntetrv9mg6g5x8vqe738gj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "73.54.73.48",
+        "ipv6": null,
+        "port": 7000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1zz659sxchcppe72xmxw3elfk5j0j7jxmgq3jktn3u0yuqyz7z5u",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "100.26.149.143",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1tmzlagzfm8hdenn0m53f8us42z94vw2dwdn23n83zf3kvnj3thn",
+    "relays": [
+      {
+        "dns": "217.154.75.162",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool15dczkrr7xjwc94j47h6dvhmcx94zjjcw55gwrwx8dzvhskwklxj",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "65.109.50.50",
+        "ipv6": null,
+        "port": 6010,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1a9avqttsl7c7gs40pjy3nluvclt8uu47pjh8zeqev38vwfugu5f",
+    "relays": [
+      {
+        "dns": "preprod-node.play.dev.cardano.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1qwql65tatmweqrq9mhnefcsh6hz4cw3atjmqkqqz8c7f65tenqr",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "73.210.194.54",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1mwq3cc8nattn5hu77q0thg8f3srk493te4rsrm0gkfwyjcn2y23",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relay-pool-1-preprod.cardano.aeq5f.com"
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1wu6r4k0mlz0xu8ydqxpcrcge7sux5r52hual5y8zqa3s2afpyrt",
+    "relays": [
+      {
+        "dns": "relay1.amapools.ir",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1e3mqlzcj7j6aa9nj5gtyujzx7gwjvnqlq254n9wk87qcy2l59qa",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "35.246.241.161",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1430za4jjdvp28e9sh7vf5wt4srt7xfkzqz38wq73575l5pkz3rs",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "127.0.0.1",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  }
+]

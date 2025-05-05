@@ -1,0 +1,13 @@
+[
+  {
+    "asset_name": "7447454e53",
+    "asset_name_ascii": "tGENS",
+    "burn_cnt": 0,
+    "creation_time": 1666483200,
+    "decimals": 6,
+    "fingerprint": "asset1mvqjrt76g9yxsle3z92ums7snlpg02p274gek4",
+    "mint_cnt": 1,
+    "minting_tx_hash": "bf52f0e706ce108dcea9026bdf7db4c8f23ad462434f741aaa6a73f41ad36d2a",
+    "total_supply": "100000000000000"
+  }
+]

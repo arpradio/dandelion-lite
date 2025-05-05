@@ -1,0 +1,273 @@
+[
+  {
+    "block_height": 2664225,
+    "block_time": 1725664968,
+    "epoch_no": 165,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "vote": "Yes",
+    "vote_tx_hash": "e239058473ab5ab1f5829b9058a93cbd0daaf72f9252cc16b34925cd87b37d35",
+    "voter_id": "drep1ydmraa6kv8cvmry059v608tehl50nfmg0z764lmsqkvwurs40sw2z",
+    "voter_role": "DRep"
+  },
+  {
+    "block_height": 2692075,
+    "block_time": 1726410745,
+    "epoch_no": 167,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "vote": "No",
+    "vote_tx_hash": "45f18dec1784d3f98f8c5034fa138f5bfb70a89b0396154fc4d45fe5d3ee8957",
+    "voter_id": "pool1yzwxetclm2l48xzvmnwwf6x48a5qze0nx4t6glz5k8wk50xl006",
+    "voter_role": "SPO"
+  },
+  {
+    "block_height": 2728315,
+    "block_time": 1727386805,
+    "epoch_no": 169,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "vote": "Yes",
+    "vote_tx_hash": "60eb71bb8841d32b60c7a91f06490da212de9ccb43fd7330a1e4b4673d1f6e8a",
+    "voter_id": "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv",
+    "voter_role": "SPO"
+  },
+  {
+    "block_height": 2741994,
+    "block_time": 1727752399,
+    "epoch_no": 170,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "vote": "No",
+    "vote_tx_hash": "e2eeaf57af3a400ad8e7a68e9b5bb650cd6e7b87db91144529a44d92d834e647",
+    "voter_id": "pool1yzwxetclm2l48xzvmnwwf6x48a5qze0nx4t6glz5k8wk50xl006",
+    "voter_role": "SPO"
+  },
+  {
+    "block_height": 2746866,
+    "block_time": 1727882230,
+    "epoch_no": 170,
+    "meta_hash": "30d5a8af01f9b08511afd3a70d185b05c9b857dc040e586de11fbd534b767cee",
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "text": "CIP108:text"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "CIP108:voteContextText": {
+          "@value": "Homer J. forced me to do this vote against my will. Please help me!!! I just want to go to bed. I am soo TIRED. HELP MEEEE HAAAAAAAA."
+        }
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_url": "https://hornan7.github.io/Vote_Context2.jsonld",
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "vote": "Yes",
+    "vote_tx_hash": "48b7ab4a9c5f5d3c1f954c9e1a56dec3d48f1331c1bd8a61759bcc8e17efeb2a",
+    "voter_id": "cc_hot1q036f3qavavj5xudslrzuhzaw0m73kurv9ceg4qj6yl5p7qf4a3gz",
+    "voter_role": "ConstitutionalCommittee"
+  },
+  {
+    "block_height": 2762615,
+    "block_time": 1728304828,
+    "epoch_no": 171,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "vote": "Yes",
+    "vote_tx_hash": "278d887adc913416e6851106e7ce6e89f29aa7531b93d11e1986550e7a128a2f",
+    "voter_id": "drep1ytk3r5ddfk2cq66ygdtkwf9yck6hhy7uzhk2tgl5d53448skyutw7",
+    "voter_role": "DRep"
+  },
+  {
+    "block_height": 2855593,
+    "block_time": 1730793000,
+    "epoch_no": 177,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action1svuwl6qsdkmqsgh7l96tny2vh5qjypfr9vuaz5wpwg8vxmn3l60sqtzu73u",
+    "proposal_index": 0,
+    "proposal_tx_hash": "8338efe8106db60822fef974b9914cbd012205232b39d151c1720ec36e71fe9f",
+    "proposal_type": "InfoAction",
+    "vote": "Abstain",
+    "vote_tx_hash": "19981e4868bef3d094c86a3246b34561b492085b51c12b6562e60a689a3e2d06",
+    "voter_id": "drep1y0gy6wwyuj6za8kamwm5rwmxxe5rk6pz4ckx3hmsfdjuujsr70shz",
+    "voter_role": "DRep"
+  },
+  {
+    "block_height": 2856940,
+    "block_time": 1730826121,
+    "epoch_no": 177,
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "proposal_id": "gov_action1svuwl6qsdkmqsgh7l96tny2vh5qjypfr9vuaz5wpwg8vxmn3l60sqtzu73u",
+    "proposal_index": 0,
+    "proposal_tx_hash": "8338efe8106db60822fef974b9914cbd012205232b39d151c1720ec36e71fe9f",
+    "proposal_type": "InfoAction",
+    "vote": "Yes",
+    "vote_tx_hash": "fd836fdadf42825f10a3072055bbe62eb6b3d39c3ffe114228ad47324863e809",
+    "voter_id": "pool1l8ywwf6nfrfmrg6edj2qjh6rxpuepnzlsq9mhvjk9xr9swkht93",
+    "voter_role": "SPO"
+  },
+  {
+    "block_height": 2859952,
+    "block_time": 1730903059,
+    "epoch_no": 177,
+    "meta_hash": "30d5a8af01f9b08511afd3a70d185b05c9b857dc040e586de11fbd534b767cee",
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "text": "CIP108:text"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "CIP108:voteContextText": {
+          "@value": "Homer J. forced me to do this vote against my will. Please help me!!! I just want to go to bed. I am soo TIRED. HELP MEEEE HAAAAAAAA."
+        }
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_url": "https://hornan7.github.io/Vote_Context2.jsonld",
+    "proposal_id": "gov_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft",
+    "proposal_index": 0,
+    "proposal_tx_hash": "b52f02288e3ce8c7e57455522f4edd09c12797749e2db32098ecbe980b645d45",
+    "proposal_type": "ParameterChange",
+    "vote": "Yes",
+    "vote_tx_hash": "38727ff2442a42710be13046a7e026f20590035168df0b5ae2f24c53a1044b13",
+    "voter_id": "cc_hot1q036f3qavavj5xudslrzuhzaw0m73kurv9ceg4qj6yl5p7qf4a3gz",
+    "voter_role": "ConstitutionalCommittee"
+  },
+  {
+    "block_height": 2859998,
+    "block_time": 1730904215,
+    "epoch_no": 177,
+    "meta_hash": "30d5a8af01f9b08511afd3a70d185b05c9b857dc040e586de11fbd534b767cee",
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "text": "CIP108:text"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "CIP108:voteContextText": {
+          "@value": "Homer J. forced me to do this vote against my will. Please help me!!! I just want to go to bed. I am soo TIRED. HELP MEEEE HAAAAAAAA."
+        }
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_url": "https://hornan7.github.io/Vote_Context2.jsonld",
+    "proposal_id": "gov_action1a960ajl5ttpcdfmxqh57s3azuhf8cqrlm597vaxt44fcurp4lcqsqqfz6j2",
+    "proposal_index": 0,
+    "proposal_tx_hash": "e974fecbf45ac386a76605e9e847a2e5d27c007fdd0be674cbad538e0c35fe01",
+    "proposal_type": "ParameterChange",
+    "vote": "No",
+    "vote_tx_hash": "6b5e9099fe4d16eee0b7c8a30e97eabcce9098555cf146f3be0885b750d8e04d",
+    "voter_id": "cc_hot1q036f3qavavj5xudslrzuhzaw0m73kurv9ceg4qj6yl5p7qf4a3gz",
+    "voter_role": "ConstitutionalCommittee"
+  }
+]

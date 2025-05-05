@@ -1,0 +1,2288 @@
+[
+  {
+    "block_time": 1746011865,
+    "deposit": "100000000000",
+    "dropped_epoch": null,
+    "enacted_epoch": null,
+    "expiration": 219,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "5b6b4c4feab9c76a4c218ae84dd638e2d59d0a307f4628da996a1ac6b565d64d",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "abstract": "Project Nova outlines a program focused on strategic investments in decentralized identity solutions, enhanced interoperability protocols, and user-friendly decentralized application (dApp) development tools. The goal is to strengthen Cardano's core offerings and expand its usability and reach. This proposal requests a one-time treasury withdrawal of 146,000,000 Ada (One Hundred Forty-Six Million Ada, assuming a hypothetical Ada price of $1) to capitalize Project Nova.",
+        "motivation": "Cardano has established a strong foundation with its robust and scientifically-backed blockchain. To further its adoption and utility, strategic investments in key areas are crucial.\n* **Decentralized Identity (DID):** Investing in advanced DID solutions will enhance user privacy, security, and control over their digital identities within the Cardano ecosystem. This is a foundational element for many future decentralized applications and services.\n* **Enhanced Interoperability:** Facilitating seamless interaction with other blockchain networks will broaden Cardano's reach and allow for greater asset and data exchange, increasing its utility within the wider Web3 landscape.\n* **User-Friendly dApp Development Tools:** Improving the developer experience through better tooling and resources will attract more builders to the Cardano ecosystem, leading to a greater variety of applications and services for users.\n* **Focused and Measurable Impact:** By concentrating on these specific areas, Project Nova aims to deliver tangible improvements to the Cardano ecosystem within a reasonable timeframe.",
+        "rationale": "The requested amount of 146,000,000 Ada is calculated to provide sufficient capital to support meaningful advancements in the identified strategic areas without unduly depleting the treasury. This amount allows for funding several key projects and teams in each focus area, fostering competition and innovation. Detailed budget allocations for each area will be presented to the Steering Committee for approval.",
+        "references": [],
+        "title": "Proposal to Fund 'Project Nova' - Targeted Strategic Initiatives for Ecosystem Advancement"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en-us",
+    "meta_url": "ipfs://bafkreiew3wxdtgytkrtg3h7jzlspgfiktpxz7x3onz2yaa345ekrg7jz5q",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "b5f97564c79d450ab5bc2cda0794c31de0676e168798f0d50eda0e6f"
+              },
+              "network": "Testnet"
+            },
+            149000000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1puswrxpglcyl9fqtznauu9y0ya904683lprs0kxyaq5tsz8l4hzqqfegux0",
+    "proposal_index": 0,
+    "proposal_tx_hash": "0f20e19828fe09f2a40b14fbce148f274afae8f1f84707d8c4e828b808ffadc4",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 212,
+    "ratified_epoch": null,
+    "return_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+    "withdrawal": {
+      "amount": "149000000000000",
+      "stake_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx"
+    }
+  },
+  {
+    "block_time": 1743507871,
+    "deposit": "100000000000",
+    "dropped_epoch": null,
+    "enacted_epoch": null,
+    "expiration": 214,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "bdfaf1452d21e62514e68d9217ee6d7d65028a221becc12705006b510ffb3ec3",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "abstract": "Withdraw 200000000000 ADA from the treasury to pay Rihanna's team to post about CARDANO on her social accounts.",
+        "motivation": "The current problem is that we need to increase CARDANO community and what can be a better reach than throught the mega star Rihanna.",
+        "rationale": "With these funds from the treasury Rihanna's social media team will post about CARDANO within the following months.The posting schedule and the price breakdown can be found below.",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "Marketing Strategy Contract",
+            "uri": ""
+          }
+        ],
+        "title": "Marketing Strategy : Paying Rihanna to post about CARDANO on X"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en-us",
+    "meta_url": "ipfs://bafkreiguwrbstwf63mcalro2ik4g5ouvhtybqxkdrati5mcuwcri5woedq",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "8b221fdac6603a9b3b79700a2a3cb25322b54959ee328d770badd91b"
+              },
+              "network": "Testnet"
+            },
+            200000000000
+          ],
+          [
+            {
+              "credential": {
+                "keyHash": "b5f97564c79d450ab5bc2cda0794c31de0676e168798f0d50eda0e6f"
+              },
+              "network": "Testnet"
+            },
+            200000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1ryfe3uuw7p23thw2yegzp4s8lwu9c4j3syljg2dns9s06jgan78sq72q85v",
+    "proposal_index": 0,
+    "proposal_tx_hash": "191398f38ef05515ddca265020d607fbb85c5651813f2429b38160fd491d9f8f",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 207,
+    "ratified_epoch": null,
+    "return_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+    "withdrawal": {
+      "amount": "200000000000",
+      "stake_address": "stake_test1uz9jy876cesr4xem09cq523ukffj9d2ft8hr9rthpwkajxcgaknmk"
+    }
+  },
+  {
+    "block_time": 1743507871,
+    "deposit": "100000000000",
+    "dropped_epoch": null,
+    "enacted_epoch": null,
+    "expiration": 214,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "bdfaf1452d21e62514e68d9217ee6d7d65028a221becc12705006b510ffb3ec3",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "abstract": "Withdraw 200000000000 ADA from the treasury to pay Rihanna's team to post about CARDANO on her social accounts.",
+        "motivation": "The current problem is that we need to increase CARDANO community and what can be a better reach than throught the mega star Rihanna.",
+        "rationale": "With these funds from the treasury Rihanna's social media team will post about CARDANO within the following months.The posting schedule and the price breakdown can be found below.",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "Marketing Strategy Contract",
+            "uri": ""
+          }
+        ],
+        "title": "Marketing Strategy : Paying Rihanna to post about CARDANO on X"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en-us",
+    "meta_url": "ipfs://bafkreiguwrbstwf63mcalro2ik4g5ouvhtybqxkdrati5mcuwcri5woedq",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "8b221fdac6603a9b3b79700a2a3cb25322b54959ee328d770badd91b"
+              },
+              "network": "Testnet"
+            },
+            200000000000
+          ],
+          [
+            {
+              "credential": {
+                "keyHash": "b5f97564c79d450ab5bc2cda0794c31de0676e168798f0d50eda0e6f"
+              },
+              "network": "Testnet"
+            },
+            200000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1ryfe3uuw7p23thw2yegzp4s8lwu9c4j3syljg2dns9s06jgan78sq72q85v",
+    "proposal_index": 0,
+    "proposal_tx_hash": "191398f38ef05515ddca265020d607fbb85c5651813f2429b38160fd491d9f8f",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 207,
+    "ratified_epoch": null,
+    "return_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+    "withdrawal": {
+      "amount": "200000000000",
+      "stake_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx"
+    }
+  },
+  {
+    "block_time": 1739393202,
+    "deposit": "100000000000",
+    "dropped_epoch": 205,
+    "enacted_epoch": null,
+    "expiration": 204,
+    "expired_epoch": 204,
+    "meta_comment": null,
+    "meta_hash": "1805dc601b3b6fe259c646a94edb14d52534c09a0ee51e5ac502fa823b6a510c",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/ga.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "tag": "InfoAction"
+    },
+    "proposal_id": "gov_action1tp9gwwuy66ymk4mmmxu7msgmrxe9e2pqmhddsgqru4kawa4me36qqtjralt",
+    "proposal_index": 0,
+    "proposal_tx_hash": "584a873b84d689bb577bd9b9edc11b19b25ca820dddad82003e56dd776bbcc74",
+    "proposal_type": "InfoAction",
+    "proposed_epoch": 197,
+    "ratified_epoch": null,
+    "return_address": "stake_test1up42ztlj4zth0k6nr7h8m09njy0dpevqttpl5rxtch86aaqgs8hzq",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1736415453,
+    "deposit": "100000000000",
+    "dropped_epoch": 198,
+    "enacted_epoch": null,
+    "expiration": 197,
+    "expired_epoch": 197,
+    "meta_comment": null,
+    "meta_hash": "3006a9d6f6a1d3f6b64eb472312ed076db78a9a08720011e529d317408308e1a",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "bio": "CIPQQQ:bio",
+            "dRepName": "CIPQQQ:dRepName",
+            "email": "CIPQQQ:email",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIPQQQ:hashDigest"
+                  },
+                  "@id": "CIPQQQ:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIPQQQ:references"
+            }
+          },
+          "@id": "CIPQQQ:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "bio": {
+          "@value": "Don't worry about me, I'm going around the landscape a bit. I like the scenery. But it lacks flowers."
+        },
+        "dRepName": {
+          "@value": "Mike_Hornan"
+        },
+        "email": {
+          "@value": "mike.hornan@able-pool.io"
+        },
+        "references": []
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://hornan7.github.io/mike_hornan.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        null,
+        [],
+        {
+          "keyHash-379569411996ae5b16fc5d79ec08cd9cbe420e7a73456c8dc6c13367": 200
+        },
+        0.66
+      ],
+      "tag": "UpdateCommittee"
+    },
+    "proposal_id": "gov_action1hctyphftxjz7j3crhetg8jqy65z3m9kp9c024nqhcv88fhjcpnjsqxvf8yk",
+    "proposal_index": 0,
+    "proposal_tx_hash": "be1640dd2b3485e94703be5683c804d5051d96c12e1eaacc17c30e74de580ce5",
+    "proposal_type": "NewCommittee",
+    "proposed_epoch": 190,
+    "ratified_epoch": null,
+    "return_address": "stake_test1uz0hsdqhrv8pneylfkwj77s8r0xls0dh03ane72a3u8dtsgmasfxe",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1734959557,
+    "deposit": "100000000000",
+    "dropped_epoch": 195,
+    "enacted_epoch": null,
+    "expiration": 194,
+    "expired_epoch": 194,
+    "meta_comment": null,
+    "meta_hash": "3006a9d6f6a1d3f6b64eb472312ed076db78a9a08720011e529d317408308e1a",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "bio": "CIPQQQ:bio",
+            "dRepName": "CIPQQQ:dRepName",
+            "email": "CIPQQQ:email",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIPQQQ:hashDigest"
+                  },
+                  "@id": "CIPQQQ:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIPQQQ:references"
+            }
+          },
+          "@id": "CIPQQQ:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "bio": {
+          "@value": "Don't worry about me, I'm going around the landscape a bit. I like the scenery. But it lacks flowers."
+        },
+        "dRepName": {
+          "@value": "Mike_Hornan"
+        },
+        "email": {
+          "@value": "mike.hornan@able-pool.io"
+        },
+        "references": []
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://hornan7.github.io/mike_hornan.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        null,
+        [],
+        {
+          "keyHash-00328e00867c859810016f0d62b11c582e83f429b6ca96aefeba67f2": 320,
+          "keyHash-07a3e443d8a92e1e590c5d40a4c96e37348b365c813de95cf01fdf6f": 320,
+          "keyHash-0b4fcea9d3ffa89e01cdbb510dc5e762b989f73edb9be9f638fbcbb9": 320,
+          "keyHash-120d022bc0c10dce519d2b05a0d6a49f25371c8d7e1b3e5207c63db8": 320,
+          "keyHash-1c457b865c7106cdacbb634c76892889cdb47ef0e979ac2b78f96925": 320,
+          "keyHash-2508dba7a6521820569b451fd12487348f132deef768154de3ffe07a": 320,
+          "keyHash-25747ded74a061364c38757d68fe819f3c8fa53dfc1dd90f2e2f48c1": 320,
+          "keyHash-43fa63fe1fc165dce10570cc050eb4369edd176a9f21be42b544d41c": 320,
+          "keyHash-4b68fa53d5ea8ac7c5d81f61e4c3913909ba43cec036da1d22ae5902": 320,
+          "keyHash-4f5be774f8836e29362b0474efe29765a55ac3f00ab400a5fcd9b7db": 320,
+          "keyHash-511370e44f87b7310fdb99ce1a9475fd897ea424e31083ea01a71baa": 320,
+          "keyHash-5af20e616de3102d979ba3ceafef6635031dde5599bc0aaaf813f949": 320,
+          "keyHash-70e8b10b753b7901570728d076804989527f0d80bdfb7c68860a5b07": 320,
+          "keyHash-74c079297385c1cae24eb57f3413f464200bfe28c9bf166463e67f16": 320,
+          "keyHash-7cc19a2ec7ca936b01028cac7c74727d8227d7ce2985f05fbb56d5ab": 320,
+          "keyHash-7ee526fa78976e8b1e439f5714601b84d37464a4d745d5d6cbe0a800": 320,
+          "keyHash-817410fde97b9cced1584e71c5aea582ca7018114390b0fb104ce84e": 320,
+          "keyHash-834f860972307cfb99f8b8fe5adf627e50d660790d554d02a822a20c": 320,
+          "keyHash-853e78fd0a1e900ec3e86dfc6953613d10e44c9becae4c46ba16f9be": 320,
+          "keyHash-9e8b138eced36562441127e98a250f05183a5753ad04843ac0787415": 320,
+          "keyHash-a573ab726a8d9888efbfac984a84f8f0f95657a2c6e67d1c4cbc9ed8": 320,
+          "keyHash-aba24489eba1ecf15c9d941b0bf058879756180332910b8ea2bc1c0c": 320,
+          "keyHash-b701b7cbd6f68f4592a0d67aee3586cf1443a54caabf45b033e655fe": 320,
+          "keyHash-b7163fddafb7d047552e8803cd05632408182890a35714f8c7087744": 320,
+          "keyHash-cf3f3c2c4a3af062ea8f9f217f0d916943e518666b6bae7ad5009573": 320,
+          "keyHash-dc2618ca97127341e1c13165005ae5a463b3d5fedcecdcbf4357de05": 320,
+          "keyHash-e3edc489899551a20775e0c4f1ecad3b09ad84b73a401d8810534aec": 320,
+          "keyHash-f4629423879dc9c3141fdf459b06644edddd0940d1f7df6334ecc87a": 320,
+          "keyHash-f61a8f27d4c33e9e31c7dfc6d6fc08659c0a0488c6a99769783ad195": 320,
+          "keyHash-fd6483165bb848a0fc37efc33fe7462fcdb8ad8d0b313044d6d8b86c": 320
+        },
+        {
+          "denominator": 3,
+          "numerator": 2
+        }
+      ],
+      "tag": "UpdateCommittee"
+    },
+    "proposal_id": "gov_action17uv9yq7madjwp9jyatauxp97k8sc85r96vjk2kz0sdv4skzhtx5sq4mdxmk",
+    "proposal_index": 0,
+    "proposal_tx_hash": "f7185203dbeb64e09644eafbc304beb1e183d065d32565584f835958585759a9",
+    "proposal_type": "NewCommittee",
+    "proposed_epoch": 187,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upeqhnsgfnweefwfacf6dyzj5f94xqc6hfnjtrnh0ezu7qclg7p6m",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1734957317,
+    "deposit": "100000000000",
+    "dropped_epoch": 195,
+    "enacted_epoch": null,
+    "expiration": 194,
+    "expired_epoch": 194,
+    "meta_comment": null,
+    "meta_hash": "3006a9d6f6a1d3f6b64eb472312ed076db78a9a08720011e529d317408308e1a",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "bio": "CIPQQQ:bio",
+            "dRepName": "CIPQQQ:dRepName",
+            "email": "CIPQQQ:email",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIPQQQ:hashDigest"
+                  },
+                  "@id": "CIPQQQ:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIPQQQ:references"
+            }
+          },
+          "@id": "CIPQQQ:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "bio": {
+          "@value": "Don't worry about me, I'm going around the landscape a bit. I like the scenery. But it lacks flowers."
+        },
+        "dRepName": {
+          "@value": "Mike_Hornan"
+        },
+        "email": {
+          "@value": "mike.hornan@able-pool.io"
+        },
+        "references": []
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://hornan7.github.io/mike_hornan.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "720bce084cdd9ca5c9ee13a69052a24b53031aba67258e777e45cf03"
+              },
+              "network": "Testnet"
+            },
+            50000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1pehc3vcupd6xh3mk3ktu7te8vcrq9t28rglnaps7cy3xgwvfec7sqfhtyns",
+    "proposal_index": 0,
+    "proposal_tx_hash": "0e6f88b31c0b746bc7768d97cf2f27660602ad471a3f3e861ec122643989ce3d",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 187,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upeqhnsgfnweefwfacf6dyzj5f94xqc6hfnjtrnh0ezu7qclg7p6m",
+    "withdrawal": {
+      "amount": "50000000000",
+      "stake_address": "stake_test1upeqhnsgfnweefwfacf6dyzj5f94xqc6hfnjtrnh0ezu7qclg7p6m"
+    }
+  },
+  {
+    "block_time": 1734957027,
+    "deposit": "100000000000",
+    "dropped_epoch": 195,
+    "enacted_epoch": null,
+    "expiration": 194,
+    "expired_epoch": 194,
+    "meta_comment": null,
+    "meta_hash": "3006a9d6f6a1d3f6b64eb472312ed076db78a9a08720011e529d317408308e1a",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "bio": "CIPQQQ:bio",
+            "dRepName": "CIPQQQ:dRepName",
+            "email": "CIPQQQ:email",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIPQQQ:hashDigest"
+                  },
+                  "@id": "CIPQQQ:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIPQQQ:references"
+            }
+          },
+          "@id": "CIPQQQ:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "bio": {
+          "@value": "Don't worry about me, I'm going around the landscape a bit. I like the scenery. But it lacks flowers."
+        },
+        "dRepName": {
+          "@value": "Mike_Hornan"
+        },
+        "email": {
+          "@value": "mike.hornan@able-pool.io"
+        },
+        "references": []
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://hornan7.github.io/mike_hornan.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "720bce084cdd9ca5c9ee13a69052a24b53031aba67258e777e45cf03"
+              },
+              "network": "Testnet"
+            },
+            50000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1cfxprr2zguu94f6gkurm6tp8pwh48v373f286untrcwtqpxdsvjqq3gxl2c",
+    "proposal_index": 0,
+    "proposal_tx_hash": "c24c118d4247385aa748b707bd2c270baf53b23e8a547d726b1e1cb004cd8324",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 187,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upeqhnsgfnweefwfacf6dyzj5f94xqc6hfnjtrnh0ezu7qclg7p6m",
+    "withdrawal": {
+      "amount": "50000000000",
+      "stake_address": "stake_test1upeqhnsgfnweefwfacf6dyzj5f94xqc6hfnjtrnh0ezu7qclg7p6m"
+    }
+  },
+  {
+    "block_time": 1734689369,
+    "deposit": "100000000000",
+    "dropped_epoch": 194,
+    "enacted_epoch": null,
+    "expiration": 193,
+    "expired_epoch": 193,
+    "meta_comment": null,
+    "meta_hash": "3006a9d6f6a1d3f6b64eb472312ed076db78a9a08720011e529d317408308e1a",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "bio": "CIPQQQ:bio",
+            "dRepName": "CIPQQQ:dRepName",
+            "email": "CIPQQQ:email",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIPQQQ:hashDigest"
+                  },
+                  "@id": "CIPQQQ:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIPQQQ:references"
+            }
+          },
+          "@id": "CIPQQQ:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "bio": {
+          "@value": "Don't worry about me, I'm going around the landscape a bit. I like the scenery. But it lacks flowers."
+        },
+        "dRepName": {
+          "@value": "Mike_Hornan"
+        },
+        "email": {
+          "@value": "mike.hornan@able-pool.io"
+        },
+        "references": []
+      },
+      "hashAlgorithm": {
+        "@value": "blake2b-256"
+      }
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://hornan7.github.io/mike_hornan.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        null,
+        [],
+        {
+          "keyHash-6ed3f72ab94b6ff6d92892c6a5b06f34a43be43e266c03e180eb223c": 320
+        },
+        {
+          "denominator": 3,
+          "numerator": 2
+        }
+      ],
+      "tag": "UpdateCommittee"
+    },
+    "proposal_id": "gov_action1k2kmhnp3kk94hf2sd38ygayarcauf570c7hqmg45ns85ftugg0ksqmjkn6c",
+    "proposal_index": 0,
+    "proposal_tx_hash": "b2adbbcc31b58b5ba5506c4e44749d1e3bc4d3cfc7ae0da2b49c0f44af8843ed",
+    "proposal_type": "NewCommittee",
+    "proposed_epoch": 186,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upeqhnsgfnweefwfacf6dyzj5f94xqc6hfnjtrnh0ezu7qclg7p6m",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1734361755,
+    "deposit": "100000000000",
+    "dropped_epoch": 193,
+    "enacted_epoch": null,
+    "expiration": 192,
+    "expired_epoch": 192,
+    "meta_comment": null,
+    "meta_hash": "52e69500a92d80f2126c836a4903dc582006709f004cf7a28ed648f732dff8d2",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://tinyurl.com/3wrwb2as",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "521da955ad8f24bdff8d3cb8f5a155c49870037019fcdf20949e7e5e"
+              },
+              "network": "Testnet"
+            },
+            123456789000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action14nyyek674687xdun4yefhhtnk50w7lv6x0e9x5ncxq264f3uzmlqqn60xhh",
+    "proposal_index": 0,
+    "proposal_tx_hash": "acc84cdb5eae8fe33793a9329bdd73b51eef7d9a33f25352783015aaa63c16fe",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 185,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn",
+    "withdrawal": {
+      "amount": "123456789000",
+      "stake_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn"
+    }
+  },
+  {
+    "block_time": 1734361731,
+    "deposit": "100000000000",
+    "dropped_epoch": 193,
+    "enacted_epoch": null,
+    "expiration": 192,
+    "expired_epoch": 192,
+    "meta_comment": null,
+    "meta_hash": "52e69500a92d80f2126c836a4903dc582006709f004cf7a28ed648f732dff8d2",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://tinyurl.com/3wrwb2as",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "521da955ad8f24bdff8d3cb8f5a155c49870037019fcdf20949e7e5e"
+              },
+              "network": "Testnet"
+            },
+            987654321000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1jl2mescvukd7nx7cpq69mxd73sv25362hvh9mnv3sw6yl9mvuyksqxdcx6k",
+    "proposal_index": 0,
+    "proposal_tx_hash": "97d5bcc30ce59be99bd808345d99be8c18aa474abb2e5dcd9183b44f976ce12d",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 185,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn",
+    "withdrawal": {
+      "amount": "987654321000",
+      "stake_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn"
+    }
+  },
+  {
+    "block_time": 1734361511,
+    "deposit": "100000000000",
+    "dropped_epoch": 193,
+    "enacted_epoch": null,
+    "expiration": 192,
+    "expired_epoch": 192,
+    "meta_comment": null,
+    "meta_hash": "52e69500a92d80f2126c836a4903dc582006709f004cf7a28ed648f732dff8d2",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://tinyurl.com/3wrwb2as",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "521da955ad8f24bdff8d3cb8f5a155c49870037019fcdf20949e7e5e"
+              },
+              "network": "Testnet"
+            },
+            1000000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action17a9t6mm0qscx2048x6mmw9xv2mmsy2yv0py766neepcdxsh0khhsq3s7lsf",
+    "proposal_index": 0,
+    "proposal_tx_hash": "f74abd6f6f0430653ea736b7b714cc56f702288c7849ed6a79c870d342efb5ef",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 185,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn",
+    "withdrawal": {
+      "amount": "1000000000000",
+      "stake_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn"
+    }
+  },
+  {
+    "block_time": 1733058389,
+    "deposit": "100000000000",
+    "dropped_epoch": 190,
+    "enacted_epoch": null,
+    "expiration": 189,
+    "expired_epoch": 189,
+    "meta_comment": null,
+    "meta_hash": "93106d082a93e94df5aff74f678438bae3a647dac63465fbfcde6a3058f41a1e",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [
+        {
+          "name": "Adam Dean, Adam Rusch",
+          "witness": {
+            "publicKey": "d57dcc6fef949f9e159e4b33b7b60691bf9c48e6f58fb4709809dde8d822ef54",
+            "signature": "4bb55fa3f66ed5bf4e934061b35d18473462b64357222e4ad5f37568c3ea57bc350bae9cf0843c14e30bade86533149e34b4d3c57b5df30e1d3ca5f326df2d0c",
+            "witnessAlgorithm": "ed25519"
+          }
+        }
+      ],
+      "body": {
+        "abstract": "The Intersect Hard Fork Working Group proposes to name the next Cardano hard fork the “Plomin Hard Fork” in memory of Cardano community contributor Matthew Plomin.",
+        "motivation": "There is a tradition of naming hard forks in memory of notable historical figures or significant contributors to the Cardano community. Naming this hard fork in memory of Matthew Plomin would memorialize his actions in life to selflessly support and contribute to the Cardano blockchain ecosystem.",
+        "rationale": "Renaming the “Second Chang Hard Fork” (Chang 2) to the Plomin Hard Fork, in memory of Cardano community contributor Matthew Plomin, reflects a natural progression of Cardano’s governance growth. Phil Chang was an employee of Input Output who made significant contributions to Cardano’s governance system to help transfer control and responsibility of the blockchain into the hands of the community. Matthew Plomin was an exemplar of the Cardano community, representing every individual who stands ready to pick up the torch and carry the ecosystem forward.\n\nMatthew was a much loved and respected member of the Cardano community. He passed unexpectedly on November 14th, 2024. Originally hailing from Indiana, USA; he earned a Bachelor of Science in Management degree from Purdue University where he met and married the love of his life, Jillian (Shaw). He went on to receive his Master of Business Administration Degree from George Washington University before joining the DWS Group (Deutsche Bank) and rising to the Head of the US Money Market Credit Research team. His expertise in the traditional finance world was instrumental in his journey to found $USDM, a Cardano-native stable coin pegged to the US Dollar and fully backed by dollar reserves.\n\nAs a Cardano community member, Matthew was always eager to learn more and excited to help others work through issues they encountered with their projects in the ecosystem. He taught himself how to mint native assets, experimenting with social games and helping Jillian to publish a book she authored in a serialized, token-based format. Seeing the need for a US Dollar-backed Stablecoin on Cardano, Matthew assembled a team that would become the Moneta project. Despite limited institutional backing during a market bottom, the community stepped up to champion him and their support helped his dream become a reality.\n\nMatthew leaves behind his wife, Jillian, their seven children, and the Moneta team. His legacy lives on through the work that he accomplished and the inspiration that he kindled in others. As a devout Roman Catholic Christian, Matthew lived out the “Golden Rule” to “do unto others as you would have them do unto you,” and the world is a better place for him being in it.",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "Vasil Hard Fork | Cardano Docs",
+            "uri": "https://docs.cardano.org/about-cardano/evolution/upgrades/vasil/"
+          },
+          {
+            "@type": "Other",
+            "label": "Chang upgrade #1 hard fork achieved! | Intersect MBO",
+            "uri": "https://www.intersectmbo.org/news/chang-upgrade-1-hard-fork-achieved"
+          }
+        ],
+        "title": "Rename the Chang 2 Hard Fork to the Plomin Hard Fork"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en",
+    "meta_url": "https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/mainnet/2024-11-19-infohf/metadata.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "4245236ab8056760efceebbff57e8cab220182be3e36439e520a6454"
+              },
+              "network": "Testnet"
+            },
+            1000000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1xukk3ra2wls5v7vttqdnytq09xq6jq3hv3ek4hjaztswfeuk47xqqg4644z",
+    "proposal_index": 0,
+    "proposal_tx_hash": "372d688faa77e146798b581b322c0f2981a9023764736ade5d12e0e4e796af8c",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 182,
+    "ratified_epoch": null,
+    "return_address": "stake_test1uppy2gm2hqzkwc80em4mlat73j4jyqvzhclrvsu72g9xg4q2yweet",
+    "withdrawal": {
+      "amount": "1000000000000",
+      "stake_address": "stake_test1uppy2gm2hqzkwc80em4mlat73j4jyqvzhclrvsu72g9xg4q2yweet"
+    }
+  },
+  {
+    "block_time": 1731011029,
+    "deposit": "100000000000",
+    "dropped_epoch": null,
+    "enacted_epoch": 181,
+    "expiration": 185,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "1c8a113e9661fa894ce565a811d1c84e87640ffe27924737a005f193b7ccca9f",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "abstract": "We propose to upgrade the Cardano PreProd test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:\n\n1. The PreProd protocol will be upgraded to Major Version 10 and Minor Version 0\n2. All 7 governance actions that are described in CIP-1694 will be enabled\n3. DRep voting will be enabled on all 7 governance actions \n4. SPO voting will be enabled on all applicable governance actions, as defined in CIP-1694\n5. Constitutional Committee voting will be enabled on all applicable governance actions, also as defined in CIP-1694\n6. Staking rewards can be accumulated as usual, but can only be withdrawn following delegation to a DRep (including the pre-defined abstain/no-confidence options)\n7. Several new Plutus primitives will be available once an update to the Plutus v3 cost model has been ratified\n\nIn line with the Interim Cardano Constitution:\n\n\n\n1. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10.",
+        "motivation": "Protocol Version 10 enables the remainder of the CIP-1694 functionality, ensuring that DReps can participate in voting on all governance actions.  It enables treasury withdrawals, the ability to record a new constitution, updates to the constitutional committee, and votes of no confidence.  These are in addition to the 3 existing governance actions that were enabled for Protocol Version 9 by the Chang hard fork (hard forks, parameter updates, and info actions). \n\nFollowing the hard fork, the protocol will support a number of new Plutus primitives that have been defined in CIP-0122, CIP-0123 and CIP-0127.  These provide bitwise and logical operations on byte strings, plus RIPEMD-160 cryptographic hashing functionality (for compatibility with BitCoin).  These primitives will be enabled by a complementary protocol parameter update governance action.",
+        "rationale": "We propose to upgrade the Cardano PreProd test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:\n\n1. The PreProd protocol will be upgraded to Major Version 10 and Minor Version 0\n2. All 7 governance actions that are described in CIP-1694 will be enabled\n3. DRep voting will be enabled on all 7 governance actions \n4. SPO voting will be enabled on all applicable governance actions, as defined in CIP-1694\n5. Constitutional Committee voting will be enabled on all applicable governance actions, also as defined in CIP-1694\n6. Staking rewards can be accumulated as usual, but can only be withdrawn following delegation to a DRep (including the pre-defined abstain/no-confidence options)\n7. Several new Plutus primitives will be available once an update to the Plutus v3 cost model has been ratified\n\nIn line with the Interim Cardano Constitution:\n\n\n\n1. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10.\n\n## Technical Evaluation\n\n\n### Functionality\n\nThe upgrade enables two main items: \n\n\n\n\n1. The remainder of the CIP-1694 functionality, as described below - notably: DRep voting on all action types, the remaining governance actions, and restrictions on rewards withdrawals.\n2. New Plutus primitives as described below.\n\nExisting functionality from Protocol Version 9 will be maintained.  Full testing reports have been produced for the Cardano node that demonstrate:\n\n\n\n1. No behavioral regressions for existing functionality;\n2. Conformance between the specification and implementation of the Cardano node for the new CIP-1694 functionality;\n3. Correct operation of the new Plutus primitives.\n\n\n### Security\n\nSecurity audits have been undertaken for: \n\n\n\n\n1. The formal specification for CIP-1694 in Agda;\n2. The ledger implementation in Haskell that corresponds to this formal specification\n\nA security report will be provided for the new Plutus primitives.\n\n\n### Performance\n\n[Performance results for Cardano Node version 10.1.1](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/) show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.\n\n\n### Sustainability\n\nThe upgrade provides new functionality that will enhance existing governance capabilities. It also provides new Plutus functionality that will enhance its bitwise and cryptographic capabilities and provide better interoperability with BitCoin and Ethereum.\n\n\n\n## New Functionality that will be enabled by the Upgrade\n\n\n### DRep Voting Changes following the Upgrade \n \nDReps will be able to vote on all 7 types of governance action, as described in CIP-1694, and will no longer be restricted to voting on Info actions. \n\n\n\n### New Governance Actions that will be Available following the Upgrade\n\nFour new governance actions will be enabled as described in CIP-1694.\n\n\n\n1. Treasury withdrawals.  Funds may be withdrawn from the treasury and deposited in designated stake credentials. \n\n2. New constitution/guardrails script.  A new constitution may be proposed and/or a new guardrails script may be proposed. \n\n3. Updates to the constitutional committee. Constitutional committee members may be removed, replaced, or new members may be elected.  The threshold for Constitutional committee voting may also be changed. \n\n4. Votes of no confidence.  A vote of no confidence may be raised.\n\n\n### Other Governance Changes following the Upgrade\n\nThe main other governance changes in Protocol Version 10 are:\n\n\n\n1. Rewards will still be accumulated by Ada holders when delegating to stake pools for block production as in Protocol Version 9 and before, but these rewards can only be withdrawn once the Ada holder has also delegated their stake to a DRep for voting purposes.  This vote delegation may be to a self-created DRep, to a third-party DRep, or to the pre-defined Abstain or No Confidence DReps. \n\n2. SPO votes will default to **No**.  It will be possible for SPOs to default to **Abstain** or **No Confidence** by delegating their reward address to the pre-defined DRep. \n\n\n## New Plutus Primitives that will be Enabled after the Chang#2 Hard Fork\n\n\nThe new Plutus primitives are defined in three CIPs: [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122), [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123) and [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127).\n\n### CIP-0122\nBitwise operations, both over fixed-width and variable-width blocks of bits, have a range of uses, including data structures (especially succinct ones) and cryptography. Currently, operations on individual bits in Plutus Core are difficult, or outright impossible, while also keeping within the tight constraints required on-chain. While it is possible to some degree to work with individual bytes over BuiltinByteStrings, this isn't sufficient, or efficient, when bit manipulations are required.\n\nThe new Plutus primitives defined by CIP-0122 are:\n\n- Bitwise logical AND, OR, XOR and complement;\n- Reading a bit value at a given index;\n- Setting bits value at given indices; and\n- Replicating a byte a given number of times.\n\n> ``\n> andByteString, orByteString, xorByteString, complementByteString, readBit, writeBits, replicateByte\n> ``\n\n### CIP-0123\nThe new bitwise operations that are defined in CIP-0123 extend the set that is provided by CIP-0122 to provide a usefully 'complete' set of bitwise operations.\n\nThe new Plutus primitives defined by CIP-0123 are:\n\n- Bit shifts and rotations\n- Counting the number of set bits (popcount)\n- Finding the first set bit\n\n> ``\n> shiftByteString,\n> rotateByteString,\n> countSetBits,\n> findFirstSetBit\n> ``\n\n\n### CIP-0127\nThe integration of the ECDSA and Schnorr signatures over the secp256k1 curve into Plutus was a significant step towards interoperability with the Ethereum and Bitcoin ecosystems. However, full compatibility is still impossible due to the absence of the RIPEMD-160 hashing algorithm in the Plutus interpreter. This is a fundamental component of Bitcoin's cryptographic framework.\n\nAdding RIPEMD-160 support to Plutus enhances the potential for cross-chain solutions between Cardano and Bitcoin blockchains and complements the set of primitives which are already available. It will allow for the verification of Bitcoin addresses and transactions on-chain. This addition also enables the verification of signed messages that identify the signer by the public key hash, which has not yet been witnessed on the Bitcoin blockchain.\n\nThe new Plutus primitive defined by CIP-0127 is:\n\n- [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)\n\n> ``\n> ripemd_160\n> ``\n\n\n**Note that the new Plutus primitives will not be enabled on chain until a parameter update action with appropriate cost model settings is also enacted.  A separate governance action will be submitted to achieve this.**\n\n\n## Consistency with Guardrails\n\n\nThe text of the guardrails states:\n\n\n*“The hard fork initiation action requires both a new major and a new minor protocol version to be specified as positive integers.  As the result of a hard fork, new updatable protocol parameters may be introduced. Guardrails may be defined for these parameters, which will take effect following the hard fork. Existing updatable protocol parameters may also be deprecated by the hard fork, in which case the guardrails become obsolete for all future changes.”*\n\nAll these conditions apply to this proposal.  The upgrade will have major protocol version 10 and minor protocol version 0.  No new updatable parameters will be introduced or deprecated.\n\nThe relevant guardrails in the Interim Constitution are: \n\n\n\n\n* **HARDFORK-01:** “The major protocol version must be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version must be zero.” \n\n* **HARDFORK-02:** “The minor protocol version must be no less than the minor version that will be enacted immediately prior to this change.” \n\n* **HARDFORK-03:** “At least one of the protocol versions (major or minor or both) must change.” \n\n* **HARDFORK-04** “At least 85% of stake pools by active stake should have upgraded to a Cardano node version that is capable of processing the rules associated with the new protocol version.” \n\n* **HARDFORK-05** “Any new updatable protocol parameters that are introduced with a hard fork must be included in this Appendix and suitable guardrails defined for those parameters.” \n\n* **HARDFORK-06:** “Settings for any new protocol parameters that are introduced with a hard fork must be included in the appropriate Genesis file.” \n\n* **HARDFORK-07:** “Any deprecated protocol parameters must be indicated in this Appendix.” \n\n* **HARDFORK-08:** “New Plutus versions must be supported by a version-specific Plutus cost model that covers each primitive that is available in the new Plutus version.”\n\n* **INTERIM-01**: “To provide sufficient time for DReps to register and campaign and for Ada holders to choose their initial voting delegations, at least 18 epochs (90 days, or approximately 3 months) must elapse after the Chang hard fork before the subsequent hard fork can be ratified. Once the subsequent hard fork is enacted, DRep voting can occur as described in CIP-1694.”\n\nThis governance action is consistent with all nine guardrails, provided attention is paid to HARDFORK-04 and INTERIM-01, as described below.  None of these guardrails can be checked by the automated guardrails script.\n\n\n### Consistency with HARDFORK-01: \n\nThe protocol version will be changed from major version 9 (minor version 0) to major version 10 (minor version 0).\n\n\n### Consistency with HARDFORK-02: \n\nThe minor protocol version will be unchanged (0 in both cases).\n\n\n### Consistency with HARDFORK-03: \n\nThe major protocol version will change from 9 to 10.\n\n\n### Consistency with HARDFORK-04: \n\nThe stake pool upgrade status will need to be determined prior to ratification of the governance action.  If insufficient stake pools by stake have been upgraded, the action should not be ratified.\n\n\n### Consistency with HARDFORK-05: \n\nNo new updatable protocol parameters will be introduced by this hard fork, so the guardrails do not need to be updated.\n\n\n### Consistency with HARDFORK-06: \n\nNo new protocol parameters will be introduced by this hard fork, so a new Genesis file is not needed.\n\n\n### Consistency with HARDFORK-07: \n\nNo protocol parameters are deprecated by this hard fork.\n\n\n### Consistency with HARDFORK-08: \n\nNo new Plutus version is introduced.  The new Plutus primitives are provided as part of Plutus v3.\n\n### Consistency with INTERIM-01: \n\nThis guardrail applies to Mainnet rather than PreProd.\n\n\n## Reversion Plan\n\nThe hard fork represents a permanent change to the on-chain ledger rules.  Reversion is only possible in extreme circumstances, using the disaster recovery process that is described in [CIP-0135](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135/README.md).",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "CIP-0122",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122"
+          },
+          {
+            "@type": "Other",
+            "label": "CIP-0123",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123"
+          },
+          {
+            "@type": "Other",
+            "label": "CIP-0127",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127"
+          },
+          {
+            "@type": "Other",
+            "label": "CIP-0135",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0135"
+          },
+          {
+            "@type": "Other",
+            "label": "Full List of Ledger Fixes for Protocol Version 10",
+            "uri": "https://github.com/IntersectMBO/cardano-ledger/issues/4572"
+          },
+          {
+            "@type": "Other",
+            "label": "RIPEMD-160 hashing",
+            "uri": "https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf"
+          },
+          {
+            "@type": "Other",
+            "label": "Overview of the Plutus Primitve Benchmarking Process",
+            "uri": "https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf"
+          },
+          {
+            "@type": "Other",
+            "label": "Generating and Updating the Plutus Cost Model",
+            "uri": "https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md"
+          },
+          {
+            "@type": "Other",
+            "label": "Plutus Primitive Benchmarking Code",
+            "uri": "https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model"
+          },
+          {
+            "@type": "Other",
+            "label": "Plutus Primitive Performance Results (CSV)",
+            "uri": "https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv"
+          },
+          {
+            "@type": "Other",
+            "label": "Cardano Node 10.1.1 Performance Report",
+            "uri": "https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/"
+          },
+          {
+            "@type": "Other",
+            "label": "All Cardano Node Performance Reports",
+            "uri": "https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports"
+          }
+        ],
+        "title": "Hard Fork to Protocol Version 10"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preprod/2024-10-30-hf10/metadata.jsonld",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        null,
+        {
+          "major": 10,
+          "minor": 0
+        }
+      ],
+      "tag": "HardForkInitiation"
+    },
+    "proposal_id": "gov_action1eje876cdtrp94celmqsmvtpc0afrpkhfxzhaqayflg7l26h9v53qqnjsjww",
+    "proposal_index": 0,
+    "proposal_tx_hash": "ccb27f6b0d58c25ae33fd821b62c387f5230dae930afd07489fa3df56ae56522",
+    "proposal_type": "HardForkInitiation",
+    "proposed_epoch": 178,
+    "ratified_epoch": 180,
+    "return_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1730826983,
+    "deposit": "100000000000",
+    "dropped_epoch": null,
+    "enacted_epoch": 180,
+    "expiration": 184,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "94deb036c455e4064f7ed4162edbdb7d892ad264094df9a26fd61b5b130d100f",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "abstract": "We propose to update the Plutus V3 Cost Model via a Parameter Update governance action to enable the new Plutus primitives that will be available following the Chang#2 hard fork (to Protocol Version 10).  Existing Plutus cost model settings will not be changed.  Note that the primitives will not be enabled in Protocol version 9 (as enabled by the Chang hard fork).",
+        "motivation": "Following the hard fork to Protocol Version 10, 12 new Plutus primitives will be available for bitwise and cryptographic operations. This governance action provides cost model settings so that these primitives can be used following the Chang#2 hard fork.",
+        "rationale": "We propose to update the Plutus V3 Cost Model via a Parameter Update governance action to enable the new Plutus primitives that will be available following the Chang #2 hard fork (to Protocol Version 10).  Existing Plutus cost model settings will not be changed.  Note that the new primitives will not be enabled in Protocol version 9 (as enabled by the Chang hard fork). \n\n## Technical Evaluation\n\nThe changes described in this governance action have been recommended by Intersect’s Parameter Committee on 2024-10-10, as evidenced by [this post in the Cardano Forum](https://forum.cardano.org/t/oct-10-2024-voltaire-era-parameter-committee-intermediate-state/137361), and subsequently ratified unanimously by Intersect's Technical Steering Committee on 2024-10-18.\n\n\n### Functionality\n\nAs described below, 12 new Plutus v3 primitives will be enabled following the Chang#2 hard fork. These will provide new bitwise and cryptographic hashing functions that have a variety of uses, and which will enhance interoperability with BitCoin and Ethereum.  The revised Plutus v3 cost model will enable those new primitives.  The changes are all additions to the existing Plutus V3 cost model.  No changes will be made to the cost model values for any existing Plutus primitives or to the Plutus V1 and V2 cost nodels.\n### Security\n\n\nNo specific security concerns are raised by this change. A security report will be provided for the new Plutus primitives to support the Chang#2 hard fork.\n\n\n### Performance\n\nIn line with [Plutus benchmarking procedures](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md), [standard benchmarking has been undertaken on a reference machine](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv) to determine these cost model settings and to align them with existing Plutus primitives.  Since Plutus script execution times and memory usage are bounded by `maxBlockExecutionUnits[steps/memory]` and `maxTxExecutionUnits[steps/memory]`, there will be no overall performance impact on the node from these new cost model settings.\n\n### Sustainability\n\nThe upgrade provides new Plutus functionality that will enhance its bitwise and cryptographic capabilities and provide better interoperability with BitCoin and Ethereum.\n\n## New Plutus Primitives that will be Enabled after the Chang#2 Hard Fork\n\n\nThe new Plutus primitives are defined in three CIPs: [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122), [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123) and [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127).\n\n### CIP-0122\nBitwise operations, both over fixed-width and variable-width blocks of bits, have a range of uses, including data structures (especially succinct ones) and cryptography. Currently, operations on individual bits in Plutus Core are difficult, or outright impossible, while also keeping within the tight constraints required on-chain. While it is possible to some degree to work with individual bytes over BuiltinByteStrings, this isn't sufficient, or efficient, when bit manipulations are required.\n\nThe new Plutus primitives defined by CIP-0122 are:\n\n- Bitwise logical AND, OR, XOR and complement;\n- Reading a bit value at a given index;\n- Setting bits value at given indices; and\n- Replicating a byte a given number of times.\n\n> ``\n> andByteString, orByteString, xorByteString, complementByteString, readBit, writeBits, replicateByte\n> ``\n\n### CIP-0123\nThe new bitwise operations that are defined in CIP-0123 extend the set that is provided by CIP-0123 to provide a usefully 'complete' set of bitwise operations.\n\nThe new Plutus primitives defined by CIP-0123 are:\n\n- Bit shifts and rotations\n- Counting the number of set bits (popcount)\n- Finding the first set bit\n\n> ``\n> shiftByteString,\n> rotateByteString,\n> countSetBits,\n> findFirstSetBit\n> ``\n\n\n### CIP-0127\nThe integration of the ECDSA and Schnorr signatures over the secp256k1 curve into Plutus was a significant step towards interoperability with the Ethereum and Bitcoin ecosystems. However, full compatibility is still impossible due to the absence of the RIPEMD-160 hashing algorithm in the Plutus interpreter. This is a fundamental component of Bitcoin's cryptographic framework.\n\nAdding RIPEMD-160 support to Plutus enhances the potential for cross-chain solutions between Cardano and Bitcoin blockchains and complements the set of primitives which are already available. It will allow for the verification of Bitcoin addresses and transactions on-chain. This addition also enables the verification of signed messages that identify the signer by the public key hash, which has not yet been witnessed on the Bitcoin blockchain.\n\nThe new Plutus primitive defined by CIP-0127 is:\n\n- [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)\n\n> ``\n> ripemd_160\n> ``\n\nEach of the new primitives has both CPU and memory unit cost models.\n\n\n## Differences to the current Plutus cost model that will be enacted by this governance action.\n\n\nThe full difference from the current on-chain Plutus V3 cost model settings is shown below.  These changes are all additions to the existing Plutus V3 cost model.  There are no changes to the Plutus V1 or V2 cost models.\n\n\n    \"andByteString\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 100181,\n               \"slope1\": 726,\n               \"slope2\": 719\n           },\n           \"type\": \"linear_in_y_and_z\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_max_yz\"\n       }\n    },\n    \"orByteString\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 100181,\n               \"slope1\": 726,\n               \"slope2\": 719\n           },\n           \"type\": \"linear_in_y_and_z\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_max_yz\"\n       }\n    },\n    \"xorByteString\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 100181,\n               \"slope1\": 726,\n               \"slope2\": 719\n           },\n           \"type\": \"linear_in_y_and_z\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_max_yz\"\n       }\n    },\n    \"complementByteString\": {\n       \"cpu\": {\n           \"arguments\": {\n              \"intercept\": 107878,\n               \"slope\": 680\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": {\n              \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_x\"\n       }\n    },\n    \"readBit\": {\n       \"cpu\": {\n          \"arguments\": 95336,\n           \"type\": \"constant_cost\"\n       },\n       \"memory\": {\n          \"arguments\": 1,\n           \"type\": \"constant_cost\"\n       }\n    },\n    \"writeBits\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 281145,\n               \"slope\": 18848\n           },\n           \"type\": \"linear_in_y\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_x\"\n       }\n    },\n    \"replicateByte\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 180194,\n               \"slope\": 159\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 1,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_x\"\n       }\n    },\n    \"shiftByteString\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 158519,\n               \"slope\": 8942\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_x\"\n       }\n    },\n    \"rotateByteString\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 159378,\n               \"slope\": 8813\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": {\n               \"intercept\": 0,\n               \"slope\": 1\n           },\n           \"type\": \"linear_in_x\"\n       }\n    },\n    \"countSetBits\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 107490,\n               \"slope\": 3298\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": 1,\n           \"type\": \"constant_cost\"\n       }\n    },\n    \"findFirstSetBit\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 106057,\n               \"slope\": 655\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": 1,\n           \"type\": \"constant_cost\"\n       }\n    },\n    \"ripemd_160\": {\n       \"cpu\": {\n           \"arguments\": {\n               \"intercept\": 1964219,\n               \"slope\": 24520\n           },\n           \"type\": \"linear_in_x\"\n       },\n       \"memory\": {\n           \"arguments\": 3,\n           \"type\": \"constant_cost\"\n       }\n    }\n\n\n## Consistency with Guardrails\n\n\nThe relevant guardrails in the Interim Constitution are:\n\n\n- **PCM-01:** \"Cost model values must be set by benchmarking on a reference architecture\"\n- **PCM-02:** \"The cost model must be updated if new primitives are introduced or a new Plutus language version is added\"\n- **PCM-03:** \"Cost model values should not be negative\"\n\n\nThis governance action is consistent with all three guardrails.  None of these guardrails can be checked by the automated guardrails script.\n\n\n### Consistency with PCM-01\n\nThe new cost model settings have been validated by the IO Engineering Plutus Core developer team against the same reference machine and implementation as the existing mainnet Plutus cost model settings.\n\n\n### Consistency with PCM-02\n\nThe cost model has been updated because new Plutus primitives will be introduced following the upgrade to Protocol Version 10.\n\n\n### Consistency with PCM-03\n\nNone of the new cost model values is negative.\n\n\n\n\n## Reversion Plan\n\n\nThe changes can be reversed if necessary by reinstating the current set of Plutus cost model values, omitting any settings for the new primitives.\n",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "Public Cardano Forum Post from the Parameter Committee Describing the Proposal",
+            "uri": "https://forum.cardano.org/t/oct-10-2024-voltaire-era-parameter-committee-intermediate-state/137361"
+          },
+          {
+            "@type": "Other",
+            "label": "CIP-0122",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122"
+          },
+          {
+            "@type": "Other",
+            "label": "CIP-0123",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123"
+          },
+          {
+            "@type": "Other",
+            "label": "CIP-0127",
+            "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127"
+          },
+          {
+            "@type": "Other",
+            "label": "RIPEMD-160 hashing",
+            "uri": "https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf"
+          },
+          {
+            "@type": "Other",
+            "label": "Overview of the Plutus Primitve Benchmarking Process",
+            "uri": "https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf"
+          },
+          {
+            "@type": "Other",
+            "label": "Generating and Updating the Plutus Cost Model",
+            "uri": "https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md"
+          },
+          {
+            "@type": "Other",
+            "label": "Plutus Primitive Benchmarking Code",
+            "uri": "https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model"
+          },
+          {
+            "@type": "Other",
+            "label": "Plutus Primitive Performance Results (CSV)",
+            "uri": "https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv"
+          },
+          {
+            "@type": "Other",
+            "label": "Cardano Node 10.1.1 Performance Report",
+            "uri": "https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/"
+          },
+          {
+            "@type": "Other",
+            "label": "All Cardano Node Performance Reports",
+            "uri": "https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports"
+          },
+          {
+            "@type": "Other",
+            "label": "Technical Steering Committee Meeting Minutes 204-10-23",
+            "uri": "https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/tsc-meeting-minutes/23rd-october"
+          }
+        ],
+        "title": "Plutus V3 Cost Model Parameter Changes Prior to Chang#2"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en",
+    "meta_url": "https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preprod/2024-11-04-ppu/metadata.jsonld",
+    "param_proposal": {
+      "cost_model_id": 194
+    },
+    "proposal_description": {
+      "contents": [
+        null,
+        {
+          "costModels": {
+            "PlutusV3": [
+              100788,
+              420,
+              1,
+              1,
+              1000,
+              173,
+              0,
+              1,
+              1000,
+              59957,
+              4,
+              1,
+              11183,
+              32,
+              201305,
+              8356,
+              4,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              100,
+              100,
+              16000,
+              100,
+              94375,
+              32,
+              132994,
+              32,
+              61462,
+              4,
+              72010,
+              178,
+              0,
+              1,
+              22151,
+              32,
+              91189,
+              769,
+              4,
+              2,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              1,
+              1000,
+              42921,
+              4,
+              2,
+              24548,
+              29498,
+              38,
+              1,
+              898148,
+              27279,
+              1,
+              51775,
+              558,
+              1,
+              39184,
+              1000,
+              60594,
+              1,
+              141895,
+              32,
+              83150,
+              32,
+              15299,
+              32,
+              76049,
+              1,
+              13169,
+              4,
+              22100,
+              10,
+              28999,
+              74,
+              1,
+              28999,
+              74,
+              1,
+              43285,
+              552,
+              1,
+              44749,
+              541,
+              1,
+              33852,
+              32,
+              68246,
+              32,
+              72362,
+              32,
+              7243,
+              32,
+              7391,
+              32,
+              11546,
+              32,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              90434,
+              519,
+              0,
+              1,
+              74433,
+              32,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              1,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              955506,
+              213312,
+              0,
+              2,
+              270652,
+              22588,
+              4,
+              1457325,
+              64566,
+              4,
+              20467,
+              1,
+              4,
+              0,
+              141992,
+              32,
+              100788,
+              420,
+              1,
+              1,
+              81663,
+              32,
+              59498,
+              32,
+              20142,
+              32,
+              24588,
+              32,
+              20744,
+              32,
+              25933,
+              32,
+              24623,
+              32,
+              43053543,
+              10,
+              53384111,
+              14333,
+              10,
+              43574283,
+              26308,
+              10,
+              16000,
+              100,
+              16000,
+              100,
+              962335,
+              18,
+              2780678,
+              6,
+              442008,
+              1,
+              52538055,
+              3756,
+              18,
+              267929,
+              18,
+              76433006,
+              8868,
+              18,
+              52948122,
+              18,
+              1995836,
+              36,
+              3227919,
+              12,
+              901022,
+              1,
+              166917843,
+              4307,
+              36,
+              284546,
+              36,
+              158221314,
+              26549,
+              36,
+              74698472,
+              36,
+              333849714,
+              1,
+              254006273,
+              72,
+              2174038,
+              72,
+              2261318,
+              64571,
+              4,
+              207616,
+              8310,
+              4,
+              1293828,
+              28716,
+              63,
+              0,
+              1,
+              1006041,
+              43623,
+              251,
+              0,
+              1,
+              100181,
+              726,
+              719,
+              0,
+              1,
+              100181,
+              726,
+              719,
+              0,
+              1,
+              100181,
+              726,
+              719,
+              0,
+              1,
+              107878,
+              680,
+              0,
+              1,
+              95336,
+              1,
+              281145,
+              18848,
+              0,
+              1,
+              180194,
+              159,
+              1,
+              1,
+              158519,
+              8942,
+              0,
+              1,
+              159378,
+              8813,
+              0,
+              1,
+              107490,
+              3298,
+              1,
+              106057,
+              655,
+              1,
+              1964219,
+              24520,
+              3
+            ]
+          }
+        },
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "ParameterChange"
+    },
+    "proposal_id": "gov_action1k5hsy2yw8n5v0et524fz7nkap8qj09m5nckmxgycajlfszmyt4zsqp0n7ft",
+    "proposal_index": 0,
+    "proposal_tx_hash": "b52f02288e3ce8c7e57455522f4edd09c12797749e2db32098ecbe980b645d45",
+    "proposal_type": "ParameterChange",
+    "proposed_epoch": 177,
+    "ratified_epoch": 179,
+    "return_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1730746575,
+    "deposit": "100000000000",
+    "dropped_epoch": 185,
+    "enacted_epoch": null,
+    "expiration": 184,
+    "expired_epoch": 184,
+    "meta_comment": "This is an example CIP-108 metadata-file... testing SPO-Scripts, Koios and Co.",
+    "meta_hash": "179df93f3456f540d773c5802786ac08a92260e241d1b7109416891d849521fa",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "comment": "CIP100:comment",
+            "externalUpdates": {
+              "@context": {
+                "title": "CIP100:update-title",
+                "uri": "CIP100:update-uri"
+              },
+              "@id": "CIP100:externalUpdates"
+            },
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [
+        {
+          "name": "Martin Lang",
+          "witness": {
+            "publicKey": "b18eacea2003b68e39137545e9d42ce5bca133ca0334d6a75aa9cb1fd02be7ec",
+            "signature": "bbbf6c795c4fe7739289542074b03abaebed76bbc07b1c71edb06117df0fa2d681eb8c29b286e81d673deeba1140f7fb193236cc6ad7e1ca99ee3fae1f865207",
+            "witnessAlgorithm": "ed25519"
+          }
+        }
+      ],
+      "body": {
+        "abstract": "This metadata was generated to test out db-sync, SPO-Scripts, Koios and other tools...",
+        "comment": "This is an example CIP-108 metadata-file... testing SPO-Scripts, Koios and Co.",
+        "externalUpdates": [
+          {
+            "title": "SPO Scripts",
+            "uri": "https://github.com/gitmachtl/scripts"
+          },
+          {
+            "title": "Koios",
+            "uri": "https://koios.rest"
+          }
+        ],
+        "motivation": "This must work, should be motivation enough.",
+        "rationale": "Let's keep testing stuff",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "SanchoNet",
+            "uri": "https://sancho.network"
+          }
+        ],
+        "title": "Example CIP108(+CIP100) metadata"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://my-ip.at/test/CIP108-example-signer.json",
+    "param_proposal": null,
+    "proposal_description": {
+      "tag": "InfoAction"
+    },
+    "proposal_id": "gov_action1svuwl6qsdkmqsgh7l96tny2vh5qjypfr9vuaz5wpwg8vxmn3l60sqtzu73u",
+    "proposal_index": 0,
+    "proposal_tx_hash": "8338efe8106db60822fef974b9914cbd012205232b39d151c1720ec36e71fe9f",
+    "proposal_type": "InfoAction",
+    "proposed_epoch": 177,
+    "ratified_epoch": null,
+    "return_address": "stake_test1urqntq4wexjylnrdnp97qq79qkxxvrsa9lcnwr7ckjd6w0cr04y4p",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1729697157,
+    "deposit": "100000000000",
+    "dropped_epoch": 180,
+    "enacted_epoch": null,
+    "expiration": 182,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "9784213f292da8080ff41dbadcd5e185a301394832f648e227660cc2a4c77477",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preprod/2024-10-21-ppu/metadata.jsonld",
+    "param_proposal": {
+      "cost_model_id": 191
+    },
+    "proposal_description": {
+      "contents": [
+        null,
+        {
+          "costModels": {
+            "PlutusV3": [
+              100788,
+              420,
+              1,
+              1,
+              1000,
+              173,
+              0,
+              1,
+              1000,
+              59957,
+              4,
+              1,
+              11183,
+              32,
+              201305,
+              8356,
+              4,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              16000,
+              100,
+              100,
+              100,
+              16000,
+              100,
+              94375,
+              32,
+              132994,
+              32,
+              61462,
+              4,
+              72010,
+              178,
+              0,
+              1,
+              22151,
+              32,
+              91189,
+              769,
+              4,
+              2,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              1,
+              1000,
+              42921,
+              4,
+              2,
+              24548,
+              29498,
+              38,
+              1,
+              898148,
+              27279,
+              1,
+              51775,
+              558,
+              1,
+              39184,
+              1000,
+              60594,
+              1,
+              141895,
+              32,
+              83150,
+              32,
+              15299,
+              32,
+              76049,
+              1,
+              13169,
+              4,
+              22100,
+              10,
+              28999,
+              74,
+              1,
+              28999,
+              74,
+              1,
+              43285,
+              552,
+              1,
+              44749,
+              541,
+              1,
+              33852,
+              32,
+              68246,
+              32,
+              72362,
+              32,
+              7243,
+              32,
+              7391,
+              32,
+              11546,
+              32,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              90434,
+              519,
+              0,
+              1,
+              74433,
+              32,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              1,
+              85848,
+              123203,
+              7305,
+              -900,
+              1716,
+              549,
+              57,
+              85848,
+              0,
+              1,
+              955506,
+              213312,
+              0,
+              2,
+              270652,
+              22588,
+              4,
+              1457325,
+              64566,
+              4,
+              20467,
+              1,
+              4,
+              0,
+              141992,
+              32,
+              100788,
+              420,
+              1,
+              1,
+              81663,
+              32,
+              59498,
+              32,
+              20142,
+              32,
+              24588,
+              32,
+              20744,
+              32,
+              25933,
+              32,
+              24623,
+              32,
+              43053543,
+              10,
+              53384111,
+              14333,
+              10,
+              43574283,
+              26308,
+              10,
+              16000,
+              100,
+              16000,
+              100,
+              962335,
+              18,
+              2780678,
+              6,
+              442008,
+              1,
+              52538055,
+              3756,
+              18,
+              267929,
+              18,
+              76433006,
+              8868,
+              18,
+              52948122,
+              18,
+              1995836,
+              36,
+              3227919,
+              12,
+              901022,
+              1,
+              166917843,
+              4307,
+              36,
+              284546,
+              36,
+              158221314,
+              26549,
+              36,
+              74698472,
+              36,
+              333849714,
+              1,
+              254006273,
+              72,
+              2174038,
+              72,
+              2261318,
+              64571,
+              4,
+              207616,
+              8310,
+              4,
+              1293828,
+              28716,
+              63,
+              0,
+              1,
+              1006041,
+              43623,
+              251,
+              0,
+              1
+            ]
+          }
+        },
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "ParameterChange"
+    },
+    "proposal_id": "gov_action1a960ajl5ttpcdfmxqh57s3azuhf8cqrlm597vaxt44fcurp4lcqsqqfz6j2",
+    "proposal_index": 0,
+    "proposal_tx_hash": "e974fecbf45ac386a76605e9e847a2e5d27c007fdd0be674cbad538e0c35fe01",
+    "proposal_type": "ParameterChange",
+    "proposed_epoch": 175,
+    "ratified_epoch": null,
+    "return_address": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1725664772,
+    "deposit": "100000000000",
+    "dropped_epoch": 173,
+    "enacted_epoch": null,
+    "expiration": 172,
+    "expired_epoch": 172,
+    "meta_comment": null,
+    "meta_hash": "b0ea2fb2fb9a573b8d8b856f861053382e1ef0ca6ecb76cec39c53e94f2c5a29",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://raw.githubusercontent.com/logical-mechanism/dRep/main/scripts/data/actions/simple.action.json",
+    "param_proposal": null,
+    "proposal_description": {
+      "tag": "InfoAction"
+    },
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "proposed_epoch": 165,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upqt8jvd8d045a6gs2wkzt57rnx47s5ewz4un2l746r847g7hgw24",
+    "withdrawal": null
+  },
+  {
+    "block_time": 1724874015,
+    "deposit": "100000000000",
+    "dropped_epoch": 171,
+    "enacted_epoch": null,
+    "expiration": 170,
+    "expired_epoch": 170,
+    "meta_comment": null,
+    "meta_hash": "311b148ca792007a3b1fee75a8698165911e306c3bc2afef6cf0145ecc7d03d4",
+    "meta_is_valid": null,
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "motivation": "CIP108:motivation",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP108:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP108:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [
+        {
+          "name": "Ryan Williams",
+          "witness": {
+            "publicKey": "7ea09a34aebb13c9841c71397b1cabfec5ddf950405293dee496cac2f437480a",
+            "signature": "a476985b4cc0d457f247797611799a6f6a80fc8cb7ec9dcb5a8223888d0618e30de165f3d869c4a0d9107d8a5b612ad7c5e42441907f5b91796f0d7187d64a01",
+            "witnessAlgorithm": "ed25519"
+          }
+        }
+      ],
+      "body": {
+        "abstract": "Withdraw 200000000000 ADA from the treasury so Ryan can buy an island.",
+        "motivation": "The current problem is that Ryan does not have an island, but he would really like an island.",
+        "rationale": "With these funds from the treasury will be sold for **cold hard cash**, this cash can then be used to purchase an island for Ryan. An example of this island is provided in the references.",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "A cool island for Ryan",
+            "uri": "https://www.google.com/maps/place/World's+only+5th+order+recursive+island/@62.6511465,-97.7946829,15.75z/data=!4m14!1m7!3m6!1s0x5216a167810cee39:0x11431abdfe4c7421!2sWorld's+only+5th+order+recursive+island!8m2!3d62.651114!4d-97.7872244!16s%2Fg%2F11spwk2b6n!3m5!1s0x5216a167810cee39:0x11431abdfe4c7421!8m2!3d62.651114!4d-97.7872244!16s%2Fg%2F11spwk2b6n?authuser=0&entry=ttu"
+          }
+        ],
+        "title": "Buy Ryan a island"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_language": "en-us",
+    "meta_url": "https://raw.githubusercontent.com/cardano-foundation/CIPs/master/CIP-0108/examples/treasury-withdrawal.jsonld",
+    "param_proposal": {
+      "key_deposit": 1234567
+    },
+    "proposal_description": {
+      "contents": [
+        null,
+        {
+          "stakeAddressDeposit": 1234567
+        },
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "ParameterChange"
+    },
+    "proposal_id": "gov_action1pmx8fl3x2vkwcx4e52vlpq40csm2ljygegkuplr2ekjrr3fdccxsq0jegy9",
+    "proposal_index": 0,
+    "proposal_tx_hash": "0ecc74fe26532cec1ab9a299f082afc436afc888ca2dc0fc6acda431c52dc60d",
+    "proposal_type": "ParameterChange",
+    "proposed_epoch": 163,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upfpm2244k8jf00l357t3adp2hzfsuqrwqvleheqjj08uhswme5cn",
+    "withdrawal": null
+  }
+]

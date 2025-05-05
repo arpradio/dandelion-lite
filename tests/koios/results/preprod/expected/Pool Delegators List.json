@@ -1,0 +1,26 @@
+[
+  {
+    "active_epoch_no": 203,
+    "amount": "9997648846",
+    "latest_delegation_tx_hash": "448c523dedd32d48d330bc720754ee5dd02bfd6593f4a13169e5236118f29534",
+    "stake_address": "stake_test1uqmkd9wm9dsnrdwsf6x0qza36d26lvatu4mwq08ete8ztkq8rfmpf"
+  },
+  {
+    "active_epoch_no": 198,
+    "amount": "9997825127",
+    "latest_delegation_tx_hash": "679838b0e20da3f4e2c44d6e4910c3be77de0a22834e14e6783d2896c8f6ef23",
+    "stake_address": "stake_test1up34rpqn0jqcnuxpe32dl6wx5gghycpw57q67mvr82v5pvgunthpx"
+  },
+  {
+    "active_epoch_no": 196,
+    "amount": "9997304996",
+    "latest_delegation_tx_hash": "0651e9d53559fdab41cfbc720559055fd8774cec474cf4840924709873a6a786",
+    "stake_address": "stake_test1urp4q6n4e5qn9q5a66vysmftr6crxqa3sakg0rtvw69x6zspgg2qk"
+  },
+  {
+    "active_epoch_no": 69,
+    "amount": "44481417242",
+    "latest_delegation_tx_hash": "8bb65f8e187868ee399c30362dc4fe3dda6f5840723005cdc475fc49094035bd",
+    "stake_address": "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": -32600,
+    "message": "Invalid request: failed to decode base16-encoded payload."
+  },
+  "id": null,
+  "jsonrpc": "2.0"
+}

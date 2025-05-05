@@ -1,0 +1,65 @@
+[
+  {
+    "active_epoch_no": 72,
+    "block_time": 1684165381,
+    "fixed_cost": "340000000",
+    "margin": 0.075,
+    "meta_hash": "36be44ad5bd2825ede1bf91e76cae3cd8815cf74e372d08c72f2621adbf42b82",
+    "meta_json": {
+      "description": "BNTY1preprodnode",
+      "homepage": "https://github.com",
+      "name": "BNTY1preprod",
+      "ticker": "BNTY1"
+    },
+    "meta_url": "https://tinyurl.com/a3spabve",
+    "owners": [
+      "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd"
+    ],
+    "pledge": "5000000000",
+    "pool_id_bech32": "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv",
+    "pool_id_hex": "63b49197a85d0ed90c3173d6ffc27a5c5455eb3c800c2a710d2bbd9c",
+    "relays": [
+      {
+        "dns": "preprod.cryptobounty.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6160,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd",
+    "tx_hash": "093ba2acf5f510b2d56f137930f6c66ae335e1560d3f92fef1bd93155e94b2ce",
+    "update_type": "registration",
+    "vrf_key_hash": "32252ba40e5c5773a5f03f979f5cdda7d84a756bba8517ccf3cad46005ef38f8"
+  },
+  {
+    "active_epoch_no": 69,
+    "block_time": 1683060569,
+    "fixed_cost": "340000000",
+    "margin": 0.075,
+    "meta_hash": "0c5180e4209727775441614f2477e5d442fd6f6edcc50a486fea490b6dfdb84f",
+    "meta_json": null,
+    "meta_url": "https://foo.bat/poolmeta.json",
+    "owners": [
+      "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd"
+    ],
+    "pledge": "5000000000",
+    "pool_id_bech32": "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv",
+    "pool_id_hex": "63b49197a85d0ed90c3173d6ffc27a5c5455eb3c800c2a710d2bbd9c",
+    "relays": [
+      {
+        "dns": "preprod.cryptobounty.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6160,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd",
+    "tx_hash": "8bb65f8e187868ee399c30362dc4fe3dda6f5840723005cdc475fc49094035bd",
+    "update_type": "registration",
+    "vrf_key_hash": "32252ba40e5c5773a5f03f979f5cdda7d84a756bba8517ccf3cad46005ef38f8"
+  }
+]

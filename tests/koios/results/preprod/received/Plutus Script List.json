@@ -1,0 +1,62 @@
+[
+  {
+    "creation_tx_hash": "4ef4776ae29b1a53e48589e32d00e0a68ab9c1338f0371a6def9d1e4d0873504",
+    "script_hash": "000162461f93050f01da5228b889f98162e2f1de2790fef939069137",
+    "size": 550,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "7e9dbd3d33d51c7000a3dfbfdbde91044db261bb32537990f02cb3711723934f",
+    "script_hash": "00019370311eb44080e39f5fd39a22a4ee7c902beacba3b5115825f0",
+    "size": 7839,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "ce36740ed2975cbb16a634c9be86f4ba5ad4152a5493586dc1840e79c7d63b2c",
+    "script_hash": "0002425bb10c92722b7f4da1c471e2c30f2ac06b8e8c8f3fd305d851",
+    "size": 4145,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "cb660908a9e84aa0152988e123a91757f5c88ff754f2ac1a144ba9285cca44ad",
+    "script_hash": "000276cecfeddec0c3a376a6bcf9f3d71ab34e7eb643deeb641ef23e",
+    "size": 3495,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "221c87ca6c891820cc98a9b0f999b8e55dac3d9053b261cb189a6fac0604bbf8",
+    "script_hash": "00028f86431ec0ca5d193d5234575b58a51d41356a40abde318f28e0",
+    "size": 2023,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "c354fba61e8a37ad5ccaf26eddfc9e817445a02612e81956b305fc6ddd2b02e3",
+    "script_hash": "00030f0d0caf8edb02cff0f949bea2f1fa25292efc4577035ea094c7",
+    "size": 58,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "7dac5bd9654b52e960578f04ca412a9f914de93b9fb534285d80dcf94f089b97",
+    "script_hash": "000334d3e023c3378807754c34afb1cf8ba94c8c3d77cab9bbb1eb2c",
+    "size": 9076,
+    "type": "plutusV1"
+  },
+  {
+    "creation_tx_hash": "8701cbf2ee3373598d9fb2e59fb5dcf1224eb8d728ea34e6ef9546e6ce4f9bcc",
+    "script_hash": "0003753aefa61a12865c09b95ba972c37c8f6a4680bee558d3202183",
+    "size": 4049,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "ad825cea14ba1574467b9971f8a1cea0f4673328c8b47fc5443b08635891f550",
+    "script_hash": "0004321dac548984d1c1b9d25a6f2e620edcccfe053c4605245acad5",
+    "size": 2196,
+    "type": "plutusV2"
+  },
+  {
+    "creation_tx_hash": "d1e7d16f4099b8f79dcf3972a6231cdecacc0f3de45fe1246268a14df3301adf",
+    "script_hash": "000507da4b187457ce95eee22a92a59750e9835482b85ee17ba3c6db",
+    "size": 8302,
+    "type": "plutusV2"
+  }
+]

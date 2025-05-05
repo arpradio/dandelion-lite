@@ -1,0 +1,129 @@
+[
+  {
+    "active_epoch_no": 72,
+    "active_stake": "74405954465",
+    "block_count": 4302,
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "live_delegators": 4,
+    "live_pledge": "44481417242",
+    "live_saturation": 0.12,
+    "live_stake": "74474196211",
+    "margin": 0.075,
+    "meta_hash": "36be44ad5bd2825ede1bf91e76cae3cd8815cf74e372d08c72f2621adbf42b82",
+    "meta_json": {
+      "description": "BNTY1preprodnode",
+      "homepage": "https://github.com",
+      "name": "BNTY1preprod",
+      "ticker": "BNTY1"
+    },
+    "meta_url": "https://tinyurl.com/a3spabve",
+    "op_cert": "11bd5e1492ee55f80bc72ca315341fcc9d4890936392b056e0d042e61a0a1345",
+    "op_cert_counter": 8,
+    "owners": [
+      "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd"
+    ],
+    "pledge": "5000000000",
+    "pool_id_bech32": "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv",
+    "pool_id_hex": "63b49197a85d0ed90c3173d6ffc27a5c5455eb3c800c2a710d2bbd9c",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "preprod.cryptobounty.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6160,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd",
+    "reward_addr_delegated_drep": null,
+    "sigma": 0.00019989076348880204,
+    "voting_power": "74474196211",
+    "vrf_key_hash": "32252ba40e5c5773a5f03f979f5cdda7d84a756bba8517ccf3cad46005ef38f8"
+  },
+  {
+    "active_epoch_no": 30,
+    "active_stake": "280467502624",
+    "block_count": 4779,
+    "deposit": "500000000",
+    "fixed_cost": "340000000",
+    "live_delegators": 16,
+    "live_pledge": "32549449187",
+    "live_saturation": 0.45,
+    "live_stake": "280467502624",
+    "margin": 0.15,
+    "meta_hash": "d843ac7c8ab3a17fe28d5a68c975dc846fe87479364bcff7dd3b30e5c442ca07",
+    "meta_json": {
+      "description": "Stake by the sea from St Kilda Australia. Reliable, secure, independent",
+      "homepage": "https://seaside-staking.github.io/",
+      "name": "SeasideStaking",
+      "ticker": "SEA"
+    },
+    "meta_url": "https://raw.githubusercontent.com/Seaside-Staking/m/main/m.json",
+    "op_cert": "cd01fa58d1cdf2029971a0c8ff92af8b0a561834d70ba8fed6a58eed22203616",
+    "op_cert_counter": 2,
+    "owners": [
+      "stake_test1uqg78u8xh8vcs2j7tjyxt0aswmv30wczw7szuhcy6n6kxcccdhz2f"
+    ],
+    "pledge": "8000000",
+    "pool_id_bech32": "pool1ws42l6rawqjv58crs5l32v0eem3qnngpnjfd7epwd4lmjccc5cg",
+    "pool_id_hex": "742aafe87d7024ca1f03853f1531f9cee209cd019c92df642e6d7fb9",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "test.seaside-staking.best",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 12000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1uqg78u8xh8vcs2j7tjyxt0aswmv30wczw7szuhcy6n6kxcccdhz2f",
+    "reward_addr_delegated_drep": null,
+    "sigma": 0.00075347280518631743,
+    "voting_power": "280467502624",
+    "vrf_key_hash": "2db0a696204a8bbef61523723d9c9a99a79cc1549c5e2a0dde3bafe16a272cf7"
+  },
+  {
+    "active_epoch_no": 30,
+    "active_stake": "119749928243",
+    "block_count": 726,
+    "deposit": "500000000",
+    "fixed_cost": "340000000",
+    "live_delegators": 17,
+    "live_pledge": "13867819421",
+    "live_saturation": 0.19,
+    "live_stake": "119749928243",
+    "margin": 0.075,
+    "meta_hash": "77ca30b9a2b04150cf3184557c5784558b34415023fd554670ce081d2a878f6d",
+    "meta_json": null,
+    "meta_url": "https://adasquirrel.com/meta/testnet/poolmeta.json",
+    "op_cert": "6f2610b12dc719828be0dec4dbcf43cc6a3d7b48ab81eecbb639b14bb6739a4d",
+    "op_cert_counter": 0,
+    "owners": [
+      "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs"
+    ],
+    "pledge": "1000000000",
+    "pool_id_bech32": "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta",
+    "pool_id_hex": "c997e00dd2174d86a6ed9d814daef42f2dce2babc234b4003bcb02bf",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "lamente.controlliamo.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs",
+    "reward_addr_delegated_drep": null,
+    "sigma": 0.00032170684129161018,
+    "voting_power": "119749928243",
+    "vrf_key_hash": "53904d9cbe59b52d6b54ce29a58090ef45b3e44bffdc6ab7c514a7c3934f2a74"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": null,
+  "jsonrpc": "2.0",
+  "method": "queryNetwork/tip",
+  "result": {
+    "id": "5c4bcaf398e8b91374da43f0ef3c1c1f96e808a5074a256fdc08a82c41ff3960",
+    "slot": 90796535
+  }
+}

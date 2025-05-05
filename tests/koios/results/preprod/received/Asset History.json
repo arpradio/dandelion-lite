@@ -1,0 +1,15 @@
+[
+  {
+    "asset_name": "7447454e53",
+    "fingerprint": "asset1mvqjrt76g9yxsle3z92ums7snlpg02p274gek4",
+    "minting_txs": [
+      {
+        "block_time": 1666519241,
+        "metadata": [],
+        "quantity": "100000000000000",
+        "tx_hash": "bf52f0e706ce108dcea9026bdf7db4c8f23ad462434f741aaa6a73f41ad36d2a"
+      }
+    ],
+    "policy_id": "c6e65ba7878b2f8ea0ad39287d3e2fd256dc5c4160fc19bdf4c4d87e"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "delegated_drep": null,
+    "delegated_pool": "pool12jthfp4uqah0yndtdu6x2tqaxvgnlpc7h30gvwey3rsrc789tme",
+    "deposit": "2000000",
+    "proposal_refund": "0",
+    "reserves": "0",
+    "rewards": "61989073766",
+    "rewards_available": "61989073766",
+    "stake_address": "stake_test1ur4t5nhceyn2amfuj7z74uxmmj8jf9fmgd2egqw8c98ve3cp2g4wx",
+    "status": "registered",
+    "total_balance": "72486315490",
+    "treasury": "0",
+    "utxo": "10497241724",
+    "withdrawals": "0"
+  },
+  {
+    "delegated_drep": null,
+    "delegated_pool": null,
+    "deposit": "0",
+    "proposal_refund": "0",
+    "reserves": "0",
+    "rewards": "0",
+    "rewards_available": "0",
+    "stake_address": "stake_test1urq4rcynzj4uxqc74c852zky7wa6epgmn9r6k3j3gv7502q8jks0l",
+    "status": "not registered",
+    "total_balance": "21259493257",
+    "treasury": "0",
+    "utxo": "21259493257",
+    "withdrawals": "0"
+  }
+]

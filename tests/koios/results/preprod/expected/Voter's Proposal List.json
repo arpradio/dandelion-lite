@@ -1,0 +1,28 @@
+[
+  {
+    "block_time": 1725664772,
+    "deposit": "100000000000",
+    "dropped_epoch": 173,
+    "enacted_epoch": null,
+    "expiration": 172,
+    "expired_epoch": 172,
+    "meta_comment": null,
+    "meta_hash": "b0ea2fb2fb9a573b8d8b856f861053382e1ef0ca6ecb76cec39c53e94f2c5a29",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://raw.githubusercontent.com/logical-mechanism/dRep/main/scripts/data/actions/simple.action.json",
+    "param_proposal": null,
+    "proposal_description": {
+      "tag": "InfoAction"
+    },
+    "proposal_id": "gov_action14lefp8upwhhq92xph7t075txshf9huxxh9d2ey05ml2n5hqgvlxqqp92kfl",
+    "proposal_index": 0,
+    "proposal_tx_hash": "aff2909f8175ee02a8c1bf96ff516685d25bf0c6b95aac91f4dfd53a5c0867cc",
+    "proposal_type": "InfoAction",
+    "proposed_epoch": 165,
+    "ratified_epoch": null,
+    "return_address": "stake_test1upqt8jvd8d045a6gs2wkzt57rnx47s5ewz4un2l746r847g7hgw24",
+    "withdrawal": null
+  }
+]

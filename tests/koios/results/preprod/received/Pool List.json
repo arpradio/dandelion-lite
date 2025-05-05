@@ -1,0 +1,293 @@
+[
+  {
+    "active_epoch_no": 47,
+    "active_stake": null,
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0.75,
+    "meta_hash": "\\xd032d1a8e5d2daed61f5d68e5f9472fde564b18b89d1c7def4d4290fcdfad88c",
+    "meta_url": "https://www.lbcrypt.com/json/LBCT2.json",
+    "owners": [
+      "stake_test1urecmm5ryx2depyp78fag2xtga2qwdvjax2f7jsznux73kqyqpk9r"
+    ],
+    "pledge": "29950000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10208t5hc4l4gll3d64d2a8mml5tjgg9k0nsjvxplt046k7pwkvc",
+    "pool_id_hex": "7a9e75d2f8afea8ffe2dd55aae9f7bfd172420b67ce126183f5bebab",
+    "pool_status": "retired",
+    "relays": [
+      {
+        "dns": "foghorn.lbcrypt.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 9505,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": 79,
+    "reward_addr": "stake_test1upw8urwa89h677fdp8dwcu5lsdc0jf0m5gsjf4qvdu09ehqycx365",
+    "ticker": "LBCT2"
+  },
+  {
+    "active_epoch_no": 40,
+    "active_stake": null,
+    "deposit": "500000000",
+    "fixed_cost": "345000000",
+    "margin": 0.15,
+    "meta_hash": "\\x8118b2ce264a64a205becaaeaa9f0f550a4e4fff74171e6064a97d78ba20c43b",
+    "meta_url": "https://tinyurl.com/3e8s8u3p",
+    "owners": [
+      "stake_test1uzu7jfsgcr7wrc5jr8pvflq70e8ndhxw8w7v36mmkscnwfg86utf4"
+    ],
+    "pledge": "100000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool104umgmn7el9dn78afeydlrg5wm6snlclw0xn9fmn4jwg5j633rt",
+    "pool_id_hex": "7d79b46e7ecfcad9f8fd4e48df8d1476f509ff1f73cd32a773ac9c8a",
+    "pool_status": "retired",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.100.120",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": 39,
+    "reward_addr": "stake_test1uzu7jfsgcr7wrc5jr8pvflq70e8ndhxw8w7v36mmkscnwfg86utf4",
+    "ticker": null
+  },
+  {
+    "active_epoch_no": 74,
+    "active_stake": "6884541394442",
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0.1,
+    "meta_hash": "\\xa207f23a6255eeb0b508945e5170b169eb5c3220109d7fa17a7d88d462c8a199",
+    "meta_url": "https://apexpool.info/preprod/poolmetadata.json",
+    "owners": [
+      "stake_test1up97ct2wt8jqlly2cnkhuwc7tvevmjpp7h6ts3rucpksy8c8cnspn"
+    ],
+    "pledge": "100000000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool107k26e3wrqxwghju2py40ngngx2qcu48ppeg7lk0cm35jl2aenx",
+    "pool_id_hex": "7facad662e180ce45e5c504957cd1341940c72a708728f7ecfc6e349",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "pp-relay1.apexpool.info",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 4001,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1up97ct2wt8jqlly2cnkhuwc7tvevmjpp7h6ts3rucpksy8c8cnspn",
+    "ticker": "APEX"
+  },
+  {
+    "active_epoch_no": 102,
+    "active_stake": "29842708237",
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0.01,
+    "meta_hash": "\\x7af8c31c8d57204a20a748e7b5500216bed0bb4bbaa1778eabd261efd36a11c6",
+    "meta_url": "https://infstones.com/cardano/infstones-3.json",
+    "owners": [
+      "stake_test1uz3zkveejqzfcd48m2rr7m5vcpl7t64agc03erzplkyefcgcszejy"
+    ],
+    "pledge": "100000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool108gvqf4qf6j2cspfuat9c6q6rh3csc34vvhezu05dn38c7xhrt5",
+    "pool_id_hex": "79d0c026a04ea4ac4029e7565c681a1de3886235632f9171f46ce27c",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "54.237.15.52",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1uz3zkveejqzfcd48m2rr7m5vcpl7t64agc03erzplkyefcgcszejy",
+    "ticker": "TEST"
+  },
+  {
+    "active_epoch_no": 62,
+    "active_stake": "97815882621",
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0,
+    "meta_hash": "\\xb4f00faa9616959a12fa346ae13b1aba48172850974937328b1725d0a28e1dea",
+    "meta_url": "https://beerpool.io/poolmeta.json",
+    "owners": [
+      "stake_test1uqj0hyhn72p495gntxzt4g9au76ycpcvku693mpexqxdk5s7cwqed"
+    ],
+    "pledge": "35000000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10aqw4wa8cenqut0mlhrnayfhh4jjv7kyg9zv40426axs793k6nx",
+    "pool_id_hex": "7f40eabba7c6660e2dfbfdc73e9137bd65267ac44144cabeaad74d0f",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "preprod.relay.beerpool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1uqj0hyhn72p495gntxzt4g9au76ycpcvku693mpexqxdk5s7cwqed",
+    "ticker": null
+  },
+  {
+    "active_epoch_no": 206,
+    "active_stake": "1387758560419",
+    "deposit": null,
+    "fixed_cost": "170000000",
+    "margin": 0,
+    "meta_hash": "\\xb63925495202c3f4afc3ef8ea39070f148763a22247798122dd8e7a8b704f5d9",
+    "meta_url": "https://bit.ly/48y0c0X",
+    "owners": [
+      "stake_test1uq8575k8jdde8dju2gz0cl25n5vdcxrsqw56nl3t9m279ycxp0epz"
+    ],
+    "pledge": "100000000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10dtwvn64akqjdtn9d4pd2mnhpxfgp76hvsfkgmfwugrsxef3y2p",
+    "pool_id_hex": "7b56e64f55ed8126ae656d42d56e77099280fb576413646d2ee20703",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "204.216.213.96",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1uq8575k8jdde8dju2gz0cl25n5vdcxrsqw56nl3t9m279ycxp0epz",
+    "ticker": "RABIT"
+  },
+  {
+    "active_epoch_no": 48,
+    "active_stake": null,
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0,
+    "meta_hash": "\\x83f5d7ac5435ad44f91ac4e1bf9c62c65914bf9124a27775269029ea5b3fa183",
+    "meta_url": "https://beerpool.io/poolmeta.json",
+    "owners": [
+      "stake_test1uqj0hyhn72p495gntxzt4g9au76ycpcvku693mpexqxdk5s7cwqed"
+    ],
+    "pledge": "5000000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10gqm62xy7caj6jhhefsl7h59kse3rv2esuh9rvx55eze2n8dlrj",
+    "pool_id_hex": "7a01bd28c4f63b2d4af7ca61ff5e85b43311b159872e51b0d4a64595",
+    "pool_status": "retired",
+    "relays": [
+      {
+        "dns": "preprod.relay.beerpool.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": 47,
+    "reward_addr": "stake_test1uqj0hyhn72p495gntxzt4g9au76ycpcvku693mpexqxdk5s7cwqed",
+    "ticker": null
+  },
+  {
+    "active_epoch_no": 80,
+    "active_stake": "0",
+    "deposit": "500000000",
+    "fixed_cost": "340000000",
+    "margin": 1,
+    "meta_hash": null,
+    "meta_url": null,
+    "owners": [
+      "stake_test1uzxzv442nj7c0rld7s4kcq3uknlkph58g57keac5xrcx9qqh44dzh",
+      "stake_test1urq8pshmhv973rgydrhvfkz0zags9kxeppxh2uvj3568ruqpuz8rx"
+    ],
+    "pledge": "500000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10hmpfez2u96atsf648xhe8jv470qxqn6j432zy20qa3227e8kgk",
+    "pool_id_hex": "7df614e44ae175d5c13aa9cd7c9e4caf9e03027a9562a1114f0762a5",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": null,
+        "ipv6": null,
+        "port": null,
+        "srv": "relays-new.cardano-testnet.iohkdev.io"
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1uznvwg5drgtl099f3pceh7uuapsqeaffpqxf7cpdfew4w6gea5han",
+    "ticker": null
+  },
+  {
+    "active_epoch_no": 159,
+    "active_stake": "66950594559",
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0.01,
+    "meta_hash": "\\x10d246142f12f671c33accb1ca214a74065f9a713945922f3bd6dc40a1e081ac",
+    "meta_url": "http://www.menesteo.lu/metadata.json",
+    "owners": [
+      "stake_test1uzcac587juxskk8ywk03c2w0drd58nwn6xezq3qmstvdaqcxulcy2"
+    ],
+    "pledge": "29482000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10ny3ruzz9xee4smkpk293e9luvkx9fuf37zzz967uxgaca8ap2v",
+    "pool_id_hex": "7cc911f04229b39ac3760d9458e4bfe32c62a7898f8421175ee191dc",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "relay-pp.menesteo.lu",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1uzcac587juxskk8ywk03c2w0drd58nwn6xezq3qmstvdaqcxulcy2",
+    "ticker": null
+  },
+  {
+    "active_epoch_no": 95,
+    "active_stake": "70892411649",
+    "deposit": null,
+    "fixed_cost": "340000000",
+    "margin": 0,
+    "meta_hash": "\\x97cc99aaa9a0e61041c4136c45db2c0d29b61153caa303a02a3ba16f7c1a2141",
+    "meta_url": "https://www.menesteo.lu/metadata.json",
+    "owners": [
+      "stake_test1upzv7fsl79qkq67cvqc604frvn09s24w00wkp0je4k7z9aq2s7hvx"
+    ],
+    "pledge": "70000000000",
+    "pool_group": null,
+    "pool_id_bech32": "pool10qlwk6y9hhny4nweukak93yf0txrxk0p4k6c992v2hku6l9clkx",
+    "pool_id_hex": "783eeb6885bde64acdd9e5bb62c4897acc3359e1adb582954c55edcd",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "188.165.238.106",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1upzv7fsl79qkq67cvqc604frvn09s24w00wkp0je4k7z9aq2s7hvx",
+    "ticker": null
+  }
+]
