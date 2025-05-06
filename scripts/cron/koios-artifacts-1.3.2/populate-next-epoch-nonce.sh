@@ -41,4 +41,5 @@ echo -e "\n\nEPOCH_LENGTH=${EPOCH_LENGTH}\nWINDOW_SIZE=${WINDOW_SIZE}\nSECURITY_
   next_epoch_nonce=$(echo "$(${CCLI} query protocol-state --testnet-magic "${NWMAGIC}" --socket-path "${SOCKET}" | jq -r .candidateNonce)$(${CCLI} query protocol-state --testnet-magic "${NWMAGIC}" --socket-path "${SOCKET}" | jq -r .lastEpochBlockNonce)" | xxd -r -p | b2sum -b -l 256 | awk '{print $1}') &&
   psql ${DB_NAME} -h ${POSTGRES_HOST}  -c "INSERT INTO ${KOIOS_ARTIFACTS_SCHEMA}.epoch_info_cache (epoch_no, p_nonce) VALUES (${next_epoch}, '${next_epoch_nonce}') ON CONFLICT(epoch_no) DO UPDATE SET p_nonce='${next_epoch_nonce}';"
 
+echo 
 echo "$(date +%F_%H:%M:%S) Job done!"
