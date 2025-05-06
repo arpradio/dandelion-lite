@@ -4,19 +4,19 @@
   "method": "queryLedgerState/liveStakeDistribution",
   "result": {
     "pool107k26e3wrqxwghju2py40ngngx2qcu48ppeg7lk0cm35jl2aenx": {
-      "stake": "6885938746486/31401176058682003",
+      "stake": "3445231364861/15703789551427918",
       "vrf": "96c5e6a9fb8315143834eb2e446c06c18d39b61f284c1abf049ae202e19b9992"
     },
     "pool108gvqf4qf6j2cspfuat9c6q6rh3csc34vvhezu05dn38c7xhrt5": {
-      "stake": "29842708237/31401176058682003",
+      "stake": "29842708237/31407579102855836",
       "vrf": "9301a7fa53a063f42aa34d41decd52a972370ae31448b05cf504046429314093"
     },
     "pool10aqw4wa8cenqut0mlhrnayfhh4jjv7kyg9zv40426axs793k6nx": {
-      "stake": "97815882621/31401176058682003",
+      "stake": "97815882621/31407579102855836",
       "vrf": "644b57050f8976bb985f0dd049a5a14280d540b996237b2ac44b00959f596086"
     },
     "pool10dtwvn64akqjdtn9d4pd2mnhpxfgp76hvsfkgmfwugrsxef3y2p": {
-      "stake": "198251222917/4485882294097429",
+      "stake": "347213167539/7851894775713959",
       "vrf": "5a535f3eba19c310e985e90f322c0b2e2cd5bb43a366158e6ff6645709209a98"
     },
     "pool10hmpfez2u96atsf648xhe8jv470qxqn6j432zy20qa3227e8kgk": {
@@ -24,31 +24,31 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool10ny3ruzz9xee4smkpk293e9luvkx9fuf37zzz967uxgaca8ap2v": {
-      "stake": "66950594559/31401176058682003",
+      "stake": "66950594559/31407579102855836",
       "vrf": "5f81aa94f6b2d9409ac9dd00da8f6e9c93ed4e56e4320aacc1c22ff8eab14276"
     },
     "pool10qlwk6y9hhny4nweukak93yf0txrxk0p4k6c992v2hku6l9clkx": {
-      "stake": "70892411649/31401176058682003",
+      "stake": "70892411649/31407579102855836",
       "vrf": "68d7c5f528ed7b8dabec777a760e3a0f7a8b2b2ab1e39ecb11111f8a559eadd2"
     },
     "pool10t0uux47y60xuvaxlw7e2cau09szp25nly2klkrlyr0a7jv6zlq": {
-      "stake": "1100000/4485882294097429",
+      "stake": "1925000/7851894775713959",
       "vrf": "bd436caabca96c88f2d89924f10c1a2e61a885d3912429a8943d7559bd53e742"
     },
     "pool10tcv8rekjzmmsr8a5j3cu9j7vl9ffj77sh006k5fa0cry35wmex": {
-      "stake": "10300105623/31401176058682003",
+      "stake": "10300105623/31407579102855836",
       "vrf": "bc13433f5ac5dbb4aca15847fcbc08e1e7dcd5385f8123bae74900c1150d7f88"
     },
     "pool10zaylnde5n0uurvcqyrmf2wjrk0hk2zmx0ln990p3alt2gh4mkk": {
-      "stake": "22452880/31401176058682003",
+      "stake": "5613220/7851894775713959",
       "vrf": "bd7c57d28a9adeb8f0e7ef43c12985b8781e8d4e3fad75ff9d547dda46900aa2"
     },
     "pool124jq2jje25v9gtrjxk8qm34ujrcsa3msy4tm04nl2262j5scclv": {
-      "stake": "643025765516/31401176058682003",
+      "stake": "160756441379/7851894775713959",
       "vrf": "7ed694fdfc41c29fce3a9eaa100d0951029c1213ae42a31b2de976ec9a9645e8"
     },
     "pool125tufz3q8ww2he3cwp7cn02lsf44u85tnlycmxq0y6pegz4mhjs": {
-      "stake": "32076638562/31401176058682003",
+      "stake": "16038319281/15703789551427918",
       "vrf": "dcafa3298e1dad6b0c3e78a8330ecffdbab235631dad33f85a5624b4a270e47d"
     },
     "pool129kx4etdult6t7amdv8hjl6yf3ur95hrhncpt29qk4k9czz8ura": {
@@ -56,35 +56,35 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool129n0d9zrla7ntfjlwhqrtmn7halem0shcjd5mz5zhfym2auyu05": {
-      "stake": "29507197742/765882342894683",
+      "stake": "302756286954/7851894775713959",
       "vrf": "1d6a4fd04eff048548691912fb83b285d8d4bfdaa3f75db6578d2dce268e2588"
     },
     "pool12al62800devlmgdk8x5qpw38tnjsmgyys6lrd88hmfwvka2upuw": {
-      "stake": "7858082704/4485882294097429",
+      "stake": "13751644732/7851894775713959",
       "vrf": "a686183cc91f514ce836fac5e38c6dd85de47e6a65beb138a99fd75854c6f0fc"
     },
     "pool12dd0mg935mzx6rdaykngqj8aeqxrtjltg5jtdccrt7p0x78rc38": {
-      "stake": "1148351039834/31401176058682003",
+      "stake": "287275731135/7851894775713959",
       "vrf": "b461214576e2f05b60967af6442c92d0668f3459b0ce887e5d95fc958b33a2c9"
     },
     "pool12efl9gdw55cc7sax8cq5spmrfzj8t57gj2p63s0tfx8mwqrqe4g": {
-      "stake": "9755070149/31401176058682003",
+      "stake": "9755070149/31407579102855836",
       "vrf": "db0c1beb7034b656a078e199d27c477b4008e05a341921856bb37866b3c00db2"
     },
     "pool12jthfp4uqah0yndtdu6x2tqaxvgnlpc7h30gvwey3rsrc789tme": {
-      "stake": "946874687153/31401176058682003",
+      "stake": "947667602333/31407579102855836",
       "vrf": "d1b243a8f5b0dadbf54755bd438e199dcf08ef9c6ff6b16add73b4d4da23dff5"
     },
     "pool12qj4pk9sr6mxxwnfj9hvujf0r2d8c4t8tkwcafnrjdpxqep69ck": {
-      "stake": "30219339209/31401176058682003",
+      "stake": "30219339209/31407579102855836",
       "vrf": "5356fe8f3431720db0c470750480d378bebef5f079df2c2c666cf08350860702"
     },
     "pool12r7sxy225v94m6qcpnzt7g85axrmrg9gc05ykplzkwu7um36dns": {
-      "stake": "913934449/1652693476772737",
+      "stake": "17364754531/31407579102855836",
       "vrf": "91406fdfd8633050bbd1194358de0ef1f01ae5fb3545b7c159291b67b2d34b13"
     },
     "pool12rg7kqf2y3c7j643dm508xmkjl9ethfphfggtykp6xfyv6zjcge": {
-      "stake": "42449770520/31401176058682003",
+      "stake": "10612442630/7851894775713959",
       "vrf": "d270e76d074a95fc7f47c9649c58d4712f100cadb8c662e445a9ce5a9226bda7"
     },
     "pool12sa9qn5v62gdcdrnkwnu66c0kdmtq7kwl3vm3v7c8s58299smu5": {
@@ -92,51 +92,51 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool12uvnqe8uq8jfrpk337k63pgfkf0q6lncy0zqcylfdq4zc9n8755": {
-      "stake": "1358945894/4485882294097429",
+      "stake": "4756310629/15703789551427918",
       "vrf": "a59694141bb434387326c280e1964d0068fd07368b0f55b3f5939bdc5410c580"
     },
     "pool12v43sug6avuwn458fwlx0j72lqrjqqcec9nc9ywk24x0wn7ng46": {
-      "stake": "229607001607/31401176058682003",
+      "stake": "229607001607/31407579102855836",
       "vrf": "369930b18573def6846a42e35dba9eaad0ad7ee1665a92557b57e263075260db"
     },
     "pool132jxjzyw4awr3s75ltcdx5tv5ecv6m042306l630wqjckhfm32r": {
-      "stake": "10803563296240/31401176058682003",
+      "stake": "5411020258065/15703789551427918",
       "vrf": "ff9d774cc7e3e85ec1827bfd68c475bc611a9e288e7c9e1fb159fce52d2703fd"
     },
     "pool135dzt5vxn7um8tx3z58zt7x2ut6nu6epfxfandps5radw2zhzf0": {
-      "stake": "125748461018/31401176058682003",
+      "stake": "62874230509/15703789551427918",
       "vrf": "c3043822b3ceafa82d0bec8053910e22b03afe859e9a964ed1980680db739b95"
     },
     "pool13634p85x5duyu6d2ke38032hjry5c6h524l9k9wqa6uv7e29n7e": {
-      "stake": "11222188756/31401176058682003",
+      "stake": "2805547189/7851894775713959",
       "vrf": "df7f9b548447b4d89cdb02c395cbfaac74ef6be26bc56b23f2f98ecc23379c9b"
     },
     "pool136rx90xnt0xqudmfwsjhadcje0k8zcnykf25furmxch2qc73pas": {
-      "stake": "90551800572/31401176058682003",
+      "stake": "22637950143/7851894775713959",
       "vrf": "ccf7bf69fdf21f4e079e1d7d4e20f3b60bb3ef061077a4f6042dcc2c567bb58d"
     },
     "pool136t3ag3gzeftu7dlmxj9dvk5cj2ankuqujaphvn0y6glusap0fd": {
-      "stake": "11295029694/31401176058682003",
+      "stake": "5647514847/15703789551427918",
       "vrf": "469993141a082435615a149b27b661046ce704bd34a0ebc92a389044f11f547e"
     },
     "pool13dwtqgl5lnep4z5e8vjv7ef5qqd2095zmlccz3d9805zk423gwz": {
-      "stake": "17625780742/31401176058682003",
+      "stake": "8812890371/15703789551427918",
       "vrf": "d1d1346ab457d10653cd353d40db5e9c07f9f23ec040d8c1f575e5aba01acab6"
     },
     "pool13fmuunlup35sgxt8t2jnjm0e5wxfe5swxeyr6tfyvh8gv9hdz68": {
-      "stake": "885988665908/31401176058682003",
+      "stake": "221497166477/7851894775713959",
       "vrf": "ae1dc4303bde5b5e2c024c3bea1544b948546fa75d3e65ee748ecb21b5625243"
     },
     "pool13hgadlyxdg306f43k9k950v6mc5nvanetszj0mxjh6wnuxwm9hd": {
-      "stake": "4464955542/4485882294097429",
+      "stake": "15627344397/15703789551427918",
       "vrf": "bc94ae3c7a8196d29055687e5cdc398c6b8be7746fabf796b2ca19c324f3a56c"
     },
     "pool13jm000zz435dewqrwjd5nt4p5fy467yk2ldu2m0yqz8ncejd5ky": {
-      "stake": "7548715875/4485882294097429",
+      "stake": "52841011125/31407579102855836",
       "vrf": "8d5389227b0c4cf6f721f7052727c768bbec423bc416adf1bb9db5c31c1add54"
     },
     "pool13la5erny3srx9u4fz9tujtl2490350f89r4w4qjhk0vdjmuv78v": {
-      "stake": "32534222663217/31401176058682003",
+      "stake": "32600244201913/31407579102855836",
       "vrf": "41f661fcc0ee3e16b3c4105f993c169c89846bb77200bfb81ac15cac1eb38c6a"
     },
     "pool13lhkek4nysju2jvxxlv4zpgl9hu6q02js4nv2rftnuf7w37s9jd": {
@@ -144,79 +144,75 @@
       "vrf": "dd020dd1e19dc1c78d07b367098d91f7c73cce4ea9f6c9e62c186e0cedca4bfb"
     },
     "pool13lqm9qxuvsrt6txassazk94jce6a3q63ppm3yej0rney265k07s": {
-      "stake": "33649641569/31401176058682003",
+      "stake": "33649641569/31407579102855836",
       "vrf": "67e37ca470742d8635a9b5a9d17cc5f5f41ff66cbc63488be3c334b991648740"
     },
     "pool13ls4vfl0cznxjh0jm7kmzv5a5wf8e8uh27esucwm2f4mwt40sfv": {
-      "stake": "30533339876/31401176058682003",
+      "stake": "7633334969/7851894775713959",
       "vrf": "92bba123893c09aa8d058ca088285ca475efbdc1825a1a694321c2d8f2c9d1a2"
     },
     "pool13m26ky08vz205232k20u8ft5nrg8u68klhn0xfsk9m4gsqsc44v": {
-      "stake": "60912864804095/31401176058682003",
+      "stake": "15240051324941/7851894775713959",
       "vrf": "db9c0fd86e9f87990ac47905129fb5a100131875de1a8d089041b97fa7fc9341"
     },
     "pool13qyu46er2x2r6gqatghwlnjdld64kz9e3c4je36hytql7rdm932": {
-      "stake": "9995200000/31401176058682003",
+      "stake": "2498800000/7851894775713959",
       "vrf": "fd09a15c0ca2dc64c8b963aa94f0b72d11d19f6cd5bdb59cb6fa5262835e885f"
     },
     "pool13s22ldduwh07xr3xcesdsl89rujv4pehal6w3gdupv4rul4ntd6": {
-      "stake": "7365365509/4485882294097429",
+      "stake": "51557558563/31407579102855836",
       "vrf": "464430ccd4568c8ea8f033fd2b1abf2d99223eb196adb402a6f22b1bbe2e6524"
     },
     "pool13wj03r6wj8l2lyalxpg69kshsh9k3l0ejdv3f2auq339gl7un3w": {
-      "stake": "1065567708260/31401176058682003",
+      "stake": "266614069537/7851894775713959",
       "vrf": "9b88801f629ad9de5ad9141c73ed5359186a01d0afc65c906b8333eb039b353c"
     },
     "pool13x9h4e00xt6vr7z7whr525lk0elzwtvt3z9pzqqrrhep2ztjcmh": {
-      "stake": "8477333226/31401176058682003",
+      "stake": "4238666613/15703789551427918",
       "vrf": "8914fef0cb5f89f6f0f9059ac0f42deddf97f62219ff79869ddfeb56d7920f5f"
     },
     "pool140qtx3sfkm0sxlld059xt6vejwcawul6x70la9clml3kxruz6qp": {
-      "stake": "185327584280/4485882294097429",
+      "stake": "324579688215/7851894775713959",
       "vrf": "bd796083f26dd5a247749ba4c4775976aee473ada07bc28bb5603ac5fb05ad23"
     },
-    "pool1430za4jjdvp28e9sh7vf5wt4srt7xfkzqz38wq73575l5pkz3rs": {
-      "stake": "223821853362/31401176058682003",
-      "vrf": "baa3f4b20438dcb4d0d42265204d78297366e2dde80cc891f04c3d47f7851aa2"
-    },
     "pool144pedg8hc3lr660w30te9jqv5zllaesegh8vt3ptft5s7qu45re": {
-      "stake": "1060489020981/31401176058682003",
+      "stake": "1060489020981/31407579102855836",
       "vrf": "ef8b7d8610ec49c189729f32273735d249c302d1ee3c42eca018c3f89fcff822"
     },
     "pool14773v3ddtf363gfcaah8424wtv3uczmk49vvjvhuslj653hfjpt": {
-      "stake": "1000000/31401176058682003",
+      "stake": "250000/7851894775713959",
       "vrf": "6e34a8c124ca2c61bbc99fda29749a44635c31f95cfa8f41f9bb02201d915fb5"
     },
     "pool14eftq7myfpt5zfaa5eeswpf3w6s8jtnsnev806vmypkc5lk6y2m": {
-      "stake": "34678225356/31401176058682003",
+      "stake": "8669556339/7851894775713959",
       "vrf": "59e45c5e0f13b7b85601ca59335f8890bf35ac9ca4a44b5af7e65d6369166adc"
     },
     "pool14kjc0axlsazplwfz9epvn88s866hgn7mvaya5pzrevnwy5cvj6a": {
-      "stake": "1387636482/4485882294097429",
+      "stake": "4856727687/15703789551427918",
       "vrf": "23354a5a7079aae6adfdf02477f61bdad7c9e958350e4e9ed6409e0a56d00b07"
     },
     "pool14mvfr40jveuche70n3mtqph783kwxktx02ke2twajuz455e2ul3": {
-      "stake": "525048049/1652693476772737",
+      "stake": "9975912931/31407579102855836",
       "vrf": "f3ad75d123f439370c80b01ad508a9c6a69f076bdaa7a69a6e737aa8b4a46543"
     },
     "pool14pmq6d9ym3q98z9uw2cgp4vcxar6scpw0c50gksa3kxzw90sd2s": {
-      "stake": "1207786530/1652693476772737",
+      "stake": "11473972035/15703789551427918",
       "vrf": "e2d1785bbcaface7525993bf81389be01c0426eb617bf5ec14470bbe155aac3e"
     },
     "pool14qcpfdnxugjl9gdhpdmvkcf72ruu4lrjfxn6v0zvr4al60lrmuc": {
-      "stake": "11563624113/31401176058682003",
+      "stake": "11563624113/31407579102855836",
       "vrf": "6b99c5f19570765a60cade7a265fef6777cda5bc80cd0f99a347aac5633c22db"
     },
     "pool14t88wyzkfeqex34hjtk7e773r8rx3erfxl6s4mckzzhtcdc2egk": {
-      "stake": "2820697646/4485882294097429",
+      "stake": "9872441761/15703789551427918",
       "vrf": "b411c7f89e27777667a49667b2c34454e7ef2d4ebd7ccda275e7516841657b2c"
     },
     "pool150an6nge5wnpr9j2pduez0ff2n7wc0gfkmf896vwfmc8kqd7aek": {
-      "stake": "5453482218/4485882294097429",
+      "stake": "19087187763/15703789551427918",
       "vrf": "d3c247a1f7efbdae20e6fab5176c0a2285e3e72714dfd39d4700dedeb5343555"
     },
     "pool15272x2srkjaqxs8gfuc5guj8jsjuhvja3znulwmh97kr2xwxxvk": {
-      "stake": "2497634150/31401176058682003",
+      "stake": "1248817075/15703789551427918",
       "vrf": "dba304517d6cb34a8fcdca6d1003c2f0fe87e988f7e74dbc7cedd4ad1aa8631a"
     },
     "pool152g6nqpmfelr7sq2809e0m5wkq0k0y24uqmdj3efz8r32t4t0gs": {
@@ -224,7 +220,7 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool156a5fugj6xxv8d6vwnk9wmctsrk5p5xff8fsvpwhmraggq56w9k": {
-      "stake": "420513258/31401176058682003",
+      "stake": "210256629/15703789551427918",
       "vrf": "35c3d9cc508533134583f5e6bed0c4a6fccab18584dff3c7de6145f6c43442a8"
     },
     "pool1575cd5zm2sf48zw3947serrs6kgs4mq0l8536q6n6q6ajnx5ya2": {
@@ -232,19 +228,19 @@
       "vrf": "0791d9efc1a7e9f85ab8e78238306cc641749cc07c7c476d03db697ad756708e"
     },
     "pool158e08av7pux9guu574zfuaft90ejakxskqr3n36684g3cs6msmx": {
-      "stake": "40398439446/31401176058682003",
+      "stake": "20199219723/15703789551427918",
       "vrf": "28fb14cde01f2dd34b440894b1752829728111cd69162fe589ee6764e862b949"
     },
     "pool15dc0n2avq04xltwt8muj9nh58mudcpm8mhr0r5ven93qwcj8478": {
-      "stake": "333013260316/31401176058682003",
+      "stake": "83253315079/7851894775713959",
       "vrf": "fc70fe070ae12d059373c1e569ce42056aa3ea454fcec29a08450f281e63f4a1"
     },
     "pool15dczkrr7xjwc94j47h6dvhmcx94zjjcw55gwrwx8dzvhskwklxj": {
-      "stake": "1000000000000/31401176058682003",
+      "stake": "250000000000/7851894775713959",
       "vrf": "752c0a7cac38438953c69688b4722692a4a52977f9a43ecbdc3254463f8faef5"
     },
     "pool15kkydrvnkqyqq6zmlnjglskqwulka0qr95wgz84a7mzmufrnzj5": {
-      "stake": "145330841550/31401176058682003",
+      "stake": "72665420775/15703789551427918",
       "vrf": "6532b2d79d9d385c7e0d857459221cc3343b5c7e6349d00ba66e7ac3a04d5c4d"
     },
     "pool15lymw44dq5extwwj6kt49xckwj9f6ht8hl8ujxunzzjm2mllclh": {
@@ -260,7 +256,7 @@
       "vrf": "9586f48442694ef028bcf67605b4ef650ab9f0f1cd81e181d2db8d9d5a387e84"
     },
     "pool15udpynn4qj4sdtlfz400he4narmagth659nzlx83rmklq2773kg": {
-      "stake": "1202869441384/31401176058682003",
+      "stake": "601571916875/15703789551427918",
       "vrf": "143dba888613155a4820ee8d293dfdda563d09d342522e430af84a79c2bf7d2d"
     },
     "pool15uue6svd6kjt9gjplp3a2z2f6sq79m0h7fx3fd3960g6chhudm9": {
@@ -268,119 +264,119 @@
       "vrf": "43cb77dce58f642a40bb68b847dcdf07211d5959c0161f670e78efbcefc6459e"
     },
     "pool15w7lejtrpk4868drc8h65cgmm504qlnzhh52e2yndgrs5a9w232": {
-      "stake": "52842093951/31401176058682003",
+      "stake": "52842093951/31407579102855836",
       "vrf": "53cfce04b70accb948250f2c7b18d07ede4db525464612368f0d34327dafd415"
     },
     "pool15wd2rnaqdcrjqxxrwlred8dvu2rvuxssc25xd9p0rc42y50cl89": {
-      "stake": "50415937840/31401176058682003",
+      "stake": "12603984460/7851894775713959",
       "vrf": "3a86c6ba8c690895284596bce59e8d9e83a7c0bf31a3abee9bf054156f4b31f5"
     },
     "pool15yv334wn9dzw5njtnzynkpg7967wnf6a4sxvx7tfrzjw2j3m530": {
-      "stake": "191280224/31401176058682003",
+      "stake": "47820056/7851894775713959",
       "vrf": "aac44a04301355152aa0721d5fea6292162555f4e2fb5f15b484dbe000657177"
     },
     "pool160pfyrqp00up4n3t2xmpa7smd38ffd3ephc0a79w6kzkvk2jfu3": {
-      "stake": "4629959332/31401176058682003",
+      "stake": "1157489833/7851894775713959",
       "vrf": "5978f8839b9e1575aeb51a88b35047d802b20955d117593ec2b20fbdf3a8a489"
     },
     "pool160u5drqagq5k4mwghps36cvq7e6vcptm5r8tnkpcpkhwvrm2gad": {
-      "stake": "1142072731449/31401176058682003",
+      "stake": "1143056993481/31407579102855836",
       "vrf": "fdbe9c5ebad2e3e388de3aa996b5679c09dbdde346cf116f7257b8d36550e1fc"
     },
     "pool169q6y3lmn58xkv05uw7pvxcrjc3qewz4u8vkkh4t0acxgrrjtup": {
-      "stake": "63832008760/1652693476772737",
+      "stake": "1213233955233/31407579102855836",
       "vrf": "372561ee2032dd1ed1b06e2ef0269801f80b4089c24cea7d5a16383fd548c1c2"
     },
     "pool16cefgx8t9re4gy2qaapshxl34my5ya6ks7hje39k3pew2ejlkx7": {
-      "stake": "2497634150/31401176058682003",
+      "stake": "1248817075/15703789551427918",
       "vrf": "33f943a5e3bb4951667829559c656a6c4606a4327624282bf5f7812700f39190"
     },
     "pool16eqe8ngw7vfl4tltw3j2c4kjphu58xl9hwjuzmkwm2akghn9dat": {
-      "stake": "1812100157563/31401176058682003",
+      "stake": "453025059436/7851894775713959",
       "vrf": "7b829f805a3b1cb25cad975efc6806800d165850347c077c3f2321bae7005171"
     },
     "pool16eta2yaat8cp6clzv6e5wt30c944w229xkslx0tq5ce4vg39vwz": {
-      "stake": "240740149289/4485882294097429",
+      "stake": "1685181045023/31407579102855836",
       "vrf": "8c849426482dd1de48bdace18095953b82bbdcfc099f7dcaf8d52809606ed757"
     },
     "pool16hr6sjve8pcy9yucap0270rfdswsvpwfl2ksy8yp6vl9qk8u6zx": {
-      "stake": "328347672530/31401176058682003",
+      "stake": "164173836265/15703789551427918",
       "vrf": "ee7529aa15e3107a9d9a0c82aa796bf56a821b4a07365bbfdc54c61bd6fda7f3"
     },
     "pool16rfj469javk35q62jg69yjsk4v5kw7x6qgd07x3hj3lss9l27ru": {
-      "stake": "61007023099/31401176058682003",
+      "stake": "61007023099/31407579102855836",
       "vrf": "b1a5048ec3096ecc23e28313f3f374f5c6260a33e19c4b2b24c747d3bf41f8d9"
     },
     "pool16x0zwm5j7lv0fvrla0z377sem7rha2lzwkgvsazu7nfzjtn83l8": {
-      "stake": "13499639288/4485882294097429",
+      "stake": "23624368754/7851894775713959",
       "vrf": "cc4fe73ca486c1d9ad7fa5b1f7d73d511cf07aaa1f9c7e7ea83f0f8f60f81fc6"
     },
     "pool170lseazv7knrlu2m7xzj852mngvn075x2vqgmdmdvmd05wwdxpy": {
-      "stake": "134725619698/31401176058682003",
+      "stake": "67410655919/15703789551427918",
       "vrf": "e5fdb4c0b6d7687e14765626f8a56003c8a087520ddd92892d507ced3bef140f"
     },
     "pool175lu3gm2rmvqpsrg6m82zvdmqaaryeqmsvjj7qyvvj20vxunc60": {
-      "stake": "21717473789/31401176058682003",
+      "stake": "21717473789/31407579102855836",
       "vrf": "13f0667db7c95327ca6085f6917d80ffc331497ed4948f05f65a5517e1db0fac"
     },
     "pool178l32gz8uve9jfhh9sqz80rf680asc5gaxp4q5tnav0uz85gkj3": {
-      "stake": "37021050229/4485882294097429",
+      "stake": "259147351603/31407579102855836",
       "vrf": "1e271aea167982bf3e44180436a1e02c218312c14d3b601bd26a503715be5cb3"
     },
     "pool17cl7z0njlda4vl4vra5ef3yns5y0wgmka3mh55empdeuj22uaep": {
-      "stake": "283310640/31401176058682003",
+      "stake": "70827660/7851894775713959",
       "vrf": "694e7120fec3d0ba40bb69df47fe554b4bf4e4981fe5333e04ec95dd06ae455f"
     },
     "pool17k256w4nlkfxtpapyph4sgpchrw4f0hrqepssqy6k5ts2vgklc3": {
-      "stake": "35109337588/31401176058682003",
+      "stake": "8777334397/7851894775713959",
       "vrf": "a200abfe70bf68844f056ede9ed796f243f8990026f29b8464119e426d96615f"
     },
     "pool17lr0zh49w3leg4ya0ndkyea0dmpr8ksnqz5mhdpwn8zxqg56tte": {
-      "stake": "1074326446544/31401176058682003",
+      "stake": "1074381128025/31407579102855836",
       "vrf": "3df36b1b2b379bd3cca3707fbf8b006235be803c5b74c948fde45e801a6dce2a"
     },
     "pool17mq6lu4ycqq03eq479q0jlfg96y8r0c9pgnfn3l3p8agkdswm7x": {
-      "stake": "19532549314/31401176058682003",
+      "stake": "9766274657/15703789551427918",
       "vrf": "a6254fe6ad6c49045b9a19a4669d94f0bdebe905a2c55b10e361373a4af7dc97"
     },
     "pool17n848ynu33sprccmef0hpj48tl9g298qut9uadfnhuyd6zwj4jc": {
-      "stake": "137858364835/31401176058682003",
+      "stake": "137858364835/31407579102855836",
       "vrf": "531b7e173322568fa7e895a50f71d8a5363681618d401b25342f6fd0666c4dfb"
     },
     "pool1862n3xnc2y49rezae700z423lnewx6k5hj6jk0tl0vz87n0l279": {
-      "stake": "4994642920/31401176058682003",
+      "stake": "1248660730/7851894775713959",
       "vrf": "c34765a5722f5ba85d37ce102a32355ef885e35b2924bdca2d4b219d15f3bb69"
     },
     "pool187jmkalfzyz5cdlw4mxz9t9n8plcxpj7ve7a74mk05umvufp7jh": {
-      "stake": "9997483169/31401176058682003",
+      "stake": "9997483169/31407579102855836",
       "vrf": "8cdd948146bd8a9bdc8257193fbb2efa71e07c4f0a6af5d8e5497ffcd0a8cdc8"
     },
     "pool187yqngpdck7j8pa7r9hhp3fpxem478fqw2nklyr59ppkwystqdl": {
-      "stake": "1063563213875/31401176058682003",
+      "stake": "266082187752/7851894775713959",
       "vrf": "eb694599174b268b3dc1f437f5e7413ae0a525eada53443d64539cd8ec553c03"
     },
     "pool188etalcyudyh4xuaa4mjahs62jujem35h3l02ht83zjusqvwdh7": {
-      "stake": "17490070481/1652693476772737",
+      "stake": "332311339139/31407579102855836",
       "vrf": "511c24a6dda793785845563dc70e3f8e20f67968d7d721d1ab6d0fb527dcfa5b"
     },
     "pool188vupfvh4nkd307swe4y02jx36lr7ee5qglavska0ywpxrqu8ra": {
-      "stake": "150441447409/31401176058682003",
+      "stake": "150441447409/31407579102855836",
       "vrf": "1f2972d18bf671681635996ccaf7a6c5321cf5d8e0617bd12ec6a32083ef6947"
     },
     "pool18aj2dag2cn6xr59mzxhtyyfu9kh0h9266s79z7l9hqlvvf69t4y": {
-      "stake": "22778314526/31401176058682003",
+      "stake": "11389157263/15703789551427918",
       "vrf": "f6807e386b1ca186282ea958de82bb8c3937dc4d7e9c3c543740042670df6620"
     },
     "pool18alum6knwxaz2ku2k7zc78wa6k76w6c5l2l4pxg2j55w6wecdpn": {
-      "stake": "9494478065/31401176058682003",
+      "stake": "9494478065/31407579102855836",
       "vrf": "0d0d4b2eb794928243ed20fba19c477326e91176558f3801375de2fe498e1412"
     },
     "pool18dx5asa2609c93lk6gawjynpcttum26469u6ljptz97kw00xnpm": {
-      "stake": "25115419426/31401176058682003",
+      "stake": "12557709713/15703789551427918",
       "vrf": "38854abeb208891eacf8647b5c0e1a01e46be12848003fecdbabb24a904dcc99"
     },
     "pool18f0ftweczx8kyqv054ld4dpauc92pqy6uvr44wa6x8vhk7tj2m3": {
-      "stake": "39490536336/31401176058682003",
+      "stake": "9872634084/7851894775713959",
       "vrf": "a35edcc2da5ac7be97fefa7cec9f6f7a1d017fb9ab7eda1007c6d22e59c2111b"
     },
     "pool18fjpzmjthh47elck3ne5ns9rd5jpnsc6ajhjea5ypqwfwajx62u": {
@@ -388,23 +384,23 @@
       "vrf": "66a0b378a6053b3b8e072b7a666fcdeef29c53c82f21ee5328c489b3ee3c06c7"
     },
     "pool18jx0kufqqvhcjky7ml6s56lezuzrvxh8vt98ekpj4sz9wrp0q9m": {
-      "stake": "15007330046/31401176058682003",
+      "stake": "7503665023/15703789551427918",
       "vrf": "2343e1b21110d3273761fbbe84fe678e7c89e7f74ef88fbe59f48c16c608efac"
     },
     "pool18nd26m20gf9c2rny9uaah8vtglzdj82hqxa4nsrpkcl47m9fmg3": {
-      "stake": "1028393107064/31401176058682003",
+      "stake": "1029226996125/31407579102855836",
       "vrf": "cae5f6206d36143f8259833d647630528e433b7ef821a58b857bdbca6e1525c6"
     },
     "pool18q5sayzqekqvqyenlkgaarlza5jxzhkyq9akc9qr5ytgczkjh23": {
-      "stake": "149387904777/31401176058682003",
+      "stake": "149388904777/31407579102855836",
       "vrf": "58770d2f69e73502dfcc8afbdaf556fa3f630f3b32b168d2f4cdd4dd46ccb2e1"
     },
     "pool18rygfjne9pgqrx6lxtwm4hhvf4nd7ftg6q8vynzxylawkusrtxl": {
-      "stake": "49916009002/31401176058682003",
+      "stake": "24958004501/15703789551427918",
       "vrf": "21c3ae6dd3288f682f8bbe5f5aba125b9e242475099f27cf205db555840e91cd"
     },
     "pool18svpptnxfctewpx7ntnmlazy4w9cr24f4rcq8smkvpggw600ql4": {
-      "stake": "1093291499011/31401176058682003",
+      "stake": "1094180493169/31407579102855836",
       "vrf": "6b7dbace5b34d52cd4c949f837723325313f1ca0c84269349382a7f50a96464c"
     },
     "pool18trnm5qzlc3rrtcejx5cy5u9xj9gh6da62c9e77f840ky6xnuv0": {
@@ -416,11 +412,11 @@
       "vrf": "b467b0181e0479d23c15ed69b9ab6be597ac42c875f5e9f9d93f2233287e6f83"
     },
     "pool18ylse5vwz63ahy85zsxuttzy7u7zadnjq9kawpa7yqry7dr9zna": {
-      "stake": "44808400558/31401176058682003",
+      "stake": "22404200279/15703789551427918",
       "vrf": "f522431f5d1f7562491e4860b4f8e3f036343d439f528094740d3d8ed023d76f"
     },
     "pool1945cfqzmy2qe2z59mfdwm7jwqtucncfee5xkd8f4wu97zr8xuys": {
-      "stake": "1094755859004/31401176058682003",
+      "stake": "1095808981149/31407579102855836",
       "vrf": "0b457270d68610bedab7791baf26e7f7f8b008f8d1bbaefb7275d413c8f4ba80"
     },
     "pool195w26ls6y937srmlk6xpv4pxsaam4zatu4lxp2cca726vt7w4ls": {
@@ -428,11 +424,11 @@
       "vrf": "363105b669c6cc5ce8c8e0c0c15e62aa675d35faba29da9e842e030a6e2dd7bd"
     },
     "pool19658g9m7a6e7vtky76aefcwmm75wegf9xs3t024s38l87rqq4ky": {
-      "stake": "253917420097/31401176058682003",
+      "stake": "253917420097/31407579102855836",
       "vrf": "1f5d91bf32f6c9ca2ea4c039b367ff88f044d6564353f44c01c363a82c5676b5"
     },
     "pool19d8wgkqn7pc33y0uy2t5vx0922nvzv0a5999ejj0fjdyxjxdfve": {
-      "stake": "20039979375/31401176058682003",
+      "stake": "20039979375/31407579102855836",
       "vrf": "8fd17a3a836c3de73e569dfad0eae8a79f49751ee5950b25208aa58fbd66dee8"
     },
     "pool19nkmj9qe342z9dq43ks3emraelch0dkfuepddpm0dcfqyjr2h7r": {
@@ -440,15 +436,15 @@
       "vrf": "77b48a3d91b7cb6514589878c238d71c9aa5fde3ebeafae43ef4e007552fd62f"
     },
     "pool19pm5lq5qlk2rtkvnjmhktvc7trz7kz45d2mhuc788n295vc2zsn": {
-      "stake": "51726164045/31401176058682003",
+      "stake": "51726164045/31407579102855836",
       "vrf": "c94d3f10f0dd31f9ddea561a12e0e1edfe977add2ee3b6cde47443affd55a87a"
     },
     "pool19u5hvwc7hm5wrs0tf5knh7373p88en9gt2tyad5yjfujy29676m": {
-      "stake": "37877150064/31401176058682003",
+      "stake": "9469287516/7851894775713959",
       "vrf": "c91074e716e52d12cbbb56f31b1877b5774c714b3c62fdd151c7575ddd4baeb7"
     },
     "pool19zdqgm9hmstrjc36jh8wke5sa6t9wjaeyx6u8yza69d52crgvtd": {
-      "stake": "11419733943/31401176058682003",
+      "stake": "11447074715/31407579102855836",
       "vrf": "aca403481041eaa2e83b1f019ba98f398e9f997f185f42cba4541ac1ade951a8"
     },
     "pool1a28qxpdfculv8c2q80jfjhy0s385w25uzpmcyzy5dkz9qwgtt35": {
@@ -456,11 +452,11 @@
       "vrf": "67640ad634f19286c356cd892fc0bd2e9f749e550a62afab099ab4dc5713fbac"
     },
     "pool1a2r8szr9hqcrjw0jr0sy8mryqqm5tw4wumc23rqw8t252ah0w4m": {
-      "stake": "66828613931/31401176058682003",
+      "stake": "66828613931/31407579102855836",
       "vrf": "1097f8bca72c088cd01da60b674c1d9cf7df98a46a070ded01a17c9346597d25"
     },
     "pool1a3nhq8gd5c55eye6t5hmmclv4yvtctg72ckcjze8e00eupftylh": {
-      "stake": "2086989442/31401176058682003",
+      "stake": "1043494721/15703789551427918",
       "vrf": "8c27e24e706d7b1b7cf08791c72b1bfb315267764de6983ad99adb047de7bf14"
     },
     "pool1a9avqttsl7c7gs40pjy3nluvclt8uu47pjh8zeqev38vwfugu5f": {
@@ -468,75 +464,75 @@
       "vrf": "642136ee7d0304fea83d81e092d9dee789befd5a0039ee50388fe9d8d9eed18c"
     },
     "pool1a9qju4zhpxj5ywt5ez79zzjhszg47kk2dq4stllvs5qywmlv8cj": {
-      "stake": "6229000872/1652693476772737",
+      "stake": "29587754142/7851894775713959",
       "vrf": "6dbad0b53e034f8dea155e5b403ba74a1e7063683a5215595196ce15ba9a0175"
     },
     "pool1al30ghsq7n335v9zdrnd0dpuva435c9yqtsrvphsfcgjytz3exp": {
-      "stake": "9497625042/31401176058682003",
+      "stake": "4748812521/15703789551427918",
       "vrf": "9c722bd83a024b14203272cabe72d7fc119fc5a1e3983f62697c145d2551caac"
     },
     "pool1am8e6xumuc2nyrh6d36586r2yuctha0gsj029vpr8ahqvatwwrq": {
-      "stake": "29793560668/31401176058682003",
+      "stake": "7448390167/7851894775713959",
       "vrf": "72f2c9657dcf593dab1afbcf529dee4b3d0ebd17cc906b7b8ef5750c2e35b70b"
     },
     "pool1amrnegn99cdwj2zjr90lx2yamxg6s0d7t7vf7phpe94kga9gg86": {
-      "stake": "13599720261451/31401176058682003",
+      "stake": "6849496344997/15703789551427918",
       "vrf": "0cac02dc881b88519077ff88bb0cd06a6d8b22dcec21abde0cd4dc195a7486d0"
     },
     "pool1aw7fkxekw2w28f3ug46rwn8nf8lchyhy2aec3tvaw70r6r2kr0l": {
-      "stake": "47178446687/31401176058682003",
+      "stake": "47178446687/31407579102855836",
       "vrf": "96a5f379eee0b5ec5d822dde0502ec6b43e5da2342421dd6b3deaa9bc5fbefb7"
     },
     "pool1axqjzy6mtr7h0cm6trz36fjn4d33qvlu7a6yxaxf2f6wuarlh2k": {
-      "stake": "1164761738097/31401176058682003",
+      "stake": "1165746267943/31407579102855836",
       "vrf": "72b958f4c845f797be208920697869d4372b4d423b50ecdc5e89ef54501d8f22"
     },
     "pool1c2k44smpn99j4xmt8wy2g6rarr5q038hz38wvaaw7nhmq65thre": {
-      "stake": "20563853704/31401176058682003",
+      "stake": "5140963426/7851894775713959",
       "vrf": "834184944507d8f23585145ab03534c72b28d1b77fa55a49010825a0246cf463"
     },
     "pool1c3ez592g7wp2rf44guwp2cq8cpxnn39mgv0790f9kmjk77p7aat": {
-      "stake": "63947742/4485882294097429",
+      "stake": "223817097/15703789551427918",
       "vrf": "6bd63ce0185dbf72548da9c0cf7468afe7a274f490d55afbd651ff65452375c6"
     },
     "pool1c627gxzamhwpwwk0jdvt4znp6f6ynue9g3wl8p296qxaggkyced": {
-      "stake": "17289282167/31401176058682003",
+      "stake": "17289282167/31407579102855836",
       "vrf": "401f350d146ba3a475ff48b7a8d2c1a1dbbe369732720d8be24f9e82838f4a77"
     },
     "pool1c65t3mxfvvxlm5fg3hlw2aakk3r4e9evmgycxjnu6hkyxu5yfmr": {
-      "stake": "10246344125/31401176058682003",
+      "stake": "10246344125/31407579102855836",
       "vrf": "74b57263ee0365811927386b97baec5b35bac5cdab037eaad9da25090f349f2e"
     },
     "pool1c8u8gmxepqu93adxh7c2pgrgutmyufkezpy454h06r24knmt7tk": {
-      "stake": "1553084595/1652693476772737",
+      "stake": "29508607305/31407579102855836",
       "vrf": "19d438631224347db1b284b12d497b2ca889cd3bbcd0f414dfc5082bb8783eff"
     },
     "pool1cap99vewanqjy4ejex7z5099hqkqdp0y2fatme9cdcsuy85rq06": {
-      "stake": "94356451185/31401176058682003",
+      "stake": "94356451185/31407579102855836",
       "vrf": "bc123e7e22b248d22a2a2baeeec5e9c4fae75539d3c0fa22e142bd568003c25c"
     },
     "pool1cg74u7gq3kx2yjfzrwkrxnsk2kase7z7n6tr5vvdnstukdtjz5z": {
-      "stake": "199800000/31401176058682003",
+      "stake": "49950000/7851894775713959",
       "vrf": "01734b65cddbb8adf3b2616ef19d4f817c65ca513c56dbde664c5af67def47fc"
     },
     "pool1ch2t32x83w6ncxa6fgv9u0zfsmgrrhv02u5phn83kajcgxw4cd7": {
-      "stake": "9397642158/31401176058682003",
+      "stake": "4698821079/15703789551427918",
       "vrf": "208ea82941a1f41fd3400d190b579591a4ee92ddfb0dd53de8823aa48987e20b"
     },
     "pool1cpfq9p6f04yde2ms2ey4qmuj56t2wfkye5kj3adjsqgpk9re3zs": {
-      "stake": "53635030/31401176058682003",
+      "stake": "26817515/15703789551427918",
       "vrf": "970fbd457cb52b1bd3276841e0f6e9d677c92ed7cb0faf17d186f760dc2504fc"
     },
     "pool1d0x6sj6f50h2d4ydzff76nupu24qma4azng7a44ffgxj2hw2jra": {
-      "stake": "346924689/31401176058682003",
+      "stake": "346924689/31407579102855836",
       "vrf": "a7776069f5243d3376916d6d932ef9c2027254c6dbd4b9b20557b93cfaed5d74"
     },
     "pool1d20fqynupcwz54chju55syfz3nms6h3kazwy9a089ghm2t2lzpg": {
-      "stake": "1045344228/31401176058682003",
+      "stake": "261336057/7851894775713959",
       "vrf": "59c0f5d3866a37704fb31a97a2a3caf8795c9bfec993df4540d86cf6deb29d53"
     },
     "pool1dje2qc5gp7t7sjgd5j6tse9smkwq0kezsccy8jkxr507x0aw4h3": {
-      "stake": "82753091/236099068110391",
+      "stake": "11006161103/31407579102855836",
       "vrf": "93cf795a9b38606efef38d627cbf89e82048224f62286c1527b1a87f7e8dde92"
     },
     "pool1dmjagfyekz5vpfkdap7axpm8khhshnj658ukuscphgr76m4lef2": {
@@ -544,35 +540,35 @@
       "vrf": "9586f48442694ef028bcf67605b4ef650ab9f0f1cd81e181d2db8d9d5a387e84"
     },
     "pool1duwr8s97tsl6qqwwqnul5788ne949mlm5u6d2zq7dwpr2r4sd3t": {
-      "stake": "502700000/31401176058682003",
+      "stake": "125675000/7851894775713959",
       "vrf": "91a00f0d1a788160a979842c52cf43bb3667d22578f6e283626072f1e98b0028"
     },
     "pool1dv5e52wvzlw3g44jkugtq47rzg5a383r9p565a2gkn26ucjdcv8": {
-      "stake": "1154160575595/31401176058682003",
+      "stake": "1154160575595/31407579102855836",
       "vrf": "136446fd9f7f6b095a0b88700fda3815a4acca52ce251128fbf7e317f7ec4127"
     },
     "pool1dvjj28l692ak6gk55vyzq2e9hqjq0ntetrv9mg6g5x8vqe738gj": {
-      "stake": "196722646428/4485882294097429",
+      "stake": "1378193208839/31407579102855836",
       "vrf": "a131988b398ed2230abf47e873c0dbe8cd862289f1912a4c5216695d61863802"
     },
     "pool1dvwuefdyt53wt54t7hk8lcy4qsdg5jyww9nk08v9nrprs2uwk99": {
-      "stake": "44000000/31401176058682003",
+      "stake": "11000000/7851894775713959",
       "vrf": "42ea17e1f4c8e620196a04ed8d0140e563fffa3701abc74a144d6806f6376220"
     },
     "pool1dyy58ustunahrnk6gfmupfxsv99stqnrruxqvj5sjfk7vel02jr": {
-      "stake": "9995686749/31401176058682003",
+      "stake": "9995686749/31407579102855836",
       "vrf": "5b23758976d09efd487835f8143b3171de1529576e9857537e7e8b4a38b28f3b"
     },
     "pool1dzxc7pqsqfs7dru7xdrkvkdf9s3kd4y2tqsdv063d2lfcxw6zmg": {
-      "stake": "1275012512136/31401176058682003",
+      "stake": "637654577377/15703789551427918",
       "vrf": "190e206a35e7275c45b04f8db1b9cd166ab9717f7810840f150edbc556b7dfee"
     },
     "pool1e0arfuamnymdkmjztvkryasxv9d8u8key27ajgc4mquz2nr8mk9": {
-      "stake": "33906714800660/31401176058682003",
+      "stake": "8476678700165/7851894775713959",
       "vrf": "850b49ed21d72267fdaa3e593f014637223e0d3dfe6cae2b4ea5c52945f337aa"
     },
     "pool1e0mu44gtaglzv3507aaw34eyhw6jea93d7zjywsr5yfh20h4zv8": {
-      "stake": "21463954117/4485882294097429",
+      "stake": "150384387973/31407579102855836",
       "vrf": "14af87837b551661fcb10cd63c9dee265f4a792c5185165420b4f305f780a75e"
     },
     "pool1e303tg8cmmgcjd89e30c7u7tz52ct0nguq4w4ryjj4422y99u23": {
@@ -580,7 +576,7 @@
       "vrf": "1b899257eeabaa82669202a6c64ca69fb70486558ee5e0d7212fda72f17da094"
     },
     "pool1e3mqlzcj7j6aa9nj5gtyujzx7gwjvnqlq254n9wk87qcy2l59qa": {
-      "stake": "1028994134725/31401176058682003",
+      "stake": "1028994134725/31407579102855836",
       "vrf": "f34e6e377af7a17212d1ff23e6d56ee710d45fbfac2c7aabe57bb77ecacf15be"
     },
     "pool1e7vegr50kmr4cffv4jn4fpym997zzs20gq65w5x06snqxxyfgrq": {
@@ -588,27 +584,27 @@
       "vrf": "7f542059b7106c1affc8f44b5d2080c70d821c198d4819b317f76f6feec719ae"
     },
     "pool1e994rxs8glsefr5rqtagnl0y50e8nrejgqehr7mg4su2gtrvxwn": {
-      "stake": "1000000/31401176058682003",
+      "stake": "250000/7851894775713959",
       "vrf": "9586f48442694ef028bcf67605b4ef650ab9f0f1cd81e181d2db8d9d5a387e84"
     },
     "pool1ece99q865t5u0rmx88z4ev0cut0pqarvqg3mq4zmhde3wqsdhcq": {
-      "stake": "39694925684/31401176058682003",
+      "stake": "9923731421/7851894775713959",
       "vrf": "f6c079878e12b11ecf8c347c4e648a0bc88e2cce772193bae76cbe40c6421741"
     },
     "pool1egu0kaxmv3zu54xd80p9u0dcalnywmfru0qnm43hjvfzqa5zw5x": {
-      "stake": "28720248586/4485882294097429",
+      "stake": "100520870051/15703789551427918",
       "vrf": "7a2035a6aafad80d255100a0fe72a3cd77d387cd6d39d5f1a470273f62dc9dfe"
     },
     "pool1eudmugh8x6ys05lh8kaaf2y0w0y52lf3s0gx0s70q694ksq6t7y": {
-      "stake": "9497624778/31401176058682003",
+      "stake": "4748812389/15703789551427918",
       "vrf": "25be9a38369c04a4f7672cc3532221d4217378cb1afb2198cfac00d35950d55e"
     },
     "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta": {
-      "stake": "119749928243/31401176058682003",
+      "stake": "119749928243/31407579102855836",
       "vrf": "53904d9cbe59b52d6b54ce29a58090ef45b3e44bffdc6ab7c514a7c3934f2a74"
     },
     "pool1ez2wz52f605j0qd9nc35hw0pund5zp3fwaqtgv2tyzy25kmkr0n": {
-      "stake": "856400000/4485882294097429",
+      "stake": "1498700000/7851894775713959",
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1ezt0htr2q0qjxfv8myeqegfqla5pfxq2guk904jmzf50ya343u0": {
@@ -616,71 +612,71 @@
       "vrf": "c561c8491825a3355153153d36c6374cf8989b9f4cbdea0fe26e6f12a6923e56"
     },
     "pool1f5d6h7qv4q6kr5v5ymegdgvfp3tyznudq6xugdt7nwd6ga0szem": {
-      "stake": "21806970546/31401176058682003",
+      "stake": "10903485273/15703789551427918",
       "vrf": "c75b8eb9e523c1f58dbd738e5fd0977c77b9c171b3f1c0ede676822edbdaa10b"
     },
     "pool1f8c7lz93ysh00k09lwm8uycrq7plxsz5kqwd7cyq9v6sgvf6cnl": {
-      "stake": "31486031004/31401176058682003",
+      "stake": "7871507751/7851894775713959",
       "vrf": "937ff1133021fc9ef7ef58248f5b9d9aa0860f358caf72f0f8200dba6cb04485"
     },
     "pool1f9p9jzdvq68dzl9f6svw0ss2e8r7zftfswgytlp2g7zxcf6z89u": {
-      "stake": "479800536251/31401176058682003",
+      "stake": "479800536251/31407579102855836",
       "vrf": "f705602de63fe067e4934766dba07f492bd451ed17a514c85f6c04f8cab158f5"
     },
     "pool1fd7g2qs8sysqvysm2vuv4mhlpt5x4gpe4arpgxjp3y072nqnm7q": {
-      "stake": "18160841403/31401176058682003",
+      "stake": "18160841403/31407579102855836",
       "vrf": "610f8c930093f2537ebc944311ea59ef89ab72e4cc69e85d61f32ffde6f7685b"
     },
     "pool1fec6npl7y4qxt4dwvmlgd48488mm4uu6kcdy2yth7kcskmxry7g": {
-      "stake": "1009000000000/31401176058682003",
+      "stake": "252250000000/7851894775713959",
       "vrf": "dea2b7646d31ac628fd17256d545c31a776ca47906ca4d41a02572fe4d64767b"
     },
     "pool1fl0yd3l59d9cu3sapjkj06jatknyw7rjams6yh9rzpuf7vuwftj": {
-      "stake": "25203322427/765882342894683",
+      "stake": "1033336219507/31407579102855836",
       "vrf": "d5a7afd6af49a862189c247d4e5ebba9c17562ee3f772ca2ff5b47034ffe6f00"
     },
     "pool1fm7p9jphytheekdf4kvve0jn3q986fwxqguwq799zc4rzs4ltte": {
-      "stake": "1097353057517/31401176058682003",
+      "stake": "274584645325/7851894775713959",
       "vrf": "d873cecaed9a7d307078007cab6189dd47b73de17a0dbfe6e010b13370ca2e8f"
     },
     "pool1fn03vv9hxw5zq0wvc20v5m6d4g4dr6a55m3m068l9a826h0k74y": {
-      "stake": "42073277119/31401176058682003",
+      "stake": "42073277119/31407579102855836",
       "vrf": "d8293349d969542f56ccce844722abec70fe8ebd05ce959d376b1efb89072bec"
     },
     "pool1fq88ssj6jgeelg7hwgp3rpywkdltfy8wk4gr9qk3aejdccp2c4w": {
-      "stake": "6996650298/31401176058682003",
+      "stake": "3498325149/15703789551427918",
       "vrf": "25d1ab05de1b3c0e9d016200027d935c168f79cd9dfb25beece31846933c1e4b"
     },
     "pool1fqq5dr93h874745hyn4kl7mlvq0j9l67j4grxehnpyr3jvmxcym": {
-      "stake": "10057041250/31401176058682003",
+      "stake": "5028520625/15703789551427918",
       "vrf": "8f4e243199f44a88fcbdaf6dcd10412bed3b7e9824a9d466348a9365d0eb58f1"
     },
     "pool1frc4f6cr8hwkjraygrhsvkl840xdv0u52g96k05lrd3tyeskmx7": {
-      "stake": "1168623993665/31401176058682003",
+      "stake": "1168623993665/31407579102855836",
       "vrf": "cfeacda4975e3296a4712b273ad42c537ac5262a682effbfe598d597a85c9708"
     },
     "pool1fsv7u3actd93792f5nka66080l2m0elu69tuvk74qz8g5sukff0": {
-      "stake": "5298154090/31401176058682003",
+      "stake": "2649077045/15703789551427918",
       "vrf": "6117405df9932d2a2a7abae932ca6a9508166ab9188d5532c1b6a6b0d39bf16a"
     },
     "pool1fxqkwkutajp2vr7t3vpvt4sgy7gmlxetgnyh57hkn7ru2rf96a2": {
-      "stake": "2859332973/4485882294097429",
+      "stake": "20015330811/31407579102855836",
       "vrf": "2a4a2a216c389311b2834c9dc217b70b59dce9f84ebdf68048a11affa8593f7b"
     },
     "pool1fyssphxavlclpddydsx4k3zdg04j6rkshkxvf7wedny95tvqyla": {
-      "stake": "19352074264/31401176058682003",
+      "stake": "4838018566/7851894775713959",
       "vrf": "d13143377e43ace128f70a1afe64d6e53f0ca328af78cc4726e04461db54aa46"
     },
     "pool1fz8qe58ywqgyrvph5hwv4veualuwvy6uvwyzg3hajrynzgmcre2": {
-      "stake": "9497445813/31401176058682003",
+      "stake": "9497445813/31407579102855836",
       "vrf": "c6d8c43ad68dad68cb9d9f34a386b1c3e6842e53e2ec3639a392c14cce489670"
     },
     "pool1g20peax827vmg9yyqfzj4g8d65fpz9y9uhsuhe70jwmfvaceg2m": {
-      "stake": "270986045811/4485882294097429",
+      "stake": "1896902320677/31407579102855836",
       "vrf": "ebf3524ed3f2ca11040828fd3cd9aa369866b078dbee272f832facb5ef1e2658"
     },
     "pool1g74nu0hezqzd07jdk75gvaf665rrzwqnz2784xe0t5td5pj497p": {
-      "stake": "81606510357/31401176058682003",
+      "stake": "81606510357/31407579102855836",
       "vrf": "0026f9f1658ff979b0ba5f9fd9e101884e3aa5a337d6111dbba79139c74eb9b8"
     },
     "pool1g74v33gkx84x94tep4qwrczkwwk8l075sslne2vrmn9jx95rfqa": {
@@ -692,83 +688,83 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1g9gkpj6kdt4gmlhnf7yzv7y9u2qstp3r0tm4f68a47ukztaqe6q": {
-      "stake": "9497624778/31401176058682003",
+      "stake": "4748812389/15703789551427918",
       "vrf": "04fb50496afb8b50e7fb63f141025306c5ac0ec3a2a2e0200f898993b4904d8d"
     },
     "pool1ga327ax76twamq0zypgxrc2n0g9dvwhsr3rkwf6rfl426mp8m2f": {
-      "stake": "27902653740/31401176058682003",
+      "stake": "6975663435/7851894775713959",
       "vrf": "aa05fe7b0bad1690fb6ceac182add0dad9e89d10170efa99d789cc390961211b"
     },
     "pool1gc3u9crwkr4wxk5ctgprxamqusqrscf22lrgkc02hn8rx39mcgg": {
-      "stake": "10996673809/31401176058682003",
+      "stake": "10996673809/31407579102855836",
       "vrf": "6a537ad5cdf5f5fc5c0c45c14be73bf1fe7d841c5a661f665a1404d13d7de01e"
     },
     "pool1ggurf2dnv9qh7k8zt9hha2fjtv26v2uy0w23vvf0q7snjqe42mm": {
-      "stake": "51999757/31401176058682003",
+      "stake": "51999757/31407579102855836",
       "vrf": "90e78841ee38eedb2f5389afca81e7667516663bb4a18496e4513606739c5e4f"
     },
     "pool1gme3a0y0hqz2kmyvn5kqp6ngf74nw2uzypvw0ynxrfysug6p9fz": {
-      "stake": "25559221094/31401176058682003",
+      "stake": "12779610547/15703789551427918",
       "vrf": "2c65165549af03443db8f69cf28aaf7cd38413b1ffb62314f2bda7b498fe8a72"
     },
     "pool1gmxl4hv5hxh8vagw26r6av0pwhxemye8wv2hl30e2mehvzmzk89": {
-      "stake": "408340669/31401176058682003",
+      "stake": "408340669/31407579102855836",
       "vrf": "53835cc60f193de8435af44c71d07b79904f159a5ddd68434c317d4bd868b262"
     },
     "pool1gnyw5vz8ry8zjhx5zxrtdg0yqc5m0h3x86pj326zumjlw2xu944": {
-      "stake": "1342468660/4485882294097429",
+      "stake": "2349320155/7851894775713959",
       "vrf": "a8e9c0becf6c66f30313a4b0b47be96b239e912ab7f09f379decfdd9aac6bfdf"
     },
     "pool1gvfth5tq0hdy3md9j33ee6wat7k04lnwjq4kmkjpmmrj7l99sxs": {
-      "stake": "1771072739/31401176058682003",
+      "stake": "1771072739/31407579102855836",
       "vrf": "c9693a63641a07214c6897d11b5dfe82184470265ac94487b71e37502ac9c76d"
     },
     "pool1gyw5ysgwudxzl9nw0eujm4m3f8vzwx3e3jzy93v3x4jvq42fpux": {
-      "stake": "9520243139/31401176058682003",
+      "stake": "9520243139/31407579102855836",
       "vrf": "ca5a2aa989d04fc64a88c97e69b7a969e421b5eec6292a929f6569c50812fa75"
     },
     "pool1h2ag7yej9veur67zhu0gqk7caefsqetl7tq0qaymezfwyzh0ec7": {
-      "stake": "7745225436986/31401176058682003",
+      "stake": "7751198512179/31407579102855836",
       "vrf": "1be7b843e5bc5fbe16e152e6f4586dc5d9857e6bd40d399061042503a8c053d1"
     },
     "pool1h4c9vz3f4rmkt2hc5y80kt4r5lcajq76hetu7ju29ley7acvclp": {
-      "stake": "91430933495/31401176058682003",
+      "stake": "91430933495/31407579102855836",
       "vrf": "a08f393ba1d3b5d942f023c89dbc28bf35928994885694956282eb6c65bd296b"
     },
     "pool1h4n2c2g6c5saatezzs0mpe0z7rknmf33txulf8sl2q9v7e72nky": {
-      "stake": "3298288839918/31401176058682003",
+      "stake": "1629516207919/15703789551427918",
       "vrf": "469b832bd257b351a82f5b22ae6e1ccc254afebb17b53523654ec7ec765334d7"
     },
     "pool1h4w59hqkzn4l546a8q0yjlf94jz9tv85qjca4pjc9lne58ft7pz": {
-      "stake": "45739254506/31401176058682003",
+      "stake": "22869627253/15703789551427918",
       "vrf": "dd110b640b5ca45fb9ef69e0e91847697fb7bf73d9be7965b01d4e12c60360e1"
     },
     "pool1h9rvj96leksykmj6v5zdwwc352ln875g5mdqeexzstrwudkddmc": {
-      "stake": "80399666846/31401176058682003",
+      "stake": "40199833423/15703789551427918",
       "vrf": "1939ee51832ca305439472f67614bb2a53e2904d34db3ce7bda791c7846d8c55"
     },
     "pool1hfndr5ja3w7ptzhpjsds8f2eye3umg6nj8t7cq6s9vddj9q70k6": {
-      "stake": "1259147580617/31401176058682003",
+      "stake": "630127479485/15703789551427918",
       "vrf": "b453a190d187848365cfd7fef885a8e53b93b567fc7eb8c9c05b0a4a6cf4bf1c"
     },
     "pool1hghdaa7chn4hykkf9h0g0yqpz6j93gexvllz0w6p93y72saukmp": {
-      "stake": "8432976869/1652693476772737",
+      "stake": "160376933883/31407579102855836",
       "vrf": "a844e30844acf00049ae40166c4559a345b112d4fda61f0d7b4a12d020aef566"
     },
     "pool1hgsnn5yr0g5rnhqqaf8g26ldsvuhavhkfmyxdjlparr6xvp425n": {
-      "stake": "3147699780/31401176058682003",
+      "stake": "786924945/7851894775713959",
       "vrf": "e66967d32e9bfc980bf575209fbd82906acb49a4bca81c58ad3bfa7ae5e2a65a"
     },
     "pool1hsxu3tfj0mfp2ncpg67rj3kywwqvu2p3k0cqr8fz0ghnxjfyy55": {
-      "stake": "10964874523/31401176058682003",
+      "stake": "10964874523/31407579102855836",
       "vrf": "a992b7e2d5daf54b83d9551dcff9a899dac506d7afcbb4f4f7a51e9aa9e9768b"
     },
     "pool1j20l32n8un5gce4adk44n9zks8cdvnk3amgursud847cwnpgeg4": {
-      "stake": "1370900000/4485882294097429",
+      "stake": "2399075000/7851894775713959",
       "vrf": "8407af2ef7ac8af07cfa2a7564d6cf8fe338acab3c6391dbc24433c46e9e5455"
     },
     "pool1j55ew47zgftph5jkf6qsuuhxwu0tjf4fvln6259mpqn06xcktvj": {
-      "stake": "19591803251/31401176058682003",
+      "stake": "19591803251/31407579102855836",
       "vrf": "71cbedd6bd81fe49180de549fc164f5fb91f01bbbca7e101c676d4274e320e7d"
     },
     "pool1j5awh8cev9nsjrw9zch0lfuu3xvk9zwl8hhxkmz7808fg64xzzl": {
@@ -776,47 +772,47 @@
       "vrf": "2b39107b5dae6be2e2fcbb1796542c761dc182a9527f290419c02c320351e169"
     },
     "pool1j5ykmf5a87myg947w2svnnj8f3evt8dqmvv624kugv9tcwwk8vr": {
-      "stake": "1466918411960/31401176058682003",
+      "stake": "734129082751/15703789551427918",
       "vrf": "8ecf63e602b53c1e9083ba8454bb1ea72a3df62cc0ef365e496e93999ccf5fb2"
     },
     "pool1j67m773nj49h0h3dha8x7s768d5w4z3t9t8emnlulc8au9tzfvt": {
-      "stake": "39997285904/31401176058682003",
+      "stake": "9999321476/7851894775713959",
       "vrf": "7851806dfdbd4cf9094bdd4a268e1a105b32fae94ec4788cc417fa99fc9a5c59"
     },
     "pool1j8jjj8y07k5kh2ur8usekj5w0y4swl8khd2lgn8ghlfsuwexwf9": {
-      "stake": "249980457171/31401176058682003",
+      "stake": "62512202175/7851894775713959",
       "vrf": "31147b4bf3b20ff386c2560e1d181341ede74d58bb5d85557d889bdc0e864305"
     },
     "pool1jaed3q2trl0n6s5mwd0tw8s9k4uheqr7ytpfne034lrh2fj7wd7": {
-      "stake": "180322170644/4485882294097429",
+      "stake": "1263335150997/31407579102855836",
       "vrf": "9f193fd02c28116b5f6bc3d9cecfdc6513dd0dc1930c4b28af33ef0eaa93b85c"
     },
     "pool1jd86ej2sqk5h4d9y0gtd6qquqvpdw0cdhtny7epcyh4rjl8wrsr": {
-      "stake": "1865188348013/31401176058682003",
+      "stake": "932594216617/15703789551427918",
       "vrf": "321e33def126535d971587edc1a5056ae7e1b85712b282b8b38752809a67b389"
     },
     "pool1je73q7ax8h2ke74n3l93r09p0qshvnyrnp0rlrckn5xjchduktz": {
-      "stake": "7877127235/31401176058682003",
+      "stake": "7877127235/31407579102855836",
       "vrf": "69a24a6d8d41a8d5932532fa23d27fe9111f63a56771b00623e27c3ad018e272"
     },
     "pool1jgl6h9fyy8gqt593ah638kqps4ls7c78d5p00we6qlzycdmhhvq": {
-      "stake": "1222613948698/31401176058682003",
+      "stake": "305913223072/7851894775713959",
       "vrf": "ec7f804386fe8ecfed4fa2a78426bd3ca889ce9e9c54e993749aa96c999d59d2"
     },
     "pool1jt6tf4y0eshz0agzww8dc44wqt5kk8ytu730yww37acykezuly7": {
-      "stake": "9498867998/31401176058682003",
+      "stake": "4749433999/15703789551427918",
       "vrf": "9a4587a2ec7b5c59b0f8c371affd6844879ac7b11ed9b35d5a6e82292eb9d802"
     },
     "pool1jtsar7k09zne4wzlen5ctmxa8mjuzwmzp9tmdxdul9f2q70074k": {
-      "stake": "47929442/31401176058682003",
+      "stake": "23964721/15703789551427918",
       "vrf": "c5af710a4246f43fe273eca12e100026e73e2b6ef4275f7ac1e2e44c928c7179"
     },
     "pool1jv7euu69zch46rl9a3nenaa50pwypjk6g7uzy5qzf3s76tafy72": {
-      "stake": "12784046999/31401176058682003",
+      "stake": "12784046999/31407579102855836",
       "vrf": "86bb65413a91a40129fc23c02a6f8ee4c0d5453980a40385efcba81ca20bbe36"
     },
     "pool1jw898y658nejvaw7slrt5rfjwa7gky8lk6hy24l2gs3kqqesnfr": {
-      "stake": "1213702374117/31401176058682003",
+      "stake": "1214714024683/31407579102855836",
       "vrf": "a2db8bbbfb7889fe973fa8e6a74380f7fdab8d4fb567904fe5c1d87be748bbb2"
     },
     "pool1k2r9ys5jlj3m0n0ytjj8fhzwaxffksvy53w3tkw888cgjdhqsru": {
@@ -824,11 +820,11 @@
       "vrf": "4209886a8faa0966a117880860a2bb9011bec5a727bbdb9f9efc8574f2cc425a"
     },
     "pool1k4nqdlvd9y3l4rfgj8fm80mcrrgcvgkx732x0n04jqfakxy2dvd": {
-      "stake": "111764276142/31401176058682003",
+      "stake": "112213660771/31407579102855836",
       "vrf": "00bc597a478b92276455a701e9a648544774e57b627a2b0fb4d05e65f174e8f3"
     },
     "pool1k6a0z9xshhar2sltamm7k3qlnpnvupyuct63kp0m7wv4u7f00p4": {
-      "stake": "1494347433/1652693476772737",
+      "stake": "28392601227/31407579102855836",
       "vrf": "c5e60f8560d0816bb432a31b6a5f141e801d4473b9781d0377fa762d58df4be3"
     },
     "pool1k6nh3ay7u49sr3qfv8q5dhf4nh0n4p9rkh3zye9h76wngxyekz8": {
@@ -836,99 +832,99 @@
       "vrf": "eb32ad620d996d4ef87d82ae4a3ee3141b086e9e01d6f42105cec32677a2cbf1"
     },
     "pool1ka0prnwsau3v7mrffw8zlk4gvq7aun2hsymlmxpkens7kkpm5aw": {
-      "stake": "6225585651/1652693476772737",
+      "stake": "118286127369/31407579102855836",
       "vrf": "2f2e89bfafc40296464b8decbf72dfff9c5e3a9f4aeb79f53b03ede96d1c3915"
     },
     "pool1ke9h4mggr8ttf45ale5dv4ntkvuw2wkvm6la4mv02688xuy99qp": {
-      "stake": "1278854894235/31401176058682003",
+      "stake": "1279907726243/31407579102855836",
       "vrf": "d8cd0338d85b63237c25f6747ec35fc652ff18fc9386b4cd2d2aa7bff7029e83"
     },
     "pool1kgzq2g7glzcu76ygcl2llhamjjutcts5vhe2mzglmn5jxt2cnfs": {
-      "stake": "188062500841/31401176058682003",
+      "stake": "188062500841/31407579102855836",
       "vrf": "d17c22f1c3617b5e963be0ce7fcf31e26eeb7b4d38b2276eda858d792cf0880f"
     },
     "pool1km5tjulmhpwyrarkda3dpp3pvp5adcz6djz9sqx8p5pnyvelxgs": {
-      "stake": "9497400000/31401176058682003",
+      "stake": "2374350000/7851894775713959",
       "vrf": "c933e4a9a6e9ac12dbaedcc7fed0ba411d2ec3061937d79f26180f78ae726471"
     },
     "pool1kmmwsywmkus520vhk82k9uvtlx09r50ukn80pn2xr26jjmm6ltc": {
-      "stake": "2785375710/4485882294097429",
+      "stake": "9748814985/15703789551427918",
       "vrf": "9c4009296989e882f1a4ab6f9cbb210e1112cd157b60ad7af5452c3f7b2af365"
     },
     "pool1kp6y5wt4ujewtlqy4nqtcemgy3ekkq0qwa6vwg3pqq8gjm6d7j3": {
-      "stake": "5849097303/4485882294097429",
+      "stake": "40943681121/31407579102855836",
       "vrf": "1f00c61a0977e3c544e54b5d2ec45f225c27e3f1fa7494328f94dc8102f1acc3"
     },
     "pool1kxk8w4c5t68dvu9k6xwfy8slamltwwerl0kmqxqkk5yx7ndrfpq": {
-      "stake": "1958192624/4485882294097429",
+      "stake": "3426837092/7851894775713959",
       "vrf": "7a85baebfcb6e66e933505c4a63e4654f9e31d6871765b52eff7bab0253f2acf"
     },
     "pool1kxtrz8evgdrwwrdajhwweng6k8eysjvqgn59r8a5wkqw6rlnvv6": {
-      "stake": "57613529471/1652693476772737",
+      "stake": "273903610563/7851894775713959",
       "vrf": "b8638d4760e70a8a15628dc18fe4b07d33bbd28defe69689bc966cdbc947b245"
     },
     "pool1l8ywwf6nfrfmrg6edj2qjh6rxpuepnzlsq9mhvjk9xr9swkht93": {
-      "stake": "1307709084095/31401176058682003",
+      "stake": "1308556262043/31407579102855836",
       "vrf": "d7870e182046358af23ec33b5382415b7464b09adb8f86f319bd644386c5fbfe"
     },
     "pool1laacstav6s62exgvg2f65c8nhz5qzmn665tyfyu4jl5sckpz52x": {
-      "stake": "25390989206/31401176058682003",
+      "stake": "12695494603/15703789551427918",
       "vrf": "de7512f113868d949295667e47e91b5d977e21b46e7abc1a17f895ed69f1c973"
     },
     "pool1ldt5k4gjm0vr26a45n7g9vu4ffk47hlyqxjvzefwss20gppeag3": {
-      "stake": "12523317046/31401176058682003",
+      "stake": "6261658523/15703789551427918",
       "vrf": "2bce7ebe73d6f6d7a09cc9e1ded5ffb79a2a01ceb24be6a00ad8e29ebe193516"
     },
     "pool1lenzcfx02maescnpv8mk6gc6c59t0dramqucdgcvr4revw89xpz": {
-      "stake": "4954122034/1652693476772737",
+      "stake": "47064159323/15703789551427918",
       "vrf": "3606737b41e2c53428f1ad224f8a96b5c73c21028daa1269bad32e8eaa39637c"
     },
     "pool1lgd9u8nshsh60asqszepfaalt2c5c5w6fvc85xne9st3g3fwtvm": {
-      "stake": "240902086789/4485882294097429",
+      "stake": "1686314671545/31407579102855836",
       "vrf": "cff3dabe703458a1a9edec1ad1314a57a2602f4350d0df1c3b91c22c53b82e58"
     },
     "pool1lgq3azatu6cxvp5ndaxmqxnrwnqts06jmqc2wqhkcseyx83czy9": {
-      "stake": "9997647966/31401176058682003",
+      "stake": "4998823983/15703789551427918",
       "vrf": "93676e0c50ac9b0cc49e7217e3f1a0e56eb14a4f9531084d0d03df754607077b"
     },
     "pool1lhknlva0yzrz6uty8wcct4eyurgz2ghan2y4mmudn3xkq5sdcus": {
-      "stake": "1400673764/4485882294097429",
+      "stake": "2451179087/7851894775713959",
       "vrf": "16793a985999656ff8c8c6a259c056549dfd20c72ff7bdc2d0931f406d8bddcf"
     },
     "pool1lk6cxjaqd66t4t74q4gd9hymxapd93fvchhxt0uxwwprk9m8v6c": {
-      "stake": "161928594941/4485882294097429",
+      "stake": "283614277189/7851894775713959",
       "vrf": "2a6a3d82278a554e9c1777c427bf0397faf5cd7734900752d698e57679cc523f"
     },
     "pool1llsrnl35k82ytcnxv2hnxgc6grsynucszhxtjyefa26r78ky5pd": {
-      "stake": "17795972710/4485882294097429",
+      "stake": "62285904485/15703789551427918",
       "vrf": "6fd0abf5e4f3d5a4eb60f0637120d5aaaa098456ae39efd1f21a52b0a1319f87"
     },
     "pool1lsygahp0r97tdt9ed7dx8g8yx7du96hmvh85q74ccwc0w5zfamj": {
-      "stake": "68945100190/31401176058682003",
+      "stake": "34472550095/15703789551427918",
       "vrf": "75cec5c687a4791b837b5a029290aa88715403463ff7be6534da46eb7d4e718f"
     },
     "pool1lzz7qqyx6g4dycdlppmftswxugyyw86rtzj3y6yyrj7wjl94rcx": {
-      "stake": "844960680595/31401176058682003",
+      "stake": "844960680595/31407579102855836",
       "vrf": "37ec26be44375c9c57b9f72b9da8a95e4ca53e73d6e358c531e7327e30896ffa"
     },
     "pool1m3t4nk54p5tnl24gwpakkyej4u4ad4efkf0c9cmspc3p543aqnk": {
-      "stake": "1180555/1652693476772737",
+      "stake": "22430545/31407579102855836",
       "vrf": "2343b2cd3b4a81ab68db3f36631fcc2bfb7d2b94531fdf5f7a388607d6462d0c"
     },
     "pool1m48d9wr228z4pn9rh2xw7d6d5a07sl2avej02c4vn54ujrnkz5e": {
-      "stake": "1150970689838/31401176058682003",
+      "stake": "287944397567/7851894775713959",
       "vrf": "aaeadbd5442291ce9d852681b7c26b3ed18abba08e616b0001dc1b89a4bd76a2"
     },
     "pool1m7xzrlw358czfundrytv82hw5wksg8sgxa23y9zpgey5j9ns5ph": {
-      "stake": "1019394915914/31401176058682003",
+      "stake": "509697457957/15703789551427918",
       "vrf": "f588ee304945d5abf5fe62eef7e103435af0e5bcaab68bde80036b2e8d93cf77"
     },
     "pool1m8crhnqj5k2kyszf5j2scshupystyxc887zdfrpzh6ty6eun4fx": {
-      "stake": "2158480175952/31401176058682003",
+      "stake": "1080046824343/15703789551427918",
       "vrf": "f34925452262b97b3745c2b0bea5a723b37648b021058a044a92eb83feb7b180"
     },
     "pool1ma3z83uxmvpaxxl3gp6zvgqqcdfdvd3spqy2gz8f0094sxtx2zp": {
-      "stake": "13194241596/31401176058682003",
+      "stake": "3298560399/7851894775713959",
       "vrf": "701294a9662c0c4443c5037be6202d9076f14aa27d1b992507ca9ac04e39c7bd"
     },
     "pool1maydque4d3nnj5vekfsegymtxh3uauxlywd79mytdav0y3ggfqq": {
@@ -936,91 +932,91 @@
       "vrf": "4da750f5c8ff48d0fb1b98ec6ef643d377ce0a705b311358234a0182d2479f1f"
     },
     "pool1mlse64uvz922nax8s8xv044rr7qv5zv7ppuhrsx8ht4yq845ne8": {
-      "stake": "9497622490/31401176058682003",
+      "stake": "4748811245/15703789551427918",
       "vrf": "932aec9ca8dd215e81482104108fbc4749dc8213de2c7453c2c7cd10a8a0e78a"
     },
     "pool1mnp9rma5zcmqutjw57uek6uug5w5espzljtppvcqygutqevuxt8": {
-      "stake": "1477234445/4485882294097429",
+      "stake": "10340641115/31407579102855836",
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1mp96jpc2dtaruz0cazmljh03dev0969c4rq3wr6hnc4rjdxn8aw": {
-      "stake": "2073267441086/31401176058682003",
+      "stake": "2074472297143/31407579102855836",
       "vrf": "c6962c024307b4b9a46a4cced35cffc0c1e32fc138559ec0daf585f821a73b92"
     },
     "pool1mtyjt95svreuxl46xnww3m09afp0pfggf6m7j8ewa5tc6qmndce": {
-      "stake": "23695411084/31401176058682003",
+      "stake": "5923852771/7851894775713959",
       "vrf": "f590694b260c0516ebc02a46c67da067755b43c5e88998131c4267e69b88d31d"
     },
     "pool1mv0kgwy8pghc0l2kr7dueeaf756a6pvwe0zp0umdpmug565r5hn": {
-      "stake": "1233870601854/31401176058682003",
+      "stake": "617434267093/15703789551427918",
       "vrf": "b8ee0eb5cd8979d6e4ba527839e3e37286aa67d79909cfb6ba95743a841c5631"
     },
     "pool1mwq3cc8nattn5hu77q0thg8f3srk493te4rsrm0gkfwyjcn2y23": {
-      "stake": "9497423021/31401176058682003",
+      "stake": "9497423021/31407579102855836",
       "vrf": "3d7782ee16cee534f17e5608cb22a3b94c095d3a4e6b66cf905f1bc8eb426201"
     },
     "pool1n3a7m6u73l4f8jcqd6cd95wfjz6xgkdrpljt57dy86he6ef68j5": {
-      "stake": "1435959450/4485882294097429",
+      "stake": "5025858075/15703789551427918",
       "vrf": "55e9d3b9c25d36126df356788547c66c335c1908acf8e21ec357b82bb49bb956"
     },
     "pool1n4djuwkk8jvcywzh5dzgh5qhs5h0ugvyy5ahfhdc97x3qhnsv5s": {
-      "stake": "41977919604/31401176058682003",
+      "stake": "10494479901/7851894775713959",
       "vrf": "30751ddd38bf7a908b355726429812a800353ca4b67dabb12b304b19a2cf2ab2"
     },
     "pool1n5hmumfnhzpk94cec4kux2gc9rgcq5jqxqp8pvn9ek2kzgqtw7g": {
-      "stake": "8997446957/31401176058682003",
+      "stake": "8997446957/31407579102855836",
       "vrf": "99aca937ddc87201ca9eb6ab8b6b9614c00678a26ce7c452d4825a39b795dc31"
     },
     "pool1n84mel6x3e8sp0jjgmepme0zmv8gkw8chs98sqwxtruvkhhcsg8": {
-      "stake": "4269465364282/31401176058682003",
+      "stake": "1067366246957/7851894775713959",
       "vrf": "141a2392e78ccbf1194c6f4e3ff2e745a52409ba936412e864648903949bf1bd"
     },
     "pool1n9s5f0twkwv67ljltv93lsy4jsttcqe66jr7u7cg3yejv6yzdxq": {
-      "stake": "9497640354/31401176058682003",
+      "stake": "4748820177/15703789551427918",
       "vrf": "49edca7792efad424b704198784d24fa70bb17395b7f28f028458a959579bc10"
     },
     "pool1nc77u3ppl2xt8xexj28ryysh9makkm3mqvlxp5lsmpgtg2u5k9g": {
-      "stake": "29115711029/31401176058682003",
+      "stake": "29115711029/31407579102855836",
       "vrf": "cc3344ec18957b11579f8557eb92f0ea2c55aa35094db3201be0f28075de25a9"
     },
     "pool1ndxf966uknq89g8xvurh0cduskr2yq4ua678qt5pkyc4u6eq0mv": {
-      "stake": "8146907834/4485882294097429",
+      "stake": "28514177419/15703789551427918",
       "vrf": "4d2d19c498fb963cc65574136220bab441e96af65b7a53cf7feeebfb644e6537"
     },
     "pool1nfn2m3lq52hw6l8lq9nlag4lsdvlav2zdl9saptfelh07arxfc5": {
-      "stake": "187713701981/4485882294097429",
+      "stake": "1315089543557/31407579102855836",
       "vrf": "53930c293ea95186ef0dcaf391a11a3cb8ab4c764fe14185b17ca9a884d34216"
     },
     "pool1nfwteq3rsk6uzxwncj7vdaqggkd263n038hf6xhwrj92v0cs48x": {
-      "stake": "138485508456/31401176058682003",
+      "stake": "34621377114/7851894775713959",
       "vrf": "78c556f62f90ecd7891a0928e67f9953d14e59a61fdf96bcc650c62738cafc82"
     },
     "pool1nj7z8vrq2m2u052cv58srudcrj2k3na0pqz9evc3n498wvm65a2": {
-      "stake": "18527454837/31401176058682003",
+      "stake": "18527454837/31407579102855836",
       "vrf": "2e11e37002d29dd73424f0a6d45fe05a7ffbf8d4e5b0b83444868f8262014f76"
     },
     "pool1njr03m7t9k808fcav8phxnskacr4v59w5cnqgqsgnug2j2lvn85": {
-      "stake": "4842156853/765882342894683",
+      "stake": "198637795967/31407579102855836",
       "vrf": "26e4ea63cb761ea932109c71e4eaedeeea1c323688a8601a2795425cadc74742"
     },
     "pool1nkc9txh8rtul3zwncqtc4acdp3hd8kzjtnmu43aq9e8lqs4e5fm": {
-      "stake": "9997131443/31401176058682003",
+      "stake": "9997131443/31407579102855836",
       "vrf": "c36e1883e484938192284195a103994bca9dac9d68ca8ccc5e6f0ac2e674fa28"
     },
     "pool1nkfqdhfhqan2s8p7tsj04vfgjspv47wjkc0tzne7943nglyjkjw": {
-      "stake": "149791855824/31401176058682003",
+      "stake": "37447963956/7851894775713959",
       "vrf": "892902db31806a5e35e411c260e63da24246268d100238a65cce6927b7f71f5a"
     },
     "pool1nkzh9k8n3cl9lskzpcga5047pgp0ksxu8mlmmm7ysutw2ux2ygy": {
-      "stake": "347634194/31401176058682003",
+      "stake": "173817097/15703789551427918",
       "vrf": "8c01cb18c5d882ba99aa88a6f41be063697363c1c20bb64d720b1c0c9d53cbc8"
     },
     "pool1nmfr5j5rnqndprtazre802glpc3h865sy50mxdny65kfgf3e5eh": {
-      "stake": "16642599640575/31401176058682003",
+      "stake": "16668629814895/31407579102855836",
       "vrf": "8d765404f01f210d1ba5ce1560dfb8252648f2dc74da9931f1350eeb4dd2c52e"
     },
     "pool1nnmpqky7kcy67l0mhvknqu5qpxs0u6xw5cyrer0r92e4k84mthk": {
-      "stake": "495085706/1652693476772737",
+      "stake": "4703314207/15703789551427918",
       "vrf": "64fd720000d6173140d4c2bb7af12613c2320789d956d65a73891e43385c3083"
     },
     "pool1nprz06vaq28d8kt8tur30v7j4h0drg4538e6uh6agvz6vxnnjfr": {
@@ -1028,39 +1024,39 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1nqcfx7mp2fhsww2xy7qc9xwch0uueqcjlvwsh4fsj488zyvfknj": {
-      "stake": "1095086984903/31401176058682003",
+      "stake": "1096016566151/31407579102855836",
       "vrf": "55eae6face01b341780b2016ef36be243483f57e34ee3b824f24da2b09911241"
     },
     "pool1numy3c5kc4a2ju3d54m9ekvvagphfgvwnuq4kc4gxql6jlcny6r": {
-      "stake": "10571876415/31401176058682003",
+      "stake": "10571876415/31407579102855836",
       "vrf": "ac9850fa821df360cda9468f7253a8f404a32660f7dcc2abeef35cebe078cdf1"
     },
     "pool1nwy3lumh6mdrwstrrt6djzxtn7n70s0e5hnk3a0zpx92wfnnzt2": {
-      "stake": "71100000/4485882294097429",
+      "stake": "124425000/7851894775713959",
       "vrf": "d6792fe2c2565853967ecae337fac834e93d2a3d27df756ce6fcd1b5c926ad68"
     },
     "pool1nxxa0gyygv8msrfqfww5wq80glxadkda450gavkg00p26p2fqyd": {
-      "stake": "1080849736404/31401176058682003",
+      "stake": "270212434101/7851894775713959",
       "vrf": "8f69df116e2d2dc71acbdb62969556a99487b7b818f4c23ecffdfe6f76b8ab3d"
     },
     "pool1p9ldx03yshlzj4dlhlaxd59nukysjd3mldc8cuv5ae897q7ky2z": {
-      "stake": "1234646135755/31401176058682003",
+      "stake": "308907649839/7851894775713959",
       "vrf": "7beebed68148073d78d08c3a9c63ae3e3f9dd656e6744766f64e6ede964f5fa0"
     },
     "pool1p9nxa3vq7zxme7t7hms738edz62xq9v66nteggrzj6365xuz32w": {
-      "stake": "20000000000/31401176058682003",
+      "stake": "5000000000/7851894775713959",
       "vrf": "28cae034a8ce08810867c78617f5ae8a269509276b684d444c6901f8f24a498e"
     },
     "pool1pdw2tqeg70crgwy3puz4hlffl3u9lr2t5katsz63v2w6jfl0gn2": {
-      "stake": "1494461844151/31401176058682003",
+      "stake": "373933136788/7851894775713959",
       "vrf": "e442049ed3f9ac3523cf124b1bf45ce7fb3df65078ab2c157b7bc367f147d2f8"
     },
     "pool1pf8d83wvzxsyfnl3dacy2kyvndhkex8hz4qzdgar740jgk68edd": {
-      "stake": "65075972/31401176058682003",
+      "stake": "16268993/7851894775713959",
       "vrf": "501716aec791657f15746e9ce2ce09171931dbbb69f5a82de95e03252b4b3880"
     },
     "pool1pgy4kgms6kv6xrflv7qq07mdj8wj42zdu66f3kny78ly68upg79": {
-      "stake": "19698057154/31401176058682003",
+      "stake": "9849028577/15703789551427918",
       "vrf": "2f5f93cc8bd651fa9dbf9b8664cbe11c65cb46c66aea17fdc576b62a5e7febb9"
     },
     "pool1ph5sxlq8uf6ux9tylxustud73a8r8r06gqw9357tp8m3x45aqmw": {
@@ -1068,39 +1064,39 @@
       "vrf": "15ef777746d106226b23ab084e4619d3b25818f3c745bfaf9ce82a00fcc6374d"
     },
     "pool1phgtk3jgdyq2ldsqae3d4kap8l8pq8lyadqacvfhcdxpzkpzfpc": {
-      "stake": "29497278112/31401176058682003",
+      "stake": "7374319528/7851894775713959",
       "vrf": "5d2473e39e9575846916aeacab9c7a24c85b6aa1e0f6cc7b143d1b75865031c4"
     },
     "pool1pkvs666cwlra94wqtc3ww0cc2a7zkhxldl6ktzyhu47kyjgue05": {
-      "stake": "497634194/31401176058682003",
+      "stake": "248817097/15703789551427918",
       "vrf": "d32686eadd4be1b21e8e9da6d0d8193af5dcff7fff088f6ba96c9421fcd386f7"
     },
     "pool1plld4snskqnegqu3dzkuq763e3xnh47kujjju6kvh56ej6suwd0": {
-      "stake": "99632441/31401176058682003",
+      "stake": "99632441/31407579102855836",
       "vrf": "8cb1eddf50e1eaa4dc8058d72cf3746878c9f781b6297a6674f6805cabf5c7b4"
     },
     "pool1pmvsu5kmy9nt82qwqugcsku5772sls8r3x99ww5tnzcwjzpvy4n": {
-      "stake": "1589493246457/31401176058682003",
+      "stake": "795423319481/15703789551427918",
       "vrf": "318987874684b0cb053dd445b5562d7cbd65d3ff280f8b8877ab6af1bc3e0c4e"
     },
     "pool1pq4f0yt7cq9dz6tj6sj6eqnncem9m66txvuuv6d6m6jrq0wcdgv": {
-      "stake": "1552372537/1652693476772737",
+      "stake": "29495078203/31407579102855836",
       "vrf": "f1298c4abd6abbd698630439f09c7f154f32edc9b537fbeb4f0ee30938c8d501"
     },
     "pool1ptyjx9c5tq47up4ggz6yy5672xmwcz3zr63cqc2cv8v9qksu695": {
-      "stake": "54963077133/31401176058682003",
+      "stake": "54963077133/31407579102855836",
       "vrf": "3513a0e5f7df05cecdd9457c8d429dc4846db581e67c6abf760d7bc55c70bbca"
     },
     "pool1pzdqdxrv0k74p4q33y98f2u7vzaz95et7mjeedjcfy0jcgk754f": {
-      "stake": "1513653203631/31401176058682003",
+      "stake": "381217465274/7851894775713959",
       "vrf": "f7911afe283203d699f80da2606312a7ff0a2e32ae8d368542fd86eaa83611fb"
     },
     "pool1q37r2nxhmj4vlcyxedp9t6ganl0re3hzf6l9r0jz5w66umy0n75": {
-      "stake": "13488650794/31401176058682003",
+      "stake": "6744325397/15703789551427918",
       "vrf": "5d7455e7279851aa19266102e34e2c79a0fc96c88014f6130d4bc8b271fd46af"
     },
     "pool1q3gnyefcxdsnldjur0ykd8fluct66efkrv4usjgd2xlwuhne8j2": {
-      "stake": "85979626/31401176058682003",
+      "stake": "42989813/15703789551427918",
       "vrf": "f91aec34939da643299bacaad2bcba7a0a140d6450c593238f8f57cf0d1ff0c7"
     },
     "pool1q4qwj2j75r04ctxgus9fafshx2wwypugl35uansl5hk5s5hnt2f": {
@@ -1108,43 +1104,43 @@
       "vrf": "9d3b989642a84c3eea80382e1e5c1209e4e7fd403a3ff40426ee024fffb5f5c5"
     },
     "pool1q60vrsckzetz72m84rsxhny94mdk9dvduxz4nwhw642gjqawcyu": {
-      "stake": "19507200000/31401176058682003",
+      "stake": "4876800000/7851894775713959",
       "vrf": "1e271aea167982bf3e44180436a1e02c218312c14d3b601bd26a503715be5cb3"
     },
     "pool1q8aduy04kxq8y79jm9yp3u2fcx0rzkfrratc7qjkf22mqk8ypgl": {
-      "stake": "397634194/31401176058682003",
+      "stake": "198817097/15703789551427918",
       "vrf": "0c2bbcba56f052eb0e216163823cddb446e3f95ed6740d36463b5934d806b689"
     },
     "pool1qata6zlvsd72vz9dqnh3733xdv9qyrdzghh7hn5tdn02vl6evww": {
-      "stake": "2495976473/31401176058682003",
+      "stake": "2495976473/31407579102855836",
       "vrf": "247af7ff421764422d7074d158e0506edb6222f72602080e090dc5823834c3b4"
     },
     "pool1qep8gwqux539qqtxhr4h8ea07qyc0jq3aak5jjcxzqyavuet7ya": {
-      "stake": "15018804/4485882294097429",
+      "stake": "26282907/7851894775713959",
       "vrf": "661ce772dbbb72837df283b8877aecf72db3d8df62f15dac7c98d7da30dddfd7"
     },
     "pool1ql8dn9lm02v5ezdjwrteg4v48rxtyms5zyaweady2rqmw055f8s": {
-      "stake": "19906744027/31401176058682003",
+      "stake": "4977279997/7851894775713959",
       "vrf": "b79b19057da1ed15afe4e758e085a34c99febf27c47cadb64aceff4a78ab2772"
     },
     "pool1qp2xfc2eml6ut7xvy20rlvc7vwxej0a5c07emt4v3nr3xju7rw0": {
-      "stake": "19530938722/31401176058682003",
+      "stake": "9765469361/15703789551427918",
       "vrf": "9d51934a1a7c4fadc79e7cd3fce098c525d7ea1b8bc6b99f8b6a20cad6c6b66a"
     },
     "pool1qs89kqynhwcg0hnelppxtrydtaxc5y0x3ztvhr5xlmdpv4c20qv": {
-      "stake": "20103151420/31401176058682003",
+      "stake": "5025787855/7851894775713959",
       "vrf": "d8248df62fd894beeed789d29dafdaf61715dc204c0ef179cab7caeb17d3b756"
     },
     "pool1qv4qgv62s3ha74p0643nexee9zvcdydcyahqqnavhj90zheuykz": {
-      "stake": "88627398283/31401176058682003",
+      "stake": "88750433809/31407579102855836",
       "vrf": "514180cacf6f41cab0801283d5709e7088016a12d3464a8351c00776d271b721"
     },
     "pool1qvfw4r3auysa5mhpr90n7mmdhs55js8gdywh0y2e3sy6568j2wp": {
-      "stake": "19908946538/31401176058682003",
+      "stake": "9954473269/15703789551427918",
       "vrf": "f6eb328b92969855272210fd39ae04bd0f9b257a571669c768484ea35889ba18"
     },
     "pool1qwql65tatmweqrq9mhnefcsh6hz4cw3atjmqkqqz8c7f65tenqr": {
-      "stake": "219490206566/31401176058682003",
+      "stake": "54875969221/7851894775713959",
       "vrf": "3b038a0671e605f2fcfaf828ce96da10852086136f19befe56182d33fdd47b51"
     },
     "pool1r2k8y80zxvqjyvyy3xg8r50892qcewgm38z6pcy3uk8fky4rkl0": {
@@ -1152,31 +1148,31 @@
       "vrf": "0d97b49f253ed5c18a534d9c9d9d120134e71cd05c713bc6477a05da6315e804"
     },
     "pool1r6zamscm3pqe65je0570rgd07qxajsgr5qgx80hmquwmsxl8mmp": {
-      "stake": "30018810180/31401176058682003",
+      "stake": "7504702545/7851894775713959",
       "vrf": "9ebf10d003bc8346b471dc2b0e5978ca228ccbc04584d8f8e6ca3b16646bd042"
     },
     "pool1r76nahvpllch9k6u25g6kgmn07qtsk2w3qkqew06zxacw3m55sw": {
-      "stake": "1000000000000/31401176058682003",
+      "stake": "250000000000/7851894775713959",
       "vrf": "59d3c421422c3fe48a4293c06522e0f1faef4c240b2a07ce6c72ef4e807ab069"
     },
     "pool1rccstu3l9ty3k0a5cd06fl3szsss9r34dcg5j38fqgq9kvng0tg": {
-      "stake": "15003324008398/31401176058682003",
+      "stake": "15014982699947/31407579102855836",
       "vrf": "4b8a8212336e9e6fdaafa45500a7b375d54a0929844df3871aff933c6f6897d3"
     },
     "pool1rkfs9glmfva3jd0q9vnlqvuhnrflpzj4l07u6sayfx5k7d788us": {
-      "stake": "485307281584/31401176058682003",
+      "stake": "121326820396/7851894775713959",
       "vrf": "f674517bc620a135812231c7975d862d27ff8b9758fe35032d14ef11770c7c03"
     },
     "pool1rr53gk9vaxqhvm0uuvyu4yzcvuc5zxqktvcl39k9swhewvaf7t2": {
-      "stake": "4766059348819/31401176058682003",
+      "stake": "1192461717191/7851894775713959",
       "vrf": "1625fd726aba3fe355a7674bf0b5739276bcfa1799d9d509df930b582b6cd66e"
     },
     "pool1rsrah5my3lns23ghpdhk6wgpxmqucehvsvex7hv55r7nuyyrfel": {
-      "stake": "452669231149/31401176058682003",
+      "stake": "452669231149/31407579102855836",
       "vrf": "322828d4f7cfe86db0f8c3fb385e317b5415a8287963aa58c967eb3643c5ee25"
     },
     "pool1rstkgcnzexnacmv99ycaf6nd7sqxmd9w279v6cmq5dehus8w0aw": {
-      "stake": "1090972519299/31401176058682003",
+      "stake": "1091610541807/31407579102855836",
       "vrf": "7c1a3f17f40bf4fd82041fbcc548fd4ceccfc98931e36952aaeb4ca598d7716b"
     },
     "pool1rwghc6nncgueexc87t9zc556fdyach66493ndsdvukhakydsa6w": {
@@ -1184,35 +1180,35 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1rwrtuuj2cqw6kfhpwragyzkuzzdj35rrgd07aku78uz7wucydjd": {
-      "stake": "1660568908/4485882294097429",
+      "stake": "2905995589/7851894775713959",
       "vrf": "e978f81a055bf3a0bc32aa3b712f5f1acb9bfdf204cac4949756bb502086b8e3"
     },
     "pool1rymgeu3pc4a847sksu8ulxgypeq5ysf0ccywgwkcsgr9cmay57u": {
-      "stake": "1210813757000/31401176058682003",
+      "stake": "302966592765/7851894775713959",
       "vrf": "2ba2a5063b0001ae6cafd22cbadd148eef8ae8ad317220c48826f04181059346"
     },
     "pool1s02ue5qr6fw937k5hcfrdwv0wdrsz0e5269p5m6es4m7xyn2kcn": {
-      "stake": "387321740/31401176058682003",
+      "stake": "96830435/7851894775713959",
       "vrf": "59056c3c5174b76879e9014eae2dac25c14cf4650fc4e0aff227c3d501b97c8a"
     },
     "pool1s2drn889wxgszm055z4hj5nvevdtdx9q5lc66lwdvmcl2nvdq9y": {
-      "stake": "977575839208/31401176058682003",
+      "stake": "244393959802/7851894775713959",
       "vrf": "63c6edeaa8e1a26c7cfa2f77fe0d0224534c02643dfb139117340cd1cbd14b01"
     },
     "pool1s7wetfttn723hvdxx3wusz7yrxztzdfu6dm5nu4j6tuj6xcz2sj": {
-      "stake": "697143096194/31401176058682003",
+      "stake": "348571548097/15703789551427918",
       "vrf": "26fbeedc3c5ca9311bff2582e607cf2865cf70c21364a90c86327cf19a3405e2"
     },
     "pool1scqanlqepaertn4zsr2cuf9pspgpwgrpq7s3zsrkd4hdsz6q7kh": {
-      "stake": "9495000000/31401176058682003",
+      "stake": "2373750000/7851894775713959",
       "vrf": "acd6562e73d5b350f1599b6608a374e47d1a53ed133f7024a7a359bb8234a891"
     },
     "pool1se43tfl325c0mgmd3lfvleljllsm9hkzmnhr45ujhx0mvgtahw3": {
-      "stake": "41381703683/31401176058682003",
+      "stake": "41381703683/31407579102855836",
       "vrf": "22b8c4f2dc5df797a02f21ec41203bf28f979fb1a461f272517e480a7b639ff8"
     },
     "pool1sew77wmm4ygdn2trm55fgjck895fyqvnnqqgmwuty86q5aukla7": {
-      "stake": "190898613222/31401176058682003",
+      "stake": "95449306611/15703789551427918",
       "vrf": "660c734079a2519a2f44155595ed76bb464ec5882c362cb4bf4b40f79d17cfe1"
     },
     "pool1sm2v2lm6wh7auh9zlfk87wmg0xvz7zyl0dec4554u7amue8at22": {
@@ -1228,87 +1224,87 @@
       "vrf": "c44df338b1109314cdfe666a976c019dac396ca5009b67579e6a3cd08611acef"
     },
     "pool1t77yunyaydat4d6ks656ywuyt74tnkd7wmqjvj0xqnkpuwa6fcw": {
-      "stake": "9988955294/31401176058682003",
+      "stake": "4994477647/15703789551427918",
       "vrf": "1ed261726f120538569f7ff98d878799c60db3d974cb0b98723f401fdb3d9629"
     },
     "pool1t89nwdvpm8zc9whhnkr2mvvzayu3w9m06jc9yrd28w7lvm2r0y3": {
-      "stake": "7866126804/31401176058682003",
+      "stake": "1966531701/7851894775713959",
       "vrf": "7fa3765c2f1b44dd27eaf227b36980946000a29632ac12f56d9f9445abee055c"
     },
     "pool1t95f2kval0ratng95m7kqf5xch462gdpde62q9cr4849uehxmqa": {
-      "stake": "19492070195/31401176058682003",
+      "stake": "19492070195/31407579102855836",
       "vrf": "e04d53a822431e99846a876431c1f4c6e1424c17c352829d70df35fa634dee28"
     },
     "pool1tcxnnq73yw07v573w2duesa8d4j40ghfkxg5fn37eveaz20gzs7": {
-      "stake": "20046199380/31401176058682003",
+      "stake": "19881951907/31407579102855836",
       "vrf": "7ec15fb76a7e38f18a676683bb9336e4624ae23c0818580a8b34a583c4f82d05"
     },
     "pool1tdj08vm0ysfe7gq75pewdq495frfm7259dk6v65xtcw9gkh5q0u": {
-      "stake": "995616330/31401176058682003",
+      "stake": "497808165/15703789551427918",
       "vrf": "682e45e7aa87795e3bed6cc1760c6b1ddbed327b1eb89b2a554a43555c5dceee"
     },
     "pool1tfqkatkvqujhm98fymsr3jqgz9hlu69dyvqagg7cn40jcm4gnn9": {
-      "stake": "526192070/1652693476772737",
+      "stake": "4998824665/15703789551427918",
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1thjxx384wxxeznx5a593ejuaqdqx6e0yq5z5f38jzwpfzytu7dc": {
-      "stake": "11197454238/31401176058682003",
+      "stake": "5598727119/15703789551427918",
       "vrf": "0d81b60cad78c9c0739478567c698ff69bb19f5889acdc651fbda707b19fa6a7"
     },
     "pool1tjc56tq7adk64nnq2ldu3f4nh6sxkphhmnejlu67ux7acq8y7rx": {
-      "stake": "10059727134209/31401176058682003",
+      "stake": "10069727134209/31407579102855836",
       "vrf": "efac1fae097bc9f436f1d10664efa9681152bb457a7bfe63f6f318d8ce3a5cc2"
     },
     "pool1tlpsswg9ev0frsrcgukpz5nsw5gcetldunwg6clrvxyz5sn2xaz": {
-      "stake": "1796249595380/31401176058682003",
+      "stake": "1796249685171/31407579102855836",
       "vrf": "8335eb6aac88a804c7363b74fe042d41882a61bc28188dbd5ed99647e6ffdbd2"
     },
     "pool1tn9gz0tnqtkptkrkzlrzvkjcujdkalykfk6r38my3n5a506u9ux": {
-      "stake": "9797196400/31401176058682003",
+      "stake": "2449299100/7851894775713959",
       "vrf": "1dce64ad48f7ca7db767934039491bf4de89072fcfb82e436f9fadc154806748"
     },
     "pool1traytmq6e7t33ux86fs4uk837ltl56hnv9fkd954ndkrjerkter": {
-      "stake": "18495448497/31401176058682003",
+      "stake": "18495448497/31407579102855836",
       "vrf": "241f9ca94ef891d08679759d087c4fae27723c53933e66e17c5a6e1746ba35ec"
     },
     "pool1tttjn80uzcvyzvzw2202r3xm7e5dz60tfjdtrlx6vkpjv78t0j9": {
-      "stake": "29995652522/31401176058682003",
+      "stake": "14997826261/15703789551427918",
       "vrf": "039dd84035a9d85f2c7bbd3b1d810e29abe25d22405150902abd1203ab3a9482"
     },
     "pool1tzau4l4xpk4jqh766am0m89np2k27k0p0we424fte9mczrfl49h": {
-      "stake": "28521024598/31401176058682003",
+      "stake": "14260512299/15703789551427918",
       "vrf": "1df6ce37b9b6f7e52d4d3409e5060b644c070a523450a7d836c4b36f5acd99f3"
     },
     "pool1u0uz5kah6w2dmffhxu2gly76rtt7shupv8fy76f2k9yj70r9cep": {
-      "stake": "28474270438/31401176058682003",
+      "stake": "14237135219/15703789551427918",
       "vrf": "eb8183869eefcea0eaf063aeb8f57ed889d861afeb9c9f900e5750c0cc9f47a6"
     },
     "pool1u3ltum2lm8jxlnlphr3avk50tng58saxwnzknwn0fzsuvesj45p": {
-      "stake": "1066382813330/31401176058682003",
+      "stake": "533191406665/15703789551427918",
       "vrf": "0b41e34cbf7e5556548d4cf7ff1a497aa88fd4b87f1933653a5b74ed5c5fe067"
     },
     "pool1u4x4ly6qyx9fs9k2lt7f9hpa2gftd52fee67jcmuhnt7qqae3x0": {
-      "stake": "11204004254603/31401176058682003",
+      "stake": "11213478228851/31407579102855836",
       "vrf": "e4698e1ddfcaf9b71085938c70ee0e999a7fbec360cac6e4f9b5042a62bac795"
     },
     "pool1u6x2xqxpkcqc3fedj0tllvf5c4k8lwxxrjhsal6rwt2866pjtk3": {
-      "stake": "19590488471/31401176058682003",
+      "stake": "19590488471/31407579102855836",
       "vrf": "8cf20620c216561d36b51a9ccb1a99857a04dd2212b81c379b07718a78fcfaaf"
     },
     "pool1u997u0wg039euqrsx5fuyy3wktw983xmrxrzc93z3j5azgfk6y6": {
-      "stake": "38626743034/31401176058682003",
+      "stake": "19313371517/15703789551427918",
       "vrf": "40983f267a1571ef3a6e300b85b6dd1501af2dfa74e478c56bd366190149a598"
     },
     "pool1ufcy8wrlyhjh3fpup5vdvln4c0s85rg8fz0zn0w82squuwhtdhk": {
-      "stake": "90887610070/31401176058682003",
+      "stake": "90928622611/31407579102855836",
       "vrf": "04398c932ac201ef95ad4899616d40c9a86e30b4906f004b37d2b0b004567ab5"
     },
     "pool1uhkxzvt9rj5s9emzr3uklwg2wdt7uky3aatgv9amhn2yz59laey": {
-      "stake": "2310148994/4485882294097429",
+      "stake": "8085521479/15703789551427918",
       "vrf": "e880658c9e421f3f13036572576120306f2ec8518dbbc2d1d5b464f002ea89f8"
     },
     "pool1ujafaae6h7quhldzwcs0psxa0mxczx7zay4vnggmu0sacycdgum": {
-      "stake": "46511313134/31401176058682003",
+      "stake": "23255656567/15703789551427918",
       "vrf": "b384ef9b2752f155c2129c64aeb58833e35c8c85af5dc4ba28b1c78b1c626ff5"
     },
     "pool1upeknjpwqkemwm2ephx2v94wkk5wlh7ce58xg0w4fxetq25mn2d": {
@@ -1316,63 +1312,63 @@
       "vrf": "728f5634e6b6d33763506bfd444a3d13cf2896202b42ca54eae38c1786fd8b98"
     },
     "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq": {
-      "stake": "3548341548914/4485882294097429",
+      "stake": "6214171845358/7851894775713959",
       "vrf": "ef0decfc0e12c513d6725a5a5addc7fffedb6dcb215b58df32340a73eea8a124"
     },
     "pool1uqkr3aes23dd6t6n6q480tgasy8r2tz9250lhejlnr98cvu8jw9": {
-      "stake": "188268425972/31401176058682003",
+      "stake": "47067106493/7851894775713959",
       "vrf": "25819521065c56146327136e2f40c705dba8d95454ebdd4c0580986bd62c50ce"
     },
     "pool1uw8ql64wa7ydn294he0xxy5afyf8hsjsxr38nqrc79w7559pr9t": {
-      "stake": "19997826295/31401176058682003",
+      "stake": "19997826295/31407579102855836",
       "vrf": "3e23cf1ce7d4087b6ff0c3d2395002c248c1da678177a6237fdaf17b586d69b4"
     },
     "pool1uwg22a2nvattzh8sqydumja5xgh68r9mtdgy80hknm8xk8asj5h": {
-      "stake": "1795480345/31401176058682003",
+      "stake": "1795480345/31407579102855836",
       "vrf": "cba561160445c6a029d66bab39bb08abe97212daa10661dcaf44fec8fbbd8a02"
     },
     "pool1uzsnj4eu37efwm0trm6nggwvq23nl7894wsnpq6pqp2eu0xdm9x": {
-      "stake": "1030761250829/31401176058682003",
+      "stake": "1030761250829/31407579102855836",
       "vrf": "6dc7ea47625a51b9757c10645374f587931ce1952a55759c595877e3ef2ce7d2"
     },
     "pool1v0mz3r0pkp5evjm62c7vrd6q2327nrw5uhhs8fefqst0yy57mgn": {
-      "stake": "5004831243/31401176058682003",
+      "stake": "5004831243/31407579102855836",
       "vrf": "debb42ed86716907ad081ad8a60b3e7327075bbcce86c2498d7bf97373d5c60a"
     },
     "pool1v3lsp74wauazym2rwkktye9kdw2vyj8h9yvkgzj556t0g390ecw": {
-      "stake": "1211298156344/31401176058682003",
+      "stake": "1212214067279/31407579102855836",
       "vrf": "fb2a2609018c94cc45d3a401a8635b0907d42e5c32e27a6b41b5415e78f8bf02"
     },
     "pool1v5f89tua4ucmj9s0g4hdjkjtmpsuunxjz6sg5tj97ak0yja4hfl": {
-      "stake": "370037090/4485882294097429",
+      "stake": "1295129815/15703789551427918",
       "vrf": "231f3006299778878f4762acc451dafe00b4c6389f48e7b30e17e8f175c822ac"
     },
     "pool1vf8ukuvdn7kv0hxgm23utjkkw5ugdhwfdrxy56l2t6wvxezspyu": {
-      "stake": "1631031078/4485882294097429",
+      "stake": "5708608773/15703789551427918",
       "vrf": "054a8687aae0e7c7cb35b2d6942db21b476369bebb4d55bda44ea6a80fcda1d4"
     },
     "pool1vfqxyyxmfmfzg3egvc42dxkmmeea3he3r8h6q2dnwkaawwd0sv0": {
-      "stake": "497624998/31401176058682003",
+      "stake": "248812499/15703789551427918",
       "vrf": "daa5db33eb56fa727ebbad92a58ed98e61e54e4e0b14b49ba82e76ae53fa75c5"
     },
     "pool1vgf6hsa6f2ct6jm5p42kdu3kkafsszud02xl8nmxu3atk7l3ec9": {
-      "stake": "1149620425659/31401176058682003",
+      "stake": "1149756502133/31407579102855836",
       "vrf": "3893769f1acb7e6003f184e3d1193de4a3d306ed913cc380a2848d0b37ad9916"
     },
     "pool1vhlau0270khmruluxrc7dz6zfj066n9emhl3dtzw2cxtg7eht8g": {
-      "stake": "9998813687/31401176058682003",
+      "stake": "9998813687/31407579102855836",
       "vrf": "9586f48442694ef028bcf67605b4ef650ab9f0f1cd81e181d2db8d9d5a387e84"
     },
     "pool1vknn7dv35hvnwzgee82lgcg88v743czky3kl8ze04pzgwu047f4": {
-      "stake": "43662848381/31401176058682003",
+      "stake": "43662848381/31407579102855836",
       "vrf": "f0dacec8bffcc89d5af2b7c08e9a84500232a46f8bfe385058d31a21288b7f5c"
     },
     "pool1vmhgsujfcqyn8n654yxtavlsjggew2a3knrr6smxcleggdwl3pp": {
-      "stake": "4497634194/31401176058682003",
+      "stake": "2248817097/15703789551427918",
       "vrf": "6af61f444d69fdb6d3c3cddf867cb098b99f4e486ddbc2fe5ec1cd693806b812"
     },
     "pool1vntql3yhyzzm3p846mds33nmuzz30jrn56fvjdd3hhu9u5n9d4d": {
-      "stake": "1458307079546/31401176058682003",
+      "stake": "729707290107/15703789551427918",
       "vrf": "58dfa1a9929ad7169f1f5edbfd2697436e9e479288ab68d273ec9429b34e0360"
     },
     "pool1vtfhwwy868ryf49j3ft58ug3t9lq44t9fdcavyl5pawsx6hlvam": {
@@ -1384,11 +1380,11 @@
       "vrf": "5328d9663a3e3ad74722ff0f6dd922041a03d79429acc58a55e6cd5d5e007302"
     },
     "pool1vvkurfxhajtj4f7x8wjkeet7rg8amz34duy5nux76per5sn3npx": {
-      "stake": "2658339975657/31401176058682003",
+      "stake": "2660472594233/31407579102855836",
       "vrf": "cf61fc2de833d55d6f16db3fa0ae28936b775976378de49844f35726a66ab7e7"
     },
     "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv": {
-      "stake": "74474196211/31401176058682003",
+      "stake": "74556219873/31407579102855836",
       "vrf": "32252ba40e5c5773a5f03f979f5cdda7d84a756bba8517ccf3cad46005ef38f8"
     },
     "pool1vztvy9n9daayf8nuk5l9wmg4nlcs4j0f5awdjdnjkfvm7t89znm": {
@@ -1396,23 +1392,23 @@
       "vrf": "41ac8ec7430b3e3084772bc970d839b0d61803e510ea007c3b176fbadd6bea3d"
     },
     "pool1w5qdxdjh4922f5paxgdej3cefz794hwjlnx3rlpxg6lj7sdgd86": {
-      "stake": "1896101215/31401176058682003",
+      "stake": "1896101215/31407579102855836",
       "vrf": "98b50790edb080b3f74e1617821d332b268612a0ca93ee149c117d487731d681"
     },
     "pool1wcfnw3cf820z2fqn4rmlaf29yj5enymen4ll085eza4ey4shct9": {
-      "stake": "11731022861/31401176058682003",
+      "stake": "11731022861/31407579102855836",
       "vrf": "1452100d8dc4fae7d4d2228f54f54d477b7cf5bf610221b96894a6ed83fc43f2"
     },
     "pool1wcz3mfg76ttd8tl7m54z9ptrs4wpfatx7vwd9ykrsjltwkzvcz9": {
-      "stake": "108041869/1652693476772737",
+      "stake": "2052795511/31407579102855836",
       "vrf": "86c3eb063f75d3d09052cb8b5e2c9172ef7f8303d2d227b99208bee3ec660944"
     },
     "pool1wd2sv3nhfxd2z5sf5jjtleywqy0d56pe0w337xzpv266jn6mvp9": {
-      "stake": "32090095787/31401176058682003",
+      "stake": "32090095787/31407579102855836",
       "vrf": "2547eac27ebaa149a4b114f1a8c07844d259d914dbb646c2b24da919ba2b663c"
     },
     "pool1wf542yl9c85gks2f4y479v2nlqtfr8t06v0td877h5e0qgry4st": {
-      "stake": "19503402519/31401176058682003",
+      "stake": "19503402519/31407579102855836",
       "vrf": "f38f44bab67fee3f16fdf1a0e73b2b93ecdcc593dbe8207f55dc8006c60ace65"
     },
     "pool1wf9j0stckxueuxtrkupzug7463el4mdwz3fwxwlsdr98q9292s8": {
@@ -1420,23 +1416,23 @@
       "vrf": "9586f48442694ef028bcf67605b4ef650ab9f0f1cd81e181d2db8d9d5a387e84"
     },
     "pool1wn6a6f23ctq06udwhw27ravdpd6zcr7jlut3yez0wzdackz3222": {
-      "stake": "1660123522866/31401176058682003",
+      "stake": "1661408796771/31407579102855836",
       "vrf": "7cc0d9a8931e434c5632d5a696a2c50483d7ed86f4f2e97e558f14e863a2ccbf"
     },
     "pool1wns664xl66hwsx7wf59lunq5x0t3mr46ew3j5sgm8t5xka32y4m": {
-      "stake": "2881920896/31401176058682003",
+      "stake": "720480224/7851894775713959",
       "vrf": "52d2aaff6f68d53890f9cfdecda9c688ea7f8c96db954e17c7fe6d05db3e1538"
     },
     "pool1ws42l6rawqjv58crs5l32v0eem3qnngpnjfd7epwd4lmjccc5cg": {
-      "stake": "280467502624/31401176058682003",
+      "stake": "70116875656/7851894775713959",
       "vrf": "2db0a696204a8bbef61523723d9c9a99a79cc1549c5e2a0dde3bafe16a272cf7"
     },
     "pool1wu6r4k0mlz0xu8ydqxpcrcge7sux5r52hual5y8zqa3s2afpyrt": {
-      "stake": "1119306103679/31401176058682003",
+      "stake": "1119305333705/31407579102855836",
       "vrf": "079aa217ce2a1924ac13547a73f8eb19f00d8cbb6d8b0ad9cb3736fd1595d41d"
     },
     "pool1wyk7r2z9etzevz8yucu4jpamkt95f0rjtew82y3dx3zx5maj92v": {
-      "stake": "18494515876/31401176058682003",
+      "stake": "4623628969/7851894775713959",
       "vrf": "f354a743c557ae5d4cbfd6d553968944b1bed87c8c68c75f2ab27d39c3941eee"
     },
     "pool1x0rfh56fzs7c9vd2jsss6zx3eh882l0jan85utly6vke5reejt6": {
@@ -1444,59 +1440,59 @@
       "vrf": "58b015e17157c3aeae3544fa0f41443ce507ee6772b69108fd8bd89a33ade7eb"
     },
     "pool1x2f7xdre72calxp5j05k5g9hvskztl790v9enggn42js5mdxesn": {
-      "stake": "1645747368/31401176058682003",
+      "stake": "411436842/7851894775713959",
       "vrf": "1d427e768890f8ef477f83c6e40f78f6aef2d94bb24616e454e51d5df403e61d"
     },
     "pool1x4p3cwemsm356vpxnjwuud7w76jz64hyss729zp7xa6wuey6yr9": {
-      "stake": "1218259492801/31401176058682003",
+      "stake": "609608294809/15703789551427918",
       "vrf": "bfc661ac04379ab66f11be7762e4aabfd6470755c2d41a1cc488dddca11f0354"
     },
     "pool1x6hwmrf5mz8hd02n5x3ycgsgwsdpfexurdegxfq7s4wsc79df2h": {
-      "stake": "126323713450/31401176058682003",
+      "stake": "63161856725/15703789551427918",
       "vrf": "46900e31b23914bca2001a09db61b515e698eb3d10d136cc85234c38123ed373"
     },
     "pool1xa4fq45v0trzvcs507gel3dfrxs6m8kc20s9d5jy7a9kxxqt6wa": {
-      "stake": "9497631950/31401176058682003",
+      "stake": "4748815975/15703789551427918",
       "vrf": "75a3bc13e8f78b5833ab1c0a725d454a7638e3c1741357ca03dc4b628897f83b"
     },
     "pool1xafhfcvhyk2cyr7lprt4luxjcxgh8z87z6fke7d6grvvzljga3l": {
-      "stake": "12287095935/31401176058682003",
+      "stake": "12287095935/31407579102855836",
       "vrf": "27ac1f0c87c2425088fe5e2bda0956a53b2fdf7c1d6a0b26d2b30183169fcbad"
     },
     "pool1xaj5w5m3ra8xypv58h4djvjkm08j94nu9w49nadlyyduqx6h5dp": {
-      "stake": "17948753391/31401176058682003",
+      "stake": "17948753391/31407579102855836",
       "vrf": "2c326133cee9c5a092e8a3323f3bebc028a6141f3c67a32e7eceadd4e9f515f8"
     },
     "pool1xapempldsxvte845vwxk2flmqm4x7jrhqftj5q3p5qhvynd6smz": {
-      "stake": "19505275780/31401176058682003",
+      "stake": "4876318945/7851894775713959",
       "vrf": "ef2e4b08c7aea7eab832c443d9e6460438192fc55add9b3a507e03f45e155b3a"
     },
     "pool1xey36nh5ccajgzw4534kqq97s7r9xa3lncujc407depzwdvudwr": {
-      "stake": "17532909636/31401176058682003",
+      "stake": "4383227409/7851894775713959",
       "vrf": "6f50c857bbf5a17ed96c41a6ac5b58f80ae698e891c83c781f02976e2b6d6797"
     },
     "pool1xgxhm4zgkevltshwk7yezvt9un08anc9rhlutm5yp7jr2etj3x0": {
-      "stake": "37774370290/31401176058682003",
+      "stake": "18887185145/15703789551427918",
       "vrf": "550dd49a5f51fb251daacf33dd1b78896a9d98971edce708cd54c7cf1a407347"
     },
     "pool1xk2ml63jn0rjd5958zul47hc790neyngkcz0tqwxrdtn5nn349z": {
-      "stake": "11910728142/31401176058682003",
+      "stake": "5955364071/15703789551427918",
       "vrf": "4fd03512a46b4b254951c59fea08eeaf27d261885e4e4e2e91b6c37ae4294152"
     },
     "pool1xm90p8nl7kaqvsskrvtyq60z70rx4afdfj4xex89u9gns62t0er": {
-      "stake": "28517586871/31401176058682003",
+      "stake": "28517586871/31407579102855836",
       "vrf": "19c130c67e60fc9c6854aea2b9c7fe638ee2cb62bb05d76526e0479b47a22cbb"
     },
     "pool1xqgxjecd9jrf0g9vert2xzdte9rfwptnat03whfz69t4gx4qz4s": {
-      "stake": "18394762601/31401176058682003",
+      "stake": "18394762601/31407579102855836",
       "vrf": "8a1ada14719d90b62647d982f4bdb2e41ebe2759a05557eacf2198f57a28f4ce"
     },
     "pool1xqhqfj4jnehs5zkmr2py40wkuztvwatx9p7gsdvpesj6x6tsyt2": {
-      "stake": "2329693178966/31401176058682003",
+      "stake": "1164846589483/15703789551427918",
       "vrf": "3e38bbc53551fbad86dea15afc28758a2b08de13af54e87f1f3959d7c5ec4895"
     },
     "pool1xrflm7hknav65t3chtcy2ca4s5v64erm2320g23jeuejvw60t7l": {
-      "stake": "16139709041/4485882294097429",
+      "stake": "28264309689/7851894775713959",
       "vrf": "8d323ea855159b9d6616ea8e4018334062c9ed339fe1c99f02f670765e515c6e"
     },
     "pool1xswvfnk5c0a3r7lh722vam7feye8de9wyys6c0e3hmxd54q9aae": {
@@ -1504,15 +1500,15 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1xtwpsyacmw70z2nklchsz846z0gc6mj3j2mguet7g4kug4rhyav": {
-      "stake": "9092534755/31401176058682003",
+      "stake": "9092534755/31407579102855836",
       "vrf": "19999f909ee5ca0a98b040e07071f3176745a6c17b49f926ca5db36c40afda6d"
     },
     "pool1xu8ljtay48mcdmnu4qnd6l9s9qxeu73w0h6l0gpt0097jgs93y4": {
-      "stake": "3563106258/31401176058682003",
+      "stake": "1781553129/15703789551427918",
       "vrf": "30b777be977544e8e1d6491f3ab309263758b9c90f3092dfa3c0865126c5c295"
     },
     "pool1xvjemcqjhzy2gujrc7sdus6cuahx9swp3553s6d7glq5zhlx00f": {
-      "stake": "9597368910/31401176058682003",
+      "stake": "4798684455/15703789551427918",
       "vrf": "9ef5f3790dae581b6f17d6f6cc35eb50bbb8fa30be1871f6f47b5e40ae1fdb1a"
     },
     "pool1xxaguse3yem8vg3m3phkyx0nqkfgefxchkxn4h4vqey86ffesa5": {
@@ -1520,35 +1516,35 @@
       "vrf": "f1fbd03e73b82109cdb5bc5e01de31e6335ffbe84a61c73d2d778eb752922f9a"
     },
     "pool1xxnkgjejhd2eqp4gusjd8s2tnq6frwh4z453j5s2vl7axv90n9a": {
-      "stake": "9373426163/31401176058682003",
+      "stake": "9373426163/31407579102855836",
       "vrf": "e6d0ffa9b25c5ae25068eb985535f5d91fb02871c26ad5da79b09c2bd3cc8548"
     },
     "pool1xz6xjncxtgfv00qfklfma5ek9c3c4vk5yxgnd8vkc33kvrkey20": {
-      "stake": "1614658598264/31401176058682003",
+      "stake": "403664661548/7851894775713959",
       "vrf": "cc3e6e80f372da48bdaa0030e7bbd8520ffb80e9d2ab26d42543a2d683862299"
     },
     "pool1y4jn4em2qht7vq8ve8s4retn4gtw8u0ha82w48sg6ggdvl9mlcq": {
-      "stake": "9496612676/31401176058682003",
+      "stake": "2374153169/7851894775713959",
       "vrf": "8d82425b5259596450306d439c003aa650aeae193a4ac0a2890e1e0a7f74047f"
     },
     "pool1y74f44yeedrls4nj0yf6h5pdl5ythd5ahm73knqf33hfvq9rhaf": {
-      "stake": "12307106860/31401176058682003",
+      "stake": "3076776715/7851894775713959",
       "vrf": "5f97dc97196c55b7eca60909b68de9db9bedee4f04a000b27c2df4b95911c5af"
     },
     "pool1y78qthpjc0zvqwu7nfgy7m756226fz83dkkyxargq0juskqy63q": {
-      "stake": "11496974042/31401176058682003",
+      "stake": "5748487021/15703789551427918",
       "vrf": "81aa05a152f3140bb41b1f6270e54e89421a98236480c2b11a28bfacba438619"
     },
     "pool1y9awaq0evchgpnfjgys53yljunxajzzn590459aeyw74q9xkxzg": {
-      "stake": "36393692675/31401176058682003",
+      "stake": "36393692675/31407579102855836",
       "vrf": "63a9e42d61b8abe87b0a0018dbcd1cf41529047423f0e784d86d05566740727b"
     },
     "pool1yaap4p67ltp79m5na7s8qarszyz5d6n7ltqxlmf2apzsxmxlwzq": {
-      "stake": "847633270/31401176058682003",
+      "stake": "423816635/15703789551427918",
       "vrf": "23edf0b044516597a207b37104ec1e50f63c71e9ca5e3b18fbeb2eb93c2c93aa"
     },
     "pool1yfs7qc0frzlkvy5rw6npwyc94ve7pk094ugzxn0678mzsnmqs7f": {
-      "stake": "6655974523/4485882294097429",
+      "stake": "46591821661/31407579102855836",
       "vrf": "fec4d68e5fc956f041e0adf854369d5ae17f6c11f3b127bf21597a0c94ee4361"
     },
     "pool1yh54ttht6ww74u77xehwm2mfhg27qmm3v56e5ahc2nsrszv0xtn": {
@@ -1560,55 +1556,55 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1ypmhxlnrmhxpfavklkkt4td4dartxhphdc7shvc5knknur05ta0": {
-      "stake": "5713756750/4485882294097429",
+      "stake": "19998148625/15703789551427918",
       "vrf": "915d14be467c71a94713371392df4678216356bcae6a9cd8ec1fa5cbf5d4b03e"
     },
     "pool1yqkkm7ffhznzd0pem60fdm6mljqj9fczvklus4rfecca5zralvm": {
-      "stake": "103866266431/31401176058682003",
+      "stake": "113893607621/31407579102855836",
       "vrf": "33c789bd8a61318481c9869ec4d45d2bfb649d0bc8d175f66a6587cf3edc27dc"
     },
     "pool1yrtux38kfj030vprg4k2f46q8rqkf6ss6yk2yvyeks8k5uk9tss": {
-      "stake": "10015471465/31401176058682003",
+      "stake": "10015471465/31407579102855836",
       "vrf": "086fea47cc050c6550cf51006b48a883997ab84500af866c8240219613608b85"
     },
     "pool1ys9lst64mzprj7u029klxvjnsx0qs7hz9n7gn4ju2q6zz7tye3p": {
-      "stake": "49174348917/31401176058682003",
+      "stake": "49174348917/31407579102855836",
       "vrf": "20a7d6e1a40dbd1eaa9e301e0a3a2e656cfb57f6919ef915344a1597bd673ee0"
     },
     "pool1ytvs2jlrtftapsgdhtlm8ch0xa2d3e3lsnf59jz68mtk5pml699": {
-      "stake": "2009672355281/31401176058682003",
+      "stake": "2011238076729/31407579102855836",
       "vrf": "e759e2ce03a55ffd8237c040ae304c219cc4eeeb741db33c7dabc2c48a027665"
     },
     "pool1yy4cemccmnk6m6adcnxedzy4dvrlw95djln4pctg0jpq5x7gczh": {
-      "stake": "1219629448462/31401176058682003",
+      "stake": "305177350657/7851894775713959",
       "vrf": "9efed2a94449a34fa73ef8b81a36da1e7eda38c8f925664b242f502f547c26cf"
     },
     "pool1yzwxetclm2l48xzvmnwwf6x48a5qze0nx4t6glz5k8wk50xl006": {
-      "stake": "1314688821569/31401176058682003",
+      "stake": "657556302547/15703789551427918",
       "vrf": "49098bd366f34906068f55b09e019e25cc60af0663b1411ab58c366f7eca037e"
     },
     "pool1z05xqzuxnpl8kg8u2wwg8ftng0fwtdluv3h20ruryfqc5gc3efl": {
-      "stake": "7586573063218/31401176058682003",
+      "stake": "1898148601785/7851894775713959",
       "vrf": "725a83b4d070792fb1675f3dd9b784268bd785123b10efb5f91c3e03813cd1e1"
     },
     "pool1z063uemr7k9zzg95ymz0gfqnfv5k58et8xrnk6ynfyqdgjjw0e7": {
-      "stake": "3997046515645/31401176058682003",
+      "stake": "3997844339431/31407579102855836",
       "vrf": "6e2bb310995535b6fb89118b9fcec3e4aaf5d74517579b1a45c2d3d6df73753c"
     },
     "pool1z7kuc2r7jgfmvuw0fazqzs8phcgfl64kmdmcsq7z440v578ekw8": {
-      "stake": "3385639114/31401176058682003",
+      "stake": "2587275661/31407579102855836",
       "vrf": "53835cc60f193de8435af44c71d07b79904f159a5ddd68434c317d4bd868b262"
     },
     "pool1zg484cf3hdphs7cmmtp6j88k5jxx5zz5wwssh5fxgpkn2lf8wa0": {
-      "stake": "59848373972/31401176058682003",
+      "stake": "14962093493/7851894775713959",
       "vrf": "1a4c7d44da8f5c0fd2c39f7d221234a891022fe2368ea5a9c7837efcfee50b1c"
     },
     "pool1zgxyrg92crhawjeux2pavqde3c2a0fgs0kgmeckknj0m7wmpcvl": {
-      "stake": "7944153185/31401176058682003",
+      "stake": "7944153185/31407579102855836",
       "vrf": "93e62af0ba8b8bf7831a9326bbb1e9cc633de02d855bd6406d77e8984882a95c"
     },
     "pool1zjxgjy4x9v9yrs9g3d2v7srg0yl8cl08nw338rhl0axgcqh2ftf": {
-      "stake": "9895294086/31401176058682003",
+      "stake": "0/1",
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1zl79v96hz9fn9rhjepxa3mpnk4gsw85fjkze35vpvarmv03ngw6": {
@@ -1620,23 +1616,23 @@
       "vrf": "74511e297e8d8670729af5a4eb08ff8b49f0247f1100f28ce5599b44f07b57b4"
     },
     "pool1zr907nmfsq5kalxdjju349nwg6f03lyfmcjfqcz52jf45gcgh03": {
-      "stake": "15068711225/31401176058682003",
+      "stake": "15068711225/31407579102855836",
       "vrf": "ed6b09ed118264f29bad9af7b785a48d562998924e2d0a98e9356fcf0a5a01f1"
     },
     "pool1zuhgh090ejafvztegmxx9h26cdk3eutuur07379vysuhxtr8qdy": {
-      "stake": "234100000/765882342894683",
+      "stake": "2399525000/7851894775713959",
       "vrf": "358489d708fcb72dd9e6625cec8846a29937f2c6c08b7b6a5e4026b5b35ec06d"
     },
     "pool1zv0ldgrpp2pwzr39vjwcyfz57e8mlff3229wyykt5pmsjt95jhc": {
-      "stake": "11093944923/31401176058682003",
+      "stake": "11093944923/31407579102855836",
       "vrf": "392d334b0670323093e6cf60edf36961e4005de35b2c86f01e41ce2f7428837a"
     },
     "pool1zwmkuyzj8wykfdq98g28stkpq28k0f3l2xse384re5yfwap80ca": {
-      "stake": "343622643866/31401176058682003",
+      "stake": "171811321933/15703789551427918",
       "vrf": "0e2a3dc4f89bba916aa39d61ac90789f53913a7aa6abd2dcabbc9063983038a2"
     },
     "pool1zz659sxchcppe72xmxw3elfk5j0j7jxmgq3jktn3u0yuqyz7z5u": {
-      "stake": "1000000000000/31401176058682003",
+      "stake": "250000000000/7851894775713959",
       "vrf": "8fde8d4734916b0776f395b08b6008a9dfeac6640b09bffd257f0e5d99b9032f"
     }
   }

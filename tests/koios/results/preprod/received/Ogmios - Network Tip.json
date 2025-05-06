@@ -3,7 +3,7 @@
   "jsonrpc": "2.0",
   "method": "queryNetwork/tip",
   "result": {
-    "id": "5c4bcaf398e8b91374da43f0ef3c1c1f96e808a5074a256fdc08a82c41ff3960",
-    "slot": 90796535
+    "id": "32fe5ea525760d4886d6448b21ec3fd0b4ce5b625a4ca9cf509e9c934d320101",
+    "slot": 90854553
   }
 }

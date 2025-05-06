@@ -1398,36 +1398,6 @@
       "rewardAccount": "stake_test1urajnth7rdqus4m3kqhs6zthedxn5nj3vcz44777rx05dac0dyyny",
       "vrfVerificationKeyHash": "bd796083f26dd5a247749ba4c4775976aee473ada07bc28bb5603ac5fb05ad23"
     },
-    "pool1430za4jjdvp28e9sh7vf5wt4srt7xfkzqz38wq73575l5pkz3rs": {
-      "cost": {
-        "ada": {
-          "lovelace": 10000000000
-        }
-      },
-      "id": "pool1430za4jjdvp28e9sh7vf5wt4srt7xfkzqz38wq73575l5pkz3rs",
-      "margin": "1/10",
-      "metadata": {
-        "hash": "402122b25033cc4cb1f5b890cd318193db43196b720e1ca05fbe8afc94bb1db7",
-        "url": "https://my-ip.at/test/extendedpool.metadata.json"
-      },
-      "owners": [
-        "c13582aec9a44fcc6d984be003c5058c660e1d2ff1370fd8b49ba73f"
-      ],
-      "pledge": {
-        "ada": {
-          "lovelace": 100000000000
-        }
-      },
-      "relays": [
-        {
-          "ipv4": "127.0.0.1",
-          "port": 3001,
-          "type": "ipAddress"
-        }
-      ],
-      "rewardAccount": "stake_test1urqntq4wexjylnrdnp97qq79qkxxvrsa9lcnwr7ckjd6w0cr04y4p",
-      "vrfVerificationKeyHash": "baa3f4b20438dcb4d0d42265204d78297366e2dde80cc891f04c3d47f7851aa2"
-    },
     "pool144pedg8hc3lr660w30te9jqv5zllaesegh8vt3ptft5s7qu45re": {
       "cost": {
         "ada": {

@@ -72,6 +72,12 @@
     "registered": true
   },
   {
+    "drep_id": "drep1yg2ey4c8gzalssjpmweju84pynq0wzz5drl62j00fy48mvsjdmtm2",
+    "has_script": false,
+    "hex": "1592570740bbf84241dbb32e1ea124c0f7085468ffa549ef492a7db2",
+    "registered": false
+  },
+  {
     "drep_id": "drep1yg2l5w3hfzy3ww7anmhap7y2dcdjhlfu2s3hr4zpsyks9sqv2s5sf",
     "has_script": false,
     "hex": "15fa3a374889173bdd9eefd0f88a6e1b2bfd3c542371d441812d02c0",

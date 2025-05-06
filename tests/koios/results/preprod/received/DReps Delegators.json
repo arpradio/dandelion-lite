@@ -7,35 +7,35 @@
     "stake_address_hex": "e08817cdff05b54415ddcbf979c52d1658e7579e76b547574e83779e92"
   },
   {
-    "amount": "14671678738",
+    "amount": "14682659906",
     "epoch_no": 181,
     "script_hash": null,
     "stake_address": "stake_test1uz6u2c4aahak62p67yantf342mqdftx9agqsd8uku7t456cgzz565",
     "stake_address_hex": "e0b5c562bdedfb6d283af13b35a63556c0d4acc5ea01069f96e7975a6b"
   },
   {
-    "amount": "10964811820",
+    "amount": "10972072479",
     "epoch_no": 169,
     "script_hash": null,
     "stake_address": "stake_test1ur7sufjy8lfactkprnwl5x7mjn0ugajqg920n6uv4g7l68cra6p74",
     "stake_address_hex": "e0fd0e26443fd3dc2ec11cddfa1bdb94dfc476404154f9eb8caa3dfd1f"
   },
   {
-    "amount": "168167766",
+    "amount": "168293414",
     "epoch_no": 165,
     "script_hash": null,
     "stake_address": "stake_test1upqt8jvd8d045a6gs2wkzt57rnx47s5ewz4un2l746r847g7hgw24",
     "stake_address_hex": "e040b3c98d3b5f5a7748829d612e9e1ccd5f429970abc9abfeae867af9"
   },
   {
-    "amount": "8239146870",
+    "amount": "8245302839",
     "epoch_no": 165,
     "script_hash": null,
     "stake_address": "stake_test1uzl65wzu364hh0wxex94qsf5xkeaq2mnmc7xgnsnsjuqr4qruvxwu",
     "stake_address_hex": "e0bfaa385c8eab7bbdc6c98b50413435b3d02b73de3c644e1384b801d4"
   },
   {
-    "amount": "5325800027656",
+    "amount": "5330176093010",
     "epoch_no": 165,
     "script_hash": null,
     "stake_address": "stake_test1uzrvw62pn24xw0yk8ksyuj6m4ezg6jgw9n4vjqktstjd5aspv59nv",
