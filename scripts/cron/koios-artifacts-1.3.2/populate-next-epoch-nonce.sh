@@ -35,7 +35,7 @@ current_epoch=$(psql ${DB_NAME} -h ${POSTGRES_HOST}  -qbt -c "SELECT epoch_no FR
 current_slot_in_epoch=$(psql ${DB_NAME} -h ${POSTGRES_HOST}  -qbt -c "SELECT epoch_slot FROM ${KOIOS_ARTIFACTS_SCHEMA}.tip()" | xargs)
 next_epoch=$((current_epoch + 1))
 
-echo -e "\n\EPOCH_LENGTH=${EPOCH_LENGTH}\nWINDOW_SIZE=${WINDOW_SIZE}\nSECURITY_PARAM=${SECURITY_PARAM}\nACTIVE_SLOT_COEFF=${ACTIVE_SLOT_COEFF}\ncurrent_epoch=${current_epoch}\current_slot_in_epoch=${current_slot_in_epoch}\next_epoch=${next_epoch}\nGENESIS_JSON=${GENESIS_JSON}\n EPOCH_LENGTH=${EPOCH_LENGTH}\n NWMAGIC=${NWMAGIC}\n PROM_URL=${PROM_URL}\n CCLI=${CCLI}\n\n"
+echo -e "\n\nEPOCH_LENGTH=${EPOCH_LENGTH}\nWINDOW_SIZE=${WINDOW_SIZE}\nSECURITY_PARAM=${SECURITY_PARAM}\nACTIVE_SLOT_COEFF=${ACTIVE_SLOT_COEFF}\ncurrent_epoch=${current_epoch}\current_slot_in_epoch=${current_slot_in_epoch}\next_epoch=${next_epoch}\nGENESIS_JSON=${GENESIS_JSON}\n EPOCH_LENGTH=${EPOCH_LENGTH}\n NWMAGIC=${NWMAGIC}\n PROM_URL=${PROM_URL}\n CCLI=${CCLI}\n\n"
 
 [[ ${current_slot_in_epoch} -ge ${min_slot} ]] &&
   next_epoch_nonce=$(echo "$(${CCLI} query protocol-state --testnet-magic "${NWMAGIC}" --socket-path "${SOCKET}" | jq -r .candidateNonce)$(${CCLI} query protocol-state --testnet-magic "${NWMAGIC}" --socket-path "${SOCKET}" | jq -r .lastEpochBlockNonce)" | xxd -r -p | b2sum -b -l 256 | awk '{print $1}') &&

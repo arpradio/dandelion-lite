@@ -3,7 +3,7 @@
 ✅ PASSED (cache)
 
 === Test #2: Get Genesis info ===
-❌ FAILED (cache)
+✅ PASSED (cache)
 
 === Test #3: Get historical tokenomic stats ===
 ✅ PASSED (cache)
@@ -21,7 +21,7 @@
 ✅ PASSED (cache)
 
 === Test #8: Epoch Information ===
-❌ FAILED (cache)
+✅ PASSED (cache)
 
 === Test #9: Epoch's Protocol Parameters ===
 ✅ PASSED (cache)
@@ -310,6 +310,6 @@
 
 === Summary ===
 Ran 103 test(s) on preprod network
-❌ 2/103 test(s) failed
+✅ All 103/103 test(s) passed 🎉
 
 All done.

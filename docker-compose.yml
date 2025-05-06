@@ -376,6 +376,7 @@ services:
       #RPC_SCHEMA: ${RPC_SCHEMA}
       KOIOS_LITE_SCHEMA: ${KOIOS_LITE_SCHEMA}
       KOIOS_ARTIFACTS_SCHEMA: ${KOIOS_ARTIFACTS_SCHEMA}
+      DANDELION_POSTGREST_SCHEMA: ${DANDELION_POSTGREST_SCHEMA}
       DBLESS_CARDANO_TOKEN_REGISTRY_DATA: /root/token-registry
       DUCKDNS_DOMAINS: ${DUCKDNS_DOMAINS:-}
       DUCKDNS_TOKEN: ${DUCKDNS_TOKEN:-}
@@ -389,9 +390,14 @@ services:
       - dbless-cardano-token-registry-data:/root/token-registry
       - ./configs/cardano/config/network/${NETWORK}:/config
       - node-ipc:/node-ipc
+      - ./logs/cron:/var/log/
     # Uncomment for persistent logs
     # - ./logs:/var/log
     restart: always
+    # WARNING: from now on, non db related jobs will have to wait until db is ready (feedback needed)
+    depends_on:
+      postgress:
+        condition: service_healthy  
 
 
 #################################

@@ -8,13 +8,14 @@ RUN apk add --no-cache jq curl postgresql-client gawk git bash coreutils
 
 # Set up the cron job environment
 # Create a directory for cron jobs
-RUN mkdir -p /etc/cron.d
+# RUN mkdir -p /etc/cron.d
 
 # Copy your cron job files
-COPY ./scripts/cron/* /etc/cron.d/
+# COPY ./scripts/cron/* /etc/cron.d/
 
 # Give execution rights on the cron job and create the log file
-RUN chmod 0644 /etc/cron.d/* && touch /var/log/cron.log
+# RUN chmod 0644 /etc/cron.d/* && touch /var/log/cron.log
+RUN touch /var/log/cron.log
 
 
 

@@ -3,13 +3,13 @@
     "active_stake": "331750824389713",
     "avg_blk_reward": "12698327",
     "blk_count": 16121,
-    "end_time": null,
+    "end_time": 1726185600,
     "epoch_no": 166,
     "fees": "16678303880",
     "first_block_time": 1725753626,
     "last_block_time": 1726185595,
     "out_sum": "497048061411510",
-    "start_time": null,
+    "start_time": 1725753600,
     "total_rewards": "204709736604",
     "tx_count": 29966
   }
