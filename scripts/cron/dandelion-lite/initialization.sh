@@ -3,7 +3,7 @@
 echo "$(date +%F_%H:%M:%S) Running Dandelion Lite Initialization Job..."
 
 # Setting CRON_DO_NOT_INITIALIZE to true on .env will disable this automatic initialization job
-[[ -n ${CRON_DO_NOT_INITIALIZE} ]] && echo "CRON_DO_NOT_INITIALIZE variable is set, aborting..." && exit 0
+[[ "${CRON_DO_NOT_INITIALIZE}" == "true" ]] && echo "CRON_DO_NOT_INITIALIZE is true, aborting..." && exit 0
 # [[ -z ${POSTGRES_DB} ]] && echo "POSTGRES_DB variable is not set, aborting..." && exit 1
 # [[ -z ${POSTGRES_HOST} ]] && echo "POSTGRES_HOST variable is not set, aborting..." && exit 1
 
