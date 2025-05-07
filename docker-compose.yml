@@ -1,3 +1,4 @@
+
 name: "${PROJ_NAME}"
 services:
 
@@ -653,39 +654,146 @@ configs:
       "extensions":[${NODE_EXTENSIONS}]
       }
   index_html:
-    content: |
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
-          <!-- Meta Tags for Social Media -->
-          <meta name="description" content="${NODE_DESCRIPTION}">
-          <meta property="og:title" content="GC Node">
-          <meta property="og:description" content="${NODE_DESCRIPTION}">
-          <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
-          <!-- <meta property="og:url" content="https://your-website.com"> -->
-          <meta name="twitter:card" content="summary">
-          <meta name="twitter:title" content="GC Node">
-          <meta name="twitter:description" content="${NODE_DESCRIPTION}">   
-          <!-- End of Meta Tags for Social Media -->
-      </head>
-      <body>
-          <div class="container">
-              <h1><i>'${NODE_NAME}'</i> [${NODE_TICKER}]</h1>
-              <p>Welcome to the <b>Decentralized Dandelion Network!</b></p>              
-              <p><b>Description:</b> ${NODE_DESCRIPTION}</p>
-              <p></p>
-              <p>APIs available on this ${DLT} ${NETWORK} <b>Dandelion Lite Node</b>:</p>
-              <ul class="api-list">
-                  ${INDEX_LINKS}
-              </ul>
-          </div>
-          <div class="footer">
-              Made with ❤️ by GameChanger Finance + M2Tec
-          </div>
-      </body>
-      </html>
+    content: |    
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Arp Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
+        <meta name="description" content="${NODE_DESCRIPTION}">
+        <meta property="og:title" content="GC Node">
+        <meta property="og:description" content="${NODE_DESCRIPTION}">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="GC Node">
+        <meta name="twitter:description" content="${NODE_DESCRIPTION}">
 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Open+Sans&display=swap');
 
+            body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(160deg, #1b1e23, #0d0f13);
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            }
+
+            header {
+            background: #14171c;
+            padding: 1rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid #3a3f47;
+            }
+
+            header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.8rem;
+            margin: 0;
+            color: #f05454;
+            }
+
+            header p {
+            color: #ccc;
+            font-size: 0.95rem;
+            margin-top: 0.3rem;
+            }
+
+            .container {
+            flex: 1;
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            }
+
+            h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            color: #f9a825;
+            }
+
+            ul.api-list {
+            list-style: none;
+            padding: 0;
+            }
+
+            ul.api-list li {
+            background: #22252b;
+            margin: 0.5rem 0;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: background 0.3s;
+            }
+
+            ul.api-list li:hover {
+            background: #30353e;
+            }
+
+            a {
+            color: #f9a825;
+            text-decoration: none;
+            }
+
+            a:hover {
+            text-decoration: underline;
+            }
+
+            .footer {
+            background: #111317;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.85rem;
+            color: #888;
+            border-top: 1px solid #333;
+            }
+
+            .arp-highlight {
+            background: #0f1115;
+            padding: 1rem;
+            border-left: 4px solid #f05454;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            }
+
+            .arp-highlight a {
+            font-weight: bold;
+            color: #f05454;
+            }
+
+            @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            }
+        </style>
+        </head>
+        <body>
+        <header>
+            <h1>${NODE_NAME} [${NODE_TICKER}]</h1>
+            <p>${DLT} • ${NETWORK}</p>
+        </header>
+
+        <div class="container">
+            <div class="arp-highlight">
+            <p>This node supports <a href="https://arpradio.media" target="_blank">Arp Radio</a>, a next-gen decentralized music platform powered by GameChanger tech. Explore music, tokens, and more!</p>
+            </div>
+
+            <p>Welcome to the <strong>Decentralized Dandelion Network!</strong></p>
+
+            <h2>Description</h2>
+            <p>${NODE_DESCRIPTION}</p>
+
+            <h2>Available APIs</h2>
+            <ul class="api-list">
+            ${INDEX_LINKS}
+            </ul>
+        </div>
+
+        <div class="footer">
+            Made with ❤️ by <a href="https://gamechanger.finance" target="_blank">GameChanger Finance</a> + M2Tec • Powered by the community • ✨ The Psyence Lab - Music meets Web3
+        </div>
+        </body>
+        </html>
