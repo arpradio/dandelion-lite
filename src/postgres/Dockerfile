@@ -5,11 +5,10 @@ FROM postgres:16.1-bullseye
 #FROM postgres:16.8-bullseye
 
 # 1) install build tools & libs
-RUN apt-get update 
-RUN apt-get -y install git make build-essential curl sudo
+RUN apt-get update && apt-get -y install git make build-essential curl sudo
 
 # 2) build & install pg_curl
-RUN apt-get -y install postgresql-server-dev-16 libcurl-ocaml-dev clang curl sudo
+RUN apt-get update && apt-get -y install postgresql-server-dev-16 libcurl-ocaml-dev clang curl sudo
 RUN git clone https://github.com/RekGRpth/pg_curl.git
 COPY pg_curl/Makefile pg_curl/Makefile
 RUN cd pg_curl && make && make install
@@ -32,10 +31,10 @@ ENV RUSTUP_HOME=/usr/local/rustup \
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \
         | sh -s -- -y --default-toolchain stable
-
+        
 # 3) Clone, build & install pg_cardano:
 ARG PG_CARDANO_VERSION=v1.0.5-p2
-RUN apt-get -y install libclang-dev libreadline-dev zlib1g-dev flex bison libxml2-dev libxslt-dev libssl-dev libxml2-utils xsltproc ccache pkg-config
+RUN apt-get update && apt-get -y install libclang-dev libreadline-dev zlib1g-dev flex bison libxml2-dev libxslt-dev libssl-dev libxml2-utils xsltproc ccache pkg-config
 RUN git clone --branch ${PG_CARDANO_VERSION} --depth 1 \
         https://github.com/cardano-community/pg_cardano.git /tmp/pg_cardano
 # COPY pg_cardano/cargo.toml /tmp/pg_cardano/
