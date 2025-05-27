@@ -1,5 +1,0 @@
-{
-  "error": "Bad Request",
-  "message": "Body cannot be empty when content-type is set to 'application/json'",
-  "status_code": 400
-}

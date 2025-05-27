@@ -1,5 +1,11 @@
-{
-  "error": "Internal Server Error",
-  "message": "An unexpected response was received from the backend.",
-  "status_code": 500
-}
+[
+  {
+    "address": "addr_test1qqxkgfjm6w8atrqmy83gs6xhqlt2pe06ft9xf4la24yjs7my8wuc5sxq2nyyju862fh3wp39zhamz7f3694ad2v68mjqs4pytz"
+  },
+  {
+    "address": "addr_test1qqgpt0lqc803eq4h5jrr66ch6zmqv392y0klkwv2aquegjty8wuc5sxq2nyyju862fh3wp39zhamz7f3694ad2v68mjqlk7r9s"
+  },
+  {
+    "address": "addr_test1qp3rkyna0vu2xhuym6t4zpfypgry0454y7k2hsgp2qmdz2my8wuc5sxq2nyyju862fh3wp39zhamz7f3694ad2v68mjq5zhwjt"
+  }
+]

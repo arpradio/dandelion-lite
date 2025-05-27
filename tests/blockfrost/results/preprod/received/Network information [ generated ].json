@@ -1,5 +1,14 @@
 {
-  "error": "Internal Server Error",
-  "message": "An unexpected response was received from the backend.",
-  "status_code": 500
+  "stake": {
+    "active": "377885680591890",
+    "live": "333322529882531"
+  },
+  "supply": {
+    "circulating": "30033034780457547",
+    "locked": "145258545785872",
+    "max": "45000000000000000",
+    "reserves": "13566445161364690",
+    "total": "31433554838635310",
+    "treasury": "1399957359404024"
+  }
 }

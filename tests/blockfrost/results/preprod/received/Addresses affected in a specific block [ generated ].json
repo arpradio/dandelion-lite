@@ -1,5 +1,26 @@
-{
-  "error": "Internal Server Error",
-  "message": "An unexpected response was received from the backend.",
-  "status_code": 500
-}
+[
+  {
+    "address": "addr_test1qp7lqmmuwxqmm2fxcs5ecyu2jytjcq3mslu6qtyc4dn236dje8xtzxu628wfeewy6y53u07f8j0xe5zy2zrrk8t7uh6qc8w360",
+    "transactions": [
+      {
+        "tx_hash": "2057c1a69ff8a75b905f9ec5e7d3bd0f9520c506c430668aa5c22918242df54e"
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqc2hzg3nkj54n5vp028zw93t07jfphpqsgeuj5zagyxpjmku9tjmncy4d7784a0gzty2xlwuleaecl3twfzy3mlgk9qmmcnve",
+    "transactions": [
+      {
+        "tx_hash": "2057c1a69ff8a75b905f9ec5e7d3bd0f9520c506c430668aa5c22918242df54e"
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzv6ahs2etgh6u2h6qfmmm6zk86c54yev7dr85j7xfm33p5nnlqkrnzfp08nchnzj2w3z66272jscar8ruet3jcyl2kssfmumu",
+    "transactions": [
+      {
+        "tx_hash": "9024c8fad0acd2ed5f1adde8f47bb1eb159de907da9414000f42f2ac990459d0"
+      }
+    ]
+  }
+]

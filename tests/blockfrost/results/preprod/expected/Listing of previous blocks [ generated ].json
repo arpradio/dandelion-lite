@@ -1,7 +1,7 @@
 [
   {
     "block_vrf": "vrf_vk192h4m888h6wml859nzjqqy72ly26fmn9u8ze6hauhcn0hlyshjyqtatled",
-    "confirmations": 639,
+    "confirmations": 1825,
     "epoch": 218,
     "epoch_slot": 85565,
     "fees": null,
@@ -20,7 +20,7 @@
   },
   {
     "block_vrf": "vrf_vk1400ju08429se790upcvurdyqrhl8rhm7spm2jxg0lfnedqeaexfq7jsf2x",
-    "confirmations": 638,
+    "confirmations": 1824,
     "epoch": 218,
     "epoch_slot": 85618,
     "fees": "300204",
@@ -39,7 +39,7 @@
   },
   {
     "block_vrf": "vrf_vk1jrmx6srah3lsjdjd0xnx6fc9sq7343frfqwvwzfxw0x0jccc46mspadyje",
-    "confirmations": 637,
+    "confirmations": 1823,
     "epoch": 218,
     "epoch_slot": 85638,
     "fees": "206553",

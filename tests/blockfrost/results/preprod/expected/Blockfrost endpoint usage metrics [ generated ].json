@@ -38,5 +38,95 @@
     "calls": 1,
     "endpoint": "*.yaml",
     "time": 1747958400
+  },
+  {
+    "calls": 7,
+    "endpoint": "",
+    "time": 1748304000
+  },
+  {
+    "calls": 33,
+    "endpoint": "accounts",
+    "time": 1748304000
+  },
+  {
+    "calls": 21,
+    "endpoint": "addresses",
+    "time": 1748304000
+  },
+  {
+    "calls": 21,
+    "endpoint": "assets",
+    "time": 1748304000
+  },
+  {
+    "calls": 42,
+    "endpoint": "blocks",
+    "time": 1748304000
+  },
+  {
+    "calls": 35,
+    "endpoint": "epochs",
+    "time": 1748304000
+  },
+  {
+    "calls": 4,
+    "endpoint": "genesis",
+    "time": 1748304000
+  },
+  {
+    "calls": 48,
+    "endpoint": "governance",
+    "time": 1748304000
+  },
+  {
+    "calls": 13,
+    "endpoint": "health",
+    "time": 1748304000
+  },
+  {
+    "calls": 9,
+    "endpoint": "mempool",
+    "time": 1748304000
+  },
+  {
+    "calls": 9,
+    "endpoint": "metadata",
+    "time": 1748304000
+  },
+  {
+    "calls": 6,
+    "endpoint": "metrics",
+    "time": 1748304000
+  },
+  {
+    "calls": 6,
+    "endpoint": "network",
+    "time": 1748304000
+  },
+  {
+    "calls": 8,
+    "endpoint": "nutlink",
+    "time": 1748304000
+  },
+  {
+    "calls": 36,
+    "endpoint": "pools",
+    "time": 1748304000
+  },
+  {
+    "calls": 21,
+    "endpoint": "scripts",
+    "time": 1748304000
+  },
+  {
+    "calls": 3,
+    "endpoint": "tx",
+    "time": 1748304000
+  },
+  {
+    "calls": 39,
+    "endpoint": "txs",
+    "time": 1748304000
   }
 ]

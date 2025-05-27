@@ -5,8 +5,8 @@
     "declared_pledge": "5000000000",
     "fixed_cost": "170000000",
     "hex": "d11e47c59073890b828a0441fd797304f5269398715a906f318b282e",
-    "live_saturation": 0.00046917169254981643,
-    "live_stake": "29495468253",
+    "live_saturation": 0.00015107486822213233,
+    "live_stake": "9497640310",
     "margin_cost": 0.075,
     "metadata": {
       "description": "LOVEA Pre-Prod",
@@ -24,8 +24,8 @@
     "declared_pledge": "100000000",
     "fixed_cost": "340000000",
     "hex": "7b34611270826165461b49ffc071a7feba37176170a7dcadfff63dd5",
-    "live_saturation": 0.003348039213421941,
-    "live_stake": "210481548434",
+    "live_saturation": 0.002012089414502438,
+    "live_stake": "126494245902",
     "margin_cost": 0.03,
     "metadata": {
       "description": "Test321 again",

@@ -1,15 +1,15 @@
 {
   "active_size": 0.06593632752053728,
   "active_stake": "24916394000828",
-  "blocks_epoch": 335,
-  "blocks_minted": 199827,
+  "blocks_epoch": 443,
+  "blocks_minted": 199935,
   "declared_pledge": "65000000000",
   "fixed_cost": "340000000",
   "hex": "e040920801b69d60c18e2bc00184655c899ddea7abad5cef45ecdc1e",
   "live_delegators": 51,
   "live_pledge": "2609688316221",
   "live_saturation": 0.3811920775432159,
-  "live_size": 0.07181375003564733,
+  "live_size": 0.07180948842576312,
   "live_stake": "23964444147016",
   "margin_cost": 0.05,
   "owners": [
