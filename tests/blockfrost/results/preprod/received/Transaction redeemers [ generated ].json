@@ -1,0 +1,22 @@
+[
+  {
+    "datum_hash": "8392f0c940435c06888f9bdb8c74a95dc69f156367d6a089cf008ae05caae01e",
+    "fee": "20638",
+    "purpose": "mint",
+    "redeemer_data_hash": "8392f0c940435c06888f9bdb8c74a95dc69f156367d6a089cf008ae05caae01e",
+    "script_hash": "e97a3fabe96a1f58781b68b8f880da8fbc92e1401956b65e1d112216",
+    "tx_index": 0,
+    "unit_mem": "252585",
+    "unit_steps": "84100807"
+  },
+  {
+    "datum_hash": "bd260c759a053555594014a705069cd4ed6ee24be507c3b1394dde95629de989",
+    "fee": "57430",
+    "purpose": "spend",
+    "redeemer_data_hash": "bd260c759a053555594014a705069cd4ed6ee24be507c3b1394dde95629de989",
+    "script_hash": "94f0d2f4ccb260a255ba7ac380e72370f37991c1bda4ed45e627e4f5",
+    "tx_index": 1,
+    "unit_mem": "689293",
+    "unit_steps": "244902900"
+  }
+]

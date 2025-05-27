@@ -1,0 +1,12 @@
+[
+  {
+    "action": "burned",
+    "amount": "-1",
+    "tx_hash": "3d58aa783a400ad237760e55f8f04518aac585c5a520fdc263390c8bc50a77d8"
+  },
+  {
+    "action": "minted",
+    "amount": "1",
+    "tx_hash": "12bba31d846f54739a8e5bb722b7aeceed5ecdcb0948cb74c1dcce63352b0342"
+  }
+]

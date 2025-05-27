@@ -1,0 +1,5 @@
+{
+  "error": "Bad Request",
+  "message": "Invalid or malformed stake address format.",
+  "status_code": 400
+}

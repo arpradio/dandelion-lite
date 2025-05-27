@@ -14,29 +14,12 @@
       "StdoutSK",
       "stdout"
     ]
-  ],  
+  ],
   "insert_options": {
     "tx_out": {
       "value": "consumed",
-      "use_address_table": true
+      "force_tx_in":true
     },
-    "ledger": "enable",
-    "shelley": {
-      "enable": true
-    },
-    "multi_asset": {
-      "enable": true
-    },
-    "metadata": {
-      "enable": true
-    },
-    "plutus": {
-      "enable": true
-    },
-    "governance": "enable",
-    "json_type": "text",
-    "offchain_pool_data": "enable",
-    "pool_stat": "enable",
     "tx_cbor": "enable"
   },
   "minSeverity": "Info",

@@ -1,0 +1,26 @@
+{
+  "active_size": 0.06593632752053728,
+  "active_stake": "24916394000828",
+  "blocks_epoch": 335,
+  "blocks_minted": 199827,
+  "declared_pledge": "65000000000",
+  "fixed_cost": "340000000",
+  "hex": "e040920801b69d60c18e2bc00184655c899ddea7abad5cef45ecdc1e",
+  "live_delegators": 51,
+  "live_pledge": "2609688316221",
+  "live_saturation": 0.3811920775432159,
+  "live_size": 0.07181375003564733,
+  "live_stake": "23964444147016",
+  "margin_cost": 0.05,
+  "owners": [
+    "stake_test1uzyy407v2k5fcvvqcaq5ddd4wflgt77r7sg873ljnkg4r6qssl3wm"
+  ],
+  "pool_id": "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq",
+  "registration": [
+    "7124464dccf45ae16fa2dbe3bb232b13f415baba06799c159bdb0904133ba019",
+    "ccaf398be9f93e9199e907a6e57534f17aef0a727546e1fd4d17945b3f1a83d1"
+  ],
+  "retirement": [],
+  "reward_account": "stake_test1uzyy407v2k5fcvvqcaq5ddd4wflgt77r7sg873ljnkg4r6qssl3wm",
+  "vrf_key": "ef0decfc0e12c513d6725a5a5addc7fffedb6dcb215b58df32340a73eea8a124"
+}

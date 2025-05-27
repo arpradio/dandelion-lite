@@ -1,0 +1,12 @@
+{
+  "active_slots_coefficient": 0.05,
+  "epoch_length": 432000,
+  "max_kes_evolutions": 62,
+  "max_lovelace_supply": "45000000000000000",
+  "network_magic": 1,
+  "security_param": 2160,
+  "slot_length": 1,
+  "slots_per_kes_period": 129600,
+  "system_start": 1654041600,
+  "update_quorum": 5
+}

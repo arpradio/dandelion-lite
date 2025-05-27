@@ -1,0 +1,121 @@
+{
+  "asset_mint_or_burn_count": 3,
+  "block": "7b011034ba534e35774f888590c1ef1c1a21b544ee790576b7da0b02a5ae647c",
+  "block_height": 3518928,
+  "block_time": 1748315288,
+  "delegation_count": 0,
+  "deposit": "0",
+  "fees": "525210",
+  "hash": "b7c074a6fec635c1ba3272c1c0766e067a670efe3d73e432259e1a364a0818fe",
+  "index": 0,
+  "invalid_before": null,
+  "invalid_hereafter": null,
+  "mir_cert_count": 0,
+  "output_amount": [
+    {
+      "quantity": "55563583445",
+      "unit": "lovelace"
+    },
+    {
+      "quantity": "338926",
+      "unit": "02dd8960962da8ae13ce711ec1420b712db8192b3a9fdc40457f8a6317fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "675850",
+      "unit": "1b74c88c8e12d7ae9a194d285ac8d93faa1780a2562ee32d0bdce5c317fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "1000000",
+      "unit": "2682a9b99553406c39f693bb450d6001954e3504c96238c6b96ad79a476c6f62616c20456e7465727461696e6d656e7420546f6b656e202847455429"
+    },
+    {
+      "quantity": "142500",
+      "unit": "2682a9b99553406c39f693bb450d6001954e3504c96238c6b96ad79a476c6f62616c20456e7465727461696e6d656e7420546f6b656e202847455429"
+    },
+    {
+      "quantity": "3986762375004",
+      "unit": "2682a9b99553406c39f693bb450d6001954e3504c96238c6b96ad79a476c6f62616c20456e7465727461696e6d656e7420546f6b656e202847455429"
+    },
+    {
+      "quantity": "585939",
+      "unit": "3359bf44e8c5e664343f74f07590c8732100f3d9cd5a6fdaf60bb8f917fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "1137482",
+      "unit": "444713c4b8df2afda46fd8426a2cac6266e33cc88e0dc6bee650ed2617fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "1394296",
+      "unit": "5fa7c68e74b47d2e8b442c180f045b39a1bd7eba06760a1aa4f7735f17fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "1392899",
+      "unit": "639e17a095b19f044f562c7468e87d3f2f3481966d2fe00dfe0f7ec617fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "1549227695",
+      "unit": "81272d34128f0d103810a3a8a00325c8410f7dedbf0de2da6fd18e3117fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "4292",
+      "unit": "9fd00d805b7790126d688405f6a5370e10ab286ec3444e521af7550b157dd89c698a27523a2a6b174885e9f73892d164623e7f6bb268f2097003e839"
+    },
+    {
+      "quantity": "1006607",
+      "unit": "b348dd8c451f64e86fd0586849edadfea85ef1119cabe1bb4663ab9d17fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "547713",
+      "unit": "b864788e10d48d0573ca19ea190d4720c001c77196e62a44441faaaf17fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "447204",
+      "unit": "bb18da4a13653f749ed462408de2dbb830835209916b4167eb25c2b417fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "20000000",
+      "unit": "e16c2dc8ae937e8d3790c7fd7168d7b994621ba14ca11415f39fed724d494e"
+    },
+    {
+      "quantity": "9223372036847704749",
+      "unit": "e97a3fabe96a1f58781b68b8f880da8fbc92e1401956b65e1d11221617fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "7071058",
+      "unit": "e97a3fabe96a1f58781b68b8f880da8fbc92e1401956b65e1d11221617fac361b60bfa1f80416285528bdb262cfa7e9cfde4d214aa20c52f32f9590c"
+    },
+    {
+      "quantity": "1",
+      "unit": "e97a3fabe96a1f58781b68b8f880da8fbc92e1401956b65e1d112216474446"
+    },
+    {
+      "quantity": "1",
+      "unit": "e97a3fabe96a1f58781b68b8f880da8fbc92e1401956b65e1d112216474446"
+    },
+    {
+      "quantity": "1",
+      "unit": "e97a3fabe96a1f58781b68b8f880da8fbc92e1401956b65e1d112216474450"
+    },
+    {
+      "quantity": "22572442",
+      "unit": "f321bada7778189c42ada9af96efb5c516184a1199308e28e6effbb7476c6f62616c20456e7465727461696e6d656e7420546f6b656e202847455429"
+    },
+    {
+      "quantity": "1",
+      "unit": "f533fecf6e05cef5978fece069d33a470590628447c2715bcef02ee54745542d4e46542d74732d31303730"
+    },
+    {
+      "quantity": "1",
+      "unit": "f533fecf6e05cef5978fece069d33a470590628447c2715bcef02ee54745542d4e46542d74732d31313033"
+    }
+  ],
+  "pool_retire_count": 0,
+  "pool_update_count": 0,
+  "redeemer_count": 2,
+  "size": 3285,
+  "slot": 92632088,
+  "stake_cert_count": 0,
+  "utxo_count": 6,
+  "valid_contract": true,
+  "withdrawal_count": 0
+}

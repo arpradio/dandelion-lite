@@ -1,0 +1,12 @@
+[
+  {
+    "action": "registered",
+    "cert_index": 0,
+    "tx_hash": "ccaf398be9f93e9199e907a6e57534f17aef0a727546e1fd4d17945b3f1a83d1"
+  },
+  {
+    "action": "registered",
+    "cert_index": 0,
+    "tx_hash": "7124464dccf45ae16fa2dbe3bb232b13f415baba06799c159bdb0904133ba019"
+  }
+]

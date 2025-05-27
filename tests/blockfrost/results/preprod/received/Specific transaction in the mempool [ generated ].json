@@ -1,0 +1,5 @@
+{
+  "error": "Bad Request",
+  "message": "Invalid path. Please check https://docs.blockfrost.io/",
+  "status_code": 400
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "active_size": 0.06588094417663895,
+    "active_stake": "24896806862772",
+    "blocks": 1438,
+    "delegators_count": 53,
+    "epoch": 217,
+    "fees": "0",
+    "rewards": "0"
+  },
+  {
+    "active_size": 0.06570982085913633,
+    "active_stake": "24877052871496",
+    "blocks": 1405,
+    "delegators_count": 53,
+    "epoch": 216,
+    "fees": "1305796661",
+    "rewards": "19655933235"
+  },
+  {
+    "active_size": 0.06578073913088757,
+    "active_stake": "24856687381432",
+    "blocks": 1402,
+    "delegators_count": 53,
+    "epoch": 215,
+    "fees": "1302356902",
+    "rewards": "19587138056"
+  }
+]

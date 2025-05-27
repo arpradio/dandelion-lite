@@ -1,0 +1,14 @@
+[
+  {
+    "action": "registered",
+    "tx_hash": "ce8c449191fd89f81d0737f36bbafe9e70cc4a88ae8127779d9751f01696c0aa"
+  },
+  {
+    "action": "deregistered",
+    "tx_hash": "a2d4ba9c87947c704cae01e03f0c2acf91e4c4e5712f13663cc7b47d01fce3e0"
+  },
+  {
+    "action": "registered",
+    "tx_hash": "d3bb4fb4839488f6c19c1b6576db8c9f175895fa305ff9f376672240adee28a3"
+  }
+]

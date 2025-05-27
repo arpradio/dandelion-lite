@@ -1,0 +1,59 @@
+[
+  {
+    "active_stake": "0",
+    "blocks_minted": 0,
+    "declared_pledge": "5000000000",
+    "fixed_cost": "170000000",
+    "hex": "d11e47c59073890b828a0441fd797304f5269398715a906f318b282e",
+    "live_saturation": 0.00015107486822213233,
+    "live_stake": "9497640310",
+    "margin_cost": 0.075,
+    "metadata": {
+      "description": "LOVEA Pre-Prod",
+      "hash": "2bb01464f22e03542a5cba78f42a22c9032358d8b418262bf64c8507655666bc",
+      "homepage": "http://notrealladdressyet.com/tbd",
+      "name": "LoveADAPool",
+      "ticker": "LOVEA",
+      "url": "https://tinyurl.com/33c9hdyz"
+    },
+    "pool_id": "pool16y0y03vswwyshq52q3ql67tnqn6jdyucw9dfqme33v5zu7ptknl"
+  },
+  {
+    "active_stake": "0",
+    "blocks_minted": 0,
+    "declared_pledge": "100000000",
+    "fixed_cost": "340000000",
+    "hex": "7b34611270826165461b49ffc071a7feba37176170a7dcadfff63dd5",
+    "live_saturation": 0.002012089414502438,
+    "live_stake": "126494245902",
+    "margin_cost": 0.03,
+    "metadata": {
+      "description": "Test321 again",
+      "hash": "1b98483bf02219afb01833dc42169100936e372f73bfb0ac8448805f3cdbe998",
+      "homepage": "https://doesntmatterrightnow.com",
+      "name": "Test321",
+      "ticker": "WFCC",
+      "url": "https://raw.githubusercontent.com/dwo123/1/refs/heads/1/md.json"
+    },
+    "pool_id": "pool10v6xzynssfsk23smf8luqud8l6arw9mpwznaet0l7c7a2r6dzvf"
+  },
+  {
+    "active_stake": "0",
+    "blocks_minted": 0,
+    "declared_pledge": "100000000",
+    "fixed_cost": "170000000",
+    "hex": "e3fb9f7f8fe473dd0202a132bd22aaaf7146853b35c57a5a92418120",
+    "live_saturation": 0.0,
+    "live_stake": "0",
+    "margin_cost": 0.01,
+    "metadata": {
+      "description": "Enterprise-grade staking and network services for institutional clients. Non-custodial staking, secure node and validation services. Creating light and beam client for Ethereum, called Lantern. Made in Australia.",
+      "hash": "886f881d74d60dcc33893031a3d897ae66fe892a488ea9c864039813ff4d1c97",
+      "homepage": "https://piertwo.com/",
+      "name": "Pier Two",
+      "ticker": "CAD",
+      "url": "https://tinyurl.com/yl2wuau3"
+    },
+    "pool_id": "pool1u0ae7lu0u3ea6qsz5yet6g424ac5dpfmxhzh5k5jgxqjq7mjgcu"
+  }
+]

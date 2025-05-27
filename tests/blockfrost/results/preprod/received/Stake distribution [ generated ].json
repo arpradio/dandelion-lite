@@ -1,0 +1,17 @@
+[
+  {
+    "amount": "10000000",
+    "pool_id": "pool1n84mel6x3e8sp0jjgmepme0zmv8gkw8chs98sqwxtruvkhhcsg8",
+    "stake_address": "stake_test17qpzdxfxy4aasjepnswfv6e2zgrvde059ltpx86g34we0zgxhqqha"
+  },
+  {
+    "amount": "10000000",
+    "pool_id": "pool1n84mel6x3e8sp0jjgmepme0zmv8gkw8chs98sqwxtruvkhhcsg8",
+    "stake_address": "stake_test17qpv4890ehqtk5j9aqhdqydgzqhu5ls2fz2darpgkaw2vlgfsefgk"
+  },
+  {
+    "amount": "10000000",
+    "pool_id": "pool1n84mel6x3e8sp0jjgmepme0zmv8gkw8chs98sqwxtruvkhhcsg8",
+    "stake_address": "stake_test17qpwj03kn2jkflk4n0fltmm2cktjdkq6lxtplzvkg58uhsqzqv87c"
+  }
+]

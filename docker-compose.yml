@@ -465,6 +465,52 @@ services:
         max-file: "10"
 
 
+
+#################################
+###      Blockfrost RYO       ###
+#################################
+
+  blockfrost:
+    image: ${BLOCKFROST_IMAGE:-blockfrost/backend-ryo:v4.1.0}
+    ports:
+      - ${BLOCKFROST_PORT:-8055}:${BLOCKFROST_CONFIG_SERVER_PORT:-8055}
+    depends_on:
+      postgress:
+        condition: service_healthy
+    environment:
+      NODE_ENV: ${BLOCKFROST_NODE_ENV}
+      # BLOCKFROST_CONFIG_NETWORK: ${BLOCKFROST_CONFIG_NETWORK}
+      # # Server Configuration
+      # BLOCKFROST_CONFIG_GENESIS_DATA_FOLDER: ${BLOCKFROST_CONFIG_GENESIS_DATA_FOLDER}
+      # BLOCKFROST_CONFIG_SERVER_LISTEN_ADDRESS: ${BLOCKFROST_CONFIG_SERVER_LISTEN_ADDRESS}
+      # BLOCKFROST_CONFIG_SERVER_PORT: ${BLOCKFROST_CONFIG_SERVER_PORT}
+      # BLOCKFROST_CONFIG_SERVER_DEBUG: ${BLOCKFROST_CONFIG_SERVER_DEBUG}
+      # BLOCKFROST_CONFIG_SERVER_PROMETHEUS_METRICS: ${BLOCKFROST_CONFIG_SERVER_PROMETHEUS_METRICS}
+      # # Database Sync Configuration
+      # BLOCKFROST_CONFIG_DBSYNC_HOST: ${BLOCKFROST_CONFIG_DBSYNC_HOST}
+      # BLOCKFROST_CONFIG_DBSYNC_USER: ${BLOCKFROST_CONFIG_DBSYNC_USER}
+      # BLOCKFROST_CONFIG_DBSYNC_PORT: ${BLOCKFROST_CONFIG_DBSYNC_PORT}
+      # BLOCKFROST_CONFIG_DBSYNC_DATABASE: ${BLOCKFROST_CONFIG_DBSYNC_DATABASE}
+      # BLOCKFROST_CONFIG_DBSYNC_PASSWORD: ${BLOCKFROST_CONFIG_DBSYNC_PASSWORD}
+      # BLOCKFROST_CONFIG_DBSYNC_MAX_CONN: ${BLOCKFROST_CONFIG_DBSYNC_MAX_CONN}
+      # # Token Registry
+      # BLOCKFROST_CONFIG_TOKEN_REGISTRY_ENABLED: ${BLOCKFROST_CONFIG_TOKEN_REGISTRY_ENABLED}
+      # BLOCKFROST_CONFIG_TOKEN_REGISTRY_URL: ${BLOCKFROST_CONFIG_TOKEN_REGISTRY_URL}
+      # # Mithril
+      # BLOCKFROST_MITHRIL_ENABLED: ${BLOCKFROST_MITHRIL_ENABLED}
+      # BLOCKFROST_MITHRIL_AGGREGATOR: ${BLOCKFROST_MITHRIL_AGGREGATOR}
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+    volumes:
+      - ./configs/blockfrost/genesis/:/app/config/genesis
+    configs:
+      - source: blockfrost_config
+        target: "/app/config/${BLOCKFROST_NODE_ENV}.yaml"
+
 #################################
 #### unimatrix (gundb relay)#####
 #################################
@@ -658,6 +704,32 @@ secrets:
     environment: POSTGRES_DB
 
 configs:
+  blockfrost_config:
+    content: |
+      server:
+        listenAddress: "${BLOCKFROST_CONFIG_SERVER_LISTEN_ADDRESS}"
+        port: ${BLOCKFROST_CONFIG_SERVER_PORT}
+        debug: ${BLOCKFROST_CONFIG_SERVER_DEBUG}
+        prometheusMetrics: ${BLOCKFROST_CONFIG_SERVER_PROMETHEUS_METRICS}
+      dbSync:
+        host: "${BLOCKFROST_CONFIG_DBSYNC_HOST}"
+        port: ${BLOCKFROST_CONFIG_DBSYNC_PORT}
+        database: "${BLOCKFROST_CONFIG_DBSYNC_DATABASE}"
+        user: "${BLOCKFROST_CONFIG_DBSYNC_USER}"
+        password: "${BLOCKFROST_CONFIG_DBSYNC_PASSWORD}"
+        maxConnections: ${BLOCKFROST_CONFIG_DBSYNC_MAX_CONN}
+        # ssl: ${BLOCKFROST_CONFIG_DBSYNC_SSL}
+      network: "${BLOCKFROST_CONFIG_NETWORK}"
+      tokenRegistryEnabled: ${BLOCKFROST_CONFIG_TOKEN_REGISTRY_ENABLED}
+      tokenRegistryUrl: "${BLOCKFROST_CONFIG_TOKEN_REGISTRY_URL}"
+      genesisDataFolder: "${BLOCKFROST_CONFIG_GENESIS_DATA_FOLDER}"
+      mithril:
+        enabled: ${BLOCKFROST_MITHRIL_ENABLED}
+        aggregator: "${BLOCKFROST_MITHRIL_AGGREGATOR}"
+        # snapshotMirrors:
+        # - originalUrl: "https://storage.googleapis.com/cdn.aggregator.pre-release-preview.api.mithril.network"
+        #   mirrorUrl: "https://dummy-mithril-snapshot-cdn.com"
+
   manifest_json:
     content: |
       {

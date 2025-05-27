@@ -1,0 +1,42 @@
+[
+  {
+    "calls": 1,
+    "endpoint": "",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "api.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "api.yml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "openapi.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "openapi.yml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "OpenApi.yml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "spec.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "*.yaml",
+    "time": 1747958400
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "error": "Internal Server Error",
+  "message": "An unexpected response was received from the backend.",
+  "status_code": 500
+}

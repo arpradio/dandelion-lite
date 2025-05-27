@@ -1,0 +1,40 @@
+{
+  "address": "addr_test1qq5hkwfzgp9vxrdqn6j7sp3hqv02myc566puwdrcum9q3kry8wuc5sxq2nyyju862fh3wp39zhamz7f3694ad2v68mjqe2ekrr",
+  "amount": [
+    {
+      "quantity": "999893877",
+      "unit": "lovelace"
+    },
+    {
+      "quantity": "2",
+      "unit": "04adc1b68c11cb470ceacb8c7456e8ac3402e3a458079a71c571255f41584f53"
+    },
+    {
+      "quantity": "10000000",
+      "unit": "1535c44624e5de972bd47de3798e1318df209720b95c492b896654fa42696742617a6172"
+    },
+    {
+      "quantity": "10000000",
+      "unit": "1535c44624e5de972bd47de3798e1318df209720b95c492b896654fa42696742617a617232"
+    },
+    {
+      "quantity": "2",
+      "unit": "59d67464f41a3ee7447932b0cdea4e0193e505b8afe50314cc4d3b3941584f53"
+    },
+    {
+      "quantity": "2",
+      "unit": "621ff28e61eee48f2ab13e1019d21021e3a88da18945fbebd3092b3f41584f53"
+    },
+    {
+      "quantity": "100000000000",
+      "unit": "9772ff715b691c0444f333ba1db93b055c0864bec48fff92d1f2a7fe446a65645f746573744d6963726f555344"
+    },
+    {
+      "quantity": "60000000000",
+      "unit": "9772ff715b691c0444f333ba1db93b055c0864bec48fff92d1f2a7fe5368656e5f746573744d6963726f555344"
+    }
+  ],
+  "script": false,
+  "stake_address": "stake_test1upjrhwv2grq9fjzfwra9ymchqcj3t7a30ycaz67k4xdraeq4yngun",
+  "type": "shelley"
+}
