@@ -126,6 +126,8 @@ run_tests() {
 
     if [[ -n "$expected" ]] && diff <(echo "$received") <(echo "$expected") >/dev/null; then
       echo "✅ PASSED"
+      echo "--- RECEIVED and EXPECTED---"
+      echo "$received"      
       ((successes++))
     else
       echo "❌ FAILED: $name"

@@ -1,14 +1,6 @@
-[
-  {
-    "addresses": [
-      "addr_test1qq3yglzad6p0uq3k742qa2pmfftm0jjjxz7mprfrmuy5gy82hf803jfx4mkne9u9atcdhhy0yj2nks64jsqu0s2wenrs58sn5l"
-    ],
-    "stake_address": "stake_test1ur4t5nhceyn2amfuj7z74uxmmj8jf9fmgd2egqw8c98ve3cp2g4wx"
-  },
-  {
-    "addresses": [
-      "addr_test1qrqppj2vjwa7v55r9yafj3n3nwf80ve95z4s0eu8k7zh9wkp28sfx99tcvp3ats0g59vfuam4jz3hx284dr9zseag75qnzymfz"
-    ],
-    "stake_address": "stake_test1urq4rcynzj4uxqc74c852zky7wa6epgmn9r6k3j3gv7502q8jks0l"
-  }
-]
+{
+  "code": "42P01",
+  "details": null,
+  "hint": null,
+  "message": "relation \"address\" does not exist"
+}

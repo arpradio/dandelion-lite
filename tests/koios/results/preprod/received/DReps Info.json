@@ -1,7 +1,7 @@
 [
   {
     "active": false,
-    "amount": "110534542640",
+    "amount": "110868072245",
     "deposit": "500000000",
     "drep_id": "drep1y25j98kvqf7t3tj4pvxwrjr2728dsrfekptgg3kxqrr56qqcny8sn",
     "expires_epoch_no": 189,
@@ -13,7 +13,7 @@
   },
   {
     "active": false,
-    "amount": "5373242073750",
+    "amount": "5401322155142",
     "deposit": "500000000",
     "drep_id": "drep1ydmraa6kv8cvmry059v608tehl50nfmg0z764lmsqkvwurs40sw2z",
     "expires_epoch_no": 185,

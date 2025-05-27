@@ -497,6 +497,14 @@
   },
   {
     "address": "addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw",
+    "asset_name": "48504a54",
+    "decimals": 0,
+    "fingerprint": "asset1krtj8s02mkcznmefatfr7t5ltx4ewu0pj9mdfk",
+    "policy_id": "38102c03682a1eb979a016dafa7cee481976128ea9f8a1e522c78187",
+    "quantity": "234214412"
+  },
+  {
+    "address": "addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw",
     "asset_name": "4d494c4b7632",
     "decimals": 0,
     "fingerprint": "asset1kvx68j0dz6e5jv356j43meaku3vwtaff7qmd64",

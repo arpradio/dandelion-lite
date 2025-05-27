@@ -1,16 +1,16 @@
 [
   {
-    "active_stake": "372233079539807",
-    "epoch_no": 213,
-    "nonce": "99b5c6a574ad9ddca6b7c066669595c4c453630ce7206ee9e7e8386ae387796b",
-    "pool_stake": "74405954465",
-    "snapshot": "Go"
+    "active_stake": "377885680591890",
+    "epoch_no": 218,
+    "nonce": "7a1f20821d154becc3af816a4b22d955de8d2e7d3e5f20d251d1651c7b32a726",
+    "pool_stake": "74806999167",
+    "snapshot": "Set"
   },
   {
-    "active_stake": "376852733804764",
-    "epoch_no": 214,
-    "nonce": "839586d6f466104e3df573484d156349cf3c018a8639948aa3a08aa035772211",
-    "pool_stake": "74474196211",
-    "snapshot": "Set"
+    "active_stake": "379126814003348",
+    "epoch_no": 219,
+    "nonce": null,
+    "pool_stake": "74890914971",
+    "snapshot": "Mark"
   }
 ]

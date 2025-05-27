@@ -1,14 +1,14 @@
 [
   {
     "active_epoch_no": 72,
-    "active_stake": "74474196211",
-    "block_count": 4302,
+    "active_stake": "74806999167",
+    "block_count": 4327,
     "deposit": null,
     "fixed_cost": "340000000",
     "live_delegators": 4,
-    "live_pledge": "44563440904",
+    "live_pledge": "44898136002",
     "live_saturation": 0.12,
-    "live_stake": "74556219873",
+    "live_stake": "74890914971",
     "margin": 0.075,
     "meta_hash": "36be44ad5bd2825ede1bf91e76cae3cd8815cf74e372d08c72f2621adbf42b82",
     "meta_json": {
@@ -39,8 +39,8 @@
     "retiring_epoch": null,
     "reward_addr": "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd",
     "reward_addr_delegated_drep": null,
-    "sigma": 0.00019762148322262889,
-    "voting_power": "74556219873",
+    "sigma": 0.00019796198429596031,
+    "voting_power": "74890914971",
     "vrf_key_hash": "32252ba40e5c5773a5f03f979f5cdda7d84a756bba8517ccf3cad46005ef38f8"
   },
   {
@@ -83,7 +83,7 @@
     "retiring_epoch": null,
     "reward_addr": "stake_test1uqg78u8xh8vcs2j7tjyxt0aswmv30wczw7szuhcy6n6kxcccdhz2f",
     "reward_addr_delegated_drep": null,
-    "sigma": 0.00074423634875182232,
+    "sigma": 0.00074220198602047600,
     "voting_power": "280467502624",
     "vrf_key_hash": "2db0a696204a8bbef61523723d9c9a99a79cc1549c5e2a0dde3bafe16a272cf7"
   },
@@ -122,7 +122,7 @@
     "retiring_epoch": null,
     "reward_addr": "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs",
     "reward_addr_delegated_drep": null,
-    "sigma": 0.00031776319368572981,
+    "sigma": 0.00031689459112457837,
     "voting_power": "119749928243",
     "vrf_key_hash": "53904d9cbe59b52d6b54ce29a58090ef45b3e44bffdc6ab7c514a7c3934f2a74"
   }

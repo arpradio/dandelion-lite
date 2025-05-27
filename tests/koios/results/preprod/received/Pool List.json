@@ -59,7 +59,7 @@
   },
   {
     "active_epoch_no": 74,
-    "active_stake": "6884541394442",
+    "active_stake": "7086722938575",
     "deposit": null,
     "fixed_cost": "340000000",
     "margin": 0.1,
@@ -88,7 +88,7 @@
   },
   {
     "active_epoch_no": 102,
-    "active_stake": "29842708237",
+    "active_stake": "39864215843",
     "deposit": null,
     "fixed_cost": "340000000",
     "margin": 0.01,
@@ -146,7 +146,7 @@
   },
   {
     "active_epoch_no": 206,
-    "active_stake": "1387758560419",
+    "active_stake": "1392417291982",
     "deposit": null,
     "fixed_cost": "170000000",
     "margin": 0,

@@ -12,6 +12,22 @@
     "reference_script": null,
     "stake_address": null,
     "tx_hash": "ba5cc479647e7dd872901e89347c0dc626e1b073e513b50e1e6e2e92f57fad49",
+    "tx_index": 31,
+    "value": "10000000"
+  },
+  {
+    "address": "addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw",
+    "asset_list": [],
+    "block_height": 176408,
+    "block_time": 1666330826,
+    "datum_hash": null,
+    "epoch_no": 28,
+    "inline_datum": null,
+    "is_spent": false,
+    "payment_cred": "82e016828989cd9d809b50d6976d9efa9bc5b2c1a78d4b3bfa1bb83b",
+    "reference_script": null,
+    "stake_address": null,
+    "tx_hash": "ba5cc479647e7dd872901e89347c0dc626e1b073e513b50e1e6e2e92f57fad49",
     "tx_index": 32,
     "value": "10000000"
   },
@@ -141,22 +157,6 @@
     "stake_address": null,
     "tx_hash": "ba5cc479647e7dd872901e89347c0dc626e1b073e513b50e1e6e2e92f57fad49",
     "tx_index": 40,
-    "value": "10000000"
-  },
-  {
-    "address": "addr_test1vzpwq95z3xyum8vqndgdd9mdnmafh3djcxnc6jemlgdmswcve6tkw",
-    "asset_list": [],
-    "block_height": 176408,
-    "block_time": 1666330826,
-    "datum_hash": null,
-    "epoch_no": 28,
-    "inline_datum": null,
-    "is_spent": false,
-    "payment_cred": "82e016828989cd9d809b50d6976d9efa9bc5b2c1a78d4b3bfa1bb83b",
-    "reference_script": null,
-    "stake_address": null,
-    "tx_hash": "ba5cc479647e7dd872901e89347c0dc626e1b073e513b50e1e6e2e92f57fad49",
-    "tx_index": 31,
     "value": "10000000"
   }
 ]

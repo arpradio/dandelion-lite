@@ -253,16 +253,16 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "130.61.98.58",
+        "ipv4": "138.2.174.95",
         "ipv6": null,
-        "port": 3002,
+        "port": 3000,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "138.2.174.95",
+        "ipv4": "130.61.98.58",
         "ipv6": null,
-        "port": 3000,
+        "port": 3002,
         "srv": null
       }
     ]
@@ -453,6 +453,13 @@
     "pool_id_bech32": "pool1nmfr5j5rnqndprtazre802glpc3h865sy50mxdny65kfgf3e5eh",
     "relays": [
       {
+        "dns": "node2.cardano.gratis",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6602,
+        "srv": null
+      },
+      {
         "dns": "node1.cardano.gratis",
         "ipv4": null,
         "ipv6": null,
@@ -464,13 +471,6 @@
         "ipv4": null,
         "ipv6": null,
         "port": 6603,
-        "srv": null
-      },
-      {
-        "dns": "node2.cardano.gratis",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 6602,
         "srv": null
       }
     ]
@@ -570,17 +570,17 @@
     "pool_id_bech32": "pool12jthfp4uqah0yndtdu6x2tqaxvgnlpc7h30gvwey3rsrc789tme",
     "relays": [
       {
-        "dns": "test-relay1.0aaaa.org",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8001,
-        "srv": null
-      },
-      {
         "dns": "test-relay2.0aaaa.org",
         "ipv4": null,
         "ipv6": null,
         "port": 8002,
+        "srv": null
+      },
+      {
+        "dns": "test-relay1.0aaaa.org",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8001,
         "srv": null
       }
     ]
@@ -602,14 +602,14 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "144.24.168.10",
+        "ipv4": "141.145.192.248",
         "ipv6": null,
         "port": 3003,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "141.145.192.248",
+        "ipv4": "144.24.168.10",
         "ipv6": null,
         "port": 3003,
         "srv": null
@@ -656,17 +656,17 @@
     "pool_id_bech32": "pool1rymgeu3pc4a847sksu8ulxgypeq5ysf0ccywgwkcsgr9cmay57u",
     "relays": [
       {
-        "dns": "preprod.weebl.me",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 3123,
-        "srv": null
-      },
-      {
         "dns": null,
         "ipv4": "77.174.62.158",
         "ipv6": null,
         "port": 3124,
+        "srv": null
+      },
+      {
+        "dns": "preprod.weebl.me",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3123,
         "srv": null
       }
     ]
@@ -826,17 +826,17 @@
     "pool_id_bech32": "pool1z05xqzuxnpl8kg8u2wwg8ftng0fwtdluv3h20ruryfqc5gc3efl",
     "relays": [
       {
-        "dns": "adaboy-preprod-3b.gleeze.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 3000,
-        "srv": null
-      },
-      {
         "dns": "adaboy-preprod-2b.gleeze.com",
         "ipv4": null,
         "ipv6": null,
         "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": "adaboy-preprod-3b.gleeze.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3000,
         "srv": null
       }
     ]
@@ -903,13 +903,6 @@
         "dns": null,
         "ipv4": "14.201.4.90",
         "ipv6": null,
-        "port": 6007,
-        "srv": null
-      },
-      {
-        "dns": null,
-        "ipv4": "14.201.4.90",
-        "ipv6": null,
         "port": 6008,
         "srv": null
       },
@@ -918,6 +911,13 @@
         "ipv4": "58.171.185.219",
         "ipv6": null,
         "port": 6001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6007,
         "srv": null
       }
     ]
@@ -925,20 +925,6 @@
   {
     "pool_id_bech32": "pool1pyyjp9r0tu9xqqzx955hr20vvxrywek77uzqrk80yhr0g5k3rct",
     "relays": [
-      {
-        "dns": null,
-        "ipv4": "58.171.185.219",
-        "ipv6": null,
-        "port": 6001,
-        "srv": null
-      },
-      {
-        "dns": null,
-        "ipv4": "14.201.4.90",
-        "ipv6": null,
-        "port": 6008,
-        "srv": null
-      },
       {
         "dns": null,
         "ipv4": "14.201.4.90",
@@ -951,6 +937,20 @@
         "ipv4": "115.64.192.26",
         "ipv6": null,
         "port": 6007,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "58.171.185.219",
+        "ipv6": null,
+        "port": 6001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "14.201.4.90",
+        "ipv6": null,
+        "port": 6008,
         "srv": null
       }
     ]
@@ -962,14 +962,14 @@
         "dns": null,
         "ipv4": "14.201.4.90",
         "ipv6": null,
-        "port": 6008,
+        "port": 6007,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "14.201.4.90",
+        "ipv4": "58.171.185.219",
         "ipv6": null,
-        "port": 6007,
+        "port": 6001,
         "srv": null
       },
       {
@@ -981,9 +981,9 @@
       },
       {
         "dns": null,
-        "ipv4": "58.171.185.219",
+        "ipv4": "14.201.4.90",
         "ipv6": null,
-        "port": 6001,
+        "port": 6008,
         "srv": null
       }
     ]
@@ -1242,14 +1242,14 @@
         "dns": "ppe.cardenpool.org",
         "ipv4": null,
         "ipv6": null,
-        "port": 7001,
+        "port": 7002,
         "srv": null
       },
       {
         "dns": "ppe.cardenpool.org",
         "ipv4": null,
         "ipv6": null,
-        "port": 7002,
+        "port": 7001,
         "srv": null
       }
     ]
@@ -1366,14 +1366,14 @@
     "pool_id_bech32": "pool1lhknlva0yzrz6uty8wcct4eyurgz2ghan2y4mmudn3xkq5sdcus",
     "relays": [
       {
-        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
         "ipv4": null,
         "ipv6": null,
         "port": 3001,
         "srv": null
       },
       {
-        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
         "ipv4": null,
         "ipv6": null,
         "port": 3001,
@@ -1404,14 +1404,14 @@
     "pool_id_bech32": "pool1yrtux38kfj030vprg4k2f46q8rqkf6ss6yk2yvyeks8k5uk9tss",
     "relays": [
       {
-        "dns": "relays-testnet-3b.cardano.aeq5f.com",
+        "dns": "relays-testnet-3a.cardano.2k2aa.com",
         "ipv4": null,
         "ipv6": null,
         "port": 3001,
         "srv": null
       },
       {
-        "dns": "relays-testnet-3a.cardano.2k2aa.com",
+        "dns": "relays-testnet-3b.cardano.aeq5f.com",
         "ipv4": null,
         "ipv6": null,
         "port": 3001,
@@ -1589,7 +1589,7 @@
         "dns": null,
         "ipv4": "70.74.164.3",
         "ipv6": null,
-        "port": 6970,
+        "port": 6969,
         "srv": null
       },
       {
@@ -1603,7 +1603,7 @@
         "dns": null,
         "ipv4": "70.74.164.3",
         "ipv6": null,
-        "port": 6969,
+        "port": 6970,
         "srv": null
       }
     ]
@@ -1823,17 +1823,17 @@
     "pool_id_bech32": "pool1mtyjt95svreuxl46xnww3m09afp0pfggf6m7j8ewa5tc6qmndce",
     "relays": [
       {
-        "dns": null,
-        "ipv4": "51.68.141.123",
-        "ipv6": null,
-        "port": 3001,
-        "srv": null
-      },
-      {
         "dns": "vps-bebbfba3.vps.ovh.net",
         "ipv4": null,
         "ipv6": null,
         "port": null,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "51.68.141.123",
+        "ipv6": null,
+        "port": 3001,
         "srv": null
       }
     ]
@@ -2070,14 +2070,14 @@
     "pool_id_bech32": "pool1dt5t2upg4mppj9y9trh6huq2qm8rcl86pqk6dmk04kfjg4e8ga6",
     "relays": [
       {
-        "dns": "c-pp-rn02.liv.io",
+        "dns": "c-pp-rn01.liv.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
         "srv": null
       },
       {
-        "dns": "c-pp-rn01.liv.io",
+        "dns": "c-pp-rn02.liv.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
@@ -2310,14 +2310,14 @@
         "dns": "ec2-3-106-124-200.ap-southeast-2.compute.amazonaws.com",
         "ipv4": null,
         "ipv6": null,
-        "port": 3002,
+        "port": 3001,
         "srv": null
       },
       {
         "dns": "ec2-3-106-124-200.ap-southeast-2.compute.amazonaws.com",
         "ipv4": null,
         "ipv6": null,
-        "port": 3001,
+        "port": 3002,
         "srv": null
       }
     ]
@@ -2729,17 +2729,17 @@
     "pool_id_bech32": "pool12v43sug6avuwn458fwlx0j72lqrjqqcec9nc9ywk24x0wn7ng46",
     "relays": [
       {
-        "dns": null,
-        "ipv4": "185.193.17.83",
-        "ipv6": null,
-        "port": 6005,
-        "srv": null
-      },
-      {
         "dns": "relay.addns.org",
         "ipv4": null,
         "ipv6": null,
         "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "185.193.17.83",
+        "ipv6": null,
+        "port": 6005,
         "srv": null
       }
     ]
@@ -2952,14 +2952,14 @@
     "pool_id_bech32": "pool1mv0kgwy8pghc0l2kr7dueeaf756a6pvwe0zp0umdpmug565r5hn",
     "relays": [
       {
-        "dns": "c-pp-rn01.liv.io",
+        "dns": "c-pp-rn02.liv.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
         "srv": null
       },
       {
-        "dns": "c-pp-rn02.liv.io",
+        "dns": "c-pp-rn01.liv.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
@@ -3165,14 +3165,14 @@
     "pool_id_bech32": "pool1st3vxnpm52s8rqp3upm4t02x75td66vkxpk9nf5sudpckez3q9j",
     "relays": [
       {
-        "dns": "c-pp-rn04.liv.io",
+        "dns": "c-pp-rn03.liv.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
         "srv": null
       },
       {
-        "dns": "c-pp-rn03.liv.io",
+        "dns": "c-pp-rn04.liv.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
@@ -3328,14 +3328,14 @@
     "pool_id_bech32": "pool1z4hvgqpccx8el8480s70qyr4yj3f0vszvu65tda4tteh23wjtvv",
     "relays": [
       {
-        "dns": "relay2.preprod.pool.cardano.io",
+        "dns": "relay1.preprod.pool.cardano.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
         "srv": null
       },
       {
-        "dns": "relay1.preprod.pool.cardano.io",
+        "dns": "relay2.preprod.pool.cardano.io",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
@@ -3348,14 +3348,14 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "141.145.210.204",
+        "ipv4": "144.24.168.10",
         "ipv6": null,
         "port": 3003,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "144.24.168.10",
+        "ipv4": "141.145.210.204",
         "ipv6": null,
         "port": 3003,
         "srv": null
@@ -3378,17 +3378,17 @@
     "pool_id_bech32": "pool13m26ky08vz205232k20u8ft5nrg8u68klhn0xfsk9m4gsqsc44v",
     "relays": [
       {
-        "dns": "relay.preprod.staging.wingriders.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 3001,
-        "srv": null
-      },
-      {
         "dns": "relay.preprod.wingriders.com",
         "ipv4": null,
         "ipv6": null,
         "port": 3002,
+        "srv": null
+      },
+      {
+        "dns": "relay.preprod.staging.wingriders.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
         "srv": null
       }
     ]
@@ -3500,97 +3500,6 @@
     "pool_id_bech32": "pool1lec5sxj3hzwz0f0t597r3g52a6lryv0v3vu3n382u6qpuqquhw6",
     "relays": [
       {
-        "dns": "relay.de.pool.bio",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.antimo.io",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.brazilpool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.de.evaginger.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.de.fikapool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.de.hyggepool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "elay.de.poolfixada.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.de.lalkul.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay.de.nanipool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relays.steekpoel.nl",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay1.emp1.smilespool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 3001,
-        "srv": null
-      },
-      {
-        "dns": "relay1.emp1.smilespool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
-        "dns": "relay1-eu.smilespool.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 8049,
-        "srv": null
-      },
-      {
         "dns": "relay.zoepool.com",
         "ipv4": null,
         "ipv6": null,
@@ -3633,7 +3542,98 @@
         "srv": null
       },
       {
+        "dns": "relay.antimo.io",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relays.steekpoel.nl",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay1.emp1.smilespool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": "relay1.emp1.smilespool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay1-eu.smilespool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.hyggepool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.fikapool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.evaginger.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.brazilpool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
         "dns": "relay.de.poolfixada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "elay.de.poolfixada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.pool.bio",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.nanipool.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 8049,
+        "srv": null
+      },
+      {
+        "dns": "relay.de.lalkul.com",
         "ipv4": null,
         "ipv6": null,
         "port": 8049,
@@ -4662,14 +4662,14 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "192.168.1.23",
+        "ipv4": "192.168.1.22",
         "ipv6": null,
         "port": 3001,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "192.168.1.22",
+        "ipv4": "192.168.1.23",
         "ipv6": null,
         "port": 3001,
         "srv": null
@@ -4872,17 +4872,17 @@
     "pool_id_bech32": "pool1rccstu3l9ty3k0a5cd06fl3szsss9r34dcg5j38fqgq9kvng0tg",
     "relays": [
       {
-        "dns": "logicalmechanism.asuscomm.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 6004,
-        "srv": null
-      },
-      {
         "dns": null,
         "ipv4": "146.190.20.214",
         "ipv6": null,
         "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "logicalmechanism.asuscomm.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6004,
         "srv": null
       }
     ]
@@ -5253,14 +5253,14 @@
     "pool_id_bech32": "pool1zg484cf3hdphs7cmmtp6j88k5jxx5zz5wwssh5fxgpkn2lf8wa0",
     "relays": [
       {
-        "dns": "relay1.pomona.ddns.net",
+        "dns": "relay2.pomona.ddns.me",
         "ipv4": null,
         "ipv6": null,
         "port": 6000,
         "srv": null
       },
       {
-        "dns": "relay2.pomona.ddns.me",
+        "dns": "relay1.pomona.ddns.net",
         "ipv4": null,
         "ipv6": null,
         "port": 6000,
@@ -5275,14 +5275,14 @@
         "dns": null,
         "ipv4": "192.168.142.39",
         "ipv6": null,
-        "port": 6002,
+        "port": 6001,
         "srv": null
       },
       {
         "dns": null,
         "ipv4": "192.168.142.39",
         "ipv6": null,
-        "port": 6001,
+        "port": 6002,
         "srv": null
       }
     ]
@@ -5351,15 +5351,15 @@
     "pool_id_bech32": "pool15mss6pkavrgqe9xg4mwp20tu3pfglsvrt6zk54kte4ukjkf2kuj",
     "relays": [
       {
-        "dns": "watkis.net",
-        "ipv4": null,
+        "dns": null,
+        "ipv4": "192.168.8.39",
         "ipv6": null,
         "port": 6000,
         "srv": null
       },
       {
-        "dns": null,
-        "ipv4": "192.168.8.39",
+        "dns": "watkis.net",
+        "ipv4": null,
         "ipv6": null,
         "port": 6000,
         "srv": null
@@ -5370,13 +5370,6 @@
     "pool_id_bech32": "pool1xm90p8nl7kaqvsskrvtyq60z70rx4afdfj4xex89u9gns62t0er",
     "relays": [
       {
-        "dns": "relay1.preprod.sudodex.mpatch.net",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 6000,
-        "srv": null
-      },
-      {
         "dns": "relay3.preprod.sudodex.mpatch.net",
         "ipv4": null,
         "ipv6": null,
@@ -5385,6 +5378,13 @@
       },
       {
         "dns": "relay2.preprod.sudodex.mpatch.net",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": "relay1.preprod.sudodex.mpatch.net",
         "ipv4": null,
         "ipv6": null,
         "port": 6000,
@@ -5446,13 +5446,6 @@
     "pool_id_bech32": "pool1rr53gk9vaxqhvm0uuvyu4yzcvuc5zxqktvcl39k9swhewvaf7t2",
     "relays": [
       {
-        "dns": "preprod2.volcyada.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 6007,
-        "srv": null
-      },
-      {
         "dns": "preprod1.volcyada.com",
         "ipv4": null,
         "ipv6": null,
@@ -5464,6 +5457,13 @@
         "ipv4": null,
         "ipv6": null,
         "port": 4001,
+        "srv": null
+      },
+      {
+        "dns": "preprod2.volcyada.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6007,
         "srv": null
       }
     ]
@@ -5948,20 +5948,6 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "4.175.156.215",
-        "ipv6": null,
-        "port": 3001,
-        "srv": null
-      },
-      {
-        "dns": null,
-        "ipv4": "4.175.153.175",
-        "ipv6": null,
-        "port": 3001,
-        "srv": null
-      },
-      {
-        "dns": null,
         "ipv4": "4.175.153.204",
         "ipv6": null,
         "port": 3001,
@@ -5970,6 +5956,20 @@
       {
         "dns": null,
         "ipv4": "4.175.156.97",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.156.215",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.175",
         "ipv6": null,
         "port": 3001,
         "srv": null
@@ -6077,7 +6077,7 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "4.175.156.215",
+        "ipv4": "4.175.156.97",
         "ipv6": null,
         "port": 3001,
         "srv": null
@@ -6091,14 +6091,14 @@
       },
       {
         "dns": null,
-        "ipv4": "4.175.153.175",
+        "ipv4": "4.175.156.215",
         "ipv6": null,
         "port": 3001,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "4.175.156.97",
+        "ipv4": "4.175.153.175",
         "ipv6": null,
         "port": 3001,
         "srv": null
@@ -6121,14 +6121,14 @@
     "pool_id_bech32": "pool13wj03r6wj8l2lyalxpg69kshsh9k3l0ejdv3f2auq339gl7un3w",
     "relays": [
       {
-        "dns": "relay1.preprod.pool.cardano.services",
+        "dns": "relay2.preprod.pool.cardano.services",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
         "srv": null
       },
       {
-        "dns": "relay2.preprod.pool.cardano.services",
+        "dns": "relay1.preprod.pool.cardano.services",
         "ipv4": null,
         "ipv6": null,
         "port": 30000,
@@ -6436,14 +6436,7 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "4.175.153.175",
-        "ipv6": null,
-        "port": 3001,
-        "srv": null
-      },
-      {
-        "dns": null,
-        "ipv4": "4.175.153.204",
+        "ipv4": "4.175.156.97",
         "ipv6": null,
         "port": 3001,
         "srv": null
@@ -6457,7 +6450,14 @@
       },
       {
         "dns": null,
-        "ipv4": "4.175.156.97",
+        "ipv4": "4.175.153.204",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "4.175.153.175",
         "ipv6": null,
         "port": 3001,
         "srv": null
@@ -6956,14 +6956,14 @@
     "relays": [
       {
         "dns": null,
-        "ipv4": "51.158.202.216",
+        "ipv4": "62.210.95.248",
         "ipv6": null,
         "port": 6000,
         "srv": null
       },
       {
         "dns": null,
-        "ipv4": "62.210.95.248",
+        "ipv4": "51.158.202.216",
         "ipv6": null,
         "port": 6000,
         "srv": null
@@ -7098,6 +7098,80 @@
         "ipv4": "127.0.0.1",
         "ipv6": null,
         "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1jh0an74k73cdavnaun3rw39m692q02a7lcqkns7h3w7nq7ga4y0",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "174.162.14.60",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1xx5h8f5s83hswg7yaxt0hmdzkj27kdp2l0487adudxzhc97ryxl",
+    "relays": [
+      {
+        "dns": "relay1.llibret.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool1u0ae7lu0u3ea6qsz5yet6g424ac5dpfmxhzh5k5jgxqjq7mjgcu",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "15.204.108.181",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "40.160.21.3",
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool10v6xzynssfsk23smf8luqud8l6arw9mpwznaet0l7c7a2r6dzvf",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "174.210.194.54",
+        "ipv6": null,
+        "port": 3001,
+        "srv": null
+      },
+      {
+        "dns": null,
+        "ipv4": "73.210.194.54",
+        "ipv6": null,
+        "port": 3002,
+        "srv": null
+      }
+    ]
+  },
+  {
+    "pool_id_bech32": "pool16y0y03vswwyshq52q3ql67tnqn6jdyucw9dfqme33v5zu7ptknl",
+    "relays": [
+      {
+        "dns": null,
+        "ipv4": "192.168.0.20",
+        "ipv6": null,
+        "port": 6000,
         "srv": null
       }
     ]

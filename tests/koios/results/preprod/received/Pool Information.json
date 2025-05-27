@@ -1,14 +1,53 @@
 [
   {
+    "active_epoch_no": 30,
+    "active_stake": "119749928243",
+    "block_count": 726,
+    "deposit": "500000000",
+    "fixed_cost": "340000000",
+    "live_delegators": 0,
+    "live_pledge": null,
+    "live_saturation": null,
+    "live_stake": null,
+    "margin": 0.075,
+    "meta_hash": "77ca30b9a2b04150cf3184557c5784558b34415023fd554670ce081d2a878f6d",
+    "meta_json": null,
+    "meta_url": "https://adasquirrel.com/meta/testnet/poolmeta.json",
+    "op_cert": "6f2610b12dc719828be0dec4dbcf43cc6a3d7b48ab81eecbb639b14bb6739a4d",
+    "op_cert_counter": 0,
+    "owners": [
+      "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs"
+    ],
+    "pledge": "1000000000",
+    "pool_id_bech32": "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta",
+    "pool_id_hex": "c997e00dd2174d86a6ed9d814daef42f2dce2babc234b4003bcb02bf",
+    "pool_status": "registered",
+    "relays": [
+      {
+        "dns": "lamente.controlliamo.com",
+        "ipv4": null,
+        "ipv6": null,
+        "port": 6000,
+        "srv": null
+      }
+    ],
+    "retiring_epoch": null,
+    "reward_addr": "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs",
+    "reward_addr_delegated_drep": null,
+    "sigma": 0.00031689459112457837,
+    "voting_power": null,
+    "vrf_key_hash": "53904d9cbe59b52d6b54ce29a58090ef45b3e44bffdc6ab7c514a7c3934f2a74"
+  },
+  {
     "active_epoch_no": 72,
-    "active_stake": "74474196211",
-    "block_count": 4302,
+    "active_stake": "74806999167",
+    "block_count": 4327,
     "deposit": null,
     "fixed_cost": "340000000",
-    "live_delegators": 4,
-    "live_pledge": "44563440904",
-    "live_saturation": 0.12,
-    "live_stake": "74556219873",
+    "live_delegators": 0,
+    "live_pledge": null,
+    "live_saturation": null,
+    "live_stake": null,
     "margin": 0.075,
     "meta_hash": "36be44ad5bd2825ede1bf91e76cae3cd8815cf74e372d08c72f2621adbf42b82",
     "meta_json": {
@@ -39,8 +78,8 @@
     "retiring_epoch": null,
     "reward_addr": "stake_test1ur07tmrmantvhnt7d7gkyzvfvqy7unr25w4mhnm6yy9gx8gvgrahd",
     "reward_addr_delegated_drep": null,
-    "sigma": 0.00019762148322262889,
-    "voting_power": "74556219873",
+    "sigma": 0.00019796198429596031,
+    "voting_power": null,
     "vrf_key_hash": "32252ba40e5c5773a5f03f979f5cdda7d84a756bba8517ccf3cad46005ef38f8"
   },
   {
@@ -49,10 +88,10 @@
     "block_count": 4779,
     "deposit": "500000000",
     "fixed_cost": "340000000",
-    "live_delegators": 16,
-    "live_pledge": "32549449187",
-    "live_saturation": 0.45,
-    "live_stake": "280467502624",
+    "live_delegators": 0,
+    "live_pledge": null,
+    "live_saturation": null,
+    "live_stake": null,
     "margin": 0.15,
     "meta_hash": "d843ac7c8ab3a17fe28d5a68c975dc846fe87479364bcff7dd3b30e5c442ca07",
     "meta_json": {
@@ -83,47 +122,8 @@
     "retiring_epoch": null,
     "reward_addr": "stake_test1uqg78u8xh8vcs2j7tjyxt0aswmv30wczw7szuhcy6n6kxcccdhz2f",
     "reward_addr_delegated_drep": null,
-    "sigma": 0.00074423634875182232,
-    "voting_power": "280467502624",
+    "sigma": 0.00074220198602047600,
+    "voting_power": null,
     "vrf_key_hash": "2db0a696204a8bbef61523723d9c9a99a79cc1549c5e2a0dde3bafe16a272cf7"
-  },
-  {
-    "active_epoch_no": 30,
-    "active_stake": "119749928243",
-    "block_count": 726,
-    "deposit": "500000000",
-    "fixed_cost": "340000000",
-    "live_delegators": 17,
-    "live_pledge": "13867819421",
-    "live_saturation": 0.19,
-    "live_stake": "119749928243",
-    "margin": 0.075,
-    "meta_hash": "77ca30b9a2b04150cf3184557c5784558b34415023fd554670ce081d2a878f6d",
-    "meta_json": null,
-    "meta_url": "https://adasquirrel.com/meta/testnet/poolmeta.json",
-    "op_cert": "6f2610b12dc719828be0dec4dbcf43cc6a3d7b48ab81eecbb639b14bb6739a4d",
-    "op_cert_counter": 0,
-    "owners": [
-      "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs"
-    ],
-    "pledge": "1000000000",
-    "pool_id_bech32": "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta",
-    "pool_id_hex": "c997e00dd2174d86a6ed9d814daef42f2dce2babc234b4003bcb02bf",
-    "pool_status": "registered",
-    "relays": [
-      {
-        "dns": "lamente.controlliamo.com",
-        "ipv4": null,
-        "ipv6": null,
-        "port": 6000,
-        "srv": null
-      }
-    ],
-    "retiring_epoch": null,
-    "reward_addr": "stake_test1up5qkcr9y44aqrrf39663un7hqvjy68fupuhdrrzt7t06zgmcnprs",
-    "reward_addr_delegated_drep": null,
-    "sigma": 0.00031776319368572981,
-    "voting_power": "119749928243",
-    "vrf_key_hash": "53904d9cbe59b52d6b54ce29a58090ef45b3e44bffdc6ab7c514a7c3934f2a74"
   }
 ]

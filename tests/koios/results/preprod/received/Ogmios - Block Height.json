@@ -2,5 +2,5 @@
   "id": null,
   "jsonrpc": "2.0",
   "method": "queryNetwork/blockHeight",
-  "result": 3450534
+  "result": 3521270
 }

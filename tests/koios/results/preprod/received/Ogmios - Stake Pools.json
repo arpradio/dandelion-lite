@@ -269,6 +269,41 @@
       "rewardAccount": "stake_test1uzccsye9uvqt8qwsmv4xrmkct0nzvmssg9zsepm0rf2etzc2vklyj",
       "vrfVerificationKeyHash": "bc13433f5ac5dbb4aca15847fcbc08e1e7dcd5385f8123bae74900c1150d7f88"
     },
+    "pool10v6xzynssfsk23smf8luqud8l6arw9mpwznaet0l7c7a2r6dzvf": {
+      "cost": {
+        "ada": {
+          "lovelace": 340000000
+        }
+      },
+      "id": "pool10v6xzynssfsk23smf8luqud8l6arw9mpwznaet0l7c7a2r6dzvf",
+      "margin": "3/100",
+      "metadata": {
+        "hash": "1b98483bf02219afb01833dc42169100936e372f73bfb0ac8448805f3cdbe998",
+        "url": "https://raw.githubusercontent.com/dwo123/1/refs/heads/1/md.json"
+      },
+      "owners": [
+        "7048bb975b2630ce27840bd7ed1760720221e2a06ba65e04b1833907"
+      ],
+      "pledge": {
+        "ada": {
+          "lovelace": 100000000
+        }
+      },
+      "relays": [
+        {
+          "ipv4": "174.210.194.54",
+          "port": 3001,
+          "type": "ipAddress"
+        },
+        {
+          "ipv4": "73.210.194.54",
+          "port": 3002,
+          "type": "ipAddress"
+        }
+      ],
+      "rewardAccount": "stake_test1upcy3wuhtvnrpn38ss9a0mghvpeqyg0z5p46vhsykxpnjpcn7hcgg",
+      "vrfVerificationKeyHash": "d51df5181e24b5acc4fb0b3c6f9d84c59d503c546c60208a25b4ef604c00ff9e"
+    },
     "pool10zaylnde5n0uurvcqyrmf2wjrk0hk2zmx0ln990p3alt2gh4mkk": {
       "cost": {
         "ada": {
@@ -2464,6 +2499,36 @@
       ],
       "rewardAccount": "stake_test1ur6lytls86nyrqa25ykjnxc2khjvjnqg797hz5w9s59h7cqyp0auj",
       "vrfVerificationKeyHash": "cc4fe73ca486c1d9ad7fa5b1f7d73d511cf07aaa1f9c7e7ea83f0f8f60f81fc6"
+    },
+    "pool16y0y03vswwyshq52q3ql67tnqn6jdyucw9dfqme33v5zu7ptknl": {
+      "cost": {
+        "ada": {
+          "lovelace": 170000000
+        }
+      },
+      "id": "pool16y0y03vswwyshq52q3ql67tnqn6jdyucw9dfqme33v5zu7ptknl",
+      "margin": "3/40",
+      "metadata": {
+        "hash": "2bb01464f22e03542a5cba78f42a22c9032358d8b418262bf64c8507655666bc",
+        "url": "https://tinyurl.com/33c9hdyz"
+      },
+      "owners": [
+        "bad3a07271b55800002d57daefdc7308f1044545033c547a6f7b141e"
+      ],
+      "pledge": {
+        "ada": {
+          "lovelace": 5000000000
+        }
+      },
+      "relays": [
+        {
+          "ipv4": "192.168.0.20",
+          "port": 6000,
+          "type": "ipAddress"
+        }
+      ],
+      "rewardAccount": "stake_test1uzad8grjwx64sqqq94ta4m7uwvy0zpz9g5pnc4r6daa3g8sgy03yr",
+      "vrfVerificationKeyHash": "d63c849f26b6b96822f1d45278efa6841e4e71fcb738d3688e9feaacfcce531b"
     },
     "pool170lseazv7knrlu2m7xzj852mngvn075x2vqgmdmdvmd05wwdxpy": {
       "cost": {
@@ -5035,36 +5100,6 @@
       "rewardAccount": "stake_test1uqj2eyg6eue6dcrxudas23yhulm5kcqy4rsyssuz3uq8kycnx8ln4",
       "vrfVerificationKeyHash": "dea2b7646d31ac628fd17256d545c31a776ca47906ca4d41a02572fe4d64767b"
     },
-    "pool1fl0yd3l59d9cu3sapjkj06jatknyw7rjams6yh9rzpuf7vuwftj": {
-      "cost": {
-        "ada": {
-          "lovelace": 170000000
-        }
-      },
-      "id": "pool1fl0yd3l59d9cu3sapjkj06jatknyw7rjams6yh9rzpuf7vuwftj",
-      "margin": "7/200",
-      "metadata": {
-        "hash": "c5de7175ae3beb2a2a858631eaae1fcddd7d05dca455a2fb07e47e606e623945",
-        "url": "https://bit.ly/TETON_PRE"
-      },
-      "owners": [
-        "c1d12fc1f05db39f38664f7e4a680a5a49a84f443c1224cf401409d3"
-      ],
-      "pledge": {
-        "ada": {
-          "lovelace": 9000000000
-        }
-      },
-      "relays": [
-        {
-          "ipv4": "137.26.100.78",
-          "port": 6000,
-          "type": "ipAddress"
-        }
-      ],
-      "rewardAccount": "stake_test1urqazt7p7pwm88ecve8hujngpfdyn2z0gs7pyfx0gq2qn5cce3pr8",
-      "vrfVerificationKeyHash": "d5a7afd6af49a862189c247d4e5ebba9c17562ee3f772ca2ff5b47034ffe6f00"
-    },
     "pool1fm7p9jphytheekdf4kvve0jn3q986fwxqguwq799zc4rzs4ltte": {
       "cost": {
         "ada": {
@@ -6375,6 +6410,36 @@
       "rewardAccount": "stake_test1updy5twkregjwdh426lc9pzc0pnznmllly65gkqywmh328cp7ayq5",
       "vrfVerificationKeyHash": "ec7f804386fe8ecfed4fa2a78426bd3ca889ce9e9c54e993749aa96c999d59d2"
     },
+    "pool1jh0an74k73cdavnaun3rw39m692q02a7lcqkns7h3w7nq7ga4y0": {
+      "cost": {
+        "ada": {
+          "lovelace": 345000000
+        }
+      },
+      "id": "pool1jh0an74k73cdavnaun3rw39m692q02a7lcqkns7h3w7nq7ga4y0",
+      "margin": "3/100",
+      "metadata": {
+        "hash": "5e79257fb3244b06363611dc6875016092c986d33a546fca04d4925be6204b8e",
+        "url": "https://tinyurl.com/35ce9s8z"
+      },
+      "owners": [
+        "bef3c5b54b169336e8b715abd2093afcbfd59b7913d0a1eb2e0741a4"
+      ],
+      "pledge": {
+        "ada": {
+          "lovelace": 100000000
+        }
+      },
+      "relays": [
+        {
+          "ipv4": "174.162.14.60",
+          "port": 3001,
+          "type": "ipAddress"
+        }
+      ],
+      "rewardAccount": "stake_test1uzl083d4fvtfxdhgku26h5sf8t7tl4vm0yfapg0t9cr5rfqfwup7w",
+      "vrfVerificationKeyHash": "20fbcaa6d599ad85a33714be06c5f1f2a8dc4c91ffd6d5d76faca4baca27e558"
+    },
     "pool1jt6tf4y0eshz0agzww8dc44wqt5kk8ytu730yww37acykezuly7": {
       "cost": {
         "ada": {
@@ -7456,42 +7521,6 @@
       "rewardAccount": "stake_test1upqe4mgpks6ks9dh5kfaw6rxrutj9e86e3zfwjxkln6z9aquny6g7",
       "vrfVerificationKeyHash": "f34925452262b97b3745c2b0bea5a723b37648b021058a044a92eb83feb7b180"
     },
-    "pool1ma3z83uxmvpaxxl3gp6zvgqqcdfdvd3spqy2gz8f0094sxtx2zp": {
-      "cost": {
-        "ada": {
-          "lovelace": 170000000
-        }
-      },
-      "id": "pool1ma3z83uxmvpaxxl3gp6zvgqqcdfdvd3spqy2gz8f0094sxtx2zp",
-      "margin": "3/100",
-      "metadata": {
-        "hash": "c5de7175ae3beb2a2a858631eaae1fcddd7d05dca455a2fb07e47e606e623945",
-        "url": "https://bit.ly/3QRFuAX"
-      },
-      "owners": [
-        "30c8767150d5dd5dd8a489e5ed6498e84eacb2bb160d451324ddfe4d",
-        "33049fb5b93381197da7fccf409bb1d22de093014e5850d3fd1b9145"
-      ],
-      "pledge": {
-        "ada": {
-          "lovelace": 12000000000
-        }
-      },
-      "relays": [
-        {
-          "ipv4": "184.164.124.192",
-          "port": 6001,
-          "type": "ipAddress"
-        },
-        {
-          "ipv4": "184.164.124.192",
-          "port": 6002,
-          "type": "ipAddress"
-        }
-      ],
-      "rewardAccount": "stake_test1uqcvsan32r2a6hwc5jy7tmtynr5yat9jhvtq63gnynwlungj0dxs3",
-      "vrfVerificationKeyHash": "701294a9662c0c4443c5037be6202d9076f14aa27d1b992507ca9ac04e39c7bd"
-    },
     "pool1maydque4d3nnj5vekfsegymtxh3uauxlywd79mytdav0y3ggfqq": {
       "cost": {
         "ada": {
@@ -7705,13 +7734,13 @@
     "pool1mwq3cc8nattn5hu77q0thg8f3srk493te4rsrm0gkfwyjcn2y23": {
       "cost": {
         "ada": {
-          "lovelace": 1000000000
+          "lovelace": 170000000
         }
       },
       "id": "pool1mwq3cc8nattn5hu77q0thg8f3srk493te4rsrm0gkfwyjcn2y23",
-      "margin": "99/100",
+      "margin": "3/4",
       "metadata": {
-        "hash": "437d46b71e29889977cf50ae8b4c7ca5127f911462a68aca22589b764021fdcc",
+        "hash": "3081c31156d6523e389609baab725b81a12cd293bb3782f55c878c9d3b962528",
         "url": "https://pcpm.s3.amazonaws.com/TMTF/poolmeta.json"
       },
       "owners": [
@@ -7719,7 +7748,7 @@
       ],
       "pledge": {
         "ada": {
-          "lovelace": 100
+          "lovelace": 1
         }
       },
       "relays": [
@@ -9205,36 +9234,6 @@
       "rewardAccount": "stake_test1uq79tc9tua4cugl5qseal94kd2vk26twvun66lg02d79y4sp3ry4x",
       "vrfVerificationKeyHash": "f6eb328b92969855272210fd39ae04bd0f9b257a571669c768484ea35889ba18"
     },
-    "pool1qwql65tatmweqrq9mhnefcsh6hz4cw3atjmqkqqz8c7f65tenqr": {
-      "cost": {
-        "ada": {
-          "lovelace": 345000000
-        }
-      },
-      "id": "pool1qwql65tatmweqrq9mhnefcsh6hz4cw3atjmqkqqz8c7f65tenqr",
-      "margin": "3/100",
-      "metadata": {
-        "hash": "5cf9c69e5b7e665d95c6f83833ce1ab5c140a44fdcc09a6b0de1b9dbc389d551",
-        "url": "https://raw.githubusercontent.com/darkwolf84848484/1/2/md.json"
-      },
-      "owners": [
-        "57fc71b2765c66c8cdcb0df0ee7445d62b8a95b30ad670ca55b58065"
-      ],
-      "pledge": {
-        "ada": {
-          "lovelace": 200000000
-        }
-      },
-      "relays": [
-        {
-          "ipv4": "73.210.194.54",
-          "port": 3001,
-          "type": "ipAddress"
-        }
-      ],
-      "rewardAccount": "stake_test1uptlcudjwewxdjxdevxlpmn5ghtzhz54kv9dvux22k6cqegms04es",
-      "vrfVerificationKeyHash": "3b038a0671e605f2fcfaf828ce96da10852086136f19befe56182d33fdd47b51"
-    },
     "pool1r2k8y80zxvqjyvyy3xg8r50892qcewgm38z6pcy3uk8fky4rkl0": {
       "cost": {
         "ada": {
@@ -10377,6 +10376,41 @@
       ],
       "rewardAccount": "stake_test1uzcrzvxkdpltdsxtad7kzx8867g38qyzsse56ykczw438wsgq4zwf",
       "vrfVerificationKeyHash": "1df6ce37b9b6f7e52d4d3409e5060b644c070a523450a7d836c4b36f5acd99f3"
+    },
+    "pool1u0ae7lu0u3ea6qsz5yet6g424ac5dpfmxhzh5k5jgxqjq7mjgcu": {
+      "cost": {
+        "ada": {
+          "lovelace": 170000000
+        }
+      },
+      "id": "pool1u0ae7lu0u3ea6qsz5yet6g424ac5dpfmxhzh5k5jgxqjq7mjgcu",
+      "margin": "1/100",
+      "metadata": {
+        "hash": "886f881d74d60dcc33893031a3d897ae66fe892a488ea9c864039813ff4d1c97",
+        "url": "https://tinyurl.com/yl2wuau3"
+      },
+      "owners": [
+        "04e5024d709bf7fb73794b152b74fe0ea3df4c35b2bc7a18e0a5885b"
+      ],
+      "pledge": {
+        "ada": {
+          "lovelace": 100000000
+        }
+      },
+      "relays": [
+        {
+          "ipv4": "15.204.108.181",
+          "port": 6000,
+          "type": "ipAddress"
+        },
+        {
+          "ipv4": "40.160.21.3",
+          "port": 6000,
+          "type": "ipAddress"
+        }
+      ],
+      "rewardAccount": "stake_test1uqzw2qjdwzdl07mn099322m5lc828h6vxketc7scuzjcskcvpcxy2",
+      "vrfVerificationKeyHash": "4b4f11de982ba6b6c5ad30163998ff07c82f0adde8c13b567ce3c79b6b83515f"
     },
     "pool1u0uz5kah6w2dmffhxu2gly76rtt7shupv8fy76f2k9yj70r9cep": {
       "cost": {
@@ -12251,6 +12285,36 @@
       ],
       "rewardAccount": "stake_test1ur73cayvyglpxfc64zajrmd45thdl4d2zrckdn38q6wduyqy7sz6p",
       "vrfVerificationKeyHash": "9ef5f3790dae581b6f17d6f6cc35eb50bbb8fa30be1871f6f47b5e40ae1fdb1a"
+    },
+    "pool1xx5h8f5s83hswg7yaxt0hmdzkj27kdp2l0487adudxzhc97ryxl": {
+      "cost": {
+        "ada": {
+          "lovelace": 170000000
+        }
+      },
+      "id": "pool1xx5h8f5s83hswg7yaxt0hmdzkj27kdp2l0487adudxzhc97ryxl",
+      "margin": "3/40",
+      "metadata": {
+        "hash": "e5925426baa6d1d467b566d551ee5d4c2f621fbfd2906f7e14e688138c0eefb5",
+        "url": "https://www.llibret.com/preprod/metadata.json"
+      },
+      "owners": [
+        "f2ffc829d3a346a7651128025ca7b8efb7381e313563a4d7b0b5678a"
+      ],
+      "pledge": {
+        "ada": {
+          "lovelace": 15000000000
+        }
+      },
+      "relays": [
+        {
+          "hostname": "relay1.llibret.com",
+          "port": 6000,
+          "type": "hostname"
+        }
+      ],
+      "rewardAccount": "stake_test1ure0ljpf6w35dfm9zy5qyh98hrhmwwq7xy6k8fxhkz6k0zs72zgxy",
+      "vrfVerificationKeyHash": "3141a7ecc417f9c6b6bcd64cc1ebf07dc3e17fe70e5bc02192e2d07c10eab36e"
     },
     "pool1xxaguse3yem8vg3m3phkyx0nqkfgefxchkxn4h4vqey86ffesa5": {
       "cost": {

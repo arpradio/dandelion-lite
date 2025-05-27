@@ -1,5 +1,48 @@
 [
   {
+    "block_time": 1747406703,
+    "deposit": "100000000000",
+    "dropped_epoch": null,
+    "enacted_epoch": null,
+    "expiration": 223,
+    "expired_epoch": null,
+    "meta_comment": null,
+    "meta_hash": "23a7f81f8639abdaa633ea9fa67b9507f6a677f29361f7161bc208b0a8f81dfb",
+    "meta_is_valid": null,
+    "meta_json": null,
+    "meta_language": null,
+    "meta_url": "https://my-ip.at/test/CIP108-example.json",
+    "param_proposal": null,
+    "proposal_description": {
+      "contents": [
+        [
+          [
+            {
+              "credential": {
+                "keyHash": "c13582aec9a44fcc6d984be003c5058c660e1d2ff1370fd8b49ba73f"
+              },
+              "network": "Testnet"
+            },
+            100000000000
+          ]
+        ],
+        "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      ],
+      "tag": "TreasuryWithdrawals"
+    },
+    "proposal_id": "gov_action1grp2gtlry36e5eqdelwmc6009cahledfnzhc6enqxkth906ye8wqqzfxv5t",
+    "proposal_index": 0,
+    "proposal_tx_hash": "40c2a42fe324759a640dcfddbc69ef2e3b7fe5a998af8d6660359772bf44c9dc",
+    "proposal_type": "TreasuryWithdrawals",
+    "proposed_epoch": 216,
+    "ratified_epoch": null,
+    "return_address": "stake_test1urqntq4wexjylnrdnp97qq79qkxxvrsa9lcnwr7ckjd6w0cr04y4p",
+    "withdrawal": {
+      "amount": "100000000000",
+      "stake_address": "stake_test1urqntq4wexjylnrdnp97qq79qkxxvrsa9lcnwr7ckjd6w0cr04y4p"
+    }
+  },
+  {
     "block_time": 1746011865,
     "deposit": "100000000000",
     "dropped_epoch": null,
@@ -102,7 +145,7 @@
   {
     "block_time": 1743507871,
     "deposit": "100000000000",
-    "dropped_epoch": null,
+    "dropped_epoch": 215,
     "enacted_epoch": null,
     "expiration": 214,
     "expired_epoch": 214,
@@ -217,7 +260,7 @@
   {
     "block_time": 1743507871,
     "deposit": "100000000000",
-    "dropped_epoch": null,
+    "dropped_epoch": 215,
     "enacted_epoch": null,
     "expiration": 214,
     "expired_epoch": 214,

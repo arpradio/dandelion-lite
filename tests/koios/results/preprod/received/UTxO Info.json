@@ -1,34 +1,6 @@
-[
-  {
-    "address": "addr_test1vpyy67jpnqrlfyce8q7230spr5sms6wdj45vtu4d6z7lh5quwjnsu",
-    "asset_list": null,
-    "block_height": 245407,
-    "block_time": 1667819897,
-    "datum_hash": null,
-    "epoch_no": 31,
-    "inline_datum": null,
-    "is_spent": true,
-    "payment_cred": "484d7a419807f49319383ca8be011d21b869cd9568c5f2add0bdfbd0",
-    "reference_script": null,
-    "stake_address": null,
-    "tx_hash": "145688d3619e7524510ea64c0ec6363b77a9b8da179ef9bb0273a0940d57d576",
-    "tx_index": 0,
-    "value": "32000000"
-  },
-  {
-    "address": "addr_test1vpa4lwk9gs3v4nfns9gc2l9e23y0ux37cm3dk5vp5qpnnkqpvlyfx",
-    "asset_list": null,
-    "block_height": 245464,
-    "block_time": 1667820875,
-    "datum_hash": null,
-    "epoch_no": 31,
-    "inline_datum": null,
-    "is_spent": true,
-    "payment_cred": "7b5fbac54422cacd338151857cb95448fe1a3ec6e2db5181a00339d8",
-    "reference_script": null,
-    "stake_address": null,
-    "tx_hash": "d10133964da9e443b303917fd0b7644ae3d01c133deff85b4f59416c2d00f530",
-    "tx_index": 0,
-    "value": "2000000"
-  }
-]
+{
+  "code": "42P01",
+  "details": null,
+  "hint": null,
+  "message": "relation \"address\" does not exist"
+}
