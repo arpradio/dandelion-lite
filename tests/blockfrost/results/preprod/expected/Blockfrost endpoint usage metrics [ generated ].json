@@ -45,62 +45,62 @@
     "time": 1748304000
   },
   {
-    "calls": 33,
+    "calls": 44,
     "endpoint": "accounts",
     "time": 1748304000
   },
   {
-    "calls": 21,
+    "calls": 28,
     "endpoint": "addresses",
     "time": 1748304000
   },
   {
-    "calls": 21,
+    "calls": 28,
     "endpoint": "assets",
     "time": 1748304000
   },
   {
-    "calls": 42,
+    "calls": 51,
     "endpoint": "blocks",
     "time": 1748304000
   },
   {
-    "calls": 35,
+    "calls": 45,
     "endpoint": "epochs",
     "time": 1748304000
   },
   {
-    "calls": 4,
+    "calls": 5,
     "endpoint": "genesis",
     "time": 1748304000
   },
   {
-    "calls": 48,
+    "calls": 60,
     "endpoint": "governance",
     "time": 1748304000
   },
   {
-    "calls": 13,
+    "calls": 14,
     "endpoint": "health",
     "time": 1748304000
   },
   {
-    "calls": 9,
+    "calls": 12,
     "endpoint": "mempool",
     "time": 1748304000
   },
   {
-    "calls": 9,
+    "calls": 12,
     "endpoint": "metadata",
     "time": 1748304000
   },
   {
-    "calls": 6,
+    "calls": 8,
     "endpoint": "metrics",
     "time": 1748304000
   },
   {
-    "calls": 6,
+    "calls": 8,
     "endpoint": "network",
     "time": 1748304000
   },
@@ -110,12 +110,12 @@
     "time": 1748304000
   },
   {
-    "calls": 36,
+    "calls": 48,
     "endpoint": "pools",
     "time": 1748304000
   },
   {
-    "calls": 21,
+    "calls": 28,
     "endpoint": "scripts",
     "time": 1748304000
   },
@@ -125,7 +125,7 @@
     "time": 1748304000
   },
   {
-    "calls": 39,
+    "calls": 52,
     "endpoint": "txs",
     "time": 1748304000
   }
