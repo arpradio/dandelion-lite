@@ -27,6 +27,10 @@ echo
 
 docker compose down
 
+docker compose up postgress -d 
+docker compose exec -it postgress psql -U dandelion_user -d dandelion_lite -c "ALTER USER \"dandelion_user\" WITH PASSWORD 'test';"
+docker compose down
+
 for volumeName in $volumeNames; do
     if [[ $volumeName == "$projectName"* ]]; then   # True if $volumeName starts with a projectName.
 	fileName=$(echo $volumeName | sed "s/^${projectName}//")
@@ -37,6 +41,11 @@ for volumeName in $volumeNames; do
 	echo
     fi
 done
+
+source .env
+docker compose up postgress -d
+docker compose exec -T postgress psql -U dandelion_user -d dandelion_lite -c "ALTER USER \"dandelion_user\" WITH PASSWORD '${POSTGRES_PASSWORD}';"
+docker compose down
 
 exit 0
 
