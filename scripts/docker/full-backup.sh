@@ -1,7 +1,10 @@
 #/bin/sh
+source .env
 
 projectName=$1
 backupDir=$2
+backupPassword="backup"
+postgresService="postgress"
 
 [[ -z $projectName ]] && echo "Missing docker compose project name (actually only a prefix is required)" && exit 1
 [[ -z $backupDir ]] && echo "Missing directory path for storing backup files (with last slash)" && exit 1
@@ -27,10 +30,12 @@ echo
 
 docker compose down
 
-docker compose up postgress -d 
-docker compose exec -it postgress psql -U dandelion_user -d dandelion_lite -c "ALTER USER \"dandelion_user\" WITH PASSWORD 'test';"
+echo "Setting a dummy database password '$backupPassword' for safe backup sharing..."
+docker compose up "$postgresService" -d 
+docker compose exec -it "$postgresService" psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "ALTER USER \"$POSTGRES_USER\" WITH PASSWORD '$backupPassword';"
 docker compose down
 
+# Perform all the backups
 for volumeName in $volumeNames; do
     if [[ $volumeName == "$projectName"* ]]; then   # True if $volumeName starts with a projectName.
 	fileName=$(echo $volumeName | sed "s/^${projectName}//")
@@ -42,9 +47,9 @@ for volumeName in $volumeNames; do
     fi
 done
 
-source .env
-docker compose up postgress -d
-docker compose exec -T postgress psql -U dandelion_user -d dandelion_lite -c "ALTER USER \"dandelion_user\" WITH PASSWORD '${POSTGRES_PASSWORD}';"
+echo "Setting back your database password..."
+docker compose up "$postgresService" -d
+docker compose exec -T "$postgresService" psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "ALTER USER \"$POSTGRES_USER\" WITH PASSWORD '${POSTGRES_PASSWORD}';"
 docker compose down
 
 exit 0
