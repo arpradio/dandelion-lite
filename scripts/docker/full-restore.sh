@@ -41,5 +41,10 @@ for volumeName in $volumeNames; do
     fi
 done
 
+source .env
+docker compose up postgress -d
+docker compose exec -T postgress psql -U dandelion_user -d dandelion_lite -c "ALTER USER \"dandelion_user\" WITH PASSWORD '${POSTGRES_PASSWORD}';"
+docker compose down
+
 exit 0
 
