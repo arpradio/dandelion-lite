@@ -273,11 +273,25 @@ Below are the available commands and their descriptions:
 ## System monitoring tools 
 
 You can install glances to keep an eye on how your system is performing
-```bash sudo apt install glances ```
 
-In case you see high swap usage. This is happens quicker because we are running systems with a lot of memory. Use the following scripts. Make sure your dandelion nodes are down by running in the folders where you cloned the dandelion git into:
-```bash docker compose down``` 
+```bash 
+sudo apt install glances 
+```
+
+### Swap memory
+
+In case you see high swap usage in `glances` or other monitor tool, this is happens because we are running systems with a lot of memory consumption. 
+
+Use the following commands to increase swap memory allocation. 
+
+Make sure your dandelion nodes are down by running in the folders where you cloned the dandelion git into:
+
+```bash
+docker compose down
+``` 
+
 Once you have a not busy system do the following:
+
 ```bash
 swapon --show
 sudo swapoff -v /swap.img
@@ -289,7 +303,6 @@ sudo swapon
 sudo reboot now 
 
 ```
-
 ## Notes
 
 ### Koios Support
