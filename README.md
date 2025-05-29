@@ -294,7 +294,7 @@ sudo reboot now
 
 ### Koios Support
 
-Due to special **Koios** requirements on **cardano-db-sync** database [tables setup with variant schema](https://github.com/IntersectMBO/cardano-db-sync/blob/master/doc/schema.md#variant-schema), it makes it not fully compatible with other APIs like **Blockfrost** and **cardano-graphql**.
+Due to special **Koios** requirements on **cardano-db-sync** database setup ( [variant schema](https://github.com/IntersectMBO/cardano-db-sync/blob/master/doc/schema.md#variant-schema) ), it makes it not fully compatible with other APIs like **Blockfrost** and **cardano-graphql**.
 
 As it is not adviced to run 2 **cardano-db-sync** instances to keep also other APIs working under the same setup, we offer out of the box a semi-working **Koios** API (without *variant schema*), and if you setup **cardano-db-sync** properly you can get it working at full, but affecting the other services.
 
