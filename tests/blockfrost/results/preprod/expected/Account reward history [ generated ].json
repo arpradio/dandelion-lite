@@ -1,0 +1,20 @@
+[
+  {
+    "amount": "737554",
+    "epoch": 216,
+    "pool_id": "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq",
+    "type": "member"
+  },
+  {
+    "amount": "735530",
+    "epoch": 215,
+    "pool_id": "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq",
+    "type": "member"
+  },
+  {
+    "amount": "742452",
+    "epoch": 214,
+    "pool_id": "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq",
+    "type": "member"
+  }
+]

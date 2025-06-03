@@ -1,0 +1,19 @@
+{
+  "block_vrf": "vrf_vk1xsj3adpw7xfw4hfmrnq84hvdqnq6gupjgxq7ng7ffwe736g7h7jqcdj693",
+  "confirmations": 0,
+  "epoch": 218,
+  "epoch_slot": 157245,
+  "fees": "1815820",
+  "hash": "109a0c892bd152f202956afd66856c4a3e39f5abe8fa9d60751ed8693b9a9f49",
+  "height": 3521283,
+  "next_block": null,
+  "op_cert": "5886b9d62c8bfee18343809a6b972ef18ea554d621e5f51a8c83f8a434b6ef36",
+  "op_cert_counter": "8",
+  "output": "15184180",
+  "previous_block": "ed0f516c851a1558dddebd0dc4db1163f9574358ab577b3c054535ef7946ed0c",
+  "size": 1615,
+  "slot": 92691645,
+  "slot_leader": "pool1v3lsp74wauazym2rwkktye9kdw2vyj8h9yvkgzj556t0g390ecw",
+  "time": 1748374845,
+  "tx_count": 1
+}

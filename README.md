@@ -27,9 +27,11 @@ This setup includes several key components:
 - `cardano-db-sync`: Synchronizes the blockchain data to a PostgreSQL database.
 - `haproxy`: A high-performance proxy to distribute network traffic among various components.
 - `postgres`: The PostgreSQL database, storing the synchronized blockchain data.
-- `koios`: RESTful API for Cardano, based on PostGREST. 
+- `koios`: RESTful API for Cardano, based on PostGREST, adapted for Dandelion Lite. 
+- `blockfrost`: RESTful API for Cardano, using `blockfrost-ryo` official images. 
 - `cardano-graphql`: Official GraphQL API for Cardano.
 - `cardano-token-registry`: Official Token Registry API for Cardano.
+- `cardano-submit-api`: Official Transactions Submit API for Cardano.
 - `dandelion-postgrest`: Dandelion PostGREST API for Cardano, a RESTful API for querying the blockchain data stored in PostgreSQL
 - `cardano-sql`: (MVP - WIP) PosgreSQL-over-HTTP API gateway wrapping several services such as
     - ogmios
@@ -41,6 +43,7 @@ This setup includes several key components:
     - more..
 - `manifest`: JSON information of deployed Dandelion Lite Node, required for client applications and for joining the Dandelion Network of decentralized nodes
 - `home`: HTML landing website of deployed Dandelion Lite Node 
+- `backups`: your volume backups hosted with password protection 
 
 Each service is containerized and managed via Docker, ensuring easy deployment and scalability.
 
@@ -162,12 +165,30 @@ Remember to secure your deployment according to best practices, including securi
 To auto run on system start:
 1. Execute `scripts/dandoman.sh` > `Setup->Run on system start` and follow steps.
 
+
+### Download a Full Remote Backup
+
+Syncing Cardano node and databases can take even more than a week, it is adviced for you to download compressed snapshots of the databases to get you started.
+
+1. Set the `BACKUP_DIR` environment variable on `.env` file with the location on where you want to store the files, like `BACKUP_DIR="/home/${USER}/backups/${NETWORK}/"`. Check [Volume Backup Sizes](#volume-backup-sizes) for estimating the required size.
+2. Execute `scripts/dandoman.sh` > `Setup->Download Backup` and follow steps.
+
+```
+Enter the URL for remote backup download (with trailing slash): https://example.dandelion.node/backups/        
+Enter remote username (optional): backup
+Enter remote password (optional): *********
+About to download backups from 'https://example.dandelion.node/backups/' into '/home/DandelionUser/backups/preprod/'
+Press key to continue.. (Ctrl + C to abort)
+...
+✅ All done.
+```
+
 ### Run a Full Deploy Backup
 
-Syncing #Cardano node and databases can take even more than a week, it is adviced for you to take compressed snapshots or backups of your databases after 2 or 3 of months at least.
+Syncing Cardano node and databases can take even more than a week, it is adviced for you to take compressed snapshots or backups of your databases after 2 or 3 of months at least.
 1. Set the `BACKUP_DIR` environment variable on `.env` file with the location on where you want to store the files, like `BACKUP_DIR="/home/${USER}/backups/${NETWORK}/"`. Check [Volume Backup Sizes](#volume-backup-sizes) for estimating the required size.
-2. Execute `scripts/dandoman.sh` > `Setup->Full backup` and follow steps.
-
+2. Customize `NGINX_WWW_BACKUP_USER` and `NGINX_WWW_BACKUP_PASSWORD` to protect with a password the hosting of your backup files
+3. Execute `scripts/dandoman.sh` > `Setup->Full backup` and follow steps.
 
 ### Run a Full Deploy Restore
 
@@ -252,11 +273,25 @@ Below are the available commands and their descriptions:
 ## System monitoring tools 
 
 You can install glances to keep an eye on how your system is performing
-```bash sudo apt install glances ```
 
-In case you see high swap usage. This is happens quicker because we are running systems with a lot of memory. Use the following scripts. Make sure your dandelion nodes are down by running in the folders where you cloned the dandelion git into:
-```bash docker compose down``` 
+```bash 
+sudo apt install glances 
+```
+
+### Swap memory
+
+In case you see high swap usage in `glances` or other monitor tool, this is happens because we are running systems with a lot of memory consumption. 
+
+Use the following commands to increase swap memory allocation. 
+
+Make sure your dandelion nodes are down by running in the folders where you cloned the dandelion git into:
+
+```bash
+docker compose down
+``` 
+
 Once you have a not busy system do the following:
+
 ```bash
 swapon --show
 sudo swapoff -v /swap.img
@@ -265,6 +300,25 @@ sudo fallocate -l 40G /swap.img
 sudo chmod 0600 /swap.img
 sudo mkswap /swap.img 
 sudo swapon
-sudo reboot now ```
+sudo reboot now 
 
+```
+## Notes
 
+### Koios Support
+
+Due to special **Koios** requirements on **cardano-db-sync** database setup ( [variant schema](https://github.com/IntersectMBO/cardano-db-sync/blob/master/doc/schema.md#variant-schema) ), it makes it not fully compatible with other APIs like **Blockfrost** and **cardano-graphql**.
+
+As it is not adviced to run 2 **cardano-db-sync** instances to keep also other APIs working under the same setup, we offer out of the box a semi-working **Koios** API (without *variant schema*), and if you setup **cardano-db-sync** properly you can get it working at full, but affecting the other services.
+
+Default **Koios** support can be examined with it's latest test reports
+- [preprod](tests/koios/preprod.report)
+- [mainnet](tests/koios/mainnet.report)
+
+### Blockfrost Support
+
+All basic endpoints + **cardano-submit-api** + **ogmios** are supported. Other auxiliar endpoints are yet to be tested.
+
+Default **Blockfrost RYO** support can be examined with it's latest test reports
+- [preprod](tests/blockfrost/preprod.report)
+- [mainnet](tests/blockfrost/mainnet.report)

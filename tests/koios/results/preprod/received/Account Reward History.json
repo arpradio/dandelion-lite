@@ -1,0 +1,10 @@
+[
+  {
+    "amount": "57262208",
+    "earned_epoch": 30,
+    "pool_id_bech32": "pool12jthfp4uqah0yndtdu6x2tqaxvgnlpc7h30gvwey3rsrc789tme",
+    "spendable_epoch": 32,
+    "stake_address": "stake_test1ur4t5nhceyn2amfuj7z74uxmmj8jf9fmgd2egqw8c98ve3cp2g4wx",
+    "type": "leader"
+  }
+]

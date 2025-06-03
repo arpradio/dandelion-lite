@@ -1,0 +1,30 @@
+[
+  {
+    "meta_hash": "d843ac7c8ab3a17fe28d5a68c975dc846fe87479364bcff7dd3b30e5c442ca07",
+    "meta_json": {
+      "description": "Stake by the sea from St Kilda Australia. Reliable, secure, independent",
+      "homepage": "https://seaside-staking.github.io/",
+      "name": "SeasideStaking",
+      "ticker": "SEA"
+    },
+    "meta_url": "https://raw.githubusercontent.com/Seaside-Staking/m/main/m.json",
+    "pool_id_bech32": "pool1ws42l6rawqjv58crs5l32v0eem3qnngpnjfd7epwd4lmjccc5cg"
+  },
+  {
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "pool_id_bech32": "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta"
+  },
+  {
+    "meta_hash": "36be44ad5bd2825ede1bf91e76cae3cd8815cf74e372d08c72f2621adbf42b82",
+    "meta_json": {
+      "description": "BNTY1preprodnode",
+      "homepage": "https://github.com",
+      "name": "BNTY1preprod",
+      "ticker": "BNTY1"
+    },
+    "meta_url": "https://tinyurl.com/a3spabve",
+    "pool_id_bech32": "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv"
+  }
+]

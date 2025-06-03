@@ -575,7 +575,7 @@ menu() {
 
             "Setup")
               # Submenu for Setup with plain text options
-              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Reset Postgres" "Full Backup" "Full Restore" "Run on system start"  "$(gum style --foreground 208 "Back")")
+              setup_choice=$(gum choose --height 15 --cursor.foreground 229 --item.foreground 39 "Initialise Postgres" "Reset Postgres" "Full Backup" "Full Restore" "Download Backup" "Run on system start"  "$(gum style --foreground 208 "Back")")
 
               case "$setup_choice" in
                 #"Initialise Cardano Node")
@@ -622,20 +622,33 @@ menu() {
                   ;;
 
                 "Full Backup")
-		  backupDir=${BACKUP_DIR:-$(pwd)}
-		  ./scripts/docker/full-backup.sh "${PROJ_NAME}_" "${backupDir}"
+		              backupDir=${BACKUP_DIR:-$(pwd)}
+		              ./scripts/docker/full-backup.sh "${PROJ_NAME}_" "${backupDir}"
                   read -r -p "Press enter to continue"
-		  show_splash_screen
+		              show_splash_screen
                   ;;
                 "Full Restore")
-		  backupDir=${BACKUP_DIR:-$(pwd)}
-		  ./scripts/docker/full-restore.sh "${PROJ_NAME}_" "${backupDir}"
-		  read -r -p "Press enter to continue"
+                  backupDir=${BACKUP_DIR:-$(pwd)}
+                  ./scripts/docker/full-restore.sh "${PROJ_NAME}_" "${backupDir}"
+                  read -r -p "Press enter to continue"
                   show_splash_screen
                   ;;
-		"Run on system start")
-		  ./scripts/docker/systemdAdd.sh ${PROJ_NAME} docker-compose.yml .env $PODMAN_COMPOSE_PROVIDER
-		  read -r -p "Press enter to continue"
+                "Download Backup")
+                  backupDir="${BACKUP_DIR:-$(pwd)}"
+                  read -p "Enter the URL for remote backup download (with trailing slash): " url
+                  read -p "Enter remote username (optional): " username
+                  # Prompt for password silently
+                  read -s -p "Enter remote password (optional): " password
+                  echo
+                  echo "About to download backups from '${url}' into '${backupDir}'"
+                  read -p "Press key to continue.. (Ctrl + C to abort)" -n1 -s
+                  ./scripts/docker/full-backup-sync.sh "${url}" "${PROJ_NAME}_" "${backupDir}" "${username}" "${password}"
+                  read -r -p "Press enter to continue"
+                  show_splash_screen
+                  ;;
+                "Run on system start")
+                  ./scripts/docker/systemdAdd.sh ${PROJ_NAME} docker-compose.yml .env $PODMAN_COMPOSE_PROVIDER
+                  read -r -p "Press enter to continue"
                   show_splash_screen
                   ;;
 		#"Initialise Dbsync")

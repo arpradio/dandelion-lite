@@ -1,0 +1,125 @@
+[
+  {
+    "action": "updated",
+    "block_time": 1725665000,
+    "cert_index": 0,
+    "deposit": null,
+    "drep_id": "drep1ydmraa6kv8cvmry059v608tehl50nfmg0z764lmsqkvwurs40sw2z",
+    "has_script": true,
+    "hex": "763ef75661f0cd8c8fa159a79d79bfe8f9a76878bdaaff700598ee0e",
+    "meta_hash": "55c4ea20e133878ef8c80ddbf3f73adbe3220963a2874f8757d435d60126db41",
+    "meta_json": {
+      "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+        "authors": {
+          "@container": "@set",
+          "@context": {
+            "name": "http://xmlns.com/foaf/0.1/name",
+            "witness": {
+              "@context": {
+                "publicKey": "CIP100:publicKey",
+                "signature": "CIP100:signature",
+                "witnessAlgorithm": "CIP100:witnessAlgorithm"
+              },
+              "@id": "CIP100:witness"
+            }
+          },
+          "@id": "CIP100:authors"
+        },
+        "body": {
+          "@context": {
+            "abstract": "CIP108:abstract",
+            "comment": "CIP100:comment",
+            "externalUpdates": {
+              "@context": {
+                "title": "CIP100:update-title",
+                "uri": "CIP100:update-uri"
+              },
+              "@id": "CIP100:externalUpdates"
+            },
+            "givenName": "CIP119:givenName",
+            "image": {
+              "@context": {
+                "ImageObject": "https://schema.org/ImageObject"
+              },
+              "@id": "CIP119:image"
+            },
+            "motivations": "CIP119:motivations",
+            "objectives": "CIP119:objectives",
+            "paymentAddress": "CIP119:paymentAddress",
+            "qualifications": "CIP119:qualifications",
+            "rationale": "CIP108:rationale",
+            "references": {
+              "@container": "@set",
+              "@context": {
+                "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                "Other": "CIP100:OtherReference",
+                "label": "CIP100:reference-label",
+                "referenceHash": {
+                  "@context": {
+                    "hashAlgorithm": "CIP100:hashAlgorithm",
+                    "hashDigest": "CIP108:hashDigest"
+                  },
+                  "@id": "CIP108:referenceHash"
+                },
+                "uri": "CIP100:reference-uri"
+              },
+              "@id": "CIP119:references"
+            },
+            "title": "CIP108:title"
+          },
+          "@id": "CIP119:body"
+        },
+        "hashAlgorithm": "CIP100:hashAlgorithm"
+      },
+      "authors": [],
+      "body": {
+        "abstract": "This is the testnet smart contract DRep for Logical Mechanism LLC.",
+        "comment": "Our dRep script can update, vote, and propose.",
+        "givenName": "Logical Mechanism dRep",
+        "image": {
+          "@type": "ImageObject",
+          "contentUrl": "https://www.logicalmechanism.io/img/fullLogo.png",
+          "sha256": "8bdc144a86eb9758c101db6c8175e0664c40dc5e86890d6856be04f452f0ea81"
+        },
+        "motivations": "We are a technical consulting company specializing in open-sourced decentralized applications for the everyday user. We know Cardano inwards and out.",
+        "objectives": "We want to provide expert consulting, comprehensive knowledge, and in-depth research into the future of Cardano.",
+        "paymentAddress": "addr_test1qrvnxkaylr4upwxfxctpxpcumj0fl6fdujdc72j8sgpraa9l4gu9er4t0w7udjvt2pqngddn6q4h8h3uv38p8p9cq82qav4lmp",
+        "qualifications": "We are Plutus pioneers, dApp developers, stake pool operators, and open-source contributors. We know Cardano.",
+        "rationale": "We have extensive knowledge and experience building on Cardano. We could make great choices for Cardano's future.",
+        "references": [
+          {
+            "@type": "Other",
+            "label": "The Logical Mechanism Website",
+            "uri": "https://www.logicalmechanism.io/"
+          },
+          {
+            "@type": "Other",
+            "label": "The Logical Mechanism GitHub",
+            "uri": "https://github.com/logical-mechanism"
+          }
+        ],
+        "title": "Logical Mechanism Smart Contract dRep"
+      },
+      "hashAlgorithm": "blake2b-256"
+    },
+    "meta_url": "https://www.logicalmechanism.io/drepTestnet",
+    "update_tx_hash": "ebab27b88379f662d5bdcd2db7c0be391fd94674a889255411d540b6684e5c13"
+  },
+  {
+    "action": "registered",
+    "block_time": 1725664212,
+    "cert_index": 0,
+    "deposit": "500000000",
+    "drep_id": "drep1ydmraa6kv8cvmry059v608tehl50nfmg0z764lmsqkvwurs40sw2z",
+    "has_script": true,
+    "hex": "763ef75661f0cd8c8fa159a79d79bfe8f9a76878bdaaff700598ee0e",
+    "meta_hash": null,
+    "meta_json": null,
+    "meta_url": null,
+    "update_tx_hash": "744fb092ab6d8a4d8ca8f66ea3c0abb6b9d49381205aa41c75c8597e91137948"
+  }
+]

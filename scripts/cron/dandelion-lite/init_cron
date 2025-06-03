@@ -1,0 +1,3 @@
+# dandelion-lite jobs
+*/15 * * * * /scripts/cron/dandelion-lite/initialization.sh >> /var/log/cron_dandelion-lite_initialization.log 2>&1
+@reboot     /scripts/cron/dandelion-lite/initialization.sh >> /var/log/cron_dandelion-lite_initialization.log 2>&1

@@ -1,7 +1,10 @@
 #/bin/sh
+source .env
 
 projectName=$1
 backupDir=$2
+postgresService="postgress"
+
 
 [[ -z $projectName ]] && echo "Missing docker compose project name (actually only a prefix is required)" && exit 1
 [[ -z $backupDir ]] && echo "Missing directory path with the stored backup files (with last slash)" && exit 1
@@ -40,6 +43,11 @@ for volumeName in $volumeNames; do
 	echo
     fi
 done
+
+echo "Setting your custom database password as backups are shipped with a dummy one..."
+docker compose up "$postgresService" -d
+docker compose exec -T "$postgresService" psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "ALTER USER \"$POSTGRES_USER\" WITH PASSWORD '${POSTGRES_PASSWORD}';"
+docker compose down
 
 exit 0
 

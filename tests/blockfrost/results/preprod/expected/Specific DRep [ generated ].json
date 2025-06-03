@@ -1,0 +1,11 @@
+{
+  "active": true,
+  "active_epoch": 206,
+  "amount": "2745908059229",
+  "drep_id": "drep1yf49tsm8w6f2tepdmwg7kkjjfj32x60xnmyuknfskq3mskgfvuvhp",
+  "expired": false,
+  "has_script": false,
+  "hex": "226a55c3677692a5e42ddb91eb5a524ca2a369e69ec9cb4d30b023b859",
+  "last_active_epoch": 206,
+  "retired": false
+}

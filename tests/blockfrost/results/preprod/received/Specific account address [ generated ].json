@@ -1,0 +1,13 @@
+{
+  "active": true,
+  "active_epoch": 212,
+  "controlled_amount": "1002109413",
+  "drep_id": "drep_always_abstain",
+  "pool_id": "pool1upqfyzqpk6wkpsvw90qqrpr9tjyemh484wk4em69anwpu586ehq",
+  "reserves_sum": "0",
+  "rewards_sum": "262358977179",
+  "stake_address": "stake_test1upjrhwv2grq9fjzfwra9ymchqcj3t7a30ycaz67k4xdraeq4yngun",
+  "treasury_sum": "0",
+  "withdrawable_amount": "2215536",
+  "withdrawals_sum": "262356761643"
+}

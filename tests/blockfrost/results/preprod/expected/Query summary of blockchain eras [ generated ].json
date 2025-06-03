@@ -1,0 +1,121 @@
+[
+  {
+    "end": {
+      "epoch": 4,
+      "slot": 86400,
+      "time": 1728000
+    },
+    "parameters": {
+      "epoch_length": 21600,
+      "safe_zone": 4320,
+      "slot_length": 20
+    },
+    "start": {
+      "epoch": 0,
+      "slot": 0,
+      "time": 0
+    }
+  },
+  {
+    "end": {
+      "epoch": 5,
+      "slot": 518400,
+      "time": 2160000
+    },
+    "parameters": {
+      "epoch_length": 432000,
+      "safe_zone": 129600,
+      "slot_length": 1
+    },
+    "start": {
+      "epoch": 4,
+      "slot": 86400,
+      "time": 1728000
+    }
+  },
+  {
+    "end": {
+      "epoch": 6,
+      "slot": 950400,
+      "time": 2592000
+    },
+    "parameters": {
+      "epoch_length": 432000,
+      "safe_zone": 129600,
+      "slot_length": 1
+    },
+    "start": {
+      "epoch": 5,
+      "slot": 518400,
+      "time": 2160000
+    }
+  },
+  {
+    "end": {
+      "epoch": 7,
+      "slot": 1382400,
+      "time": 3024000
+    },
+    "parameters": {
+      "epoch_length": 432000,
+      "safe_zone": 129600,
+      "slot_length": 1
+    },
+    "start": {
+      "epoch": 6,
+      "slot": 950400,
+      "time": 2592000
+    }
+  },
+  {
+    "end": {
+      "epoch": 12,
+      "slot": 3542400,
+      "time": 5184000
+    },
+    "parameters": {
+      "epoch_length": 432000,
+      "safe_zone": 129600,
+      "slot_length": 1
+    },
+    "start": {
+      "epoch": 7,
+      "slot": 1382400,
+      "time": 3024000
+    }
+  },
+  {
+    "end": {
+      "epoch": 163,
+      "slot": 68774400,
+      "time": 70416000
+    },
+    "parameters": {
+      "epoch_length": 432000,
+      "safe_zone": 129600,
+      "slot_length": 1
+    },
+    "start": {
+      "epoch": 12,
+      "slot": 3542400,
+      "time": 5184000
+    }
+  },
+  {
+    "end": {
+      "epoch": 219,
+      "slot": 92966400,
+      "time": 94608000
+    },
+    "parameters": {
+      "epoch_length": 432000,
+      "safe_zone": 129600,
+      "slot_length": 1
+    },
+    "start": {
+      "epoch": 163,
+      "slot": 68774400,
+      "time": 70416000
+    }
+  }
+]

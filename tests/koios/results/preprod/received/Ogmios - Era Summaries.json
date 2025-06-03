@@ -1,0 +1,168 @@
+{
+  "id": null,
+  "jsonrpc": "2.0",
+  "method": "queryLedgerState/eraSummaries",
+  "result": [
+    {
+      "end": {
+        "epoch": 4,
+        "slot": 86400,
+        "time": {
+          "seconds": 1728000
+        }
+      },
+      "parameters": {
+        "epochLength": 21600,
+        "safeZone": 4320,
+        "slotLength": {
+          "milliseconds": 20000
+        }
+      },
+      "start": {
+        "epoch": 0,
+        "slot": 0,
+        "time": {
+          "seconds": 0
+        }
+      }
+    },
+    {
+      "end": {
+        "epoch": 5,
+        "slot": 518400,
+        "time": {
+          "seconds": 2160000
+        }
+      },
+      "parameters": {
+        "epochLength": 432000,
+        "safeZone": 129600,
+        "slotLength": {
+          "milliseconds": 1000
+        }
+      },
+      "start": {
+        "epoch": 4,
+        "slot": 86400,
+        "time": {
+          "seconds": 1728000
+        }
+      }
+    },
+    {
+      "end": {
+        "epoch": 6,
+        "slot": 950400,
+        "time": {
+          "seconds": 2592000
+        }
+      },
+      "parameters": {
+        "epochLength": 432000,
+        "safeZone": 129600,
+        "slotLength": {
+          "milliseconds": 1000
+        }
+      },
+      "start": {
+        "epoch": 5,
+        "slot": 518400,
+        "time": {
+          "seconds": 2160000
+        }
+      }
+    },
+    {
+      "end": {
+        "epoch": 7,
+        "slot": 1382400,
+        "time": {
+          "seconds": 3024000
+        }
+      },
+      "parameters": {
+        "epochLength": 432000,
+        "safeZone": 129600,
+        "slotLength": {
+          "milliseconds": 1000
+        }
+      },
+      "start": {
+        "epoch": 6,
+        "slot": 950400,
+        "time": {
+          "seconds": 2592000
+        }
+      }
+    },
+    {
+      "end": {
+        "epoch": 12,
+        "slot": 3542400,
+        "time": {
+          "seconds": 5184000
+        }
+      },
+      "parameters": {
+        "epochLength": 432000,
+        "safeZone": 129600,
+        "slotLength": {
+          "milliseconds": 1000
+        }
+      },
+      "start": {
+        "epoch": 7,
+        "slot": 1382400,
+        "time": {
+          "seconds": 3024000
+        }
+      }
+    },
+    {
+      "end": {
+        "epoch": 163,
+        "slot": 68774400,
+        "time": {
+          "seconds": 70416000
+        }
+      },
+      "parameters": {
+        "epochLength": 432000,
+        "safeZone": 129600,
+        "slotLength": {
+          "milliseconds": 1000
+        }
+      },
+      "start": {
+        "epoch": 12,
+        "slot": 3542400,
+        "time": {
+          "seconds": 5184000
+        }
+      }
+    },
+    {
+      "end": {
+        "epoch": 219,
+        "slot": 92966400,
+        "time": {
+          "seconds": 94608000
+        }
+      },
+      "parameters": {
+        "epochLength": 432000,
+        "safeZone": 129600,
+        "slotLength": {
+          "milliseconds": 1000
+        }
+      },
+      "start": {
+        "epoch": 163,
+        "slot": 68774400,
+        "time": {
+          "seconds": 70416000
+        }
+      }
+    }
+  ]
+}

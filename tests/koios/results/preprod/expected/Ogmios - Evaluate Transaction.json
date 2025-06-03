@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": -32600,
+    "message": "Invalid request: must be a well-formed JSON object."
+  },
+  "id": null,
+  "jsonrpc": "2.0"
+}

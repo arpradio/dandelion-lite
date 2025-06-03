@@ -1,0 +1,62 @@
+[
+  {
+    "asset_name": "424541434f4e",
+    "asset_name_ascii": "BEACON",
+    "fingerprint": "asset1denjnw8f0qtcqu66wd5xxrv2ycghml6ed0alua",
+    "policy_id": "0000001c1f5134859ee40556e75834b9929d1b393ab94858a3d27ae0"
+  },
+  {
+    "asset_name": "494e4359",
+    "asset_name_ascii": "INCY",
+    "fingerprint": "asset1mc79zmej5axlk8sd4lhsetxnjy0zkeyvfp3zmc",
+    "policy_id": "0000001c1f5134859ee40556e75834b9929d1b393ab94858a3d27ae0"
+  },
+  {
+    "asset_name": "87895164d4e332e30b1b5d38ab1f4c6a5a152c2d71b784be0cc78c3dfdc270a6",
+    "asset_name_ascii": "\\207\\211Qd\\324\\3432\\343\u000b\u001b]8\\253\u001fLjZ\u0015,-q\\267\\204\\276\f\\307\\214=\\375\\302p\\246",
+    "fingerprint": "asset1aaaldsgxl3a2drqshyyqan7398f5w46h0kf2kk",
+    "policy_id": "000156e00164e132b576b87e5ae164ad20c7627e3356fb005e0958b6"
+  },
+  {
+    "asset_name": "e4bf53ba82c4fe38c3ccd580f63ec2accc3d219956e397d9897bdd5077b61685",
+    "asset_name_ascii": "\\344\\277S\\272\\202\\304\\3768\\303\\314\\325\\200\\366>\\302\\254\\314=!\\231V\\343\\227\\331\\211{\\335Pw\\266\u0016\\205",
+    "fingerprint": "asset14fvrw0lq6qjt2al3e9wyv85w8sx5ma5jegrk5a",
+    "policy_id": "000156e00164e132b576b87e5ae164ad20c7627e3356fb005e0958b6"
+  },
+  {
+    "asset_name": "677079432b2b41",
+    "asset_name_ascii": "gpyC++A",
+    "fingerprint": "asset1hlk4rhy035nkvvd7ajm9v50cv8wslnhq73a7rz",
+    "policy_id": "000162461f93050f01da5228b889f98162e2f1de2790fef939069137"
+  },
+  {
+    "asset_name": "14b045cc21d4316f6ac896a438ac194fc19573619181c6a44a540215",
+    "asset_name_ascii": "\u0014\\260E\\314!\\3241oj\\310\\226\\2448\\254\u0019O\\301\\225sa\\221\\201\\306\\244JT\u0002\u0015",
+    "fingerprint": "asset133q5qx3d5cfnm8usueaadzf7f75jshlh65l8hn",
+    "policy_id": "0002425bb10c92722b7f4da1c471e2c30f2ac06b8e8c8f3fd305d851"
+  },
+  {
+    "asset_name": "4879647261486561645631",
+    "asset_name_ascii": "HydraHeadV1",
+    "fingerprint": "asset1qhxv35s0p6jevfxrx85lcnnhkprekug0kltfgy",
+    "policy_id": "0002425bb10c92722b7f4da1c471e2c30f2ac06b8e8c8f3fd305d851"
+  },
+  {
+    "asset_name": "c6813d435dfed1f0d6dda71ebf97285ad1214a6dfd3abcfa4b740ab1",
+    "asset_name_ascii": "\\306\\201=C]\\376\\321\\360\\326\\335\\247\u001e\\277\\227(Z\\321!Jm\\375:\\274\\372Kt\n\\261",
+    "fingerprint": "asset1h3pexvx283g2uqc4jswgv927pphcyllfhfq68g",
+    "policy_id": "0002425bb10c92722b7f4da1c471e2c30f2ac06b8e8c8f3fd305d851"
+  },
+  {
+    "asset_name": "ddde64bb6ae682b34b69ad651375b6b23abfa9860d46329f4444fd31",
+    "asset_name_ascii": "\\335\\336d\\273j\\346\\202\\263Ki\\255e\u0013u\\266\\262:\\277\\251\\206\rF2\\237DD\\3751",
+    "fingerprint": "asset1vgkvcdjdxlz2hkcyr79kf3zldd8es7ed4t2q52",
+    "policy_id": "0002425bb10c92722b7f4da1c471e2c30f2ac06b8e8c8f3fd305d851"
+  },
+  {
+    "asset_name": "41646164616f50726f706f73616c4964",
+    "asset_name_ascii": "AdadaoProposalId",
+    "fingerprint": "asset1l9q2ns0m9dyc9rwcje9l62zp8k6qfda8cuwxp7",
+    "policy_id": "00028f86431ec0ca5d193d5234575b58a51d41356a40abde318f28e0"
+  }
+]

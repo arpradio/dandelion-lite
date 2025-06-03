@@ -1,0 +1,81 @@
+[
+  {
+    "members": [
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "2f4a6c6f098e20ee4bfd5b39942c164575f8ceb348e754df5d0ec04f",
+        "cc_cold_id": "cc_cold1zvh55mr0px8zpmjtl4dnn9pvzezht7xwkdyww4xlt58vqnc6qdgps",
+        "cc_hot_has_script": null,
+        "cc_hot_hex": null,
+        "cc_hot_id": null,
+        "expiration_epoch": 229,
+        "status": "not_authorized"
+      },
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "5098dfd0deba725fadd692198fc33ee959fbe7e6edf1b5a695e06e61",
+        "cc_cold_id": "cc_cold1zdgf3h7sm6a8yhad66fpnr7r8m54n7l8umklrddxjhsxucgkudvrr",
+        "cc_hot_has_script": true,
+        "cc_hot_hex": "e3a4c41d67592a1b8d87c62e5c5d73f7e8db836171945412d13f40f8",
+        "cc_hot_id": "cc_hot1q036f3qavavj5xudslrzuhzaw0m73kurv9ceg4qj6yl5p7qf4a3gz",
+        "expiration_epoch": 229,
+        "status": "authorized"
+      },
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "5a71f17f4ce4c1c0be053575d717ade6ad8a1d5453d02a65ce40d4b1",
+        "cc_cold_id": "cc_cold1zdd8rutlfnjvrs97q56ht4ch4hn2mzsa23faq2n9eeqdfvgss2fuc",
+        "cc_hot_has_script": true,
+        "cc_hot_hex": "104f3db4e905fd008396f53a6d035e290f97f6172d3792673b213956",
+        "cc_hot_id": "cc_hot1qvgy70d5ayzl6qyrjm6n5mgrtc5sl9lkzukn0yn88vsnj4sm78an6",
+        "expiration_epoch": 229,
+        "status": "authorized"
+      },
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "6095e643ea6f1cccb6e463ec34349026b3a48621aac5d512655ab1bf",
+        "cc_cold_id": "cc_cold1zdsftejrafh3en9ku337cdp5jqnt8fyxyx4vt4gjv4dtr0c5vz6ed",
+        "cc_hot_has_script": null,
+        "cc_hot_hex": null,
+        "cc_hot_id": null,
+        "expiration_epoch": 229,
+        "status": "not_authorized"
+      },
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "94c0de47e7ae32e3f7234ada5cf976506b68e3bb88c54dc53b4ba984",
+        "cc_cold_id": "cc_cold1zw2vphj8u7hr9clhyd9d5h8ewegxk68rhwyv2nw98d96npqxjxaj2",
+        "cc_hot_has_script": true,
+        "cc_hot_hex": "4f00984fa72e265b8ff8ffce4405da562cd3d6b16a4a38de3372eeea",
+        "cc_hot_id": "cc_hot1qd8spxz05uhzvku0lrluu3q9mftze57kk94y5wx7xdewa6s3guxzr",
+        "expiration_epoch": 229,
+        "status": "authorized"
+      },
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "94f51c795a6c11adb9c1e30f0b6def4230cbd0b8bc800098e2d2307b",
+        "cc_cold_id": "cc_cold1zw2028retfkprtdec83s7zmdaaprpj7shz7gqqycutfrq7c8rrdeh",
+        "cc_hot_has_script": null,
+        "cc_hot_hex": null,
+        "cc_hot_id": null,
+        "expiration_epoch": 229,
+        "status": "not_authorized"
+      },
+      {
+        "cc_cold_has_script": true,
+        "cc_cold_hex": "a6a5e006fd4e8f51062dc431362369b2a43140abced8aa2ff2256d7b",
+        "cc_cold_id": "cc_cold1zwn2tcqxl48g75gx9hzrzd3rdxe2gv2q408d32307gjk67cp3tktt",
+        "cc_hot_has_script": true,
+        "cc_hot_hex": "e732eac066fe2759f10b4b3473623b1cce4ba67ffc299b41915a1a0f",
+        "cc_hot_id": "cc_hot1q0nn96kqvmlzwk03pd9ngumz8vwvujax0l7znx6pj9dp5rcn8g5cu",
+        "expiration_epoch": 229,
+        "status": "authorized"
+      }
+    ],
+    "proposal_id": null,
+    "proposal_index": null,
+    "proposal_tx_hash": null,
+    "quorum_denominator": 3,
+    "quorum_numerator": 2
+  }
+]

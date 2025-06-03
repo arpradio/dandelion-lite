@@ -1,0 +1,25 @@
+{
+  "asset": "6cce2ea44248956802eb41677c753014baa9f8a53c95c191d58fea7a546573742031303132",
+  "asset_name": "546573742031303132",
+  "fingerprint": "asset13tklhq495fpf4vqg80edcds48268jzn4uckt5d",
+  "initial_mint_tx_hash": "12bba31d846f54739a8e5bb722b7aeceed5ecdcb0948cb74c1dcce63352b0342",
+  "metadata": null,
+  "mint_or_burn_count": 2,
+  "onchain_metadata": {
+    "description": "",
+    "files": [
+      {
+        "mediaType": "image/png",
+        "name": "Test 1012",
+        "src": "ipfs://QmSgwxB157u7GTCYA6hh6U5bUkWJAiUurA4VccBxaaprgW"
+      }
+    ],
+    "image": "ipfs://QmSgwxB157u7GTCYA6hh6U5bUkWJAiUurA4VccBxaaprgW",
+    "mediaType": "image/png",
+    "name": "Test 1012"
+  },
+  "onchain_metadata_extra": null,
+  "onchain_metadata_standard": "CIP25v1",
+  "policy_id": "6cce2ea44248956802eb41677c753014baa9f8a53c95c191d58fea7a",
+  "quantity": "0"
+}

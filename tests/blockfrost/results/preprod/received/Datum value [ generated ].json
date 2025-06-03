@@ -1,0 +1,141 @@
+{
+  "json_value": {
+    "constructor": 0,
+    "fields": [
+      {
+        "map": [
+          {
+            "k": {
+              "bytes": "696d616765"
+            },
+            "v": {
+              "bytes": "697066733a2f2f516d5173336b73516845734a48513379414a34736e4c746439784754533356554a4a54715964757a393856734d57"
+            }
+          },
+          {
+            "k": {
+              "bytes": "6d6564696148617368"
+            },
+            "v": {
+              "bytes": "516d4e52374447586d564e463170457a5262716b72514a4a7278333532326f484859764776676278764848476279"
+            }
+          },
+          {
+            "k": {
+              "bytes": "6e616d65"
+            },
+            "v": {
+              "bytes": "5573657220446f6d61696e"
+            }
+          }
+        ]
+      },
+      {
+        "int": 1
+      },
+      {
+        "constructor": 0,
+        "fields": [
+          {
+            "bytes": "637573746f6d44436c617373"
+          },
+          {
+            "constructor": 0,
+            "fields": [
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "bytes": "735b5c3d38078b78803bd8beb1d73182a1541eb99a694fd78139f1a9"
+                  },
+                  {
+                    "constructor": 0,
+                    "fields": [
+                      {
+                        "bytes": "069e7fc120f5535ea0f159ea9a16c7698e9d19ba103c01975074f119"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "int": 500
+              }
+            ]
+          },
+          {
+            "constructor": 0,
+            "fields": [
+              {
+                "bytes": "e716adce0c00985def1e90e0c6d33d9a25efcb89bd198c43ed00e75b"
+              },
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "bytes": "e2da605863a20fa2a4c02436ea7de96e199a71d75ce56533506c9ffc"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "int": 1748314650593
+          },
+          {
+            "int": 5000
+          },
+          {
+            "int": 0
+          },
+          {
+            "int": 5
+          },
+          {
+            "int": 0
+          },
+          {
+            "int": 0
+          },
+          {
+            "int": 0
+          },
+          {
+            "int": 0
+          },
+          {
+            "constructor": 0,
+            "fields": [
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "bytes": ""
+                  },
+                  {
+                    "bytes": ""
+                  }
+                ]
+              },
+              {
+                "int": 30000000
+              }
+            ]
+          },
+          {
+            "constructor": 1,
+            "fields": []
+          },
+          {
+            "constructor": 1,
+            "fields": []
+          },
+          {
+            "constructor": 1,
+            "fields": []
+          }
+        ]
+      }
+    ]
+  }
+}

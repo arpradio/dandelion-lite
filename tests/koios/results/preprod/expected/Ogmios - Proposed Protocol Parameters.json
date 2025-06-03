@@ -1,0 +1,6 @@
+{
+  "id": null,
+  "jsonrpc": "2.0",
+  "method": "queryLedgerState/proposedProtocolParameters",
+  "result": []
+}

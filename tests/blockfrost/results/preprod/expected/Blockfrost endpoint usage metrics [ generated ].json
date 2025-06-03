@@ -1,0 +1,132 @@
+[
+  {
+    "calls": 1,
+    "endpoint": "",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "api.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "api.yml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "openapi.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "openapi.yml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "OpenApi.yml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "spec.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 1,
+    "endpoint": "*.yaml",
+    "time": 1747958400
+  },
+  {
+    "calls": 7,
+    "endpoint": "",
+    "time": 1748304000
+  },
+  {
+    "calls": 44,
+    "endpoint": "accounts",
+    "time": 1748304000
+  },
+  {
+    "calls": 28,
+    "endpoint": "addresses",
+    "time": 1748304000
+  },
+  {
+    "calls": 28,
+    "endpoint": "assets",
+    "time": 1748304000
+  },
+  {
+    "calls": 51,
+    "endpoint": "blocks",
+    "time": 1748304000
+  },
+  {
+    "calls": 45,
+    "endpoint": "epochs",
+    "time": 1748304000
+  },
+  {
+    "calls": 5,
+    "endpoint": "genesis",
+    "time": 1748304000
+  },
+  {
+    "calls": 60,
+    "endpoint": "governance",
+    "time": 1748304000
+  },
+  {
+    "calls": 14,
+    "endpoint": "health",
+    "time": 1748304000
+  },
+  {
+    "calls": 12,
+    "endpoint": "mempool",
+    "time": 1748304000
+  },
+  {
+    "calls": 12,
+    "endpoint": "metadata",
+    "time": 1748304000
+  },
+  {
+    "calls": 8,
+    "endpoint": "metrics",
+    "time": 1748304000
+  },
+  {
+    "calls": 8,
+    "endpoint": "network",
+    "time": 1748304000
+  },
+  {
+    "calls": 8,
+    "endpoint": "nutlink",
+    "time": 1748304000
+  },
+  {
+    "calls": 48,
+    "endpoint": "pools",
+    "time": 1748304000
+  },
+  {
+    "calls": 28,
+    "endpoint": "scripts",
+    "time": 1748304000
+  },
+  {
+    "calls": 3,
+    "endpoint": "tx",
+    "time": 1748304000
+  },
+  {
+    "calls": 52,
+    "endpoint": "txs",
+    "time": 1748304000
+  }
+]
