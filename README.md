@@ -19,6 +19,8 @@ ___  ____ __ _ ___  ____ _    _ ____ __ _
 
 **Dandelion Lite** is a convenient way of deploying your own local Cardano Node and a set of Dandelion APIs. It uses docker-compose, podman and handy scripts to ease the setup and reduce node syncronization times by using volume snapshots for backup and restore procedures. Dandelion Lite is a fork of Koios Lite, extending it beyond Koios, created by GameChanger Finance and M2Tec teams.
 
+!!!! [Catch up on latest changes](#spo_relay_config)
+
 ## Components
 
 This setup includes several key components:
@@ -322,3 +324,7 @@ All basic endpoints + **cardano-submit-api** + **ogmios** are supported. Other a
 Default **Blockfrost RYO** support can be examined with it's latest test reports
 - [preprod](tests/blockfrost/preprod.report)
 - [mainnet](tests/blockfrost/mainnet.report)
+
+### SPO RELAY CONFIG  
+
+Dandelion-lite nodes can easily be integrated in your pool topology by simply providing your relay/producer public IP in the [topology](configs/cardano/config/network/mainnet/cardano-node/topology.json) file.
