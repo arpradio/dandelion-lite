@@ -15,9 +15,16 @@
   ],
   "localRoots": [
     {
-      "accessPoints": [],
+      "accessPoints": [
+	    {
+          "address": "<BlockProducingNodeIPAddress>",
+          "port": "<BlockProducerPort>",
+          "name": "<BlockProducingNodeName>"
+        }
+	  ],
       "advertise": false,
-      "trustable": false,
+	  "comment": "Do NOT advertise the block-producing node",
+      "trustable": true,
       "valency": 1
     }
   ],
