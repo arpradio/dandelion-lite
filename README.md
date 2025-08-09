@@ -330,4 +330,5 @@ Default **Blockfrost RYO** support can be examined with it's latest test reports
 
 ### SPO RELAY CONFIG  
 
-Dandelion-lite nodes can easily be integrated in your pool topology by simply providing your relay/producer public IP and PORT in the [topology](configs/cardano/config/network/mainnet/cardano-node/topology.json) file.
+Dandelion-lite nodes can easily be integrated in your pool topology by simply providing your relay/producer public IP and PORT in the [topology](configs/cardano/config/network/mainnet/cardano-node/topology.json) file to configure Dandelion as a relay.  Make sure to add your Dandelion relay public IP address to your remote node's topology.json file as a trusted peer (port 3000 exposed as relay endpoint via Ogmios).
+
