@@ -784,39 +784,519 @@ configs:
       }
   index_html:
     content: |
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
-          <!-- Meta Tags for Social Media -->
-          <meta name="description" content="${NODE_DESCRIPTION}">
-          <meta property="og:title" content="GC Node">
-          <meta property="og:description" content="${NODE_DESCRIPTION}">
-          <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
-          <!-- <meta property="og:url" content="https://your-website.com"> -->
-          <meta name="twitter:card" content="summary">
-          <meta name="twitter:title" content="GC Node">
-          <meta name="twitter:description" content="${NODE_DESCRIPTION}">   
-          <!-- End of Meta Tags for Social Media -->
-      </head>
-      <body>
-          <div class="container">
-              <h1><i>'${NODE_NAME}'</i> [${NODE_TICKER}]</h1>
-              <p>Welcome to the <b>Decentralized Dandelion Network!</b></p>              
-              <p><b>Description:</b> ${NODE_DESCRIPTION}</p>
-              <p></p>
-              <p>APIs available on this ${DLT} ${NETWORK} <b>Dandelion Lite Node</b>:</p>
-              <ul class="api-list">
-                  ${INDEX_LINKS}
-              </ul>
-          </div>
-          <div class="footer">
-              Made with ❤️ by GameChanger Finance + M2Tec
-          </div>
-      </body>
-      </html>
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
+    <meta name="description" content="${NODE_DESCRIPTION}">
+    <meta property="og:title" content="GC Node - ${NODE_NAME}">
+    <meta property="og:description" content="${NODE_DESCRIPTION}">
+    <meta property="og:image" content="https://gamechanger.finance/assets/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GC Node - ${NODE_NAME}">
+    <meta name="twitter:description" content="${NODE_DESCRIPTION}">
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --bg-gradient: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            --text-color: #e0e0e0;
+            --accent-color: #ff5252;
+            --accent-gradient: linear-gradient(135deg, #ff5252, #ff1744);
+            --link-color: #80cbc4;
+            --link-hover: #26a69a;
+            --header-bg: rgba(30, 30, 30, 0.95);
+            --footer-bg: #0f0f0f;
+            --card-bg: rgba(30, 30, 30, 0.8);
+            --border-color: #333;
+            --button-bg: #6a1b9a;
+            --button-hover: #00e5ff;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-color);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top-header {
+            background: var(--header-bg);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .network-info {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .network-badge {
+            background: var(--glass-bg);
+            border: 1px solid var(--border-color);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 500;
+            backdrop-filter: blur(5px);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 80px 0 60px;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 82, 82, 0.1) 0%, transparent 50%);
+        }
+
+        .hero-title {
+            font-size: 3em;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+
+        .node-ticker {
+            color: var(--link-color);
+            font-weight: bold;
+        }
+
+        .hero-subtitle {
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            color: #f0f0f0;
+            text-shadow: 0 2px 4px var(--shadow-color);
+        }
+
+        .hero-description {
+            font-size: 1.2em;
+            color: #ccc;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            padding: 25px;
+            background: var(--glass-bg);
+            border-radius: 15px;
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
+        }
+
+        .services-section {
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            font-size: 2.2em;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .api-list {
+            list-style: none;
+            display: grid;
+            gap: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .api-item {
+            background: var(--glass-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .api-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .api-item:hover::before {
+            left: 100%;
+        }
+
+        .api-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(255, 82, 82, 0.3);
+            border-color: var(--accent-color);
+        }
+
+        .api-item a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3em;
+            display: block;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .api-item a:hover {
+            color: var(--link-hover);
+        }
+
+        .partners-section {
+            margin-top: 80px;
+            padding-top: 60px;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .partners-grid {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .partner-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .partner-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(128, 203, 196, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .partner-card:hover::before {
+            left: 100%;
+        }
+
+        .partner-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(128, 203, 196, 0.3);
+            border-color: var(--link-color);
+        }
+
+        .partner-title {
+            background: linear-gradient(135deg, teal, #26a69a);
+            color: yellow;
+            padding: 15px 20px;
+            border-radius: 12px;
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: inline-block;
+            box-shadow: 0 4px 15px var(--shadow-color);
+        }
+
+        .partner-description {
+            color: #ccc;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+        .partner-card a {
+            text-decoration: none;
+        }
+
+        .partner-card .partner-description a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .create-wallet-btn {
+            background: linear-gradient(135deg, var(--button-bg), #8e24aa);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px var(--shadow-color);
+        }
+
+        .create-wallet-btn:hover {
+            background: linear-gradient(135deg, var(--button-hover), #00bcd4);
+            color: var(--footer-bg);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 229, 255, 0.4);
+        }
+
+        .footer {
+            background: linear-gradient(135deg, var(--footer-bg), #1a1a1a);
+            padding: 40px 20px 20px;
+            text-align: center;
+            color: #aaa;
+            margin-top: auto;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h3 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .footer-section p, .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            line-height: 1.6;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--link-hover);
+        }
+
+        .footer-bottom {
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.2em;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.2em;
+            }
+            
+            .hero-description {
+                font-size: 1em;
+                padding: 20px;
+            }
+            
+            .api-list,
+            .partners-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 15px;
+            }
+
+            .header-content {
+                padding: 0 15px;
+            }
+
+            .network-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 1.8em;
+            }
+
+            .section-title {
+                font-size: 1.8em;
+            }
+
+            .partner-title {
+                font-size: 1.2em;
+                padding: 12px 16px;
+            }
+
+            .api-item, .partner-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="top-header">
+        <div class="header-content">
+            <div class="logo">🌐 GC Node</div>
+            <div class="network-info">
+                <div class="network-badge">${DLT}</div>
+                <div class="network-badge">${NETWORK}</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="pulse">🚀</span> 
+                    <i>'${NODE_NAME}'</i> 
+                    <span class="node-ticker">[${NODE_TICKER}]</span>
+                </h1>
+                <p class="hero-subtitle">Welcome to the <b>Decentralized Dandelion Network!</b></p>
+                <div class="hero-description">
+                    <strong>Description:</strong> ${NODE_DESCRIPTION}
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <div class="container">
+                <h2 class="section-title">⚡ Available APIs on this Dandelion Lite Node</h2>
+                <ul class="api-list">
+                    ${INDEX_LINKS}
+                </ul>
+            </div>
+        </section>
+
+        <section class="partners-section">
+            <div class="container">
+                <h2 class="section-title">🤝 Explore Our Ecosystem Partners</h2>
+                <div class="partners-grid">
+                    <a href="https://arpradio.media/" class="partner-card">
+                        <div class="partner-title">🎵 Arp Radio</div>
+                        <p class="partner-description">Discover the Music Ecosystem of Cardano!</p>
+                    </a>
+
+                    <div class="partner-card">
+                        <a href="https://gamechanger.finance/">
+                            <div class="partner-title">🎮 GameChanger Wallet</div>
+                            <p class="partner-description">Take Control Over Your Wallet! Create, Manage, and Utilize wallet features to the max with the most democratizing wallet on Cardano!</p>
+                        </a>
+                        <a href="https://beta-wallet.gamechanger.finance/create" class="create-wallet-btn">
+                            Create Wallet
+                        </a>
+                    </div>
+
+                    <a href="https://www.adamoments.io/" class="partner-card">
+                        <div class="partner-title">📸 Moments</div>
+                        <p class="partner-description">Own Your Moments! Take part in the new wave of social interaction with MOMENTS!</p>
+                    </a>
+
+                    <a href="https://psyencelab.media/" class="partner-card">
+                        <div class="partner-title">🎧 Psyence Lab</div>
+                        <p class="partner-description">Let your Music Work for YOU! Start earning off of the work you have already completed! Complete Audio Production Services</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🚀 GC Node</h3>
+                <p>Powering the Decentralized Dandelion Network with cutting-edge blockchain infrastructure.</p>
+            </div>
+            <div class="footer-section">
+                <h3>🔗 Quick Links</h3>
+                <p><a href="https://gamechanger.finance/">GameChanger Finance</a></p>
+                <p><a href="https://beta-wallet.gamechanger.finance/create">Create Wallet</a></p>
+                <p><a href="https://docs.gamechanger.finance/">Documentation</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>📞 Connect</h3>
+                <p><a href="https://twitter.com/ArpRadioweb3">Twitter</a></p>
+                <p><a href="mailto:contact@psyencelab.media">Support</a></p>
+                <p><a href="https://discord.gg/gamechanger">Discord</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Made with ❤️ by <a href="https://gamechanger.finance/">GameChanger Finance</a> + M2Tec
+            <br>
+            © 2025 The Psyence Lab LLC. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
   nginx_conf:
     content: |
       server {
