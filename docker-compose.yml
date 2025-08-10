@@ -790,31 +790,193 @@ configs:
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
-          <!-- Meta Tags for Social Media -->
           <meta name="description" content="${NODE_DESCRIPTION}">
           <meta property="og:title" content="GC Node">
           <meta property="og:description" content="${NODE_DESCRIPTION}">
-          <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
-          <!-- <meta property="og:url" content="https://your-website.com"> -->
           <meta name="twitter:card" content="summary">
           <meta name="twitter:title" content="GC Node">
-          <meta name="twitter:description" content="${NODE_DESCRIPTION}">   
-          <!-- End of Meta Tags for Social Media -->
+          <meta name="twitter:description" content="${NODE_DESCRIPTION}">
+          <style>
+              :root {
+                  --bg-color: #121212;
+                  --text-color: #e0e0e0;
+                  --accent-color: #ff5252;
+                  --link-color: #80cbc4;
+                  --link-hover: #26a69a;
+                  --footer-color: #1e1e1e;
+              }
+              body {
+                  margin: 0;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: var(--bg-color);
+                  color: var(--text-color);
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  min-height: 100vh;
+                  text-align: center;
+              }
+              header {
+                  padding: 60px 20px 20px;
+              }
+              h1 {
+                  font-size: 2.2em;
+                  color: var(--accent-color);
+                  margin-bottom: 20px;
+              }
+              p {
+                  font-size: 1.2em;
+                  margin-bottom: 30px;
+                  color: whitesmoke;
+              }
+              ol {
+                  list-style: none;
+                  padding: 0;
+                  margin: 0 auto;
+                  max-width: 400px;
+              }
+              li {
+                  margin: 15px 0;
+              }
+              a {
+                  color: rgb(164, 22, 22);
+                  text-decoration: none;
+                  font-weight: bold;
+                  font-size: larger;
+                  margin-bottom: 12px;
+                  transition: color 0.3s ease;
+              }
+              .description:hover {
+                  transform: scale(1.05);
+                  color: blue;
+                  background-color: gray;
+              }
+              .title:hover {
+                  color: var(--link-hover);
+                  font-style: italic;
+              }
+              .description {
+                  border: 1px solid whitesmoke;
+                  font-size: medium;
+                  border-radius: 10px;
+                  padding: 10px;
+                  transition: all 0.3s ease;
+              }
+              .title {
+                  border: 1px solid white;
+                  width: fit-content;
+                  padding: 8px;
+                  background-color: teal;
+                  margin: auto;
+                  border-radius: 12px;
+                  align-content: center;
+                  font-size: larger;
+                  color: yellow;
+              }
+              .sublink {
+                  display: block;
+                  font-style: italic;
+                  color: #f0d92e;
+                  font-size: 0.95em;
+              }
+              button {
+                  border: 1px solid white;
+                  border-radius: 10px;
+                  padding: 8px 16px;
+                  color: cyan;
+                  background-color: purple;
+                  font-size: 1rem;
+                  font-family: 'Segoe UI', sans-serif;
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                  outline: none;
+                  margin-top: 12px;
+              }
+              button:hover {
+                  background-color: #0ff;
+                  color: var(--footer-color);
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                  transform: translateY(-2px);
+              }
+              button:active {
+                  transform: translateY(0);
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+              }
+              footer {
+                  margin-top: auto;
+                  background-color: var(--footer-color);
+                  padding: 20px;
+                  font-size: 0.9em;
+                  color: #aaa;
+                  width: 100%;
+              }
+              footer a {
+                  color: #aaa;
+                  text-decoration: underline;
+              }
+              .api-list {
+                  text-align: left;
+                  max-width: 600px;
+                  margin: 20px auto;
+              }
+              .api-list li {
+                  margin: 10px 0;
+                  padding: 5px;
+                  background-color: rgba(255, 255, 255, 0.1);
+                  border-radius: 5px;
+              }
+              @media (max-width: 600px) {
+                  h1 {
+                      font-size: 1.6em;
+                  }
+                  p {
+                      font-size: 1em;
+                  }
+              }
+          </style>
       </head>
       <body>
-          <div class="container">
-              <h1><i>'${NODE_NAME}'</i> [${NODE_TICKER}]</h1>
-              <p>Welcome to the <b>Decentralized Dandelion Network!</b></p>              
+          <header>
+              <h1>🚀 GC Node - ${NODE_NAME} [${NODE_TICKER}]</h1>
+              <p>Welcome to the <b>Decentralized Dandelion Network!</b></p>
               <p><b>Description:</b> ${NODE_DESCRIPTION}</p>
-              <p></p>
-              <p>APIs available on this ${DLT} ${NETWORK} <b>Dandelion Lite Node</b>:</p>
-              <ul class="api-list">
-                  ${INDEX_LINKS}
-              </ul>
-          </div>
-          <div class="footer">
-              Made with ❤️ by GameChanger Finance + M2Tec
-          </div>
+              <p>Explore these resources while accessing our ${DLT} ${NETWORK} APIs:</p>
+              <ol>
+                  <li><a href="https://arpradio.media/">
+                         <h2 class="title">Arp Radio</h2>
+                          <p class="description">Discover the Music Ecosystem of Cardano!</p>
+                      </a>
+                  </li>
+                  <li>
+                      <div>
+                          <a href="https://gamechanger.finance/"><h2 class="title">GameChanger Wallet</h2></a>
+                          <p class="description"><a href="https://gamechanger.finance/">Take Control Over Your Wallet! Create, Manage, and Utilize wallet features to the max with the most democratizing wallet on Cardano!</a>
+                          <a class="sublink" href="https://beta-wallet.gamechanger.finance/create"><button>Create Wallet</button></a></p>
+                      </div>
+                  </li>
+                  <li><a href="https://www.adamoments.io/"><h2 class="title">Moments</h2>
+                          <p class="description">Own Your Moments! Take part in the new wave of social interaction with MOMENTS!</p>
+                      </a>
+                  </li>
+                  <li><a href="https://psyencelab.media/"><h2 class="title">Psyence Lab</h2>
+                          <p class="description">Let your Music Work for YOU! Start earning off of the work you have already completed! Complete Audio Production Services</p>
+                      </a>
+                  </li>
+              </ol>
+              <div class="api-section">
+                  <p><b>Available APIs on this Dandelion Lite Node:</b></p>
+                  <ul class="api-list">
+                      ${INDEX_LINKS}
+                  </ul>
+              </div>
+          </header>
+          <footer>
+              © 2025 The Psyence Lab LLC. Made with ❤️ by GameChanger Finance + M2Tec. For updates, follow us on
+              <a href="https://twitter.com/ArpRadioweb3">Twitter</a> or
+              <a href="mailto:contact@psyencelab.media">contact support</a>.
+          </footer>
       </body>
       </html>
   nginx_conf:
