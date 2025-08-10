@@ -785,19 +785,19 @@ configs:
   index_html:
     content: |
      <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
-    <meta name="description" content="${NODE_DESCRIPTION}">
-    <meta property="og:title" content="GC Node - ${NODE_NAME}">
-    <meta property="og:description" content="${NODE_DESCRIPTION}">
-    <meta property="og:image" content="https://gamechanger.finance/assets/logo.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GC Node - ${NODE_NAME}">
-    <meta name="twitter:description" content="${NODE_DESCRIPTION}">
-    <style>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
+      <meta name="description" content="${NODE_DESCRIPTION}">
+      <meta property="og:title" content="GC Node - ${NODE_NAME}">
+      <meta property="og:description" content="${NODE_DESCRIPTION}">
+      <meta property="og:image" content="https://gamechanger.finance/assets/logo.png">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="GC Node - ${NODE_NAME}">
+      <meta name="twitter:description" content="${NODE_DESCRIPTION}">
+      <style>
         :root {
             --bg-color: #0a0a0a;
             --bg-gradient: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
@@ -1200,10 +1200,10 @@ configs:
                 padding: 20px;
             }
         }
-    </style>
-</head>
-<body>
-    <header class="top-header">
+      </style>
+      </head>
+      <body>
+      <header class="top-header">
         <div class="header-content">
             <div class="logo">🌐 GC Node</div>
             <div class="network-info">
@@ -1211,9 +1211,9 @@ configs:
                 <div class="network-badge">${NETWORK}</div>
             </div>
         </div>
-    </header>
+      </header>
 
-    <main>
+      <main>
         <section class="hero-section">
             <div class="container">
                 <h1 class="hero-title">
@@ -1268,9 +1268,9 @@ configs:
                 </div>
             </div>
         </section>
-    </main>
+      </main>
 
-    <footer class="footer">
+      <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
                 <h3>🚀 GC Node</h3>
@@ -1294,9 +1294,9 @@ configs:
             <br>
             © 2025 The Psyence Lab LLC. All rights reserved.
         </div>
-    </footer>
-</body>
-</html>
+      </footer>
+      </body>
+      </html>
   nginx_conf:
     content: |
       server {
