@@ -11,7 +11,7 @@
   "LastKnownBlockVersion-Minor": 0,
   "MaxKnownMajorProtocolVersion": 2,
   "MinNodeVersion": "10.1.4",
-  "PeerSharing": false,
+  "PeerSharing": true,
   "Protocol": "Cardano",
   "RequiresNetworkMagic": "RequiresNoMagic",
   "ShelleyGenesisFile": "shelley-genesis.json",
