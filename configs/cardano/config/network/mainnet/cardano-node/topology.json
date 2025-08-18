@@ -11,7 +11,7 @@
         {
           "address": "relay-ip_address",
           "port": 6000,
-          "name" "relay"
+          "name": "relay"
         }
       ],
       "advertise": false,
