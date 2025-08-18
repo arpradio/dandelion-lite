@@ -327,4 +327,4 @@ Default **Blockfrost RYO** support can be examined with it's latest test reports
 
 ### Relay Node Configuration
 
-To enable relay capabilities, simply edit the [topology.config](./configs/cardano/config/network/mainnet/cardano-node/topolgy.json) with your block producer and/or relay IP addresses.  Make sure `valency` value is set to the amount of nodes listed (the example includes a relay and producer entry, therefore is set to `2`).
+To enable relay capabilities, simply edit the [topology.config](./configs/cardano/config/network/mainnet/cardano-node/topology.json) with your block producer and/or relay IP addresses.  Make sure `valency` value is set to the amount of nodes listed (the example includes a relay and producer entry, therefore is set to `2`).
