@@ -104,7 +104,7 @@ services:
       #- node-ipc:/ipc 
       # Uncomment if you want to use your own config files or the provided ones.
       # Current configs are also available at: https://book.world.dev.cardano.org/
-      #- ./configs/cardano/config/network/${NETWORK}:/config
+      - ./configs/cardano/config/network/${NETWORK}:/config
       - node-db:${CARDANO_NODE_HOME}/db
       - node-ipc:${CARDANO_NODE_HOME}/ipc
       - ./scripts/cardano-node-ogmios/:/scripts/
