@@ -13,7 +13,7 @@ ___  ____ __ _ ___  ____ _    _ ____ __ _
 
 [ ❤️ Support the Dandelion Network on Catalyst](https://github.com/GameChangerFinance/gamechanger.wallet/blob/main/catalyst/FUND13.md)
 
- #[⚠️⚠️ LATEST UPDATES! ⚠️⚠️](#relay-node-configuration)
+ [⚠️⚠️ LATEST UPDATES! ⚠️⚠️](#relay-node-configuration)
 
 # What's this?
 
