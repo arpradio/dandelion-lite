@@ -92,6 +92,8 @@ services:
         max-file: "10"
     ports:
       - ${OGMIOS_PORT:-1337}:1337
+      #Exposes node for relay connections- comment to disable
+      - ${CARDANO_NODE_RELAY_PORT:-3000}:3000 
     environment:
       NETWORK: ${NETWORK}
       #SOCKET: "${CARDANO_NODE_HOME}/ipc/node.socket" 
