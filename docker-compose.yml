@@ -772,17 +772,18 @@ configs:
         # - originalUrl: "https://storage.googleapis.com/cdn.aggregator.pre-release-preview.api.mithril.network"
         #   mirrorUrl: "https://dummy-mithril-snapshot-cdn.com"
 
-manifest_json:
+ manifest_json:
     content: |
       {
       "dltTag": "${DLT}",
       "networkTag": "${NETWORK}",
       "name": "${NODE_NAME}",
-      "description": "${NODE_DESCRIPTION}",
+      "description": "${NODE_DESCRIPTION}",      
       "ticker": "${NODE_TICKER}",
       "groups": ${NODE_GROUPS},
       "extensions":[${NODE_EXTENSIONS}]
       }
+  index_html:
   index_html:
     content: |
       <!DOCTYPE html>
