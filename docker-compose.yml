@@ -773,143 +773,142 @@ configs:
         #   mirrorUrl: "https://dummy-mithril-snapshot-cdn.com"
 
 manifest_json:
-  content: |
-    {
+    content: |
+      {
       "dltTag": "${DLT}",
       "networkTag": "${NETWORK}",
       "name": "${NODE_NAME}",
       "description": "${NODE_DESCRIPTION}",
       "ticker": "${NODE_TICKER}",
       "groups": ${NODE_GROUPS},
-      "extensions": [${NODE_EXTENSIONS}]
-    }
+      "extensions":[${NODE_EXTENSIONS}]
+      }
+  index_html:
+    content: |
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
 
-index_html:
-  content: |
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>GC Node - ${NODE_NAME} [${NODE_TICKER}] - ${DLT} - ${NETWORK}</title>
+          <!-- Meta Tags for Social Media -->
+          <meta name="description" content="${NODE_DESCRIPTION}">
+          <meta property="og:title" content="GC Node">
+          <meta property="og:description" content="${NODE_DESCRIPTION}">
+          <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
+          <!-- <meta property="og:url" content="https://your-website.com"> -->
+          <meta name="twitter:card" content="summary">
+          <meta name="twitter:title" content="GC Node">
+          <meta name="twitter:description" content="${NODE_DESCRIPTION}">
+          <!-- End of Meta Tags for Social Media -->
 
-      <!-- Social Meta -->
-      <meta name="description" content="${NODE_DESCRIPTION}">
-      <meta property="og:title" content="GC Node">
-      <meta property="og:description" content="${NODE_DESCRIPTION}">
-      <!-- <meta property="og:image" content="https://your-website.com/path/to/image.jpg"> -->
-      <!-- <meta property="og:url" content="https://your-website.com"> -->
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:title" content="GC Node">
-      <meta name="twitter:description" content="${NODE_DESCRIPTION}">
-
-      <!-- Minimal Modern Styling -->
-      <style>
-        :root {
-            color-scheme: light dark;
-            --bg: #fafafa;
-            --fg: #222;
-            --card-bg: #fff;
-            --border: #ddd;
-        }
-        @media (prefers-color-scheme: dark) {
+          <style>
             :root {
-                --bg: #111;
-                --fg: #eee;
-                --card-bg: #1a1a1a;
-                --border: #333;
+                color-scheme: light dark;
+                --bg: #fafafa;
+                --fg: #222;
+                --card-bg: #fff;
+                --border: #ddd;
             }
-        }
-        body {
-            margin: 0;
-            font-family: system-ui, sans-serif;
-            background: var(--bg);
-            color: var(--fg);
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        .links {
-            display: block;
-            text-align: center;
-        }
-        .container {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-            width: 100svh;
-            justify-self: center;
-            justify-content: center;
-            text-align: center;
-        }
-        h1 {
-            margin-top: 0;
-            font-size: 2rem;
-            font-weight: 600;
-        }
-        ul {
-            padding-left: 1.2rem;
-        }
-        .footer {
-            text-align: center;
-            padding: 1.5rem;
-            font-size: 0.9rem;
-            opacity: 0.7;
-            margin-top: auto;
-        }
-        .images {
-            justify-items: space-evenly;
-            margin: 4px;
-        }
-        .head {
-            text-align: center;
-        }
-      </style>
-    </head>
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: #111;
+                    --fg: #eee;
+                    --card-bg: #1a1a1a;
+                    --border: #333;
+                }
+            }
+            body {
+                margin: 0;
+                font-family: system-ui, sans-serif;
+                background: var(--bg);
+                color: var(--fg);
+                line-height: 1.6;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            main {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+            .links {
+                display: block;
+                text-align: center;
+            }
+            .container {
+                background: var(--card-bg);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 2rem;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+                width: 100svh;
+                justify-self: center;
+                justify-content: center;
+                text-align: center;
+            }
+            h1 {
+                margin-top: 0;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            ul {
+                padding-left: 1.2rem;
+            }
+            .footer {
+                text-align: center;
+                padding: 1.5rem;
+                font-size: 0.9rem;
+                opacity: 0.7;
+                margin-top: auto;
+            }
+            .images {
+                justify-items: space-evenly;
+                margin: 4px;
+            }
+            .head {
+                text-align: center;
+            }
+          </style>
+      </head>
 
-    <body>
-      <main>
-        <h1 class="head"><i>'${NODE_NAME}'</i> [${NODE_TICKER}]</h1>
+      <body>
+          <main>
+              <h1 class="head"><i>'${NODE_NAME}'</i> [${NODE_TICKER}]</h1>
 
-        <div class="container">
-          <p>Arp Radio's <b>Decentralized Dandelion Network!</b></p>
+              <div class="container">
+                  <p> Arp Radio's <b>Decentralized Dandelion Network!</b></p>
 
-          <p><b>Description:</b> ${NODE_DESCRIPTION}</p>
+                  <p><b>Description:</b> ${NODE_DESCRIPTION}</p>
 
-          <span class="images">
-            <a href="https://arpradio.media" target="_blank">
-              <img class="image" height="120"
-                   src="https://ipfs.io/ipfs/bafkreia4fyjecde43txux5bo3f7kqm3gv3cixcwx46dl3b2doxh6kcdrji"/>
-            </a>
-            <a href="https://gamechanger.finance/" target="_blank">
-              <img class="image" height="140"
-                   src="https://ipfs.io/ipfs/bafkreiawzhwhq6iuce7tlie4q3lc3pxnq7vzgqi4krbmhgeacpib33l5qe"/>
-            </a>
-          </span>
+                  <span class="images">
+                      <a href="https://arpradio.media" target="_blank">
+                          <img class="image" height="120"
+                               src="https://ipfs.io/ipfs/bafkreia4fyjecde43txux5bo3f7kqm3gv3cixcwx46dl3b2doxh6kcdrji"/>
+                      </a>
+                      <a href="https://gamechanger.finance/" target="_blank">
+                          <img class="image" height="140"
+                               src="https://ipfs.io/ipfs/bafkreiawzhwhq6iuce7tlie4q3lc3pxnq7vzgqi4krbmhgeacpib33l5qe"/>
+                      </a>
+                  </span>
 
-          <div class="links">
-            <p>APIs available on this ${DLT} ${NETWORK} <b>Dandelion Lite Node</b>:</p>
+                  <div class="links">
+                      <p>APIs available on this ${DLT} ${NETWORK} <b>Dandelion Lite Node</b>:</p>
 
-            <ul class="api-list">
-              ${INDEX_LINKS}
-            </ul>
+                      <ul class="api-list">
+                          ${INDEX_LINKS}
+                      </ul>
+                  </div>
+              </div>
+          </main>
+
+          <div class="footer">
+              Made with ❤️ by GameChanger Finance + M2Tec
           </div>
-        </div>
-      </main>
-
-      <div class="footer">
-        Made with ❤️ by GameChanger Finance + M2Tec
-      </div>
-    </body>
-    </html>
+        </body>
+        </html>
   nginx_conf:
     content: |
       server {
