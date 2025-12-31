@@ -362,7 +362,7 @@ services:
         max-file: "10"
 
   cron:
-    intit: true
+    init: true
     build:
       context: .
       dockerfile: ./src/cron/Dockerfile
